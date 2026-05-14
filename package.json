@@ -1,0 +1,23 @@
+{
+  "name": "insight-ai-monorepo",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "prisma:generate": "turbo run prisma:generate",
+    "prisma:migrate": "turbo run prisma:migrate",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^3.5.0",
+    "turbo": "^2.4.0"
+  }
+}

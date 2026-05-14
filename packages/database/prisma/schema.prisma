@@ -1,0 +1,221 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  OWNER
+  ADMIN
+  MEMBER
+}
+
+enum BillingPlan {
+  FREE
+  PRO
+  ENTERPRISE
+}
+
+enum JobStatus {
+  PENDING
+  RUNNING
+  COMPLETED
+  FAILED
+}
+
+model User {
+  id            String    @id @default(uuid())
+  email         String    @unique
+  passwordHash  String
+  fullName      String?
+  avatarUrl     String?
+  isActive      Boolean   @default(true)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  memberships   OrganizationMember[]
+}
+
+model Organization {
+  id               String    @id @default(uuid())
+  name             String
+  slug             String    @unique
+  billingPlan      BillingPlan @default(FREE)
+  stripeCustomerId String?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+
+  members          OrganizationMember[]
+  brands           Brand[]
+  prompts          Prompt[]
+  jobs             Job[]
+}
+
+model OrganizationMember {
+  id             String       @id @default(uuid())
+  role           Role         @default(MEMBER)
+  organizationId String
+  userId         String
+  createdAt      DateTime     @default(now())
+
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([organizationId, userId])
+}
+
+model Brand {
+  id             String       @id @default(uuid())
+  organizationId String
+  name           String
+  websiteUrl     String?
+  industry       String?
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  competitors    Competitor[]
+  analytics      AnalyticsSnapshot[]
+  prompts        Prompt[]
+}
+
+model Competitor {
+  id             String   @id @default(uuid())
+  brandId        String
+  name           String
+  websiteUrl     String?
+  createdAt      DateTime @default(now())
+
+  brand          Brand    @relation(fields: [brandId], references: [id], onDelete: Cascade)
+}
+
+model Prompt {
+  id             String   @id @default(uuid())
+  organizationId String
+  brandId        String
+  queryText      String
+  frequency      String   @default("daily")
+  isActive       Boolean  @default(true)
+  lastRunAt      DateTime?
+  createdAt      DateTime @default(now())
+
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  brand          Brand        @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  responses      AiResponse[]
+}
+
+model AiEngine {
+  id             String       @id @default(uuid())
+  name           String
+  version        String?
+  createdAt      DateTime     @default(now())
+
+  responses      AiResponse[]
+  analytics      AnalyticsSnapshot[]
+}
+
+model AiResponse {
+  id                String   @id @default(uuid())
+  promptId          String
+  engineId          String
+  rawContent        String
+  structuredContent Json?
+  capturedAt        DateTime @default(now())
+  screenshotUrl     String?
+  performance_ms    Int?     // Time taken to capture response
+
+  prompt            Prompt   @relation(fields: [promptId], references: [id], onDelete: Cascade)
+  engine            AiEngine @relation(fields: [engineId], references: [id], onDelete: Cascade)
+  mentions          Mention[]
+  citations         Citation[]
+  screenshots       Screenshot[]
+}
+
+model Screenshot {
+  id            String     @id @default(uuid())
+  responseId    String
+  url           String
+  type          String     // 'full', 'snippet'
+  createdAt     DateTime   @default(now())
+
+  response      AiResponse @relation(fields: [responseId], references: [id], onDelete: Cascade)
+}
+
+model Mention {
+  id             String     @id @default(uuid())
+  responseId     String
+  entityId       String
+  entityType     String     // 'brand' or 'competitor'
+  sentimentScore Float?     // -1.0 to 1.0
+  contextSnippet String?
+  position       Int?       // Position in response (1-indexed)
+  isRecommended  Boolean    @default(false)
+  createdAt      DateTime   @default(now())
+
+  response       AiResponse @relation(fields: [responseId], references: [id], onDelete: Cascade)
+}
+
+model Citation {
+  id             String     @id @default(uuid())
+  responseId     String
+  url            String
+  title          String?
+  domain         String?
+  authorityScore Float?     // 0.0 to 1.0
+  createdAt      DateTime   @default(now())
+
+  response       AiResponse @relation(fields: [responseId], references: [id], onDelete: Cascade)
+}
+
+model AnalyticsSnapshot {
+  id             String    @id @default(uuid())
+  brandId        String
+  engineId       String
+  snapshotDate   DateTime
+  geoScore       Float?    // 0 to 100
+  shareOfVoice   Float?    // Percentage
+  avgSentiment   Float?    // -1 to 1
+  mentionCount   Int       @default(0)
+  citationCount  Int       @default(0)
+  recommendations Recommendation[]
+  createdAt      DateTime  @default(now())
+
+  brand          Brand     @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  engine         AiEngine  @relation(fields: [engineId], references: [id], onDelete: Cascade)
+
+  @@unique([brandId, engineId, snapshotDate])
+}
+
+model Recommendation {
+  id             String    @id @default(uuid())
+  snapshotId     String
+  type           String    // 'strategic', 'content', 'citation'
+  priority       String    @default("medium") // low, medium, high
+  title          String
+  content        String
+  isActioned     Boolean   @default(false)
+  createdAt      DateTime  @default(now())
+
+  snapshot       AnalyticsSnapshot @relation(fields: [snapshotId], references: [id], onDelete: Cascade)
+}
+
+model Job {
+  id             String    @id @default(uuid())
+  organizationId String
+  type           String    // 'PROMPT_EXEC', 'NLP_ANALYSIS', 'SNAPSHOT_GEN'
+  status         JobStatus @default(PENDING)
+  priority       Int       @default(0)
+  attempts       Int       @default(0)
+  maxAttempts    Int       @default(3)
+  payload        Json?
+  result         Json?
+  error          String?
+  startedAt      DateTime?
+  finishedAt     DateTime?
+  createdAt      DateTime  @default(now())
+
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+}

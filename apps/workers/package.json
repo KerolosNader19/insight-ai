@@ -1,0 +1,22 @@
+{
+  "name": "@insight-ai/workers",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ts-node-dev tracking.worker.ts",
+    "start": "node dist/tracking.worker.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.0.0",
+    "axios": "^1.4.0",
+    "bullmq": "^4.0.0",
+    "ioredis": "^5.3.0",
+    "playwright": "^1.36.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.3"
+  }
+}
