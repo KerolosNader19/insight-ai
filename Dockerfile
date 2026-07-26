@@ -1,31 +1,25 @@
-# Base image
 FROM node:22-slim AS base
 WORKDIR /app
 RUN corepack enable
+ENV NODE_ENV=production
 
-# Dependencies
 FROM base AS deps
 COPY package*.json ./
 RUN npm install
 
-# Builder
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-# npx prisma generate --schema=packages/database/prisma/schema.prisma
+RUN npx prisma generate --schema=packages/database/prisma/schema.prisma
 RUN npx turbo run build --filter=@insight-ai/web
 
-# Runner
 FROM base AS runner
-ENV NODE_ENV=production
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 nextjs
-
+RUN addgroup --system --gid 1001 nodejs && \
+    adduser --system --uid 1001 nextjs
 COPY --from=builder /app/apps/web/public ./apps/web/public
 COPY --from=builder --chown=nextjs:nodejs /app/apps/web/.next ./apps/web/.next
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
-
 USER nextjs
 EXPOSE 3000
 CMD npx next start -p 3000
