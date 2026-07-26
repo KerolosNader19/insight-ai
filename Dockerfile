@@ -15,7 +15,7 @@ COPY packages/config/package.json packages/config/
 COPY packages/database/package.json packages/database/
 COPY packages/shared/package.json packages/shared/
 COPY packages/ui/package.json packages/ui/
-RUN npm install --include=dev
+RUN npm install --include=dev --legacy-peer-deps
 
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
