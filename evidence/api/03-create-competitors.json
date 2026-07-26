@@ -1,0 +1,22 @@
+{
+  "compA": {
+    "status": 201,
+    "body": {
+      "id": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "name": "Competitor A",
+      "websiteUrl": "https://competitor-a.example",
+      "createdAt": "2026-06-02T15:42:30.284Z"
+    }
+  },
+  "compB": {
+    "status": 201,
+    "body": {
+      "id": "94cb110b-91d8-476c-9447-10cbf68025da",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "name": "Competitor B",
+      "websiteUrl": "https://competitor-b.example",
+      "createdAt": "2026-06-02T15:42:30.314Z"
+    }
+  }
+}

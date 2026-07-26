@@ -1,0 +1,138 @@
+{
+  "startedAt": "2026-06-02T22:11:44.502Z",
+  "routes": [
+    {
+      "route": "/",
+      "status": 200,
+      "label": "home-clean-after-fix",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "bg": "rgb(12, 16, 24)",
+        "color": "rgb(248, 250, 252)",
+        "sheets": 1,
+        "styled": true,
+        "dir": "ltr",
+        "text": "Insight AI\nFeatures\nPricing\nDashboard\nEN\nLogin\nGet Started\nTHE NEW STANDARD FOR AI SEARCH ANALYTICS\nYour Brand, Visible "
+      }
+    },
+    {
+      "route": "/dashboard/prompts",
+      "status": 200,
+      "label": "prompts-unauth-redirect-check",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "bg": "rgb(12, 16, 24)",
+        "color": "rgb(248, 250, 252)",
+        "sheets": 2,
+        "styled": true,
+        "dir": "ltr",
+        "text": "Back to home\nWelcome back\n\nLog in to your Insight AI account\n\nEMAIL ADDRESS\nPASSWORD\nSign In\n\nDon't have an account? Sig"
+      }
+    },
+    {
+      "route": "/dashboard/prompts",
+      "status": 200,
+      "label": "dashboard-prompts-after-clean-build",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "bg": "rgb(12, 16, 24)",
+        "color": "rgb(248, 250, 252)",
+        "sheets": 2,
+        "styled": true,
+        "dir": "ltr",
+        "text": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme "
+      }
+    },
+    {
+      "route": "/dashboard/billing",
+      "status": 200,
+      "label": "dashboard-billing-after-clean-build",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "bg": "rgb(12, 16, 24)",
+        "color": "rgb(248, 250, 252)",
+        "sheets": 2,
+        "styled": true,
+        "dir": "ltr",
+        "text": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme "
+      }
+    }
+  ],
+  "buttons": [
+    {
+      "name": "Notifications mobile",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Billing Manage after API fix",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    }
+  ],
+  "consoleErrors": [],
+  "failedRequests": [
+    {
+      "url": "http://localhost:3000/_next/static/webpack/a43cac5dc5b4df7b.webpack.hot-update.json",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:3000/?_rsc=_mjR7ylJSLpkZcZ3",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/prompts?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084&brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/summary?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084&brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/brands?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:3000/_next/static/webpack/webpack.d2fbfc4dbdaf3550.hot-update.js",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "home-clean-after-fix",
+      "path": "evidence/frontend-runtime/screenshots/home-clean-after-fix.png"
+    },
+    {
+      "label": "prompts-unauth-redirect-check",
+      "path": "evidence/frontend-runtime/screenshots/prompts-unauth-redirect-check.png"
+    },
+    {
+      "label": "dashboard-prompts-after-clean-build",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-prompts-after-clean-build.png"
+    },
+    {
+      "label": "dashboard-billing-after-clean-build",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-billing-after-clean-build.png"
+    },
+    {
+      "label": "notifications-mobile-after-fix",
+      "path": "evidence/frontend-runtime/screenshots/notifications-mobile-after-fix.png"
+    },
+    {
+      "label": "billing-manage-after-fix",
+      "path": "evidence/frontend-runtime/screenshots/billing-manage-after-fix.png"
+    }
+  ]
+}

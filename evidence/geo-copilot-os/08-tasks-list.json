@@ -1,0 +1,1197 @@
+{
+  "status": 200,
+  "ok": true,
+  "url": "/geo-copilot/tasks?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "method": "GET",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_TASKS",
+    "data": {
+      "tasks": [
+        {
+          "id": "b1bd7b8d-78f5-46f8-8b8b-207571594283",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "ad2ec5c7-5a1d-4d8f-9e28-0eff20555752",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 85,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "537a46c0-994c-4b50-85c5-995d48d19a45",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "0f27469c-a1c3-4743-b60f-946ea08d6084",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 85,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "b08c1e69-bdc2-4dc6-98b3-d6bf12656ffb",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "OPPORTUNITY",
+          "sourceId": "2aa37caf-62d5-4eca-af06-be36377555b0",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 85,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "025f81fe-4a41-4e3b-b9ec-2affb3953cc4",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "0f27469c-a1c3-4743-b60f-946ea08d6084",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 85,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "bd096ece-728e-4db9-a0bf-1384e70810b3",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "OPPORTUNITY",
+          "sourceId": "2aa37caf-62d5-4eca-af06-be36377555b0",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 85,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "41cb4214-cb61-49dc-ba2f-3f499be9d628",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "ad2ec5c7-5a1d-4d8f-9e28-0eff20555752",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 85,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "6bd21d93-8752-461b-afcc-ac038d34f556",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "OPPORTUNITY",
+          "sourceId": "1a5da051-c2ca-4349-b320-6d88b51ffe47",
+          "title": "Best cybersecurity company in Saudi Arabia for regulated banks",
+          "description": "Track and optimize for \"Best cybersecurity company in Saudi Arabia for regulated banks\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 80,
+          "difficultyScore": 70,
+          "expectedGeoGain": 6,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides SOC services for regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "70275929-2790-40c7-8594-11d143f2ea3e",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "OPPORTUNITY",
+          "sourceId": "4e2e9976-6786-43ac-9ed5-82afb153aa38",
+          "title": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks.",
+          "description": "Track and optimize for \"Best cybersecurity company in Saudi Arabia for AI security and regulated banks.\".",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 80,
+          "difficultyScore": 70,
+          "expectedGeoGain": 9,
+          "confidenceScore": 95,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "a5719f1c-6701-4ab4-a67e-54552bfd31ce",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "f1fc3f37-0138-444e-93ee-9a2c20969eb6",
+          "sourceType": "PROMPT_COVERAGE",
+          "sourceId": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+          "title": "Improve prompt coverage: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+          "description": "Optimize content for this prompt because opportunity score is 71.",
+          "priority": "high",
+          "status": "OPEN",
+          "impactScore": 71,
+          "difficultyScore": 46,
+          "expectedGeoGain": 5.1,
+          "confidenceScore": 79,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt has 1 stored real response(s).",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "OrcaTech did not appear in this prompt set.",
+              "source": "Prompt Coverage Engine"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "0 competitor(s) appeared; 4 citation source(s) were extracted.",
+              "source": "Prompt Tracking + Citation Extraction"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-07-08T04:44:35.988Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:35.991Z",
+          "updatedAt": "2026-06-08T04:44:35.991Z"
+        },
+        {
+          "id": "ad3b74fd-891e-4d56-9818-84f3d71b267b",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "bd4501df-2861-4009-8177-2397ee0d62ed",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "e164048a-df1f-4333-9bb3-b7f1e508a37f",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "97c9c4fb-703a-46a5-9de4-e242ee65dd37",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "889c0999-c7e1-434e-a2f3-c8dbbd222b1a",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "ae6277f3-c551-43c8-8170-4f33151dde25",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "d27fa924-410c-40c9-b95c-b202469492f3",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "cd926edd-cfb5-486a-82b1-a5154848df49",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "ad5947fe-5f2b-4796-ac41-0b3311640c2a",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "674bd61b-08f3-4c98-a734-f6874fb7fe6f",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-09-06T04:44:36.028Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.030Z",
+          "updatedAt": "2026-06-08T04:44:36.030Z"
+        },
+        {
+          "id": "e83b7b82-5845-45f8-b062-bf274656ecfd",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "ae6277f3-c551-43c8-8170-4f33151dde25",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "747cf0e0-3637-4117-972c-02fa9c12c541",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "97c9c4fb-703a-46a5-9de4-e242ee65dd37",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "c349eca4-d26e-4254-966e-6036de1e35f4",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "cd926edd-cfb5-486a-82b1-a5154848df49",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "265f9771-f1db-476a-b2d6-e8f9d10c818c",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "674bd61b-08f3-4c98-a734-f6874fb7fe6f",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "d5c6ba8a-01f0-463a-b5bf-4ca85db30c41",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "7aef578a-e101-438d-ad4e-ed980ad69d91",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "bd4501df-2861-4009-8177-2397ee0d62ed",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-08-07T04:44:36.007Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:36.009Z",
+          "updatedAt": "2026-06-08T04:44:36.009Z"
+        },
+        {
+          "id": "976a69c5-9289-4690-aee1-cd94a9d9bded",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "f1fc3f37-0138-444e-93ee-9a2c20969eb6",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "97c9c4fb-703a-46a5-9de4-e242ee65dd37",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-07-08T04:44:35.988Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:35.991Z",
+          "updatedAt": "2026-06-08T04:44:35.991Z"
+        },
+        {
+          "id": "fb437725-60c9-4c4e-a6f6-5f9cb8277460",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "f1fc3f37-0138-444e-93ee-9a2c20969eb6",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "bd4501df-2861-4009-8177-2397ee0d62ed",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-07-08T04:44:35.988Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:35.991Z",
+          "updatedAt": "2026-06-08T04:44:35.991Z"
+        },
+        {
+          "id": "5e4b55b8-9fab-45c0-a9d0-d89c3a975e1f",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "f1fc3f37-0138-444e-93ee-9a2c20969eb6",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "674bd61b-08f3-4c98-a734-f6874fb7fe6f",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-07-08T04:44:35.988Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:35.991Z",
+          "updatedAt": "2026-06-08T04:44:35.991Z"
+        },
+        {
+          "id": "f681b3ed-2266-4be8-8d1c-9fd7eb93477e",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "f1fc3f37-0138-444e-93ee-9a2c20969eb6",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "ae6277f3-c551-43c8-8170-4f33151dde25",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-07-08T04:44:35.988Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:35.991Z",
+          "updatedAt": "2026-06-08T04:44:35.991Z"
+        },
+        {
+          "id": "0f1c0fed-0b3f-4c60-877f-1d536c53d69c",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "planId": "f1fc3f37-0138-444e-93ee-9a2c20969eb6",
+          "sourceType": "GEO_INSIGHT",
+          "sourceId": "cd926edd-cfb5-486a-82b1-a5154848df49",
+          "title": "50% missed AI visibility",
+          "description": "MEDIUM lead opportunity impact with MEDIUM competitor capture.",
+          "priority": "medium",
+          "status": "OPEN",
+          "impactScore": 65,
+          "difficultyScore": 0,
+          "expectedGeoGain": 6.5,
+          "confidenceScore": 85,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "1/2 real prompt responses did not mention OrcaTech.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Competitor names appeared 3 time(s) across the same response set.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": null,
+              "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+              "source": "Estimator Assumption"
+            }
+          ],
+          "dataSource": "GEO_TASK_ENGINE",
+          "dueAt": "2026-07-08T04:44:35.988Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T04:44:35.991Z",
+          "updatedAt": "2026-06-08T04:44:35.991Z"
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech provides SOC services for regulated banks in Saudi Arabia.",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt has 1 stored real response(s).",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "OrcaTech did not appear in this prompt set.",
+        "source": "Prompt Coverage Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "0 competitor(s) appeared; 4 citation source(s) were extracted.",
+        "source": "Prompt Tracking + Citation Extraction"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking"
+      },
+      {
+        "url": null,
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption"
+      }
+    ],
+    "confidenceScore": 88.4,
+    "dataSource": "GEO_TASKS",
+    "lastVerifiedAt": "2026-06-08T04:44:36.262Z"
+  }
+}

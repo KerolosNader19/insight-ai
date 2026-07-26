@@ -1,0 +1,102 @@
+{
+  "stamp": "20260602201623",
+  "checks": [
+    {
+      "route": "/admin",
+      "h1": "Platform Overview",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin-20260602201623.png"
+    },
+    {
+      "route": "/admin/organizations",
+      "h1": "Organizations",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_organizations-20260602201623.png"
+    },
+    {
+      "route": "/admin/users",
+      "h1": "Users",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_users-20260602201623.png"
+    },
+    {
+      "route": "/admin/subscriptions",
+      "h1": "Subscriptions",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_subscriptions-20260602201623.png"
+    },
+    {
+      "route": "/admin/payments",
+      "h1": "Payments",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_payments-20260602201623.png"
+    },
+    {
+      "route": "/admin/plans",
+      "h1": "Plans",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_plans-20260602201623.png"
+    },
+    {
+      "route": "/admin/coupons",
+      "h1": "Coupons",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_coupons-20260602201623.png"
+    },
+    {
+      "route": "/admin/revenue",
+      "h1": "Revenue",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_revenue-20260602201623.png"
+    },
+    {
+      "route": "/admin/ai-monitoring",
+      "h1": "AI Monitoring",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_ai-monitoring-20260602201623.png"
+    },
+    {
+      "route": "/admin/features",
+      "h1": "Feature Flags",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_features-20260602201623.png"
+    },
+    {
+      "route": "/admin/support",
+      "h1": "Support Center",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_support-20260602201623.png"
+    },
+    {
+      "route": "/admin/platform",
+      "h1": "Platform Analytics",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_platform-20260602201623.png"
+    },
+    {
+      "route": "/admin/audit-logs",
+      "h1": "Audit Logs",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_audit-logs-20260602201623.png"
+    },
+    {
+      "route": "/admin/settings",
+      "h1": "White Label Settings",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_settings-20260602201623.png"
+    },
+    {
+      "route": "/admin/white-label",
+      "h1": "White Label Settings",
+      "hasError": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin_white-label-20260602201623.png"
+    }
+  ],
+  "arabic": {
+    "lang": "ar",
+    "dir": "rtl",
+    "screenshot": "/home/omar/Pictures/insight-ai/evidence/super-admin/screenshots/admin-arabic-20260602201623.png"
+  },
+  "consoleErrors": [],
+  "adminResponses": []
+}

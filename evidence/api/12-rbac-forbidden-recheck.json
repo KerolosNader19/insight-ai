@@ -1,0 +1,29 @@
+{
+  "orgId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+  "checks": {
+    "managerCannotUpdateAgencySettings": {
+      "status": 403,
+      "body": {
+        "message": "Your role cannot perform this action",
+        "error": "Forbidden",
+        "statusCode": 403
+      }
+    },
+    "analystCannotCreateBrand": {
+      "status": 403,
+      "body": {
+        "message": "Your role cannot perform this action",
+        "error": "Forbidden",
+        "statusCode": 403
+      }
+    },
+    "viewerCannotCreateBrand": {
+      "status": 403,
+      "body": {
+        "message": "Your role cannot perform this action",
+        "error": "Forbidden",
+        "statusCode": 403
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "label": "04-precondition-geo-audit",
+  "url": "/geo-audits",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:16:15.422Z",
+  "completedAt": "2026-06-08T02:16:16.551Z",
+  "body": {
+    "id": "e56a0841-ba8b-4d6a-beaf-dc99a1db8fc1",
+    "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "url": "https://orcatech.online/",
+    "status": "COMPLETED",
+    "geoScore": 91,
+    "aeoScore": 99,
+    "authorityScore": 84,
+    "citationReadiness": 76,
+    "schemaReadiness": 100,
+    "faqCoverage": 100,
+    "contentCoverage": 96,
+    "targetKeywords": [
+      "cybersecurity Saudi Arabia",
+      "AI security",
+      "GEO optimization"
+    ],
+    "pageTitle": "Software Engineering, Cybersecurity & AI Security | OrcaTech",
+    "metaDescription": "OrcaTech provides software engineering, web development, cybersecurity, AI security, GEO, and data analytics services for Egypt, Saudi Arabia, GCC, and global clients.",
+    "wordCount": 1352,
+    "checks": [
+      {
+        "key": "https",
+        "label": "HTTPS enabled",
+        "value": true,
+        "impact": "medium",
+        "passed": true
+      },
+      {
+        "key": "title",
+        "label": "Page title exists",
+        "value": "Software Engineering, Cybersecurity & AI Security | OrcaTech",
+        "impact": "medium",
+        "passed": true
+      },
+      {
+        "key": "metaDescription",
+        "label": "Meta description exists",
+        "value": "OrcaTech provides software engineering, web development, cybersecurity, AI security, GEO, and data analytics services for Egypt, Saudi Arabia, GCC, and global clients.",
+        "impact": "medium",
+        "passed": true
+      },
+      {
+        "key": "canonical",
+        "label": "Canonical URL exists",
+        "value": "https://orcatech.online",
+        "impact": "low",
+        "passed": true
+      },
+      {
+        "key": "jsonLd",
+        "label": "JSON-LD schema found",
+        "value": "Organization, ImageObject, Country, Place, ContactPoint, Person, ProfessionalService, PostalAddress, WebSite, WebPage, FAQPage, Question, Answer",
+        "impact": "high",
+        "passed": true
+      },
+      {
+        "key": "faqSchema",
+        "label": "FAQ schema or FAQ content found",
+        "value": 12,
+        "impact": "high",
+        "passed": true
+      },
+      {
+        "key": "directAnswer",
+        "label": "Direct answer style content",
+        "value": true,
+        "impact": "high",
+        "passed": true
+      },
+      {
+        "key": "contentDepth",
+        "label": "Sufficient crawlable content",
+        "value": 1352,
+        "impact": "high",
+        "passed": true
+      },
+      {
+        "key": "outboundCitations",
+        "label": "Outbound citation opportunities",
+        "value": 3,
+        "impact": "high",
+        "passed": true
+      },
+      {
+        "key": "citationLanguage",
+        "label": "Source/reference language appears",
+        "value": true,
+        "impact": "medium",
+        "passed": true
+      },
+      {
+        "key": "keywordCoverage",
+        "label": "Target keyword coverage",
+        "value": "2/3",
+        "impact": "medium",
+        "passed": false
+      },
+      {
+        "key": "llmsTxt",
+        "label": "llms.txt is available",
+        "value": true,
+        "impact": "low",
+        "passed": true
+      },
+      {
+        "key": "llmsFullTxt",
+        "label": "llms-full.txt is available",
+        "value": false,
+        "impact": "low",
+        "passed": false
+      },
+      {
+        "key": "robots",
+        "label": "robots.txt is available",
+        "value": true,
+        "impact": "low",
+        "passed": true
+      },
+      {
+        "key": "sitemap",
+        "label": "sitemap.xml is available",
+        "value": true,
+        "impact": "medium",
+        "passed": true
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Cover every target opportunity phrase",
+        "action": "Add missing target GEO phrases naturally in headings, answer blocks, and supporting sections.",
+        "category": "opportunity",
+        "priority": 1,
+        "rationale": "The page should explicitly match the AI search opportunities the customer wants to win.",
+        "expectedImpact": "+4 Opportunity Coverage"
+      }
+    ],
+    "error": null,
+    "createdAt": "2026-06-08T02:16:16.532Z",
+    "updatedAt": "2026-06-08T02:16:16.532Z",
+    "brand": {
+      "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "OrcaTech",
+      "websiteUrl": "https://orcatech.online",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T21:42:59.849Z",
+      "updatedAt": "2026-06-02T21:42:59.849Z"
+    }
+  }
+}

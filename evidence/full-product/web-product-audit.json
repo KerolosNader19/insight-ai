@@ -1,0 +1,252 @@
+{
+  "stamp": "20260602183641",
+  "startedAt": "2026-06-02T18:36:41.789Z",
+  "pages": [
+    {
+      "page": "Overview",
+      "url": "/dashboard",
+      "loaded": true,
+      "h1": "Overview",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-desktop-20260602183641.png"
+    },
+    {
+      "page": "Analytics",
+      "url": "/dashboard/analytics",
+      "loaded": true,
+      "h1": "Analytics",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-desktop-20260602183641.png"
+    },
+    {
+      "page": "Prompts",
+      "url": "/dashboard/prompts",
+      "loaded": true,
+      "h1": "Prompts",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-desktop-20260602183641.png"
+    },
+    {
+      "page": "Competitors",
+      "url": "/dashboard/competitors",
+      "loaded": true,
+      "h1": "Competitors",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-desktop-20260602183641.png"
+    },
+    {
+      "page": "Recommendations",
+      "url": "/dashboard/recommendations",
+      "loaded": true,
+      "h1": "Recommendations",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-desktop-20260602183641.png"
+    },
+    {
+      "page": "Reports",
+      "url": "/dashboard/reports",
+      "loaded": true,
+      "h1": "Reports",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-desktop-20260602183641.png"
+    },
+    {
+      "page": "Settings",
+      "url": "/dashboard/settings",
+      "loaded": true,
+      "h1": "Settings",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-desktop-20260602183641.png"
+    }
+  ],
+  "interactions": {
+    "loginErrorState": "Invalid credentials",
+    "register": {
+      "email": "ui-product-20260602183641@example.test",
+      "reachedDashboard": true
+    },
+    "competitors": {
+      "createdBrand": "OrcaTech UI 20260602183641",
+      "createdCompetitor": "Competitor UI 20260602183641",
+      "persistedAfterReload": true,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-persisted-20260602183641.png"
+    },
+    "prompts": {
+      "createdPrompt": "Compare OrcaTech UI 20260602183641 and Competitor UI 20260602183641 for cybersecurity in Saudi Arabia and cite https://orcatech.sa.",
+      "runClicked": true,
+      "visibleStatus": "COMPLETED",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-run-20260602183641.png"
+    },
+    "analytics": {
+      "loaded": true,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-after-ui-run-20260602183641.png"
+    },
+    "recommendations": {
+      "loaded": true,
+      "emptyStateVisible": true,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-20260602183641.png"
+    },
+    "reports": {
+      "generatedStatus": "Report download started.",
+      "downloaded": true,
+      "downloadPath": "/home/omar/Pictures/insight-ai/evidence/full-product/downloads/ui-report-20260602183641.pdf",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-20260602183641.png"
+    },
+    "settings": {
+      "orgSavedMessage": "",
+      "teamMemberVisible": true,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-20260602183641.png"
+    },
+    "languageArabic": {
+      "htmlLang": "ar",
+      "htmlDir": "rtl",
+      "h1": "نظرة عامة",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-arabic-20260602183641.png"
+    }
+  },
+  "screenshots": [
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/login-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/register-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-desktop-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-persisted-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-run-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-after-ui-run-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-arabic-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/login-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/register-tablet-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/login-mobile-20260602183641.png",
+    "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/register-mobile-20260602183641.png"
+  ],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+    "A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:\n\n- A server/client branch `if (typeof window !== 'undefined')`.\n- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.\n- Date formatting in a user's locale which doesn't match the server.\n- External changing data without sending a snapshot of it along with the HTML.\n- Invalid HTML tag nesting.\n\nIt can also happen if the client has a browser extension installed which messes with the HTML before React loaded.\n\n%s%s https://react.dev/link/hydration-mismatch \n\n  ...\n    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>\n      <LoadingBoundary loading={null}>\n        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>\n          <RedirectBoundary>\n            <RedirectErrorBoundary router={{...}}>\n              <InnerLayoutRouter url=\"/login\" tree={[...]} cacheNode={{lazyData:null, ...}} segmentPath={[...]}>\n                <SegmentViewNode type=\"page\" pagePath=\"login/page...\">\n                  <SegmentTrieNode>\n                  <ClientPageRoot Component={function LoginPage} searchParams={{}} params={{}}>\n                    <LoginPage params={Promise} searchParams={Promise}>\n                      <div className=\"min-h-scre...\">\n                        <div>\n                        <LinkComponent>\n                        <div className=\"w-full max...\">\n                          <div>\n                          <form className=\"space-y-6\" onSubmit={function handleSubmit}>\n                            <div className=\"space-y-2\">\n                              <label>\n                              <input\n                                type=\"email\"\n                                required={true}\n                                value=\"\"\n                                onChange={function onChange}\n                                placeholder=\"name@company.com\"\n                                className=\"w-full bg-brand-surface border border-brand-border rounded-xl py-3 px-4 foc...\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                            <div className=\"space-y-2\">\n                              <label>\n                              <input\n                                type=\"password\"\n                                required={true}\n                                value=\"\"\n                                onChange={function onChange}\n                                placeholder=\"••••••••\"\n                                className=\"w-full bg-brand-surface border border-brand-border rounded-xl py-3 px-4 foc...\"\n-                               style={{caret-color:\"transparent\"}}\n                              >\n                            ...\n                          ...\n                ...\n              ...\n"
+  ],
+  "networkErrors": [],
+  "responsive": [
+    {
+      "url": "/dashboard",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-tablet-20260602183641.png",
+      "h1": "Overview"
+    },
+    {
+      "url": "/dashboard/analytics",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-tablet-20260602183641.png",
+      "h1": "Analytics"
+    },
+    {
+      "url": "/dashboard/prompts",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-tablet-20260602183641.png",
+      "h1": "Prompts"
+    },
+    {
+      "url": "/dashboard/competitors",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-tablet-20260602183641.png",
+      "h1": "Competitors"
+    },
+    {
+      "url": "/dashboard/recommendations",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-tablet-20260602183641.png",
+      "h1": "Recommendations"
+    },
+    {
+      "url": "/dashboard/reports",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-tablet-20260602183641.png",
+      "h1": "Reports"
+    },
+    {
+      "url": "/dashboard/settings",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-tablet-20260602183641.png",
+      "h1": "Settings"
+    },
+    {
+      "url": "/login",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/login-tablet-20260602183641.png",
+      "h1": "Welcome back"
+    },
+    {
+      "url": "/register",
+      "viewport": "tablet",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/register-tablet-20260602183641.png",
+      "h1": "Get Started"
+    },
+    {
+      "url": "/dashboard",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/overview-mobile-20260602183641.png",
+      "h1": "Overview"
+    },
+    {
+      "url": "/dashboard/analytics",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-mobile-20260602183641.png",
+      "h1": "Analytics"
+    },
+    {
+      "url": "/dashboard/prompts",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/prompts-mobile-20260602183641.png",
+      "h1": "Prompts"
+    },
+    {
+      "url": "/dashboard/competitors",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/competitors-mobile-20260602183641.png",
+      "h1": "Competitors"
+    },
+    {
+      "url": "/dashboard/recommendations",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-mobile-20260602183641.png",
+      "h1": "Recommendations"
+    },
+    {
+      "url": "/dashboard/reports",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/reports-mobile-20260602183641.png",
+      "h1": "Reports"
+    },
+    {
+      "url": "/dashboard/settings",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/settings-mobile-20260602183641.png",
+      "h1": "Settings"
+    },
+    {
+      "url": "/login",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/login-mobile-20260602183641.png",
+      "h1": "Welcome back"
+    },
+    {
+      "url": "/register",
+      "viewport": "mobile",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/register-mobile-20260602183641.png",
+      "h1": "Get Started"
+    }
+  ],
+  "completedAt": "2026-06-02T18:37:46.986Z"
+}

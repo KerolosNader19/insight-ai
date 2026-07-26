@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED",
+  "engine": "INTELLIGENCE_MEMORY_ENGINE",
+  "data": {
+    "storedSnapshots": 28,
+    "engines": [
+      "GEO_SCORE_V3",
+      "CITATION_AUTHORITY_ENGINE",
+      "PROMPT_COVERAGE_ENGINE",
+      "THREAT_ENGINE_V2",
+      "OPPORTUNITY_ENGINE_V3",
+      "COMPETITOR_INTELLIGENCE_ENGINE"
+    ],
+    "capturedAt": "2026-06-08T03:22:21.693Z"
+  },
+  "evidence": [
+    {
+      "claim": "Stored 28 intelligence snapshot(s) across 6 engine(s).",
+      "source": "Intelligence Memory Engine",
+      "url": "https://orcatech.online"
+    }
+  ],
+  "confidenceScore": 99,
+  "dataSource": "V3_ENGINES + INTELLIGENCE_MEMORY",
+  "lastVerifiedAt": "2026-06-08T03:22:21.781Z"
+}

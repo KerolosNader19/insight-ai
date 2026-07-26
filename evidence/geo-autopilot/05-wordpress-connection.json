@@ -1,0 +1,49 @@
+{
+  "label": "05-wordpress-connection",
+  "method": "POST",
+  "url": "/geo-autopilot/cms/connections",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "provider": "WORDPRESS",
+    "siteUrl": "https://example-wordpress.test",
+    "credentialsRef": "env:WORDPRESS_API_TOKEN",
+    "credentialsMeta": {
+      "scopes": [
+        "pages:write",
+        "media:write"
+      ]
+    }
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "a5e78b24-c6dc-479e-a397-badee1ab19bf",
+    "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "provider": "WORDPRESS",
+    "siteUrl": "https://example-wordpress.test",
+    "status": "CONFIGURED",
+    "credentialsRef": "env:WORDPRESS_API_TOKEN",
+    "credentialsMeta": {
+      "note": "Secrets are referenced by environment/secret-manager key only; raw API credentials are not stored.",
+      "scopes": [
+        "pages:write",
+        "media:write"
+      ],
+      "tokenRef": "env:WORDPRESS_API_TOKEN",
+      "usernameRef": null
+    },
+    "evidence": [
+      {
+        "url": "https://example-wordpress.test",
+        "claim": "WORDPRESS connection registered for https://example-wordpress.test.",
+        "source": "CMS Autopilot",
+        "lastVerifiedAt": "2026-06-08T06:28:52.112Z"
+      }
+    ],
+    "confidenceScore": 75,
+    "lastVerifiedAt": "2026-06-08T06:28:52.112Z",
+    "createdAt": "2026-06-08T06:28:52.113Z",
+    "updatedAt": "2026-06-08T06:28:52.113Z"
+  }
+}

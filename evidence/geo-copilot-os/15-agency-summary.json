@@ -1,0 +1,169 @@
+{
+  "status": 201,
+  "ok": true,
+  "url": "/geo-copilot/agency-summary",
+  "method": "POST",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "AGENCY_COPILOT",
+    "data": {
+      "id": "0d9c48ba-b009-4059-b4e5-c44c2aed73cc",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "periodStart": "2026-06-01T04:45:01.196Z",
+      "periodEnd": "2026-06-08T04:45:01.196Z",
+      "summary": "Agency copilot evaluated 3 client brand(s), 3 risk profile(s), and 5 top opportunity task(s).",
+      "atRiskClients": [
+        {
+          "name": "OrcaTech",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "10 open task(s), latest forecast delta 0.",
+              "source": "Agency Copilot"
+            }
+          ],
+          "openTasks": 10,
+          "riskScore": 80,
+          "confidenceScore": 58,
+          "latestForecastDelta": 0
+        },
+        {
+          "name": "DesertPay",
+          "brandId": "235f5658-5150-4059-b2f8-ca353c49a59a",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "0 open task(s), latest forecast delta 0.",
+              "source": "Agency Copilot"
+            }
+          ],
+          "openTasks": 0,
+          "riskScore": 0,
+          "confidenceScore": 60,
+          "latestForecastDelta": 0
+        },
+        {
+          "name": "Runtime Brand 1780438046715",
+          "brandId": "209ff2b1-d689-44fa-be63-5bfdd0cf6238",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "0 open task(s), latest forecast delta 0.",
+              "source": "Agency Copilot"
+            }
+          ],
+          "openTasks": 0,
+          "riskScore": 0,
+          "confidenceScore": 60,
+          "latestForecastDelta": 0
+        }
+      ],
+      "fastGrowingClients": [],
+      "opportunities": [
+        {
+          "brand": "OrcaTech",
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "impactScore": 85,
+          "confidenceScore": 98
+        },
+        {
+          "brand": "OrcaTech",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "impactScore": 85,
+          "confidenceScore": 98
+        },
+        {
+          "brand": "OrcaTech",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "impactScore": 85,
+          "confidenceScore": 98
+        },
+        {
+          "brand": "OrcaTech",
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "impactScore": 85,
+          "confidenceScore": 98
+        },
+        {
+          "brand": "OrcaTech",
+          "title": "50% missed AI visibility",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "impactScore": 65,
+          "confidenceScore": 85
+        }
+      ],
+      "threats": [
+        {
+          "name": "OrcaTech",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "10 open task(s), latest forecast delta 0.",
+              "source": "Agency Copilot"
+            }
+          ],
+          "openTasks": 10,
+          "riskScore": 80,
+          "confidenceScore": 58,
+          "latestForecastDelta": 0
+        },
+        {
+          "name": "DesertPay",
+          "brandId": "235f5658-5150-4059-b2f8-ca353c49a59a",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "0 open task(s), latest forecast delta 0.",
+              "source": "Agency Copilot"
+            }
+          ],
+          "openTasks": 0,
+          "riskScore": 0,
+          "confidenceScore": 60,
+          "latestForecastDelta": 0
+        },
+        {
+          "name": "Runtime Brand 1780438046715",
+          "brandId": "209ff2b1-d689-44fa-be63-5bfdd0cf6238",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "0 open task(s), latest forecast delta 0.",
+              "source": "Agency Copilot"
+            }
+          ],
+          "openTasks": 0,
+          "riskScore": 0,
+          "confidenceScore": 60,
+          "latestForecastDelta": 0
+        }
+      ],
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Agency summary evaluated 3 brand(s).",
+          "source": "Agency Copilot"
+        }
+      ],
+      "confidenceScore": 81.9,
+      "dataSource": "AGENCY_COPILOT",
+      "createdAt": "2026-06-08T04:45:01.219Z"
+    },
+    "evidence": [
+      {
+        "claim": "Agency summary evaluated 3 brand(s).",
+        "source": "Agency Copilot",
+        "url": null
+      }
+    ],
+    "confidenceScore": 81.9,
+    "dataSource": "AGENCY_COPILOT",
+    "lastVerifiedAt": "2026-06-08T04:45:01.230Z"
+  }
+}

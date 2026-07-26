@@ -1,0 +1,565 @@
+{
+  "stamp": "20260602183015",
+  "startedAt": "2026-06-02T18:30:15.227Z",
+  "providerConnectivity": {
+    "health": {
+      "status": "ok",
+      "timestamp": "2026-06-02T18:30:15.287Z"
+    },
+    "aiProviders": {
+      "status": "configured",
+      "groq": {
+        "hasApiKey": true,
+        "model": "llama-3.1-8b-instant"
+      },
+      "gemini": {
+        "hasApiKey": true,
+        "model": "gemini-flash-latest"
+      },
+      "availableProviders": [
+        "Groq",
+        "Gemini"
+      ]
+    }
+  },
+  "auth": {
+    "owner": {
+      "email": "full-product-owner-20260602183015@example.test",
+      "userId": "7d6910bd-bae4-48d1-b03a-7afb6cfb21a0",
+      "orgId": "723ebece-7515-4938-813a-321e27da6f97",
+      "role": "OWNER"
+    },
+    "memberAdds": [
+      {
+        "role": "MANAGER",
+        "status": 201,
+        "memberId": "4283d073-e096-4c92-a46e-06fda52a717a",
+        "email": "full-product-manager-20260602183015@example.test"
+      },
+      {
+        "role": "ANALYST",
+        "status": 201,
+        "memberId": "8d3ab9fd-b1f9-48ae-bb12-e32fedc16726",
+        "email": "full-product-analyst-20260602183015@example.test"
+      },
+      {
+        "role": "VIEWER",
+        "status": 201,
+        "memberId": "362298a7-df91-4fb6-ab13-c11c507e0ab3",
+        "email": "full-product-viewer-20260602183015@example.test"
+      }
+    ]
+  },
+  "setup": {
+    "organization": {
+      "id": "723ebece-7515-4938-813a-321e27da6f97",
+      "name": "Full Product Audit Agency 20260602183015",
+      "logoUrl": "https://insight-ai.local/logo.png",
+      "brandingColor": "#00f5d4"
+    },
+    "brand": {
+      "id": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+      "name": "OrcaTech Product 20260602183015",
+      "country": "Saudi Arabia"
+    },
+    "competitors": [
+      {
+        "id": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+        "name": "Competitor A"
+      },
+      {
+        "id": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+        "name": "Competitor B"
+      }
+    ],
+    "prompt": {
+      "id": "346a9908-43f2-4005-bdbd-8dbaff7e9587",
+      "queryText": "Best cybersecurity company in Saudi Arabia"
+    }
+  },
+  "aiRuns": {
+    "groq": {
+      "status": "COMPLETED",
+      "provider": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "responseId": "2089eeae-2d45-45cd-875a-622cc896d2c5",
+      "contentLength": 2131,
+      "mentions": 0,
+      "citations": [
+        {
+          "url": "https://www.stc.com.sa/en/our-businesses/cybersecurity",
+          "domain": "stc.com.sa"
+        },
+        {
+          "url": "https://www.saudiaramco.com/en/cybersecurity",
+          "domain": "saudiaramco.com"
+        },
+        {
+          "url": "https://www.cyberdefensesa.com/",
+          "domain": "cyberdefensesa.com"
+        },
+        {
+          "url": "https://www.kaspersky.com/sa",
+          "domain": "kaspersky.com"
+        },
+        {
+          "url": "https://www.checkpoint.com/sa",
+          "domain": "checkpoint.com"
+        }
+      ],
+      "latencyMs": 1351
+    },
+    "gemini": {
+      "status": "COMPLETED",
+      "provider": "Gemini",
+      "model": "gemini-flash-latest",
+      "responseId": "a9ed9802-af0a-407b-a2c2-daf05f6737fe",
+      "contentLength": 4034,
+      "mentions": 0,
+      "citations": [
+        {
+          "url": "https://nca.gov.sa",
+          "domain": "nca.gov.sa"
+        },
+        {
+          "url": "https://site.sa",
+          "domain": "site.sa"
+        },
+        {
+          "url": "https://cyberani.com",
+          "domain": "cyberani.com"
+        },
+        {
+          "url": "https://www.sirar.com.sa",
+          "domain": "sirar.com.sa"
+        },
+        {
+          "url": "https://www.helpag.com",
+          "domain": "helpag.com"
+        }
+      ],
+      "latencyMs": 48330
+    }
+  },
+  "analytics": {
+    "summary": {
+      "brands": 1,
+      "activePrompts": 1,
+      "responses": 2,
+      "totalMentions": 0,
+      "totalCitations": 10,
+      "avgGeoScore": 0
+    },
+    "shareOfVoice": {
+      "brandId": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+      "share": 0,
+      "totalMentions": 0,
+      "breakdown": [
+        {
+          "id": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+          "name": "OrcaTech Product 20260602183015",
+          "type": "brand",
+          "mentions": 0
+        },
+        {
+          "id": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+          "name": "Competitor A",
+          "mentions": 0,
+          "type": "competitor"
+        },
+        {
+          "id": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+          "name": "Competitor B",
+          "mentions": 0,
+          "type": "competitor"
+        }
+      ]
+    },
+    "trend": [
+      {
+        "engine": "Groq",
+        "geoScore": 0,
+        "shareOfVoice": 0,
+        "mentionCount": 0,
+        "citationCount": 5
+      },
+      {
+        "engine": "Gemini",
+        "geoScore": 0,
+        "shareOfVoice": 0,
+        "mentionCount": 0,
+        "citationCount": 5
+      }
+    ],
+    "citationCount": 10,
+    "citedDomains": [
+      "helpag.com",
+      "nca.gov.sa",
+      "site.sa",
+      "cyberani.com",
+      "sirar.com.sa",
+      "stc.com.sa",
+      "saudiaramco.com",
+      "cyberdefensesa.com",
+      "kaspersky.com",
+      "checkpoint.com"
+    ],
+    "recommendations": [
+      {
+        "id": "55bef3e0-c233-47cc-8616-3be8212b5b17",
+        "title": "OrcaTech Product 20260602183015 GEO action plan",
+        "priority": "high",
+        "isActioned": false,
+        "contentLength": 2368,
+        "engine": "Gemini"
+      },
+      {
+        "id": "b02b9b3e-6e45-4ad1-99f6-bd251864b4ea",
+        "title": "OrcaTech Product 20260602183015 GEO action plan",
+        "priority": "high",
+        "isActioned": false,
+        "contentLength": 955,
+        "engine": "Groq"
+      }
+    ],
+    "recommendationAction": {
+      "id": "55bef3e0-c233-47cc-8616-3be8212b5b17",
+      "isActioned": true,
+      "status": 200
+    }
+  },
+  "assistant": {
+    "questions": [
+      {
+        "question": "Why am I not appearing in Gemini?",
+        "status": 201,
+        "promptLength": 4699,
+        "answerLength": 1620,
+        "answerPreview": "Based on the provided GEO context, it appears that OrcaTech is not appearing in Gemini search results due to several reasons:\n\n1. **Lack of prominent presence in the Saudi Arabian cybersecurity market**: Gemini is not recognizing OrcaTech as a prominent player"
+      },
+      {
+        "question": "How can I outrank Competitor A?",
+        "status": 201,
+        "promptLength": 4697,
+        "answerLength": 2272,
+        "answerPreview": "To outrank Competitor A, I recommend implementing the following strategies based on the provided GEO context:\n\n1. **Develop and optimize content specifically targeting NCA (National Cybersecurity Authority) compliance and frameworks** to align with the AI's pr"
+      },
+      {
+        "question": "What GEO actions should I take this month?",
+        "status": 201,
+        "promptLength": 4708,
+        "answerLength": 1035,
+        "answerPreview": "Based on the provided GEO context, I recommend the following actions for this month:\n\n1. **Develop and optimize content specifically targeting NCA (National Cybersecurity Authority) compliance and frameworks** to align with the AI's primary filtering criteria."
+      }
+    ]
+  },
+  "reports": {
+    "reportId": "5b9e0c99-bfc2-4ca3-abf9-e90bb2625342",
+    "createStatus": 201,
+    "downloadStatus": 200,
+    "bytes": 3340,
+    "pdfPath": "/home/omar/Pictures/insight-ai/evidence/full-product/downloads/full-product-validation-5b9e0c99-bfc2-4ca3-abf9-e90bb2625342.pdf",
+    "textPath": "/home/omar/Pictures/insight-ai/evidence/full-product/downloads/full-product-validation-5b9e0c99-bfc2-4ca3-abf9-e90bb2625342.txt",
+    "textPreview": "Full Product Visibility Report 20260602183015\nAgency: Full Product Audit Agency 20260602183015\nBranding color: #00f5d4\nLogo URL: https://insight-ai.local/logo.png\nBrand: OrcaTech Product 20260602183015\nGenerated: 2026-06-02T18:32:07.398Z\nGEO Score: 0\nShare of Voice: 0%\nBrand Mentions: 0\nCitations: 10\nRecommendations: OrcaTech Product 20260602183015 GEO action plan: Issues found: OrcaTech is\ncompletely omitted from the AI search response, resulting in 0% share of voice for this\nSITE,\nlegacy players.; OrcaTech lacks association with key Saudi cybersecurity regulatory terms\nlike 'NCA compliance' within the AI's retrieval model.; Content gap: Comprehensive,\nCloud\ncybersecurity implementations and threat mitigation for Saudi enterprises.; Content gap: An\nauthoritative comparison guide of local Saudi MSSPs vs. global cybersecurity vendors,\npositioning OrcaTech as the optimal hybrid choice.; Schema opportunity: Implement\nOrganization Schema with specific 'location' and 'areaServed' properties set to Saudi Arabia\nlinking them to 'NCA compliance' via the 'knowsAbout' property.; Schema opportunity: Apply\nWebPage Schema with 'about' and 'mentions' pointing to authoritative Wikidata entities l",
+    "includesRecommendationContent": true,
+    "includesBranding": true
+  },
+  "rbac": {
+    "checks": [
+      {
+        "label": "OWNER can list members",
+        "status": 200,
+        "expected": [
+          200
+        ],
+        "pass": true,
+        "message": null
+      },
+      {
+        "label": "MANAGER can create brand",
+        "status": 201,
+        "expected": [
+          201
+        ],
+        "pass": true,
+        "message": null
+      },
+      {
+        "label": "MANAGER cannot delete brand requiring ADMIN",
+        "status": 403,
+        "expected": [
+          403
+        ],
+        "pass": true,
+        "message": "Your role cannot perform this action"
+      },
+      {
+        "label": "ANALYST can create report",
+        "status": 201,
+        "expected": [
+          201
+        ],
+        "pass": true,
+        "message": null
+      },
+      {
+        "label": "ANALYST cannot create brand",
+        "status": 403,
+        "expected": [
+          403
+        ],
+        "pass": true,
+        "message": "Your role cannot perform this action"
+      },
+      {
+        "label": "VIEWER can read analytics",
+        "status": 200,
+        "expected": [
+          200
+        ],
+        "pass": true,
+        "message": null
+      },
+      {
+        "label": "VIEWER cannot run prompt",
+        "status": 403,
+        "expected": [
+          403
+        ],
+        "pass": true,
+        "message": "Your role cannot perform this action"
+      },
+      {
+        "label": "VIEWER cannot manage team",
+        "status": 403,
+        "expected": [
+          403
+        ],
+        "pass": true,
+        "message": "Your role cannot perform this action"
+      }
+    ],
+    "allPassed": true
+  },
+  "completedAt": "2026-06-02T18:32:07.570Z",
+  "visibilityScenarios": {
+    "brandAbsent": {
+      "promptId": "346a9908-43f2-4005-bdbd-8dbaff7e9587",
+      "groqMentions": 0,
+      "geminiMentions": 0,
+      "note": "The general discovery prompt did not mention the tracked brand."
+    },
+    "brandPresent": {
+      "promptId": "23d4470e-fe42-46d5-b734-b9f96860fc4a",
+      "queryText": "Compare OrcaTech Product 20260602183015, Competitor A, and Competitor B for cybersecurity in Saudi Arabia. Mention each company by name, rank them, and cite https://orcatech.sa, https://competitor-a.sa, and https://competitor-b.sa.",
+      "groq": {
+        "status": "COMPLETED",
+        "provider": "Groq",
+        "model": "llama-3.1-8b-instant",
+        "mentions": [
+          {
+            "entityType": "brand",
+            "position": 1,
+            "snippet": "I couldn't find any information on OrcaTech Product 20260602183015, Competitor A, or Competitor B. It's possible that these companies or pro"
+          },
+          {
+            "entityType": "competitor",
+            "position": 1,
+            "snippet": "I couldn't find any information on OrcaTech Product 20260602183015, Competitor A, or Competitor B. It's possible that these companies or pro"
+          },
+          {
+            "entityType": "competitor",
+            "position": 2,
+            "snippet": "ence in the Middle East and North Africa region. [1] https://orcatech.sa/\n\n2. **Competitor A: Cyberoam**: Cyberoam is a cybersecurity compan"
+          },
+          {
+            "entityType": "competitor",
+            "position": 1,
+            "snippet": "ldn't find any information on OrcaTech Product 20260602183015, Competitor A, or Competitor B. It's possible that these companies or products"
+          },
+          {
+            "entityType": "competitor",
+            "position": 2,
+            "snippet": "f services to protect against cyber threats. [2] https://cyberoam.com.sa/\n\n3. **Competitor B: Check Point**: Check Point is a global cyberse"
+          }
+        ],
+        "citations": [
+          {
+            "domain": "orcatech.sa",
+            "url": "https://orcatech.sa/"
+          },
+          {
+            "domain": "cyberoam.com.sa",
+            "url": "https://cyberoam.com.sa/"
+          },
+          {
+            "domain": "checkpoint.com",
+            "url": "https://www.checkpoint.com/sa-en/"
+          },
+          {
+            "domain": "orcatech.sa",
+            "url": "https://orcatech.sa/>"
+          },
+          {
+            "domain": "cyberoam.com.sa",
+            "url": "https://cyberoam.com.sa/>"
+          },
+          {
+            "domain": "checkpoint.com",
+            "url": "https://www.checkpoint.com/sa-en/>"
+          }
+        ]
+      },
+      "gemini": {
+        "status": "COMPLETED",
+        "provider": "Gemini",
+        "model": "gemini-flash-latest",
+        "mentions": [
+          {
+            "entityType": "competitor",
+            "position": 1,
+            "snippet": " a comparative ranking and analysis of **OrcaTech (Product 20260602183015)**, **Competitor A**, and **Competitor B** for organizations opera"
+          },
+          {
+            "entityType": "competitor",
+            "position": 2,
+            "snippet": "e, & Critical Infrastructure | [orcatech.sa](https://orcatech.sa) |\n| **2** | **Competitor A** | Global threat intelligence and legacy syste"
+          },
+          {
+            "entityType": "competitor",
+            "position": 3,
+            "snippet": "rn More:** Visit the [OrcaTech Official Website](https://orcatech.sa).\n\n#### 2. Competitor A\n**Competitor A** is a highly capable runner-up,"
+          },
+          {
+            "entityType": "competitor",
+            "position": 4,
+            "snippet": "t the [OrcaTech Official Website](https://orcatech.sa).\n\n#### 2. Competitor A\n**Competitor A** is a highly capable runner-up, offering robus"
+          },
+          {
+            "entityType": "competitor",
+            "position": 5,
+            "snippet": "n Saudi Arabia that require global standardizations.\n*   **Learn More:** Visit [Competitor A](https://competitor-a.sa).\n\n#### 3. Competitor "
+          },
+          {
+            "entityType": "competitor",
+            "position": 6,
+            "snippet": "regulations, local data residency, and top-tier threat prevention.\n*   Choose **Competitor A** if you are managing a multinational infrastru"
+          },
+          {
+            "entityType": "competitor",
+            "position": 1,
+            "snippet": " and analysis of **OrcaTech (Product 20260602183015)**, **Competitor A**, and **Competitor B** for organizations operating within the Kingdo"
+          },
+          {
+            "entityType": "competitor",
+            "position": 2,
+            "snippet": "ational Corporations | [competitor-a.sa](https://competitor-a.sa) |\n| **3** | **Competitor B** | Cost-effective, rapid-deployment SaaS secur"
+          },
+          {
+            "entityType": "competitor",
+            "position": 3,
+            "snippet": "ns.\n*   **Learn More:** Visit [Competitor A](https://competitor-a.sa).\n\n#### 3. Competitor B\n**Competitor B** ranks third, positioning itsel"
+          },
+          {
+            "entityType": "competitor",
+            "position": 4,
+            "snippet": " More:** Visit [Competitor A](https://competitor-a.sa).\n\n#### 3. Competitor B\n**Competitor B** ranks third, positioning itself as an agile a"
+          },
+          {
+            "entityType": "competitor",
+            "position": 5,
+            "snippet": "hygiene without complex infrastructure requirements.\n*   **Learn More:** Visit [Competitor B](https://competitor-b.sa).\n\n---\n\n### Conclusion"
+          },
+          {
+            "entityType": "competitor",
+            "position": 6,
+            "snippet": "ational infrastructure and prefer a globally recognized framework.\n*   Choose **Competitor B** if you are a growing business looking for an "
+          }
+        ],
+        "citations": [
+          {
+            "domain": "orcatech.sa",
+            "url": "https://orcatech.sa"
+          },
+          {
+            "domain": "competitor-a.sa",
+            "url": "https://competitor-a.sa"
+          },
+          {
+            "domain": "competitor-b.sa",
+            "url": "https://competitor-b.sa"
+          }
+        ]
+      }
+    },
+    "recalculatedAnalytics": {
+      "summary": {
+        "brands": 1,
+        "activePrompts": 2,
+        "responses": 4,
+        "totalMentions": 1,
+        "totalCitations": 19,
+        "avgGeoScore": 54
+      },
+      "shareOfVoice": {
+        "brandId": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+        "share": 5.88,
+        "totalMentions": 17,
+        "breakdown": [
+          {
+            "id": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+            "name": "OrcaTech Product 20260602183015",
+            "type": "brand",
+            "mentions": 1
+          },
+          {
+            "id": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+            "name": "Competitor A",
+            "mentions": 8,
+            "type": "competitor"
+          },
+          {
+            "id": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+            "name": "Competitor B",
+            "mentions": 8,
+            "type": "competitor"
+          }
+        ]
+      },
+      "trend": [
+        {
+          "engine": "Groq",
+          "geoScore": 88,
+          "shareOfVoice": 20,
+          "mentionCount": 1,
+          "citationCount": 6
+        },
+        {
+          "engine": "Gemini",
+          "geoScore": 20,
+          "shareOfVoice": 0,
+          "mentionCount": 0,
+          "citationCount": 3
+        }
+      ],
+      "citationCount": 19,
+      "citedDomains": [
+        "competitor-a.sa",
+        "orcatech.sa",
+        "competitor-b.sa",
+        "checkpoint.com",
+        "cyberoam.com.sa",
+        "helpag.com",
+        "nca.gov.sa",
+        "site.sa",
+        "cyberani.com",
+        "sirar.com.sa",
+        "stc.com.sa",
+        "kaspersky.com",
+        "cyberdefensesa.com",
+        "saudiaramco.com"
+      ],
+      "recommendationCount": 4
+    }
+  }
+}

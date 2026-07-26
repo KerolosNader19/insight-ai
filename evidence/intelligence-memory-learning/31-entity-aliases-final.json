@@ -1,0 +1,21 @@
+[
+  {
+    "id": "edfa5780-3822-4fd4-93ad-efa31156f1fc",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "canonical": "Security Operations Center",
+    "alias": "SOC",
+    "category": "TECHNOLOGY",
+    "evidence": [
+      {
+        "url": "https://orcatech.online",
+        "claim": "SOC is normalized to Security Operations Center.",
+        "source": "Entity Normalization"
+      }
+    ],
+    "confidenceScore": 40,
+    "dataSource": "ENTITY_NORMALIZATION",
+    "lastVerifiedAt": "2026-06-08T03:21:23.221Z",
+    "createdAt": "2026-06-08T03:21:23.222Z",
+    "updatedAt": "2026-06-08T03:21:23.222Z"
+  }
+]

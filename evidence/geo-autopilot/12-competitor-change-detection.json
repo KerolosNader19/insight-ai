@@ -1,0 +1,366 @@
+{
+  "label": "12-competitor-change-detection",
+  "method": "POST",
+  "url": "/geo-autopilot/competitor-changes/detect",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "COMPETITOR_CHANGE_DETECTION",
+    "data": {
+      "created": [
+        {
+          "id": "c8b5acb4-c129-4d13-b405-ef1bd25159a3",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "title": "Respond to competitor page gap: Entity coverage: Saudi Arabia",
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.442Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.442Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.443Z",
+          "updatedAt": "2026-06-08T06:28:52.443Z"
+        },
+        {
+          "id": "5aa5bbfe-59b5-4d89-8e14-09b661aa508b",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "title": "Respond to competitor page gap: Entity coverage: Cybersecurity Saudi Arabia CrowdStrike",
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.459Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.460Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.461Z",
+          "updatedAt": "2026-06-08T06:28:52.461Z"
+        },
+        {
+          "id": "d9ce4b5e-a57b-4b57-baa0-9d176e5efb01",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "title": "Respond to competitor page gap: Entity coverage: CrowdStrike",
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.472Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.472Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.474Z",
+          "updatedAt": "2026-06-08T06:28:52.474Z"
+        },
+        {
+          "id": "2750049b-091e-42a5-84a2-769b40f2c04c",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "title": "Respond to competitor page gap: Citation pattern: linkedin.com",
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.490Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.490Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.491Z",
+          "updatedAt": "2026-06-08T06:28:52.491Z"
+        },
+        {
+          "id": "d93588a8-e772-4a10-aaea-656861307dd6",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "title": "Respond to competitor page gap: Citation pattern: x.com",
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.505Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.506Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.507Z",
+          "updatedAt": "2026-06-08T06:28:52.507Z"
+        },
+        {
+          "id": "07f7c6e8-7e94-4a75-82ca-d87a317b42c4",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "title": "Respond to competitor page gap: Entity coverage: Cybersecurity Saudi Arabia Palo",
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.530Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.530Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.532Z",
+          "updatedAt": "2026-06-08T06:28:52.532Z"
+        },
+        {
+          "id": "1677bddb-9b7d-4d7e-bf24-2783d3a1011f",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "title": "Respond to competitor page gap: Entity coverage: Alto Networks Leader",
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.549Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.549Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.550Z",
+          "updatedAt": "2026-06-08T06:28:52.550Z"
+        },
+        {
+          "id": "bf68e268-87b0-4c15-a2aa-233b45c66e03",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "title": "Respond to competitor page gap: Citation pattern: paloaltonetworks.de",
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.563Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.563Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.564Z",
+          "updatedAt": "2026-06-08T06:28:52.564Z"
+        },
+        {
+          "id": "a90b3fa4-fdff-41bb-b83e-fb5b1bd5cd9d",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "planId": null,
+          "ownerId": null,
+          "executionPackageId": null,
+          "sourceType": "COMPETITOR_CHANGE",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "title": "Respond to competitor page gap: Citation pattern: paloaltonetworks.ca",
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "priority": "high",
+          "status": "OPEN",
+          "dependencies": null,
+          "expectedImpact": null,
+          "impactScore": 78,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.591Z"
+            }
+          ],
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "dueAt": "2026-06-22T06:28:52.591Z",
+          "completedAt": null,
+          "createdAt": "2026-06-08T06:28:52.593Z",
+          "updatedAt": "2026-06-08T06:28:52.593Z"
+        }
+      ],
+      "analysesReviewed": 2
+    },
+    "evidence": [
+      {
+        "url": "https://www.crowdstrike.com/",
+        "claim": "Detected competitor gap from CrowdStrike page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.442Z"
+      },
+      {
+        "url": "https://www.crowdstrike.com/",
+        "claim": "Detected competitor gap from CrowdStrike page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.459Z"
+      },
+      {
+        "url": "https://www.crowdstrike.com/",
+        "claim": "Detected competitor gap from CrowdStrike page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.472Z"
+      },
+      {
+        "url": "https://www.crowdstrike.com/",
+        "claim": "Detected competitor gap from CrowdStrike page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.490Z"
+      },
+      {
+        "url": "https://www.crowdstrike.com/",
+        "claim": "Detected competitor gap from CrowdStrike page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.505Z"
+      },
+      {
+        "url": "https://www.paloaltonetworks.com/",
+        "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.530Z"
+      },
+      {
+        "url": "https://www.paloaltonetworks.com/",
+        "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.549Z"
+      },
+      {
+        "url": "https://www.paloaltonetworks.com/",
+        "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.563Z"
+      },
+      {
+        "url": "https://www.paloaltonetworks.com/",
+        "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+        "source": "Competitor Change Detection",
+        "lastVerifiedAt": "2026-06-08T06:28:52.591Z"
+      }
+    ],
+    "confidenceScore": 74,
+    "dataSource": "COMPETITOR_CHANGE_DETECTION",
+    "lastVerifiedAt": "2026-06-08T06:28:52.603Z"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "label": "04-lost-revenue",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/lost-revenue",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:35:27.886Z",
+  "completedAt": "2026-06-08T02:35:27.935Z",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "LOST_REVENUE_ESTIMATOR",
+    "data": {
+      "missedVisibilityPercent": 50,
+      "leadOpportunityImpact": "MEDIUM",
+      "visibilityLeakage": 65,
+      "competitorCaptureLevel": "MEDIUM",
+      "assumptions": [
+        "Prompt visibility is treated as a top-of-funnel demand proxy.",
+        "No revenue, CAC, conversion rate, or ACV assumptions are used.",
+        "Competitor capture level is based only on stored AI responses and recognized competitor names."
+      ],
+      "evidence": [
+        {
+          "claim": "1/2 real prompt responses did not mention OrcaTech.",
+          "source": "Prompt Tracking",
+          "url": "https://orcatech.online"
+        },
+        {
+          "claim": "Competitor names appeared 3 time(s) across the same response set.",
+          "source": "Prompt Tracking",
+          "url": "https://orcatech.online"
+        },
+        {
+          "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+          "source": "Estimator Assumption",
+          "url": null
+        }
+      ],
+      "confidenceScore": 85,
+      "dataSource": "PROMPT_TRACKING + CITATION_DISCOVERY",
+      "lastVerifiedAt": "2026-06-08T02:35:27.917Z"
+    },
+    "evidence": [
+      {
+        "claim": "1/2 real prompt responses did not mention OrcaTech.",
+        "source": "Prompt Tracking",
+        "url": "https://orcatech.online"
+      },
+      {
+        "claim": "Competitor names appeared 3 time(s) across the same response set.",
+        "source": "Prompt Tracking",
+        "url": "https://orcatech.online"
+      },
+      {
+        "claim": "No dollar values are estimated in MVP mode; impact is expressed as visibility and lead-opportunity risk.",
+        "source": "Estimator Assumption",
+        "url": null
+      }
+    ],
+    "confidenceScore": 85,
+    "dataSource": "PROMPT_TRACKING + CITATION_DISCOVERY",
+    "lastVerifiedAt": "2026-06-08T02:35:27.931Z"
+  }
+}

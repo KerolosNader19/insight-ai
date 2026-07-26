@@ -1,0 +1,165 @@
+{
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_SCORE_V3",
+    "data": {
+      "overallScore": 85,
+      "components": [
+        {
+          "key": "schema",
+          "label": "Schema",
+          "score": 100,
+          "points": 15,
+          "reason": "latest audit schema readiness is 100/100",
+          "weight": 15,
+          "evidence": [
+            {
+              "url": "https://orcatech.online/",
+              "claim": "Schema readiness is 100/100 from the latest GEO audit.",
+              "source": "GEO Audit"
+            }
+          ],
+          "whyNotHigher": "Schema can be expanded with richer Organization, Service, FAQ, and WebPage markup.",
+          "improvementPotential": 0
+        },
+        {
+          "key": "faq",
+          "label": "FAQ",
+          "score": 100,
+          "points": 15,
+          "reason": "latest audit FAQ coverage is 100/100",
+          "weight": 15,
+          "evidence": [
+            {
+              "url": "https://orcatech.online/",
+              "claim": "FAQ coverage is 100/100 from audit checks.",
+              "source": "GEO Audit"
+            }
+          ],
+          "whyNotHigher": "FAQ coverage is not high enough to answer buyer questions directly in AI-search contexts.",
+          "improvementPotential": 0
+        },
+        {
+          "key": "authority",
+          "label": "Authority",
+          "score": 84,
+          "points": 12.6,
+          "reason": "authority combines audit authority and citation-source authority signals",
+          "weight": 15,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "Authority audit score is 84/100 and citation authority sample has 8 source(s).",
+              "source": "GEO Audit + Citation Authority"
+            }
+          ],
+          "whyNotHigher": "Authority can improve through trusted third-party references, standards, analyst mentions, and recognized source coverage.",
+          "improvementPotential": 2.4
+        },
+        {
+          "key": "entities",
+          "label": "Entities",
+          "score": 50,
+          "points": 7.5,
+          "reason": "entity coverage is 50/100 across extracted brand, service, technology, location, industry, and competitor terms",
+          "weight": 15,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "Entity coverage is 50/100 from extracted response entities.",
+              "source": "Entity Intelligence Engine"
+            }
+          ],
+          "whyNotHigher": "Entity coverage is limited where competitors are associated with services or technologies the brand is not.",
+          "improvementPotential": 7.5
+        },
+        {
+          "key": "content",
+          "label": "Content",
+          "score": 96,
+          "points": 19.2,
+          "reason": "content combines audit content coverage with prompt coverage outcomes",
+          "weight": 20,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "Content audit score is 96/100 and prompt coverage score is 53/100.",
+              "source": "GEO Audit + Prompt Coverage"
+            }
+          ],
+          "whyNotHigher": "Content does not yet cover enough high-intent prompts, comparison language, and buyer questions.",
+          "improvementPotential": 0.8
+        },
+        {
+          "key": "citations",
+          "label": "Citations",
+          "score": 76,
+          "points": 15.2,
+          "reason": "citation score combines audit citation readiness and citation impact evidence",
+          "weight": 20,
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "Citation readiness is 76/100 and citation authority impact average is 43/100.",
+              "source": "GEO Audit + Citation Authority"
+            }
+          ],
+          "whyNotHigher": "Citation profile is not strong enough across trusted source domains that AI engines already reference.",
+          "improvementPotential": 4.8
+        }
+      ],
+      "whyScoreIsNotHigher": [
+        "Entity coverage is limited where competitors are associated with services or technologies the brand is not."
+      ],
+      "expectedGain": 16,
+      "snapshotId": "3b2c485d-f9c0-4204-add1-5187469934df"
+    },
+    "evidence": [
+      {
+        "url": "https://orcatech.online",
+        "claim": "V3 score uses 6 weighted components totaling 100 possible points.",
+        "source": "GEO Score Engine V3"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "2 real prompt response(s) and 9 citation row(s) were evaluated.",
+        "source": "Prompt Tracking + Citation Discovery"
+      },
+      {
+        "url": "https://orcatech.online/",
+        "claim": "Schema readiness is 100/100 from the latest GEO audit.",
+        "source": "GEO Audit"
+      },
+      {
+        "url": "https://orcatech.online/",
+        "claim": "FAQ coverage is 100/100 from audit checks.",
+        "source": "GEO Audit"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Authority audit score is 84/100 and citation authority sample has 8 source(s).",
+        "source": "GEO Audit + Citation Authority"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Entity coverage is 50/100 from extracted response entities.",
+        "source": "Entity Intelligence Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Content audit score is 96/100 and prompt coverage score is 53/100.",
+        "source": "GEO Audit + Prompt Coverage"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Citation readiness is 76/100 and citation authority impact average is 43/100.",
+        "source": "GEO Audit + Citation Authority"
+      }
+    ],
+    "confidenceScore": 88,
+    "dataSource": "GEO_SCORE_V3",
+    "lastVerifiedAt": "2026-06-08T03:00:55.271Z"
+  }
+}

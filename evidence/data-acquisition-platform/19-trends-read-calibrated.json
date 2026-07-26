@@ -1,0 +1,968 @@
+{
+  "status": "COMPLETED",
+  "engine": "TREND_DISCOVERY_API",
+  "data": {
+    "trends": [
+      {
+        "id": "4e831fe8-1bfb-438c-bd9e-e1abe112df46",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "3d8eabedfb77f6617f52173af6dc2306cec91f47416116395c28ae6a178303f0",
+        "label": "cyberoam.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://cyberoam.com/",
+            "claim": "cyberoam.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:06.975Z",
+        "lastSeenAt": "2026-06-08T03:54:04.591Z",
+        "createdAt": "2026-06-08T03:52:06.975Z",
+        "updatedAt": "2026-06-08T03:54:04.592Z"
+      },
+      {
+        "id": "894dcd3e-0b10-478b-8c19-da79714184b8",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "5469df92d115b4b65e681cb6eb7690d71ae3e28aec70a1a2b8b080b72b4ed7eb",
+        "label": "checkpoint.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://checkpoint.com/",
+            "claim": "checkpoint.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:06.987Z",
+        "lastSeenAt": "2026-06-08T03:54:04.610Z",
+        "createdAt": "2026-06-08T03:52:06.987Z",
+        "updatedAt": "2026-06-08T03:54:04.611Z"
+      },
+      {
+        "id": "c4aef752-bacf-41d0-bf0d-89ba33b45e9e",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "6a791cdf10b2f627bfc768105268f08827d610b4dd8139f196122a23b994ec6b",
+        "label": "paloaltonetworks.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://paloaltonetworks.com/",
+            "claim": "paloaltonetworks.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.005Z",
+        "lastSeenAt": "2026-06-08T03:54:04.629Z",
+        "createdAt": "2026-06-08T03:52:07.005Z",
+        "updatedAt": "2026-06-08T03:54:04.631Z"
+      },
+      {
+        "id": "36c2f517-2c76-4a84-bc64-de07c10fb230",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "50c5dbfa034aef05e88c836edb139b1f6ec5c33c595d9f78abc0a238192d078a",
+        "label": "mcit.gov.sa",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://mcit.gov.sa/",
+            "claim": "mcit.gov.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:06.932Z",
+        "lastSeenAt": "2026-06-08T03:54:04.520Z",
+        "createdAt": "2026-06-08T03:52:06.932Z",
+        "updatedAt": "2026-06-08T03:54:04.521Z"
+      },
+      {
+        "id": "0caa951b-12f6-46d4-b536-8291209a20bb",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "99c05d3c1f0e279f4e725167e21b162ee44f73f39ffff97790006b44108f826e",
+        "label": "orcatech.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://orcatech.com/",
+            "claim": "orcatech.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.018Z",
+        "lastSeenAt": "2026-06-08T03:54:04.647Z",
+        "createdAt": "2026-06-08T03:52:07.018Z",
+        "updatedAt": "2026-06-08T03:54:04.648Z"
+      },
+      {
+        "id": "9a1e2cd1-12d5-4f6d-b860-dd8ee1109220",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "fe43bdbaa5ab31076100feefac762114c23bced3dd4325d489f0c33ad077b7db",
+        "label": "stc.com.sa",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://stc.com.sa/",
+            "claim": "stc.com.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:06.894Z",
+        "lastSeenAt": "2026-06-08T03:54:04.351Z",
+        "createdAt": "2026-06-08T03:52:06.894Z",
+        "updatedAt": "2026-06-08T03:54:04.354Z"
+      },
+      {
+        "id": "153b66cc-68a7-4eba-ab38-3121fabbbc7e",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "ef58338720702971cd03952bbf1c5e8feb5f78e1662a8028f6781ba30ef4e98e",
+        "label": "sama.gov.sa",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://sama.gov.sa/",
+            "claim": "sama.gov.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:06.948Z",
+        "lastSeenAt": "2026-06-08T03:54:04.537Z",
+        "createdAt": "2026-06-08T03:52:06.948Z",
+        "updatedAt": "2026-06-08T03:54:04.538Z"
+      },
+      {
+        "id": "e0401a7b-9f1e-46ea-b489-877ad9a94c8b",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "CITATION_RESEARCH",
+        "subjectKey": "e899bb5091f295653d2f8f9ee3768a55295316675b0981aeec78b1526f856ad6",
+        "label": "saudiaramco.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "FAST",
+        "score": 100,
+        "evidence": [
+          {
+            "url": "https://saudiaramco.com/",
+            "claim": "saudiaramco.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 77,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:06.963Z",
+        "lastSeenAt": "2026-06-08T03:54:04.549Z",
+        "createdAt": "2026-06-08T03:52:06.963Z",
+        "updatedAt": "2026-06-08T03:54:04.551Z"
+      },
+      {
+        "id": "b2ee955f-ee84-4ad3-8874-fbd78e3499e6",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "1b4c72f6fe9f7bb4f539e3cba619d6967041e4dda10f67f3c34b1cc0a1aeef18",
+        "label": "checkpoint.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://checkpoint.com/",
+            "claim": "checkpoint.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.249Z",
+        "lastSeenAt": "2026-06-08T03:54:04.319Z",
+        "createdAt": "2026-06-08T03:52:07.249Z",
+        "updatedAt": "2026-06-08T03:54:04.321Z"
+      },
+      {
+        "id": "03a88fec-a6ce-416f-a549-8bdaf836e417",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "b7a06b5e869f07580a5954ed491475f8344704c7cb3c9c1b8fc002adb2e6f94a",
+        "label": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs. appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.100Z",
+        "lastSeenAt": "2026-06-08T03:54:04.279Z",
+        "createdAt": "2026-06-08T03:52:07.100Z",
+        "updatedAt": "2026-06-08T03:54:04.280Z"
+      },
+      {
+        "id": "c584aa65-0381-4bd2-a498-fc0dcd19cbc1",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "681d4ac28f3db6f76ffb8a4589283d5a796b6d94d4f3cc45b367edf2d7b62822",
+        "label": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs. appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.114Z",
+        "lastSeenAt": "2026-06-08T03:54:04.420Z",
+        "createdAt": "2026-06-08T03:52:07.114Z",
+        "updatedAt": "2026-06-08T03:54:04.421Z"
+      },
+      {
+        "id": "4835fd79-4b89-4994-9cd7-428216870cd4",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "ab8ccb08d2bbe759757ff51e6019e679cb36c9c6d350e67dfffae54bddd0b8ca",
+        "label": "Best cybersecurity company in Saudi Arabia",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Best cybersecurity company in Saudi Arabia appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.128Z",
+        "lastSeenAt": "2026-06-08T03:54:04.441Z",
+        "createdAt": "2026-06-08T03:52:07.128Z",
+        "updatedAt": "2026-06-08T03:54:04.442Z"
+      },
+      {
+        "id": "e9f5053c-dc61-4833-9502-0988e9f2d307",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "89183db59a9c3d74b99ab74743bc835d7f2e7d4e9953028ac6e6b7c8c24309f4",
+        "label": "Runtime GEO prompt 1780438046715",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Runtime GEO prompt 1780438046715 appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.180Z",
+        "lastSeenAt": "2026-06-08T03:54:04.486Z",
+        "createdAt": "2026-06-08T03:52:07.180Z",
+        "updatedAt": "2026-06-08T03:54:04.488Z"
+      },
+      {
+        "id": "152c3f5e-d7a1-4614-b962-d5fcd8b7e8f2",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "07e4a8a2707405318ea4604b3ed683b46dba1dda517c0b734752f1276e9f83ad",
+        "label": "Best cybersecurity company in Saudi Arabia for regulated banks",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Best cybersecurity company in Saudi Arabia for regulated banks appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.191Z",
+        "lastSeenAt": "2026-06-08T03:54:04.504Z",
+        "createdAt": "2026-06-08T03:52:07.191Z",
+        "updatedAt": "2026-06-08T03:54:04.505Z"
+      },
+      {
+        "id": "b1991359-82ca-414c-bef3-f4c73e53298b",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "d1ab23edf47b75e4705d2740532a962043f286ab73be101ae22af49a2ce987e1",
+        "label": "sama.gov.sa",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://sama.gov.sa/",
+            "claim": "sama.gov.sa appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.223Z",
+        "lastSeenAt": "2026-06-08T03:54:04.292Z",
+        "createdAt": "2026-06-08T03:52:07.223Z",
+        "updatedAt": "2026-06-08T03:54:04.293Z"
+      },
+      {
+        "id": "3aed9857-d42c-423a-8bfa-214981a4deef",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "ff94d5ab95c932489ad6fa80a46b51347a43c7226356dc5a3fd3a8871a8397a7",
+        "label": "stc.com.sa",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://stc.com.sa/",
+            "claim": "stc.com.sa appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.235Z",
+        "lastSeenAt": "2026-06-08T03:54:04.305Z",
+        "createdAt": "2026-06-08T03:52:07.235Z",
+        "updatedAt": "2026-06-08T03:54:04.306Z"
+      },
+      {
+        "id": "faa38fec-dbe8-44f7-8421-b30dce940fa6",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "7d63f2438eb4098a5a1a4d3fba50ac2d54340077736db5d4213980f1a09ac914",
+        "label": "orcatech.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://orcatech.com/",
+            "claim": "orcatech.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.262Z",
+        "lastSeenAt": "2026-06-08T03:54:04.336Z",
+        "createdAt": "2026-06-08T03:52:07.262Z",
+        "updatedAt": "2026-06-08T03:54:04.338Z"
+      },
+      {
+        "id": "16dd9be9-b057-4581-9717-a1ebde85686d",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "fe424d5d9401e7adf98bb641b6de58e9143f2eb85eb6eb74a5f0fe8e309d27a8",
+        "label": "cyberoam.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://cyberoam.com/",
+            "claim": "cyberoam.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.286Z",
+        "lastSeenAt": "2026-06-08T03:54:04.389Z",
+        "createdAt": "2026-06-08T03:52:07.286Z",
+        "updatedAt": "2026-06-08T03:54:04.391Z"
+      },
+      {
+        "id": "b1c4d50d-9ab7-449e-ae20-bc4276c3f41d",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "7483eec39ee2a9d420e8906850de1dbcf249c35022f47b7481f3a347a3524cc9",
+        "label": "paloaltonetworks.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://paloaltonetworks.com/",
+            "claim": "paloaltonetworks.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.299Z",
+        "lastSeenAt": "2026-06-08T03:54:04.406Z",
+        "createdAt": "2026-06-08T03:52:07.299Z",
+        "updatedAt": "2026-06-08T03:54:04.407Z"
+      },
+      {
+        "id": "8836a084-a4b8-4ef2-894f-cb1e81d5900c",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "27a75956903e2b7e1e02a5472b1cfbd283b3472f3b761efc70c737577c250dc7",
+        "label": "Top cloud security firms for Saudi enterprises",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Top cloud security firms for Saudi enterprises appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.161Z",
+        "lastSeenAt": "2026-06-08T03:54:04.471Z",
+        "createdAt": "2026-06-08T03:52:07.161Z",
+        "updatedAt": "2026-06-08T03:54:04.472Z"
+      },
+      {
+        "id": "99e3d615-405a-4789-a399-7fa6214d3a55",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "b18c0ee2f827df17d526db49deeeee2699f99a88ec5453515f2dd2b7bd627537",
+        "label": "mcit.gov.sa",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://mcit.gov.sa/",
+            "claim": "mcit.gov.sa appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.207Z",
+        "lastSeenAt": "2026-06-08T03:54:04.261Z",
+        "createdAt": "2026-06-08T03:52:07.207Z",
+        "updatedAt": "2026-06-08T03:54:04.262Z"
+      },
+      {
+        "id": "6c252624-7cf4-4faf-a252-bbd87f929a0a",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "SOURCE",
+        "subjectKey": "79f31ea333a43573e9abce5ced8b0cb0d807567517b8ae08e68468fe40517c09",
+        "label": "saudiaramco.com",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": "https://saudiaramco.com/",
+            "claim": "saudiaramco.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.274Z",
+        "lastSeenAt": "2026-06-08T03:54:04.372Z",
+        "createdAt": "2026-06-08T03:52:07.274Z",
+        "updatedAt": "2026-06-08T03:54:04.373Z"
+      },
+      {
+        "id": "bca61e89-d8ef-41b1-96f5-d90bba9918d8",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "01eb6b61ec146e259d5b5915ba3d47e3e9e0baba75325adb07ab9d9aa1b6980d",
+        "label": "Best SOC provider for regulated banks in Saudi Arabia",
+        "classification": "GROWING",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 66,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Best SOC provider for regulated banks in Saudi Arabia appeared 3 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 76,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.148Z",
+        "lastSeenAt": "2026-06-08T03:54:04.458Z",
+        "createdAt": "2026-06-08T03:52:07.148Z",
+        "updatedAt": "2026-06-08T03:54:04.459Z"
+      },
+      {
+        "id": "9533febb-6932-4ff8-816e-e8df7079fcda",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "COMPETITOR",
+        "subjectKey": "94c7e419334f5e9bbadf8bab95c330b293379b4ae648e368b9a0dcce89a91cee",
+        "label": "Competitor B",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 44,
+        "evidence": [
+          {
+            "url": "https://competitor-b.example",
+            "claim": "Competitor B appeared 2 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 68,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.046Z",
+        "lastSeenAt": "2026-06-08T03:54:04.205Z",
+        "createdAt": "2026-06-08T03:52:07.046Z",
+        "updatedAt": "2026-06-08T03:54:04.206Z"
+      },
+      {
+        "id": "e25c7f65-56da-45b3-a89f-cdbd4e82c3e1",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_ALERT",
+        "subjectKey": "235b7e61a196cad9239ee1ca325a8e7ebe75a7783a16137558ba018b8c91ceaa",
+        "label": "Palo Alto Networks",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 44,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Palo Alto Networks appeared 2 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 68,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:08.081Z",
+        "lastSeenAt": "2026-06-08T03:54:04.676Z",
+        "createdAt": "2026-06-08T03:52:08.081Z",
+        "updatedAt": "2026-06-08T03:54:04.677Z"
+      },
+      {
+        "id": "093e2f16-d5cf-4fee-a5df-f1810ec31cd1",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_ALERT",
+        "subjectKey": "641020a4bb0727ef5aab4ac86b400f52fb929542d8a10630c236b799507284c6",
+        "label": "Check Point",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 44,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Check Point appeared 2 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 68,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:08.062Z",
+        "lastSeenAt": "2026-06-08T03:54:04.692Z",
+        "createdAt": "2026-06-08T03:52:08.062Z",
+        "updatedAt": "2026-06-08T03:54:04.694Z"
+      },
+      {
+        "id": "c100e6f9-33cb-4d72-8b9d-cc9d3b3ddf88",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "COMPETITOR",
+        "subjectKey": "1fd12cfe95dd3f065b40f8ec497cadb3b2a54fb70a5288d748d0865c9bdcaee3",
+        "label": "Competitor A",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 44,
+        "evidence": [
+          {
+            "url": "https://competitor-a.example",
+            "claim": "Competitor A appeared 2 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 68,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.031Z",
+        "lastSeenAt": "2026-06-08T03:54:04.190Z",
+        "createdAt": "2026-06-08T03:52:07.031Z",
+        "updatedAt": "2026-06-08T03:54:04.192Z"
+      },
+      {
+        "id": "e69bc48d-5825-44d1-a4e8-c4a0e3fec80d",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_ALERT",
+        "subjectKey": "e44c051a21f7a54cf281531152a5300d0fee2f1d33ccb98a666d4d5d949e57ba",
+        "label": "Cyberoam",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "MEDIUM",
+        "score": 44,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Cyberoam appeared 2 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 68,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:08.045Z",
+        "lastSeenAt": "2026-06-08T03:54:04.706Z",
+        "createdAt": "2026-06-08T03:52:08.045Z",
+        "updatedAt": "2026-06-08T03:54:04.708Z"
+      },
+      {
+        "id": "5b2977bc-c2da-4579-91c3-5b3b42f4323f",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "073576e0b633b8b50482c342bb30c38dcf306708fd8a7b14a8753afc561f7bec",
+        "label": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks.",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.783Z",
+        "lastSeenAt": "2026-06-08T03:54:04.783Z",
+        "createdAt": "2026-06-08T03:54:04.783Z",
+        "updatedAt": "2026-06-08T03:54:04.783Z"
+      },
+      {
+        "id": "6057f24c-ff48-4a6f-9c04-964e50d42f1a",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_LEADER",
+        "subjectKey": "4bde73cddd8d093ced3624922d72036549dae345b5266d079a27153f29e51521",
+        "label": "Cyberoam",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": "https://www.cyberoam.com/",
+            "claim": "Cyberoam appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.058Z",
+        "lastSeenAt": "2026-06-08T03:54:04.232Z",
+        "createdAt": "2026-06-08T03:52:07.058Z",
+        "updatedAt": "2026-06-08T03:54:04.234Z"
+      },
+      {
+        "id": "067fc252-aa97-4023-b72d-2bf3e5d12231",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "f1a00d4f9858a027cced0c26b6d31425569db4bee44e2757ce39a74eaf1a1020",
+        "label": "Compare OrcaTech and Cyberoam for cybersecurity in Saudi Arabia.",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Compare OrcaTech and Cyberoam for cybersecurity in Saudi Arabia. appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.573Z",
+        "lastSeenAt": "2026-06-08T03:54:04.573Z",
+        "createdAt": "2026-06-08T03:54:04.573Z",
+        "updatedAt": "2026-06-08T03:54:04.573Z"
+      },
+      {
+        "id": "ce8f0a0a-aa5b-4a57-a837-0d982d3a044c",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_LEADER",
+        "subjectKey": "2bc4eff88a8cb26f4b78a06f409f0ac86d185c8c669c8614ff3fc3c812600a0a",
+        "label": "Check Point",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": "https://www.checkpoint.com/",
+            "claim": "Check Point appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.072Z",
+        "lastSeenAt": "2026-06-08T03:54:04.217Z",
+        "createdAt": "2026-06-08T03:52:07.072Z",
+        "updatedAt": "2026-06-08T03:54:04.219Z"
+      },
+      {
+        "id": "749c0849-b51c-4096-ac47-0c2282d6bb95",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_LEADER",
+        "subjectKey": "589da7fbe95d990b5e2c64453173f6a230d1dd9c11b0f3fe69b38db26a247cee",
+        "label": "Check Point",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": "https://www.checkpoint.com/",
+            "claim": "Check Point appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.725Z",
+        "lastSeenAt": "2026-06-08T03:54:04.725Z",
+        "createdAt": "2026-06-08T03:54:04.725Z",
+        "updatedAt": "2026-06-08T03:54:04.725Z"
+      },
+      {
+        "id": "f77c36d7-a277-46ae-abb0-cca82eb732e6",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "91aaafcecb3b9e97ee680ab61d0e210c0b82471cedb15d377a6d955d27a60ac5",
+        "label": "Top cloud security firms for Saudi enterprises.",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Top cloud security firms for Saudi enterprises. appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.665Z",
+        "lastSeenAt": "2026-06-08T03:54:04.665Z",
+        "createdAt": "2026-06-08T03:54:04.665Z",
+        "updatedAt": "2026-06-08T03:54:04.665Z"
+      },
+      {
+        "id": "4c2cc399-119d-4ac6-b3c4-dc6ba0d0ce4d",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_LEADER",
+        "subjectKey": "90ae3bcdd2e55d9bb00ded7c171cd67ce749f3493f98d62052bebb0d43a5a831",
+        "label": "Cyberoam",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": "https://www.cyberoam.com/",
+            "claim": "Cyberoam appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.739Z",
+        "lastSeenAt": "2026-06-08T03:54:04.739Z",
+        "createdAt": "2026-06-08T03:54:04.739Z",
+        "updatedAt": "2026-06-08T03:54:04.739Z"
+      },
+      {
+        "id": "b468f402-fded-42a5-a2a2-a9529a89b1b5",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_LEADER",
+        "subjectKey": "3054852c39507485ab9f7e084bb2444d2b22443d8f3cbb703db3cbba28cbe8f6",
+        "label": "Palo Alto Networks",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": "https://www.paloaltonetworks.com/",
+            "claim": "Palo Alto Networks appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.754Z",
+        "lastSeenAt": "2026-06-08T03:54:04.754Z",
+        "createdAt": "2026-06-08T03:54:04.754Z",
+        "updatedAt": "2026-06-08T03:54:04.754Z"
+      },
+      {
+        "id": "b9795c4b-4333-4442-8aa3-fe1f5febe2f3",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "PROMPT",
+        "subjectKey": "49b60e09382a8adc4df67c8a58c59ab518296770801113dfb0108351a2452452",
+        "label": "Best SOC provider for regulated banks in Saudi Arabia.",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Best SOC provider for regulated banks in Saudi Arabia. appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:54:04.769Z",
+        "lastSeenAt": "2026-06-08T03:54:04.769Z",
+        "createdAt": "2026-06-08T03:54:04.769Z",
+        "updatedAt": "2026-06-08T03:54:04.769Z"
+      },
+      {
+        "id": "0fd36215-933a-46a3-be1a-c88f2ee26d33",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "subjectType": "MARKET_LEADER",
+        "subjectKey": "16ad7a74a1de6c26825c3771d5190b0db0696dfc6033baab5c5ca47ef32f1c5a",
+        "label": "Palo Alto Networks",
+        "classification": "EARLY",
+        "direction": "UP",
+        "velocity": "SLOW",
+        "score": 22,
+        "evidence": [
+          {
+            "url": "https://www.paloaltonetworks.com/",
+            "claim": "Palo Alto Networks appeared 1 time(s) in recent research vs 0 in the previous window.",
+            "source": "Trend Discovery Engine"
+          }
+        ],
+        "confidenceScore": 60,
+        "dataSource": "TREND_DISCOVERY_ENGINE",
+        "firstSeenAt": "2026-06-08T03:52:07.087Z",
+        "lastSeenAt": "2026-06-08T03:54:04.245Z",
+        "createdAt": "2026-06-08T03:52:07.087Z",
+        "updatedAt": "2026-06-08T03:54:04.246Z"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "TREND_DISCOVERY_API returned 38 evidence-backed row(s).",
+      "source": "TREND_DISCOVERY_API",
+      "url": "https://orcatech.online"
+    }
+  ],
+  "confidenceScore": 70.9,
+  "dataSource": "TREND_DISCOVERY_API",
+  "lastVerifiedAt": "2026-06-08T03:54:04.845Z"
+}

@@ -1,0 +1,1481 @@
+{
+  "label": "08-market-trends",
+  "method": "GET",
+  "url": "/market-trends?marketId=8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "TREND_INTELLIGENCE",
+    "data": {
+      "market": {
+        "id": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+        "name": "Cybersecurity Saudi Arabia",
+        "slug": "cybersecurity-saudi-arabia-en-cybersecurity",
+        "industry": "Cybersecurity",
+        "region": "GCC",
+        "country": "Saudi Arabia",
+        "language": "en",
+        "vertical": "Cybersecurity",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Market sync collected 17 brand(s), 30 prompt(s), 8 citation domain(s), and 98 trend(s).",
+            "source": "Market Intelligence Cloud",
+            "lastVerifiedAt": "2026-06-08T06:43:17.837Z"
+          }
+        ],
+        "confidenceScore": 75,
+        "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+        "lastRefreshedAt": "2026-06-08T06:43:17.836Z",
+        "createdAt": "2026-06-08T06:43:15.350Z",
+        "updatedAt": "2026-06-08T06:43:17.838Z"
+      },
+      "trends": [
+        {
+          "id": "41c1156e-aa78-4d9f-b10f-e78a73ee3564",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "saudiaramco.com",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://saudiaramco.com/",
+              "claim": "saudiaramco.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.066Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.065Z",
+          "createdAt": "2026-06-08T06:43:16.066Z",
+          "updatedAt": "2026-06-08T06:43:16.066Z"
+        },
+        {
+          "id": "de00f584-b104-44fe-b637-eb6124bd83a5",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "paloaltonetworks.com",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://paloaltonetworks.com/",
+              "claim": "paloaltonetworks.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.015Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.014Z",
+          "createdAt": "2026-06-08T06:43:16.015Z",
+          "updatedAt": "2026-06-08T06:43:16.015Z"
+        },
+        {
+          "id": "708e32ca-51de-4fc4-942c-03b47c1cc74b",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "stc.com.sa",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://stc.com.sa/",
+              "claim": "stc.com.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.842Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.841Z",
+          "createdAt": "2026-06-08T06:43:15.842Z",
+          "updatedAt": "2026-06-08T06:43:15.842Z"
+        },
+        {
+          "id": "a23ae24c-abb3-4d03-b1e6-c246c4a6c0f3",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "checkpoint.com",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://checkpoint.com/",
+              "claim": "checkpoint.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.785Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.784Z",
+          "createdAt": "2026-06-08T06:43:15.785Z",
+          "updatedAt": "2026-06-08T06:43:15.785Z"
+        },
+        {
+          "id": "16710b3a-d863-4a98-97af-a4504d55ccd7",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "cyberoam.com",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://cyberoam.com/",
+              "claim": "cyberoam.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.671Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.670Z",
+          "createdAt": "2026-06-08T06:43:15.671Z",
+          "updatedAt": "2026-06-08T06:43:15.671Z"
+        },
+        {
+          "id": "c5b43a33-7edb-486a-8e40-d221d625a116",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "mcit.gov.sa",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://mcit.gov.sa/",
+              "claim": "mcit.gov.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.608Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.607Z",
+          "createdAt": "2026-06-08T06:43:15.608Z",
+          "updatedAt": "2026-06-08T06:43:15.608Z"
+        },
+        {
+          "id": "feff57e4-349a-454a-9a47-6a7e793dfe8c",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "sama.gov.sa",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://sama.gov.sa/",
+              "claim": "sama.gov.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.568Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.567Z",
+          "createdAt": "2026-06-08T06:43:15.568Z",
+          "updatedAt": "2026-06-08T06:43:15.568Z"
+        },
+        {
+          "id": "2b2e3085-fb4e-4c32-ae26-20336450dd45",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "CITATION_RESEARCH",
+          "label": "orcatech.com",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 100,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://orcatech.com/",
+              "claim": "orcatech.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 77,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.513Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.512Z",
+          "createdAt": "2026-06-08T06:43:15.513Z",
+          "updatedAt": "2026-06-08T06:43:15.513Z"
+        },
+        {
+          "id": "874ce5fe-8d56-451b-b017-7ec0b00921ac",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "1780897908191",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.226Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.225Z",
+          "createdAt": "2026-06-08T06:43:16.226Z",
+          "updatedAt": "2026-06-08T06:43:16.226Z"
+        },
+        {
+          "id": "1a0a9af7-5402-4ee8-b1ee-f5aae00353ac",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "sro",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.216Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.215Z",
+          "createdAt": "2026-06-08T06:43:16.216Z",
+          "updatedAt": "2026-06-08T06:43:16.216Z"
+        },
+        {
+          "id": "18914bba-d958-4a28-a3a8-c46665539ba9",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "cloudflare",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.206Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.205Z",
+          "createdAt": "2026-06-08T06:43:16.206Z",
+          "updatedAt": "2026-06-08T06:43:16.206Z"
+        },
+        {
+          "id": "947f460f-4fb2-4cfd-8880-adb7ce8f4185",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "enterprises",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 86,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.252Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.252Z",
+          "createdAt": "2026-06-08T06:43:16.252Z",
+          "updatedAt": "2026-06-08T06:43:16.252Z"
+        },
+        {
+          "id": "2df052f7-17a7-4ddc-b5a7-c22ad237a770",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "providers",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 86,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.244Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.243Z",
+          "createdAt": "2026-06-08T06:43:16.244Z",
+          "updatedAt": "2026-06-08T06:43:16.244Z"
+        },
+        {
+          "id": "e58a5c6a-77ee-4b3b-adac-54850bdc729f",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "regulated",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 85,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.311Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.310Z",
+          "createdAt": "2026-06-08T06:43:16.311Z",
+          "updatedAt": "2026-06-08T06:43:16.311Z"
+        },
+        {
+          "id": "2c25b38a-80f5-4a68-9440-bd2fea3c8836",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "soc",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 85,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.293Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.292Z",
+          "createdAt": "2026-06-08T06:43:16.293Z",
+          "updatedAt": "2026-06-08T06:43:16.293Z"
+        },
+        {
+          "id": "aee96391-6a03-45cf-9b9e-35ecfccf5720",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "vendors",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 84,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.340Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.339Z",
+          "createdAt": "2026-06-08T06:43:16.340Z",
+          "updatedAt": "2026-06-08T06:43:16.340Z"
+        },
+        {
+          "id": "71b15ce0-c4e6-4ff0-904b-ad804f0a93b5",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "local",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 82,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.373Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.372Z",
+          "createdAt": "2026-06-08T06:43:16.373Z",
+          "updatedAt": "2026-06-08T06:43:16.373Z"
+        },
+        {
+          "id": "ba2bb750-e89b-413d-b68c-8b1795419492",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "provider",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 82,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.302Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.362Z",
+          "createdAt": "2026-06-08T06:43:16.302Z",
+          "updatedAt": "2026-06-08T06:43:16.363Z"
+        },
+        {
+          "id": "b7216f20-b20c-473c-82f1-8cec82d70b39",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "apart",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Check Point's services for regulated banks in Saudi Arabia are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 95,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.464Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.463Z",
+          "createdAt": "2026-06-08T06:43:16.464Z",
+          "updatedAt": "2026-06-08T06:43:16.464Z"
+        },
+        {
+          "id": "fc9fe96c-b1d7-4f8a-9f06-8cfc145a8914",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "sets",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Check Point's services for regulated banks in Saudi Arabia are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 95,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.441Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.439Z",
+          "createdAt": "2026-06-08T06:43:16.441Z",
+          "updatedAt": "2026-06-08T06:43:16.441Z"
+        },
+        {
+          "id": "1ebdde0f-0c38-422c-84b5-0945b573b69a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "does",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 75,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech's GEO Optimization service includes AI visibility audits.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Palo Alto Networks' AI visibility audits are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 92,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.653Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.651Z",
+          "createdAt": "2026-06-08T06:43:16.653Z",
+          "updatedAt": "2026-06-08T06:43:16.653Z"
+        },
+        {
+          "id": "f5db115f-04da-47b3-a247-c4e7faa1c7f7",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "firms",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 75,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 92,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.282Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.631Z",
+          "createdAt": "2026-06-08T06:43:16.282Z",
+          "updatedAt": "2026-06-08T06:43:16.632Z"
+        },
+        {
+          "id": "34bd35a5-526f-4b53-9eeb-8c68c6c7973a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "security",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 75,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 92,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.272Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.614Z",
+          "createdAt": "2026-06-08T06:43:16.272Z",
+          "updatedAt": "2026-06-08T06:43:16.615Z"
+        },
+        {
+          "id": "45b81246-e53a-4a67-bf81-5fd8db0be05e",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "cloud",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 75,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 92,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.262Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.603Z",
+          "createdAt": "2026-06-08T06:43:16.262Z",
+          "updatedAt": "2026-06-08T06:43:16.604Z"
+        },
+        {
+          "id": "b2761e09-2a53-42f4-b5d7-c31f0e633e6b",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "choose",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 74,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.685Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.684Z",
+          "createdAt": "2026-06-08T06:43:16.685Z",
+          "updatedAt": "2026-06-08T06:43:16.685Z"
+        },
+        {
+          "id": "59d2855f-6352-484d-9b61-3692f2c801ba",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "how",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 74,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.641Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.676Z",
+          "createdAt": "2026-06-08T06:43:16.641Z",
+          "updatedAt": "2026-06-08T06:43:16.677Z"
+        },
+        {
+          "id": "fef7ec54-1fc6-479f-bd61-97a48c71513a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "arabia",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 72,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for procurement owner comparing proof, pricing, and reliability.",
+              "source": "Persona Fan-Out Engine",
+              "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.195Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.773Z",
+          "createdAt": "2026-06-08T06:43:16.195Z",
+          "updatedAt": "2026-06-08T06:43:16.774Z"
+        },
+        {
+          "id": "0c958b49-0e72-47a1-8fcd-8e11bf0b0480",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "saudi",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 72,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for procurement owner comparing proof, pricing, and reliability.",
+              "source": "Persona Fan-Out Engine",
+              "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.181Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.759Z",
+          "createdAt": "2026-06-08T06:43:16.181Z",
+          "updatedAt": "2026-06-08T06:43:16.760Z"
+        },
+        {
+          "id": "93c12cf9-0da7-482c-90a6-3638078db464",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "cybersecurity",
+          "direction": "STABLE",
+          "velocity": "MEDIUM",
+          "score": 70,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech's AI Security services include prompt injection, RAG, LLM, governance, and AI risk assessments.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam's AI security offerings are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 90,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.172Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.808Z",
+          "createdAt": "2026-06-08T06:43:16.172Z",
+          "updatedAt": "2026-06-08T06:43:16.809Z"
+        },
+        {
+          "id": "805c202d-4331-4946-a5ce-e8c4d9a35d85",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "orcatech",
+          "direction": "STABLE",
+          "velocity": "MEDIUM",
+          "score": 70,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech's AI Security services include prompt injection, RAG, LLM, governance, and AI risk assessments.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam's AI security offerings are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 90,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.450Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.798Z",
+          "createdAt": "2026-06-08T06:43:16.450Z",
+          "updatedAt": "2026-06-08T06:43:16.800Z"
+        },
+        {
+          "id": "fb834bf3-75d1-44d3-a10c-448b3779fdd2",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "TOPIC",
+          "label": "compare",
+          "direction": "STABLE",
+          "velocity": "MEDIUM",
+          "score": 70,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech's AI Security services include prompt injection, RAG, LLM, governance, and AI risk assessments.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam's AI security offerings are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 90,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.321Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.783Z",
+          "createdAt": "2026-06-08T06:43:16.321Z",
+          "updatedAt": "2026-06-08T06:43:16.784Z"
+        },
+        {
+          "id": "b296fb36-4a69-4615-901a-fe2265ff93f0",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "orcatech.com",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://orcatech.com/",
+              "claim": "orcatech.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.152Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.151Z",
+          "createdAt": "2026-06-08T06:43:16.152Z",
+          "updatedAt": "2026-06-08T06:43:16.152Z"
+        },
+        {
+          "id": "360f3fd7-734b-40b6-82b7-ab65e83e2d29",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Runtime GEO prompt 1780438046715",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Runtime GEO prompt 1780438046715 appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.117Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.116Z",
+          "createdAt": "2026-06-08T06:43:16.117Z",
+          "updatedAt": "2026-06-08T06:43:16.117Z"
+        },
+        {
+          "id": "988c2b06-d331-4ca0-8843-a588b99b703a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs. appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.034Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.033Z",
+          "createdAt": "2026-06-08T06:43:16.034Z",
+          "updatedAt": "2026-06-08T06:43:16.034Z"
+        },
+        {
+          "id": "2bf83f3b-5a6f-48b1-b555-e527728e11ce",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Best SOC provider for regulated banks in Saudi Arabia",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Best SOC provider for regulated banks in Saudi Arabia appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.966Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.965Z",
+          "createdAt": "2026-06-08T06:43:15.966Z",
+          "updatedAt": "2026-06-08T06:43:15.966Z"
+        },
+        {
+          "id": "5a37ef65-f2ad-40ed-bd81-981e99967b35",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "checkpoint.com",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://checkpoint.com/",
+              "claim": "checkpoint.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.907Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.906Z",
+          "createdAt": "2026-06-08T06:43:15.907Z",
+          "updatedAt": "2026-06-08T06:43:15.907Z"
+        },
+        {
+          "id": "2884efc8-bb46-427f-aafd-08e87fd13732",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "paloaltonetworks.com",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://paloaltonetworks.com/",
+              "claim": "paloaltonetworks.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.888Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.887Z",
+          "createdAt": "2026-06-08T06:43:15.888Z",
+          "updatedAt": "2026-06-08T06:43:15.888Z"
+        },
+        {
+          "id": "2567ae2c-2ba5-4366-ae05-2f25053ec10d",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "sama.gov.sa",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://sama.gov.sa/",
+              "claim": "sama.gov.sa appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.862Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.861Z",
+          "createdAt": "2026-06-08T06:43:15.862Z",
+          "updatedAt": "2026-06-08T06:43:15.862Z"
+        },
+        {
+          "id": "73f7ec58-2e82-42a1-a8e6-3a68ebd03bec",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "mcit.gov.sa",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://mcit.gov.sa/",
+              "claim": "mcit.gov.sa appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.824Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.823Z",
+          "createdAt": "2026-06-08T06:43:15.824Z",
+          "updatedAt": "2026-06-08T06:43:15.824Z"
+        },
+        {
+          "id": "9c811f78-bb17-48e4-96d1-ee6355dfd831",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Top cloud security firms for Saudi enterprises",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Top cloud security firms for Saudi enterprises appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.766Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.766Z",
+          "createdAt": "2026-06-08T06:43:15.766Z",
+          "updatedAt": "2026-06-08T06:43:15.766Z"
+        },
+        {
+          "id": "6d29556e-6712-4c43-b6d7-86837180ea7e",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "saudiaramco.com",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://saudiaramco.com/",
+              "claim": "saudiaramco.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.730Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.729Z",
+          "createdAt": "2026-06-08T06:43:15.730Z",
+          "updatedAt": "2026-06-08T06:43:15.730Z"
+        },
+        {
+          "id": "766995ef-3bb3-4cc9-a6be-3a44c6f6450b",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Best cybersecurity company in Saudi Arabia",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Best cybersecurity company in Saudi Arabia appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.637Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.636Z",
+          "createdAt": "2026-06-08T06:43:15.637Z",
+          "updatedAt": "2026-06-08T06:43:15.637Z"
+        },
+        {
+          "id": "1555dae8-4c90-4d42-834c-66cf7443df3b",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "stc.com.sa",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://stc.com.sa/",
+              "claim": "stc.com.sa appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.618Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.618Z",
+          "createdAt": "2026-06-08T06:43:15.618Z",
+          "updatedAt": "2026-06-08T06:43:15.618Z"
+        },
+        {
+          "id": "34f41eec-be3e-44f5-b480-92922f0a3c39",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "SOURCE",
+          "label": "cyberoam.com",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://cyberoam.com/",
+              "claim": "cyberoam.com appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.588Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.587Z",
+          "createdAt": "2026-06-08T06:43:15.588Z",
+          "updatedAt": "2026-06-08T06:43:15.588Z"
+        },
+        {
+          "id": "094356e7-6092-4308-908b-9a54e56ca2f4",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Best cybersecurity company in Saudi Arabia for regulated banks",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Best cybersecurity company in Saudi Arabia for regulated banks appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.548Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.547Z",
+          "createdAt": "2026-06-08T06:43:15.548Z",
+          "updatedAt": "2026-06-08T06:43:15.548Z"
+        },
+        {
+          "id": "a7ce18c8-5771-4d27-baa2-212d01646d70",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 66,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs. appeared 3 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 76,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.452Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.451Z",
+          "createdAt": "2026-06-08T06:43:15.452Z",
+          "updatedAt": "2026-06-08T06:43:15.452Z"
+        },
+        {
+          "id": "87ee7676-e1ef-450a-a349-a40e0c5f8094",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "MARKET_ALERT",
+          "label": "Cyberoam",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 44,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cyberoam appeared 2 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 68,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.098Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.097Z",
+          "createdAt": "2026-06-08T06:43:16.098Z",
+          "updatedAt": "2026-06-08T06:43:16.098Z"
+        },
+        {
+          "id": "8a68bc4a-25b6-4576-8123-4966b2a2e5e9",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "MARKET_ALERT",
+          "label": "Palo Alto Networks",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 44,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Palo Alto Networks appeared 2 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 68,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.079Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.078Z",
+          "createdAt": "2026-06-08T06:43:16.079Z",
+          "updatedAt": "2026-06-08T06:43:16.079Z"
+        },
+        {
+          "id": "f0a56254-4bd2-4f74-8fec-8540c87478d8",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "COMPETITOR",
+          "label": "Competitor A",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 44,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://competitor-a.example",
+              "claim": "Competitor A appeared 2 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 68,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.997Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.996Z",
+          "createdAt": "2026-06-08T06:43:15.997Z",
+          "updatedAt": "2026-06-08T06:43:15.997Z"
+        },
+        {
+          "id": "412cd25c-86cf-4c6a-9ba5-86ee13257ac0",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "COMPETITOR",
+          "label": "Competitor B",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 44,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://competitor-b.example",
+              "claim": "Competitor B appeared 2 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 68,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.808Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.807Z",
+          "createdAt": "2026-06-08T06:43:15.808Z",
+          "updatedAt": "2026-06-08T06:43:15.808Z"
+        },
+        {
+          "id": "783c4b71-49bd-4452-8ae9-332756dcdc7e",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "MARKET_ALERT",
+          "label": "Check Point",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 44,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Check Point appeared 2 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 68,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.493Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.493Z",
+          "createdAt": "2026-06-08T06:43:15.493Z",
+          "updatedAt": "2026-06-08T06:43:15.493Z"
+        },
+        {
+          "id": "fb77cdfb-24a0-4bcb-88af-b3f84229ebe2",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Top cloud security firms for Saudi enterprises.",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Top cloud security firms for Saudi enterprises. appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:16.132Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.131Z",
+          "createdAt": "2026-06-08T06:43:16.132Z",
+          "updatedAt": "2026-06-08T06:43:16.132Z"
+        },
+        {
+          "id": "5015f433-b156-4ca1-9c6e-4c9ac116985d",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "MARKET_LEADER",
+          "label": "Check Point",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Check Point appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.748Z",
+          "lastVerifiedAt": "2026-06-08T06:43:16.051Z",
+          "createdAt": "2026-06-08T06:43:15.748Z",
+          "updatedAt": "2026-06-08T06:43:16.052Z"
+        },
+        {
+          "id": "2c1fb56b-94f3-4a5c-8eb7-d88f7c844686",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Best SOC provider for regulated banks in Saudi Arabia. appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.948Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.948Z",
+          "createdAt": "2026-06-08T06:43:15.948Z",
+          "updatedAt": "2026-06-08T06:43:15.948Z"
+        },
+        {
+          "id": "40331bed-c99e-4731-af7f-1fdef789ab0d",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "MARKET_LEADER",
+          "label": "Palo Alto Networks",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.530Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.926Z",
+          "createdAt": "2026-06-08T06:43:15.530Z",
+          "updatedAt": "2026-06-08T06:43:15.927Z"
+        },
+        {
+          "id": "a26e5ec4-3777-4274-a117-8660f429bdf4",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "MARKET_LEADER",
+          "label": "Cyberoam",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Cyberoam appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.655Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.710Z",
+          "createdAt": "2026-06-08T06:43:15.655Z",
+          "updatedAt": "2026-06-08T06:43:15.711Z"
+        },
+        {
+          "id": "7005a818-59a7-4741-b3a4-a56d08100426",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks.",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.692Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.691Z",
+          "createdAt": "2026-06-08T06:43:15.692Z",
+          "updatedAt": "2026-06-08T06:43:15.692Z"
+        },
+        {
+          "id": "fc44388f-5136-449d-b135-9f10b791a05b",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "trendType": "PROMPT",
+          "label": "Compare OrcaTech and Cyberoam for cybersecurity in Saudi Arabia.",
+          "direction": "UP",
+          "velocity": "SLOW",
+          "score": 22,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Compare OrcaTech and Cyberoam for cybersecurity in Saudi Arabia. appeared 1 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T06:43:15.470Z",
+          "lastVerifiedAt": "2026-06-08T06:43:15.469Z",
+          "createdAt": "2026-06-08T06:43:15.470Z",
+          "updatedAt": "2026-06-08T06:43:15.470Z"
+        }
+      ]
+    },
+    "confidenceScore": 76,
+    "evidence": [
+      {
+        "claim": "Trend intelligence returned 58 topic/entity/prompt/source trend row(s).",
+        "source": "Trend Intelligence",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T06:43:18.102Z"
+      }
+    ],
+    "dataSource": "TREND_INTELLIGENCE",
+    "lastVerifiedAt": "2026-06-08T06:43:18.102Z"
+  }
+}

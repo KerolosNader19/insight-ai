@@ -1,0 +1,32 @@
+{
+  "generatedAt": "2026-06-08T03:54:04.981Z",
+  "brand": "OrcaTech",
+  "graphBuild": {
+    "status": "COMPLETED",
+    "confidenceScore": 73.2,
+    "edges": 56
+  },
+  "graphRead": {
+    "status": "COMPLETED",
+    "confidenceScore": 69.6,
+    "nodes": 32,
+    "edges": 32
+  },
+  "trends": {
+    "status": "COMPLETED",
+    "confidenceScore": 70.9,
+    "count": 38
+  },
+  "trendsRead": {
+    "status": "COMPLETED",
+    "confidenceScore": 70.9,
+    "count": 38
+  },
+  "database": {
+    "status": "COMPLETED",
+    "confidenceScore": 78.2,
+    "items": 113,
+    "trends": 38,
+    "summaries": 1
+  }
+}

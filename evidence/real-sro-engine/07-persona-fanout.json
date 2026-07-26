@@ -1,0 +1,216 @@
+{
+  "label": "07-persona-fanout",
+  "url": "/sro/persona-fanout",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "generated": 6,
+    "prompts": [
+      {
+        "id": "660870e6-341b-4adc-8710-271d46f99b4f",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for a CEO",
+        "category": "COMMERCIAL",
+        "intentScore": 78,
+        "opportunityScore": 82,
+        "difficultyScore": 45,
+        "expectedVisibilityGain": 70,
+        "confidenceScore": 74,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for strategic buyer choosing a growth-safe vendor.",
+            "source": "Persona Fan-Out Engine",
+            "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+          }
+        ],
+        "sources": [
+          {
+            "value": "Best cybersecurity company in Saudi Arabia",
+            "source": "CORE_PROMPT",
+            "persona": "CEO"
+          }
+        ],
+        "dataSource": "PERSONA_FAN_OUT_ENGINE_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.251Z",
+        "discoveredAt": "2026-06-08T05:51:50.253Z",
+        "createdAt": "2026-06-08T05:51:50.253Z",
+        "updatedAt": "2026-06-08T05:51:50.253Z"
+      },
+      {
+        "id": "7ebe72f1-79a1-4337-92a3-541bc7979016",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for a CTO",
+        "category": "COMMERCIAL",
+        "intentScore": 77,
+        "opportunityScore": 80,
+        "difficultyScore": 49,
+        "expectedVisibilityGain": 67,
+        "confidenceScore": 74,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for technical leader validating architecture and integrations.",
+            "source": "Persona Fan-Out Engine",
+            "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+          }
+        ],
+        "sources": [
+          {
+            "value": "Best cybersecurity company in Saudi Arabia",
+            "source": "CORE_PROMPT",
+            "persona": "CTO"
+          }
+        ],
+        "dataSource": "PERSONA_FAN_OUT_ENGINE_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.251Z",
+        "discoveredAt": "2026-06-08T05:51:50.272Z",
+        "createdAt": "2026-06-08T05:51:50.272Z",
+        "updatedAt": "2026-06-08T05:51:50.272Z"
+      },
+      {
+        "id": "bbabe943-70b9-478d-9fb1-e6102a505196",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for a CISO",
+        "category": "COMMERCIAL",
+        "intentScore": 76,
+        "opportunityScore": 78,
+        "difficultyScore": 53,
+        "expectedVisibilityGain": 64,
+        "confidenceScore": 74,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for security executive assessing risk and trust.",
+            "source": "Persona Fan-Out Engine",
+            "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+          }
+        ],
+        "sources": [
+          {
+            "value": "Best cybersecurity company in Saudi Arabia",
+            "source": "CORE_PROMPT",
+            "persona": "CISO"
+          }
+        ],
+        "dataSource": "PERSONA_FAN_OUT_ENGINE_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.251Z",
+        "discoveredAt": "2026-06-08T05:51:50.287Z",
+        "createdAt": "2026-06-08T05:51:50.287Z",
+        "updatedAt": "2026-06-08T05:51:50.287Z"
+      },
+      {
+        "id": "21e7057b-43e1-45a9-a609-13daf67a53dc",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for a SOC Manager",
+        "category": "HIGH_INTENT",
+        "intentScore": 75,
+        "opportunityScore": 76,
+        "difficultyScore": 57,
+        "expectedVisibilityGain": 61,
+        "confidenceScore": 74,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for operator comparing detection, response, and workflow fit.",
+            "source": "Persona Fan-Out Engine",
+            "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+          }
+        ],
+        "sources": [
+          {
+            "value": "Best cybersecurity company in Saudi Arabia",
+            "source": "CORE_PROMPT",
+            "persona": "SOC Manager"
+          }
+        ],
+        "dataSource": "PERSONA_FAN_OUT_ENGINE_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.251Z",
+        "discoveredAt": "2026-06-08T05:51:50.303Z",
+        "createdAt": "2026-06-08T05:51:50.303Z",
+        "updatedAt": "2026-06-08T05:51:50.303Z"
+      },
+      {
+        "id": "8856e252-1218-4482-9020-cacc8b83019c",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for a Compliance Buyer",
+        "category": "HIGH_INTENT",
+        "intentScore": 74,
+        "opportunityScore": 74,
+        "difficultyScore": 61,
+        "expectedVisibilityGain": 58,
+        "confidenceScore": 74,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for governance lead checking local requirements.",
+            "source": "Persona Fan-Out Engine",
+            "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+          }
+        ],
+        "sources": [
+          {
+            "value": "Best cybersecurity company in Saudi Arabia",
+            "source": "CORE_PROMPT",
+            "persona": "Compliance Buyer"
+          }
+        ],
+        "dataSource": "PERSONA_FAN_OUT_ENGINE_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.251Z",
+        "discoveredAt": "2026-06-08T05:51:50.318Z",
+        "createdAt": "2026-06-08T05:51:50.318Z",
+        "updatedAt": "2026-06-08T05:51:50.318Z"
+      },
+      {
+        "id": "92e5030a-2b3e-4a12-aa9d-b832d8f72ac3",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for a Enterprise Buyer",
+        "category": "HIGH_INTENT",
+        "intentScore": 73,
+        "opportunityScore": 72,
+        "difficultyScore": 65,
+        "expectedVisibilityGain": 55,
+        "confidenceScore": 74,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for procurement owner comparing proof, pricing, and reliability.",
+            "source": "Persona Fan-Out Engine",
+            "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+          }
+        ],
+        "sources": [
+          {
+            "value": "Best cybersecurity company in Saudi Arabia",
+            "source": "CORE_PROMPT",
+            "persona": "Enterprise Buyer"
+          }
+        ],
+        "dataSource": "PERSONA_FAN_OUT_ENGINE_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.251Z",
+        "discoveredAt": "2026-06-08T05:51:50.334Z",
+        "createdAt": "2026-06-08T05:51:50.334Z",
+        "updatedAt": "2026-06-08T05:51:50.334Z"
+      }
+    ]
+  }
+}

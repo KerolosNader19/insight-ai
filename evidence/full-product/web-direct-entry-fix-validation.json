@@ -1,0 +1,25 @@
+{
+  "stamp": "20260602184338",
+  "sourceUser": "full-product-owner-20260602183015@example.test",
+  "checks": [
+    {
+      "route": "/dashboard/analytics",
+      "h1": "Analytics",
+      "hasNoBrandSelected": false,
+      "hasSelectBrandMessage": false,
+      "hasRecommendation": false,
+      "hasCitations": true,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/analytics-direct-entry-fixed-20260602184338.png"
+    },
+    {
+      "route": "/dashboard/recommendations",
+      "h1": "Recommendations",
+      "hasNoBrandSelected": false,
+      "hasSelectBrandMessage": false,
+      "hasRecommendation": true,
+      "hasCitations": false,
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/recommendations-direct-entry-fixed-20260602184338.png"
+    }
+  ],
+  "consoleErrors": []
+}

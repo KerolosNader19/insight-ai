@@ -1,0 +1,105 @@
+{
+  "label": "04-cross-market-intelligence",
+  "method": "GET",
+  "url": "/cross-market-intelligence?marketId=4dd45f0b-29bd-42d1-842a-381603df2d2a&compareMarketId=1292b0cc-2e8a-4d01-b351-d018c3c81897",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "CROSS_MARKET_INTELLIGENCE",
+    "data": {
+      "sourceMarket": {
+        "id": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+        "name": "Cybersecurity UAE",
+        "slug": "cybersecurity-uae-en-cybersecurity",
+        "industry": "Cybersecurity",
+        "region": "GCC",
+        "country": "UAE",
+        "language": "en",
+        "vertical": "Cybersecurity",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Market sync collected 17 brand(s), 12 prompt(s), 8 citation domain(s), and 44 trend(s).",
+            "source": "Market Intelligence Cloud",
+            "lastVerifiedAt": "2026-06-08T07:04:08.655Z"
+          }
+        ],
+        "confidenceScore": 57,
+        "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+        "lastRefreshedAt": "2026-06-08T07:04:08.655Z",
+        "createdAt": "2026-06-08T07:04:06.287Z",
+        "updatedAt": "2026-06-08T07:04:08.657Z"
+      },
+      "comparisons": [
+        {
+          "id": "9a9e87ef-9f3c-43f8-9640-e597cc9ef511",
+          "sourceMarketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "targetMarketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+          "comparisonType": "MARKET_VS_MARKET",
+          "opportunityGap": 0,
+          "competitionGap": 0,
+          "citationGap": 0,
+          "visibilityGap": 0,
+          "trendGap": 2,
+          "summary": {
+            "source": {
+              "trend": 83.08,
+              "citation": 53,
+              "indexScore": 57,
+              "sampleSize": 109,
+              "visibility": 13.47,
+              "competition": 100,
+              "opportunity": 79.17
+            },
+            "target": {
+              "trend": 85.56,
+              "citation": 53,
+              "indexScore": 58,
+              "sampleSize": 81,
+              "visibility": 13.47,
+              "competition": 100,
+              "opportunity": 79.05
+            }
+          },
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cybersecurity UAE compared against Cybersecurity Qatar.",
+              "source": "Cross-Market Intelligence",
+              "lastVerifiedAt": "2026-06-08T07:04:13.777Z"
+            },
+            {
+              "url": null,
+              "claim": "Source sample size 109; target sample size 81.",
+              "source": "Cross-Market Intelligence",
+              "lastVerifiedAt": "2026-06-08T07:04:13.777Z"
+            }
+          ],
+          "confidenceScore": 90,
+          "capturedAt": "2026-06-08T07:04:13.779Z",
+          "dataSource": "CROSS_MARKET_INTELLIGENCE",
+          "createdAt": "2026-06-08T07:04:13.779Z"
+        }
+      ]
+    },
+    "confidenceScore": 90,
+    "evidence": [
+      {
+        "url": null,
+        "claim": "Cybersecurity UAE compared against Cybersecurity Qatar.",
+        "source": "Cross-Market Intelligence",
+        "lastVerifiedAt": "2026-06-08T07:04:13.777Z"
+      },
+      {
+        "url": null,
+        "claim": "Source sample size 109; target sample size 81.",
+        "source": "Cross-Market Intelligence",
+        "lastVerifiedAt": "2026-06-08T07:04:13.777Z"
+      }
+    ],
+    "dataSource": "CROSS_MARKET_INTELLIGENCE",
+    "lastVerifiedAt": "2026-06-08T07:04:13.791Z"
+  }
+}

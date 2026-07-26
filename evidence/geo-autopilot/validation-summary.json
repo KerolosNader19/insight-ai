@@ -1,0 +1,22 @@
+{
+  "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+  "actionSyncCreated": 8,
+  "actionCount": 8,
+  "packageId": "c95b3de1-a58b-4c64-b22b-a9bf59384b32",
+  "contentPipelinePackageId": "87fb44fa-d740-423e-9d51-f25522a93632",
+  "roiSnapshotId": "011e131e-16ce-4488-afdb-f9ab9602a875",
+  "dbCounts": {
+    "geoTasks": 18,
+    "packages": 2,
+    "cmsConnections": 3,
+    "cmsPublications": 2,
+    "roiSnapshots": 1,
+    "geoOsInboxes": 2
+  },
+  "exportFiles": [
+    "/home/omar/Pictures/insight-ai/evidence/geo-autopilot/exports/autopilot-pack.docx",
+    "/home/omar/Pictures/insight-ai/evidence/geo-autopilot/exports/autopilot-pack.md",
+    "/home/omar/Pictures/insight-ai/evidence/geo-autopilot/exports/autopilot-pack.pdf",
+    "/home/omar/Pictures/insight-ai/evidence/geo-autopilot/exports/autopilot-pack.zip"
+  ]
+}

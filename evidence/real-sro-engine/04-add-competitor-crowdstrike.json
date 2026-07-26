@@ -1,0 +1,13 @@
+{
+  "label": "04-add-competitor-crowdstrike",
+  "url": "/brands/7c51d959-ea7b-48ca-80f0-e25aad4a50e7/competitors",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "2e630385-25bd-444b-9eff-07bf111ac56c",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "name": "CrowdStrike",
+    "websiteUrl": "https://www.crowdstrike.com",
+    "createdAt": "2026-06-08T05:51:48.821Z"
+  }
+}

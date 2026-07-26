@@ -1,0 +1,3216 @@
+{
+  "label": "13-api-data-indexes",
+  "method": "GET",
+  "url": "/api/data/indexes?marketId=4dd45f0b-29bd-42d1-842a-381603df2d2a",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_DATA_API",
+    "data": {
+      "endpoint": "indexes",
+      "recordsReturned": 1,
+      "data": {
+        "id": "1984c0e2-77f2-4917-8080-118333b3a415",
+        "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+        "indexName": "Insight AI Market Index",
+        "score": 61,
+        "sampleSize": 63,
+        "summary": {
+          "brands": 17,
+          "market": "Cybersecurity UAE",
+          "trends": 26,
+          "prompts": 12,
+          "citationDomains": 8
+        },
+        "leaderboards": [
+          {
+            "rows": [
+              {
+                "name": "stc.com.sa",
+                "rank": 1,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "stc.com.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:07.044Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://stc.com.sa/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "saudiaramco.com",
+                "rank": 2,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "saudiaramco.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:07.034Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://saudiaramco.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "sama.gov.sa",
+                "rank": 3,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "sama.gov.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:07.024Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://sama.gov.sa/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "paloaltonetworks.com",
+                "rank": 4,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "paloaltonetworks.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:07.012Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://paloaltonetworks.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "orcatech.com",
+                "rank": 5,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "orcatech.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.998Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://orcatech.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "mcit.gov.sa",
+                "rank": 6,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "mcit.gov.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.978Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://mcit.gov.sa/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "cyberoam.com",
+                "rank": 7,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "cyberoam.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.964Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://cyberoam.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              },
+              {
+                "name": "checkpoint.com",
+                "rank": 8,
+                "score": 54,
+                "evidence": [
+                  {
+                    "url": null,
+                    "claim": "checkpoint.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                    "source": "Citation Market Intelligence",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.943Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Domain appeared 1 time(s) in real provider responses.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                    "source": "Citation discovery"
+                  },
+                  {
+                    "url": "https://checkpoint.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 66
+              }
+            ],
+            "type": "TOP_CITATION_DOMAINS",
+            "title": "Top Citation Domains in Cybersecurity UAE"
+          },
+          {
+            "rows": [],
+            "type": "TOP_DECLINING_BRANDS",
+            "title": "Top Declining Brands in Cybersecurity UAE"
+          },
+          {
+            "rows": [
+              {
+                "name": "Brightskies",
+                "rank": 1,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Brightskies copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.503Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Check Point",
+                "rank": 2,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Check Point copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.522Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Security Matterz",
+                "rank": 3,
+                "score": 93,
+                "evidence": [
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Security Matterz copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.513Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 73
+              },
+              {
+                "name": "Cyberoam",
+                "rank": 4,
+                "score": 88,
+                "evidence": [
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Cyberoam copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.425Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 68
+              },
+              {
+                "name": "CrowdStrike",
+                "rank": 5,
+                "score": 81,
+                "evidence": [
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "CrowdStrike copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.354Z"
+                  },
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Palo Alto Networks",
+                "rank": 6,
+                "score": 70,
+                "evidence": [
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Palo Alto Networks copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.372Z"
+                  },
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Cloudflare SRO 1780897908191",
+                "rank": 7,
+                "score": 82,
+                "evidence": [
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Cloudflare SRO 1780897908191 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.342Z"
+                  },
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor A",
+                "rank": 8,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor A copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.538Z"
+                  },
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor B",
+                "rank": 9,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor B copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.385Z"
+                  },
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.720Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183515",
+                "rank": 10,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor UI 20260602183515 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.396Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183641",
+                "rank": 11,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.413Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Manager Brand 20260602183015",
+                "rank": 12,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Manager Brand 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.436Z"
+                  },
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech",
+                "rank": 13,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.447Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.740Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech Product 20260602183015",
+                "rank": 14,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech Product 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.458Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech UI 20260602183641",
+                "rank": 15,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.469Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Brand 1780438046715",
+                "rank": 16,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Runtime Brand 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.481Z"
+                  },
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Competitor 1780438046715",
+                "rank": 17,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Runtime Competitor 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.493Z"
+                  },
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+                  }
+                ],
+                "confidenceScore": 35
+              }
+            ],
+            "type": "TOP_GROWING_BRANDS",
+            "title": "Top Growing Brands in Cybersecurity UAE"
+          },
+          {
+            "rows": [
+              {
+                "name": "CrowdStrike",
+                "rank": 1,
+                "score": 81,
+                "evidence": [
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "CrowdStrike copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.354Z"
+                  },
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Palo Alto Networks",
+                "rank": 2,
+                "score": 70,
+                "evidence": [
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Palo Alto Networks copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.372Z"
+                  },
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Cloudflare SRO 1780897908191",
+                "rank": 3,
+                "score": 82,
+                "evidence": [
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Cloudflare SRO 1780897908191 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.342Z"
+                  },
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Brightskies",
+                "rank": 4,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Brightskies copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.503Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Check Point",
+                "rank": 5,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Check Point copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.522Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Security Matterz",
+                "rank": 6,
+                "score": 93,
+                "evidence": [
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Security Matterz copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.513Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 73
+              },
+              {
+                "name": "Cyberoam",
+                "rank": 7,
+                "score": 88,
+                "evidence": [
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Cyberoam copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.425Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 68
+              },
+              {
+                "name": "Competitor A",
+                "rank": 8,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor A copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.538Z"
+                  },
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor B",
+                "rank": 9,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor B copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.385Z"
+                  },
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.720Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183515",
+                "rank": 10,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor UI 20260602183515 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.396Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183641",
+                "rank": 11,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.413Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Manager Brand 20260602183015",
+                "rank": 12,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Manager Brand 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.436Z"
+                  },
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech",
+                "rank": 13,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.447Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.740Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech Product 20260602183015",
+                "rank": 14,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech Product 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.458Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech UI 20260602183641",
+                "rank": 15,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.469Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Brand 1780438046715",
+                "rank": 16,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Runtime Brand 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.481Z"
+                  },
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Competitor 1780438046715",
+                "rank": 17,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Runtime Competitor 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.493Z"
+                  },
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+                  }
+                ],
+                "confidenceScore": 35
+              }
+            ],
+            "type": "TOP_CITATION_WINNERS",
+            "title": "Top Citation Winners in Cybersecurity UAE"
+          },
+          {
+            "rows": [
+              {
+                "name": "CrowdStrike",
+                "rank": 1,
+                "score": 81,
+                "evidence": [
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "CrowdStrike copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.354Z"
+                  },
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Cloudflare SRO 1780897908191",
+                "rank": 2,
+                "score": 82,
+                "evidence": [
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Cloudflare SRO 1780897908191 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.342Z"
+                  },
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Palo Alto Networks",
+                "rank": 3,
+                "score": 70,
+                "evidence": [
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Palo Alto Networks copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.372Z"
+                  },
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Brightskies",
+                "rank": 4,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Brightskies copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.503Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Check Point",
+                "rank": 5,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Check Point copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.522Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Security Matterz",
+                "rank": 6,
+                "score": 93,
+                "evidence": [
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Security Matterz copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.513Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 73
+              },
+              {
+                "name": "Cyberoam",
+                "rank": 7,
+                "score": 88,
+                "evidence": [
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Cyberoam copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.425Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 68
+              },
+              {
+                "name": "Competitor A",
+                "rank": 8,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor A copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.538Z"
+                  },
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor B",
+                "rank": 9,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor B copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.385Z"
+                  },
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.720Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183515",
+                "rank": 10,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor UI 20260602183515 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.396Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183641",
+                "rank": 11,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.413Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Manager Brand 20260602183015",
+                "rank": 12,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Manager Brand 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.436Z"
+                  },
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech",
+                "rank": 13,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.447Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.740Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech Product 20260602183015",
+                "rank": 14,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech Product 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.458Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech UI 20260602183641",
+                "rank": 15,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.469Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Brand 1780438046715",
+                "rank": 16,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Runtime Brand 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.481Z"
+                  },
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Competitor 1780438046715",
+                "rank": 17,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Runtime Competitor 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.493Z"
+                  },
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+                  }
+                ],
+                "confidenceScore": 35
+              }
+            ],
+            "type": "TOP_AI_VISIBLE_BRANDS",
+            "title": "Top AI Visible Brands in Cybersecurity UAE"
+          },
+          {
+            "rows": [
+              {
+                "name": "Cloudflare SRO 1780897908191",
+                "rank": 1,
+                "score": 82,
+                "evidence": [
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Cloudflare SRO 1780897908191 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.342Z"
+                  },
+                  {
+                    "url": "https://www.cloudflare.com",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "CrowdStrike",
+                "rank": 2,
+                "score": 81,
+                "evidence": [
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "CrowdStrike copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.354Z"
+                  },
+                  {
+                    "url": "https://www.crowdstrike.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Palo Alto Networks",
+                "rank": 3,
+                "score": 70,
+                "evidence": [
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Palo Alto Networks copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.372Z"
+                  },
+                  {
+                    "url": "https://www.paloaltonetworks.com",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+                  }
+                ],
+                "confidenceScore": 54
+              },
+              {
+                "name": "Brightskies",
+                "rank": 4,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Brightskies copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.503Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://brightskies.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Check Point",
+                "rank": 5,
+                "score": 98,
+                "evidence": [
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Check Point copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.522Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.checkpoint.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 78
+              },
+              {
+                "name": "Security Matterz",
+                "rank": 6,
+                "score": 93,
+                "evidence": [
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Security Matterz copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.513Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.securitymatterz.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 73
+              },
+              {
+                "name": "Cyberoam",
+                "rank": 7,
+                "score": 88,
+                "evidence": [
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Cyberoam copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.425Z"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": null,
+                    "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+                    "source": "AI competitor discovery"
+                  },
+                  {
+                    "url": "https://www.cyberoam.com/",
+                    "claim": "Domain verification returned HTTP 200.",
+                    "source": "Domain Validation"
+                  }
+                ],
+                "confidenceScore": 68
+              },
+              {
+                "name": "Competitor A",
+                "rank": 8,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor A copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.538Z"
+                  },
+                  {
+                    "url": "https://competitor-a.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor B",
+                "rank": 9,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor B copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.385Z"
+                  },
+                  {
+                    "url": "https://competitor-b.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.720Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183515",
+                "rank": 10,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor UI 20260602183515 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.396Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183515.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Competitor UI 20260602183641",
+                "rank": 11,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.413Z"
+                  },
+                  {
+                    "url": "https://competitor-ui-20260602183641.sa",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Manager Brand 20260602183015",
+                "rank": 12,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Manager Brand 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.436Z"
+                  },
+                  {
+                    "url": "https://manager-brand.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech",
+                "rank": 13,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.447Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.740Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech Product 20260602183015",
+                "rank": 14,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech Product 20260602183015 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.458Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "OrcaTech UI 20260602183641",
+                "rank": 15,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "OrcaTech UI 20260602183641 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.469Z"
+                  },
+                  {
+                    "url": "https://orcatech.sa",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Brand 1780438046715",
+                "rank": 16,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Runtime Brand 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.481Z"
+                  },
+                  {
+                    "url": "https://runtime-1780438046715.example",
+                    "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                    "source": "Market Database",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+                  }
+                ],
+                "confidenceScore": 35
+              },
+              {
+                "name": "Runtime Competitor 1780438046715",
+                "rank": 17,
+                "score": 0,
+                "evidence": [
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Runtime Competitor 1780438046715 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                    "source": "Geo Data Network",
+                    "lastVerifiedAt": "2026-06-08T07:04:06.493Z"
+                  },
+                  {
+                    "url": "https://runtime-competitor-1780438046715.example",
+                    "claim": "Competitor row uses competitor page analysis when available.",
+                    "source": "Competitor Radar",
+                    "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+                  }
+                ],
+                "confidenceScore": 35
+              }
+            ],
+            "type": "TOP_GEO_BRANDS",
+            "title": "Top GEO Brands in Cybersecurity UAE"
+          }
+        ],
+        "opportunities": [
+          {
+            "id": "be6ae5ad-8d44-4cdf-8620-6c3bf89c9c01",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Best Cybersecurity companies in UAE",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.046Z",
+            "updatedAt": "2026-06-08T07:04:08.046Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 92 and difficulty 58.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.044Z",
+            "confidenceScore": 55,
+            "difficultyScore": 58,
+            "opportunityScore": 92
+          },
+          {
+            "id": "3c79e637-6654-4668-9be7-a1fc436aa00d",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.060Z",
+            "updatedAt": "2026-06-08T07:04:08.060Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 88 and difficulty 52.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.059Z",
+            "confidenceScore": 55,
+            "difficultyScore": 52,
+            "opportunityScore": 88
+          },
+          {
+            "id": "4ccf387d-a2fe-4092-b51f-dc993765eb6a",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: competitors",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.120Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.071Z",
+            "updatedAt": "2026-06-08T07:04:08.071Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "competitors is trending UP with FAST velocity.",
+            "expectedImpact": 88,
+            "lastVerifiedAt": "2026-06-08T07:04:08.070Z",
+            "confidenceScore": 45,
+            "difficultyScore": 65,
+            "opportunityScore": 88
+          },
+          {
+            "id": "44b0ee38-640b-4529-bda6-2d4fce0aa78b",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: 1780897908191",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.106Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.081Z",
+            "updatedAt": "2026-06-08T07:04:08.081Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "1780897908191 is trending UP with FAST velocity.",
+            "expectedImpact": 88,
+            "lastVerifiedAt": "2026-06-08T07:04:08.080Z",
+            "confidenceScore": 45,
+            "difficultyScore": 65,
+            "opportunityScore": 88
+          },
+          {
+            "id": "b571be31-63a8-4e18-be04-fa519d1d1a80",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: sro",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.096Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.092Z",
+            "updatedAt": "2026-06-08T07:04:08.092Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "sro is trending UP with FAST velocity.",
+            "expectedImpact": 88,
+            "lastVerifiedAt": "2026-06-08T07:04:08.091Z",
+            "confidenceScore": 45,
+            "difficultyScore": 65,
+            "opportunityScore": 88
+          },
+          {
+            "id": "900181db-d661-4a98-9501-f31a5a8ee8ca",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: cloudflare",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.085Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.102Z",
+            "updatedAt": "2026-06-08T07:04:08.102Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "cloudflare is trending UP with FAST velocity.",
+            "expectedImpact": 88,
+            "lastVerifiedAt": "2026-06-08T07:04:08.100Z",
+            "confidenceScore": 45,
+            "difficultyScore": 65,
+            "opportunityScore": 88
+          },
+          {
+            "id": "b9368063-d245-4781-8018-13f724e9c434",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: enterprises",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Top Cybersecurity providers for enterprises in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.163Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.122Z",
+            "updatedAt": "2026-06-08T07:04:08.122Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "enterprises is trending UP with MEDIUM velocity.",
+            "expectedImpact": 86,
+            "lastVerifiedAt": "2026-06-08T07:04:08.121Z",
+            "confidenceScore": 45,
+            "difficultyScore": 45,
+            "opportunityScore": 86
+          },
+          {
+            "id": "fb1888d9-5965-4414-9cd2-6f231de3a0ba",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Top Cybersecurity providers for enterprises in UAE",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.113Z",
+            "updatedAt": "2026-06-08T07:04:08.113Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 86 and difficulty 55.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.112Z",
+            "confidenceScore": 55,
+            "difficultyScore": 55,
+            "opportunityScore": 86
+          },
+          {
+            "id": "4ffb8f9a-4b59-4582-97a1-b727bbe6a8d5",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: providers",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Top Cybersecurity providers for enterprises in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.146Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.131Z",
+            "updatedAt": "2026-06-08T07:04:08.131Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "providers is trending UP with MEDIUM velocity.",
+            "expectedImpact": 86,
+            "lastVerifiedAt": "2026-06-08T07:04:08.130Z",
+            "confidenceScore": 45,
+            "difficultyScore": 45,
+            "opportunityScore": 86
+          },
+          {
+            "id": "f470da55-14e2-4722-968f-8c18d0076049",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: saudi",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.241Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.179Z",
+            "updatedAt": "2026-06-08T07:04:08.179Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "saudi is trending UP with MEDIUM velocity.",
+            "expectedImpact": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:08.178Z",
+            "confidenceScore": 73,
+            "difficultyScore": 45,
+            "opportunityScore": 85
+          },
+          {
+            "id": "2b95e86c-ff67-4d65-80b8-657034f4e2a9",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: soc",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best SOC provider for regulated banks in UAE.\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.255Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.168Z",
+            "updatedAt": "2026-06-08T07:04:08.168Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "soc is trending UP with MEDIUM velocity.",
+            "expectedImpact": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:08.167Z",
+            "confidenceScore": 73,
+            "difficultyScore": 45,
+            "opportunityScore": 85
+          },
+          {
+            "id": "ca0cf611-f935-4ffa-a16b-31ef53e76a24",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": null,
+                "claim": "Competitor A and Competitor B are also top cloud security firms for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.141Z",
+            "updatedAt": "2026-06-08T07:04:08.141Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 85 and difficulty 75.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.140Z",
+            "confidenceScore": 83,
+            "difficultyScore": 75,
+            "opportunityScore": 85
+          },
+          {
+            "id": "2457325a-4292-48a1-8b79-eb7aa53cdd0d",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Best SOC provider for regulated banks in UAE.",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.152Z",
+            "updatedAt": "2026-06-08T07:04:08.152Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 85 and difficulty 75.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.151Z",
+            "confidenceScore": 83,
+            "difficultyScore": 75,
+            "opportunityScore": 85
+          },
+          {
+            "id": "e6f40636-c112-46de-8137-c4a0a1c293dc",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: firms",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.223Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.193Z",
+            "updatedAt": "2026-06-08T07:04:08.193Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "firms is trending UP with MEDIUM velocity.",
+            "expectedImpact": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:08.192Z",
+            "confidenceScore": 73,
+            "difficultyScore": 45,
+            "opportunityScore": 85
+          },
+          {
+            "id": "91afe9f7-b472-428c-b76b-02c00755661c",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: cloud",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.193Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.205Z",
+            "updatedAt": "2026-06-08T07:04:08.205Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "cloud is trending UP with MEDIUM velocity.",
+            "expectedImpact": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:08.203Z",
+            "confidenceScore": 73,
+            "difficultyScore": 45,
+            "opportunityScore": 85
+          },
+          {
+            "id": "e8a5c51c-79d1-4991-b3b2-ac587669941d",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Compare Cybersecurity vendors in UAE",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.214Z",
+            "updatedAt": "2026-06-08T07:04:08.214Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 84 and difficulty 50.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.213Z",
+            "confidenceScore": 55,
+            "difficultyScore": 50,
+            "opportunityScore": 84
+          },
+          {
+            "id": "94fa7959-ecee-475a-8250-6a37e2b2210e",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: compare",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Compare Cybersecurity vendors in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.321Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.234Z",
+            "updatedAt": "2026-06-08T07:04:08.234Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "compare is trending UP with MEDIUM velocity.",
+            "expectedImpact": 84,
+            "lastVerifiedAt": "2026-06-08T07:04:08.233Z",
+            "confidenceScore": 45,
+            "difficultyScore": 45,
+            "opportunityScore": 84
+          },
+          {
+            "id": "94a86cb0-533c-4c41-b643-c5392034da38",
+            "type": "UNDERSERVED_TOPIC",
+            "title": "Capture growing topic: vendors",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Compare Cybersecurity vendors in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.349Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.225Z",
+            "updatedAt": "2026-06-08T07:04:08.225Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "vendors is trending UP with MEDIUM velocity.",
+            "expectedImpact": 84,
+            "lastVerifiedAt": "2026-06-08T07:04:08.223Z",
+            "confidenceScore": 45,
+            "difficultyScore": 45,
+            "opportunityScore": 84
+          },
+          {
+            "id": "d3a0d539-3020-462a-ac18-1fc60dc1597d",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Cybersecurity provider with local support in UAE",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.248Z",
+            "updatedAt": "2026-06-08T07:04:08.248Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 82 and difficulty 46.",
+            "expectedImpact": 45,
+            "lastVerifiedAt": "2026-06-08T07:04:08.247Z",
+            "confidenceScore": 55,
+            "difficultyScore": 46,
+            "opportunityScore": 82
+          },
+          {
+            "id": "a3896e11-0256-43d2-848d-0361a69ed312",
+            "type": "UNDERSERVED_PROMPT",
+            "title": "Target market prompt: Best cybersecurity company in UAE for a CEO",
+            "status": "OPEN",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for strategic buyer choosing a growth-safe vendor.",
+                "source": "Persona Fan-Out Engine",
+                "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:08.258Z",
+            "updatedAt": "2026-06-08T07:04:08.258Z",
+            "dataSource": "MARKET_OPPORTUNITY_ENGINE",
+            "description": "Prompt has opportunity 82 and difficulty 45.",
+            "expectedImpact": 80,
+            "lastVerifiedAt": "2026-06-08T07:04:08.257Z",
+            "confidenceScore": 59,
+            "difficultyScore": 45,
+            "opportunityScore": 82
+          }
+        ],
+        "trends": [
+          {
+            "id": "05f52522-f335-4120-86ad-cfa59c619c56",
+            "label": "1780897908191",
+            "score": 88,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.106Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "FAST",
+            "createdAt": "2026-06-08T07:04:07.107Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.107Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.107Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.106Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "b21da126-2142-4bb8-b6c9-2b5eb59810a0",
+            "label": "apart",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.501Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.502Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.502Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.502Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.501Z",
+            "confidenceScore": 70
+          },
+          {
+            "id": "274356c8-8733-48b3-8e0e-6170bf806c4b",
+            "label": "banks",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.666Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.310Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.667Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.310Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.666Z",
+            "confidenceScore": 60
+          },
+          {
+            "id": "cbcb6416-ebd9-4148-9f28-8ebe40661991",
+            "label": "ceo",
+            "score": 82,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for a CEO\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.456Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for strategic buyer choosing a growth-safe vendor.",
+                "source": "Persona Fan-Out Engine",
+                "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "FAST",
+            "createdAt": "2026-06-08T07:04:07.458Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.458Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.458Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.456Z",
+            "confidenceScore": 49
+          },
+          {
+            "id": "9f59e333-fa9c-4a51-b056-5229a86954f3",
+            "label": "check",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.511Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.513Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.513Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.513Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.511Z",
+            "confidenceScore": 70
+          },
+          {
+            "id": "d98a880d-d114-4ccd-af89-1f6bdafa806e",
+            "label": "cloud",
+            "score": 85,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.193Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.196Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.196Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.196Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.194Z",
+            "confidenceScore": 73
+          },
+          {
+            "id": "5608e48f-e8f3-40b0-81dd-baedf33e27dc",
+            "label": "cloudflare",
+            "score": 88,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.085Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "FAST",
+            "createdAt": "2026-06-08T07:04:07.086Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.086Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.086Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.086Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "d36168cb-0457-4f09-82e8-537396dcd0ed",
+            "label": "compare",
+            "score": 84,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Compare Cybersecurity vendors in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.321Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.324Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.324Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.324Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.321Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "1b02fd66-eb5a-48d2-88d1-71ee041075c9",
+            "label": "competitors",
+            "score": 88,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.120Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "FAST",
+            "createdAt": "2026-06-08T07:04:07.122Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.122Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.122Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.120Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "79b2f77c-ea5b-45ed-b3fd-818232f3547c",
+            "label": "cto",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for a CTO\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.550Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for technical leader validating architecture and integrations.",
+                "source": "Persona Fan-Out Engine",
+                "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.551Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.551Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.551Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.550Z",
+            "confidenceScore": 49
+          },
+          {
+            "id": "42bc9a36-c156-4dfe-8c28-84a7233de7ab",
+            "label": "cybersecurity",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.627Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.066Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.629Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.066Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.628Z",
+            "confidenceScore": 60
+          },
+          {
+            "id": "81055f9c-2fce-412c-bb53-eb55fba73eed",
+            "label": "enterprises",
+            "score": 86,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Top Cybersecurity providers for enterprises in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.163Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.165Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.165Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.165Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.163Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "98ac89b3-1949-43d4-8f28-fa0f0e8595fb",
+            "label": "firms",
+            "score": 85,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.223Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.226Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.226Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.226Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.223Z",
+            "confidenceScore": 73
+          },
+          {
+            "id": "8ad8f9d5-e770-4f23-878b-1f4391653513",
+            "label": "local",
+            "score": 82,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cybersecurity provider with local support in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.401Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.403Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.403Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.403Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.402Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "0f3ff52d-2486-4511-9ee8-cfcf89843c1a",
+            "label": "orcatech",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.488Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.490Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.490Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.490Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.488Z",
+            "confidenceScore": 70
+          },
+          {
+            "id": "3a6ea70c-68f1-47b2-b537-4bf8dd4dd9f4",
+            "label": "provider",
+            "score": 82,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Cybersecurity provider with local support in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.389Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.277Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.390Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.277Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.389Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "cd2d9123-2a3f-4c81-bc82-56d92fe32c02",
+            "label": "providers",
+            "score": 86,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Top Cybersecurity providers for enterprises in UAE\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.146Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.148Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.148Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.148Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.146Z",
+            "confidenceScore": 45
+          },
+          {
+            "id": "aed8e4f5-2f46-4a45-b866-14a2b4b4380a",
+            "label": "regulated",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.654Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.296Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.656Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.296Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.654Z",
+            "confidenceScore": 60
+          },
+          {
+            "id": "f2e22998-2074-4348-89e5-e4703ba19453",
+            "label": "saudi",
+            "score": 85,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.241Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.243Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.243Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.243Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.242Z",
+            "confidenceScore": 73
+          },
+          {
+            "id": "9cc44f00-c45d-4515-a112-28cfcb5a964d",
+            "label": "security",
+            "score": 80,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for AI security and regulated banks.\".",
+                "source": "Market Evolution Engine",
+                "lastVerifiedAt": "2026-06-08T07:04:07.597Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "velocity": "MEDIUM",
+            "createdAt": "2026-06-08T07:04:07.208Z",
+            "direction": "UP",
+            "trendType": "TOPIC",
+            "updatedAt": "2026-06-08T07:04:07.599Z",
+            "dataSource": "TREND_INTELLIGENCE",
+            "sampleSize": 1,
+            "firstSeenAt": "2026-06-08T07:04:07.208Z",
+            "lastVerifiedAt": "2026-06-08T07:04:07.597Z",
+            "confidenceScore": 70
+          }
+        ],
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Insight AI Market Index calculated from 63 market intelligence row(s).",
+            "source": "Insight AI Market Index",
+            "lastVerifiedAt": "2026-06-08T07:04:08.609Z"
+          }
+        ],
+        "confidenceScore": 85,
+        "capturedAt": "2026-06-08T07:04:08.619Z",
+        "dataSource": "INSIGHT_AI_MARKET_INDEX",
+        "createdAt": "2026-06-08T07:04:08.619Z"
+      }
+    },
+    "confidenceScore": 46,
+    "evidence": [
+      {
+        "claim": "Commercial GEO data endpoint /api/data/indexes returned 1 record(s).",
+        "source": "GEO Data API",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:16.883Z"
+      }
+    ],
+    "dataSource": "GEO_DATA_API",
+    "lastVerifiedAt": "2026-06-08T07:04:16.883Z"
+  }
+}

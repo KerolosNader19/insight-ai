@@ -1,0 +1,43 @@
+{
+  "label": "00-register",
+  "method": "POST",
+  "url": "/auth/register",
+  "requestBody": {
+    "email": "geo-data-network-1780902246006@insight.ai",
+    "password": "Password123!",
+    "fullName": "Geo Data Network Validator",
+    "organizationName": "Geo Data Network Agency 1780902246006"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "user": {
+      "id": "715299f3-8598-417d-831a-2d07bfd1785b",
+      "email": "geo-data-network-1780902246006@insight.ai",
+      "fullName": "Geo Data Network Validator",
+      "avatarUrl": null,
+      "platformRole": "USER"
+    },
+    "organizations": [
+      {
+        "id": "e4314273-5ae5-43f9-846a-b812c6cf74d2",
+        "name": "Geo Data Network Agency 1780902246006",
+        "slug": "geo-data-network-agency-1780902246006",
+        "role": "OWNER",
+        "billingPlan": "FREE",
+        "logoUrl": null,
+        "brandingColor": null
+      }
+    ],
+    "currentOrg": {
+      "id": "e4314273-5ae5-43f9-846a-b812c6cf74d2",
+      "name": "Geo Data Network Agency 1780902246006",
+      "slug": "geo-data-network-agency-1780902246006",
+      "role": "OWNER",
+      "billingPlan": "FREE",
+      "logoUrl": null,
+      "brandingColor": null
+    },
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MTUyOTlmMy04NTk4LTQxN2QtODMxYS0yZDA3YmZkMTc4NWIiLCJlbWFpbCI6Imdlby1kYXRhLW5ldHdvcmstMTc4MDkwMjI0NjAwNkBpbnNpZ2h0LmFpIiwiaWF0IjoxNzgwOTAyMjQ2LCJleHAiOjE3ODA5ODg2NDZ9.LrUI3txp-xFe7mCJ_7dQZNbwyJ9Cjof_m9qy3y2aPDg"
+  }
+}

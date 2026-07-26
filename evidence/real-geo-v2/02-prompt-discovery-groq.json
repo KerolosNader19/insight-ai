@@ -1,0 +1,84 @@
+{
+  "label": "02-prompt-discovery-groq",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/discover-prompts",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:16:12.706Z",
+  "completedAt": "2026-06-08T02:16:14.197Z",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "PROMPT_DISCOVERY",
+    "data": [
+      {
+        "id": "1a5da051-c2ca-4349-b320-6d88b51ffe47",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "queryText": "Best cybersecurity company in Saudi Arabia for regulated banks",
+        "category": "INFORMATIONAL",
+        "intentScore": 90,
+        "opportunityScore": 80,
+        "difficultyScore": 70,
+        "expectedVisibilityGain": 60,
+        "confidenceScore": 85,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": null,
+            "claim": "OrcaTech provides SOC services for regulated banks in Saudi Arabia.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": null,
+            "claim": "Competitor A is a cybersecurity company in Saudi Arabia, but lacks SOC services for regulated banks.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": null,
+            "claim": "Competitor B is a cybersecurity company in Saudi Arabia, but has limited experience with SOC services for regulated banks.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "sources": {
+          "url": "https://orcatech.online",
+          "model": "llama-3.1-8b-instant",
+          "source": "AI_PROVIDER",
+          "provider": "Groq",
+          "generatedAt": "2026-06-08T02:16:14.177Z"
+        },
+        "dataSource": "AI_PROVIDER + BRAND_PROFILE",
+        "sourceCompetitorIds": [
+          "1d9cb911-1521-479f-8769-e17ed5240d24",
+          "cdbb92f6-5ba8-4df7-b314-3c39c4a6607e"
+        ],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T02:16:14.176Z",
+        "discoveredAt": "2026-06-08T02:16:14.178Z",
+        "createdAt": "2026-06-08T02:16:14.178Z",
+        "updatedAt": "2026-06-08T02:16:14.178Z"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Stored 1 prompt suggestions with confidence >= 60.",
+        "source": "Prompt Discovery Engine",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 85,
+    "dataSource": "PROMPT_DISCOVERY",
+    "lastVerifiedAt": "2026-06-08T02:16:14.192Z",
+    "provider": "Groq",
+    "model": "llama-3.1-8b-instant",
+    "rejected": []
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "COMPETITOR_INTELLIGENCE_ENGINE",
+    "data": [
+      {
+        "competitorId": "4e721818-9b09-4762-b407-687ee6d593c7",
+        "competitorName": "Palo Alto Networks",
+        "websiteUrl": "https://www.paloaltonetworks.com/",
+        "geoScore": 18,
+        "citationStrength": 0,
+        "visibilityStrength": 8,
+        "promptDominance": 50,
+        "contentStrength": 16,
+        "entityCoverage": 0,
+        "whyWinning": "Palo Alto Networks is currently a low operational threat: it appears in stored evidence, but no lost prompts, citation gaps, or entity domination were verified.",
+        "evidence": [
+          {
+            "claim": "Palo Alto Networks appeared in 1 real prompt response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "Palo Alto Networks dominated 0 prompt response(s) where OrcaTech was absent.",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "paloaltonetworks.com owned 1 citation(s) in stored AI responses.",
+            "source": "Citation Discovery",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+            "source": "Prompt Discovery + Content Gaps",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "Brand latest GEO baseline is 85/100.",
+            "source": "GEO Score V2",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "0 prompt(s) are lost to Palo Alto Networks.",
+            "source": "Prompt Coverage Engine",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "0 citation source(s) show competitor citation advantage.",
+            "source": "Citation Authority Engine",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "0 entity gap(s) are dominated by competitors.",
+            "source": "Entity Intelligence Engine",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "Prompt dominance is 50/100 from 2 scored prompt(s).",
+            "source": "Prompt Coverage Engine",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "Citation strength is 0/100 from citation authority rows.",
+            "source": "Citation Authority Engine",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "Entity coverage risk is 0/100 from extracted entity signals.",
+            "source": "Entity Intelligence Engine",
+            "url": "https://www.paloaltonetworks.com/"
+          }
+        ],
+        "confidenceScore": 84,
+        "dataSource": "COMPETITOR_INTELLIGENCE_ENGINE",
+        "lastVerifiedAt": "2026-06-08T03:02:23.435Z"
+      },
+      {
+        "competitorId": "2a21eae5-a5f3-4595-b0e1-882f3d4c5339",
+        "competitorName": "Check Point",
+        "websiteUrl": "https://www.checkpoint.com/",
+        "geoScore": 18,
+        "citationStrength": 0,
+        "visibilityStrength": 8,
+        "promptDominance": 50,
+        "contentStrength": 16,
+        "entityCoverage": 0,
+        "whyWinning": "Check Point is currently a low operational threat: it appears in stored evidence, but no lost prompts, citation gaps, or entity domination were verified.",
+        "evidence": [
+          {
+            "claim": "Check Point appeared in 1 real prompt response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "Check Point dominated 0 prompt response(s) where OrcaTech was absent.",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "checkpoint.com owned 1 citation(s) in stored AI responses.",
+            "source": "Citation Discovery",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+            "source": "Prompt Discovery + Content Gaps",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "Brand latest GEO baseline is 85/100.",
+            "source": "GEO Score V2",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "0 prompt(s) are lost to Check Point.",
+            "source": "Prompt Coverage Engine",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "0 citation source(s) show competitor citation advantage.",
+            "source": "Citation Authority Engine",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "0 entity gap(s) are dominated by competitors.",
+            "source": "Entity Intelligence Engine",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "Prompt dominance is 50/100 from 2 scored prompt(s).",
+            "source": "Prompt Coverage Engine",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "Citation strength is 0/100 from citation authority rows.",
+            "source": "Citation Authority Engine",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "Entity coverage risk is 0/100 from extracted entity signals.",
+            "source": "Entity Intelligence Engine",
+            "url": "https://www.checkpoint.com/"
+          }
+        ],
+        "confidenceScore": 84,
+        "dataSource": "COMPETITOR_INTELLIGENCE_ENGINE",
+        "lastVerifiedAt": "2026-06-08T03:02:23.435Z"
+      },
+      {
+        "competitorId": "ff9f628f-e310-4071-82e3-7364cb0f7bd3",
+        "competitorName": "Cyberoam",
+        "websiteUrl": "https://www.cyberoam.com/",
+        "geoScore": 18,
+        "citationStrength": 0,
+        "visibilityStrength": 8,
+        "promptDominance": 50,
+        "contentStrength": 16,
+        "entityCoverage": 0,
+        "whyWinning": "Cyberoam is currently a low operational threat: it appears in stored evidence, but no lost prompts, citation gaps, or entity domination were verified.",
+        "evidence": [
+          {
+            "claim": "Cyberoam appeared in 1 real prompt response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "Cyberoam dominated 0 prompt response(s) where OrcaTech was absent.",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "cyberoam.com owned 1 citation(s) in stored AI responses.",
+            "source": "Citation Discovery",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+            "source": "Prompt Discovery + Content Gaps",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "Brand latest GEO baseline is 85/100.",
+            "source": "GEO Score V2",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "0 prompt(s) are lost to Cyberoam.",
+            "source": "Prompt Coverage Engine",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "0 citation source(s) show competitor citation advantage.",
+            "source": "Citation Authority Engine",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "0 entity gap(s) are dominated by competitors.",
+            "source": "Entity Intelligence Engine",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "Prompt dominance is 50/100 from 2 scored prompt(s).",
+            "source": "Prompt Coverage Engine",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "Citation strength is 0/100 from citation authority rows.",
+            "source": "Citation Authority Engine",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "Entity coverage risk is 0/100 from extracted entity signals.",
+            "source": "Entity Intelligence Engine",
+            "url": "https://www.cyberoam.com/"
+          }
+        ],
+        "confidenceScore": 84,
+        "dataSource": "COMPETITOR_INTELLIGENCE_ENGINE",
+        "lastVerifiedAt": "2026-06-08T03:02:23.435Z"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Built 3 competitor intelligence card(s) from V3 evidence.",
+        "source": "Competitor Intelligence Engine",
+        "url": null
+      }
+    ],
+    "confidenceScore": 84,
+    "dataSource": "THREAT_ENGINE_V2 + CITATION_AUTHORITY + PROMPT_COVERAGE + ENTITY_INTELLIGENCE",
+    "lastVerifiedAt": "2026-06-08T03:02:23.435Z"
+  }
+}

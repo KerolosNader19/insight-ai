@@ -1,0 +1,239 @@
+{
+  "id": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+  "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+  "name": "OrcaTech",
+  "websiteUrl": "https://orcatech.sa",
+  "industry": "Cybersecurity",
+  "country": "Saudi Arabia",
+  "createdAt": "2026-06-02T15:42:30.232Z",
+  "updatedAt": "2026-06-02T15:42:30.232Z",
+  "competitors": [
+    {
+      "id": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "name": "Competitor A",
+      "websiteUrl": "https://competitor-a.example",
+      "createdAt": "2026-06-02T15:42:30.284Z"
+    },
+    {
+      "id": "94cb110b-91d8-476c-9447-10cbf68025da",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "name": "Competitor B",
+      "websiteUrl": "https://competitor-b.example",
+      "createdAt": "2026-06-02T15:42:30.314Z"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "5fc562c3-775f-40e6-8b27-bfb7c2bcfbb7",
+      "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "queryText": "Best cybersecurity company in Saudi Arabia",
+      "frequency": "weekly",
+      "isActive": true,
+      "lastRunAt": "2026-06-02T15:42:30.397Z",
+      "createdAt": "2026-06-02T15:42:30.344Z",
+      "responses": [
+        {
+          "id": "6dbef05c-0238-4d2b-afb3-2dcc949ef5af",
+          "promptId": "5fc562c3-775f-40e6-8b27-bfb7c2bcfbb7",
+          "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+          "rawContent": "",
+          "structuredContent": null,
+          "status": "FAILED",
+          "error": "GEMINI_API_KEY is not configured",
+          "capturedAt": "2026-06-02T15:42:30.384Z",
+          "completedAt": "2026-06-02T15:42:30.383Z",
+          "screenshotUrl": null,
+          "performance_ms": 0,
+          "engine": {
+            "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+            "name": "Gemini",
+            "version": "gemini-1.5-flash",
+            "createdAt": "2026-06-02T15:31:09.168Z"
+          },
+          "mentions": [],
+          "citations": []
+        },
+        {
+          "id": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+          "promptId": "5fc562c3-775f-40e6-8b27-bfb7c2bcfbb7",
+          "engineId": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+          "rawContent": "For Saudi Arabia cybersecurity buyers, Competitor A is frequently cited for enterprise SOC coverage. OrcaTech is also a strong specialist in incident response and cloud security. Competitor B appears for managed compliance. Sources: https://orcatech.sa/security-guide https://competitor-a.example/soc https://competitor-b.example/compliance",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-02T15:43:22.043Z",
+          "completedAt": "2026-06-02T15:43:22.040Z",
+          "screenshotUrl": null,
+          "performance_ms": null,
+          "engine": {
+            "id": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+            "name": "StoredFixture",
+            "version": "validation-only",
+            "createdAt": "2026-06-02T15:43:22.010Z"
+          },
+          "mentions": [
+            {
+              "id": "51d41aed-5582-4204-9187-a0169748c0e6",
+              "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+              "entityId": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+              "entityType": "competitor",
+              "sentimentScore": 0,
+              "contextSnippet": "Competitor A is frequently cited for enterprise SOC coverage",
+              "position": 1,
+              "isRecommended": false,
+              "createdAt": "2026-06-02T15:43:22.071Z"
+            },
+            {
+              "id": "3a99b671-90d2-4ad1-8a6c-d4d4865dba2f",
+              "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+              "entityId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+              "entityType": "brand",
+              "sentimentScore": 0.6,
+              "contextSnippet": "OrcaTech is also a strong specialist in incident response and cloud security",
+              "position": 2,
+              "isRecommended": true,
+              "createdAt": "2026-06-02T15:43:22.071Z"
+            },
+            {
+              "id": "20bdd9b9-5d47-4b9e-b143-118cf4708c83",
+              "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+              "entityId": "94cb110b-91d8-476c-9447-10cbf68025da",
+              "entityType": "competitor",
+              "sentimentScore": 0,
+              "contextSnippet": "Competitor B appears for managed compliance",
+              "position": 3,
+              "isRecommended": false,
+              "createdAt": "2026-06-02T15:43:22.071Z"
+            }
+          ],
+          "citations": [
+            {
+              "id": "fc284518-7a4f-4d80-a41d-b3cd7b9ad9b1",
+              "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+              "url": "https://orcatech.sa/security-guide",
+              "title": "OrcaTech Security Guide",
+              "domain": "orcatech.sa",
+              "authorityScore": null,
+              "createdAt": "2026-06-02T15:43:22.084Z"
+            },
+            {
+              "id": "ce980927-71e6-4056-8362-c7580013ccd8",
+              "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+              "url": "https://competitor-a.example/soc",
+              "title": "Competitor A SOC",
+              "domain": "competitor-a.example",
+              "authorityScore": null,
+              "createdAt": "2026-06-02T15:43:22.084Z"
+            },
+            {
+              "id": "756be372-9a9b-419f-bd57-404fb02fe20b",
+              "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+              "url": "https://competitor-b.example/compliance",
+              "title": "Competitor B Compliance",
+              "domain": "competitor-b.example",
+              "authorityScore": null,
+              "createdAt": "2026-06-02T15:43:22.084Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c992672f-aa6b-4da6-ae0e-e2167489e390",
+      "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "queryText": "Best SOC provider for regulated banks in Saudi Arabia",
+      "frequency": "weekly",
+      "isActive": true,
+      "lastRunAt": null,
+      "createdAt": "2026-06-02T15:43:22.023Z",
+      "responses": [
+        {
+          "id": "eb7c4862-55ac-4178-ba4d-bf64e99e4c51",
+          "promptId": "c992672f-aa6b-4da6-ae0e-e2167489e390",
+          "engineId": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+          "rawContent": "Competitor A and Competitor B are often referenced for regulated banking SOC services in Saudi Arabia. Sources: https://competitor-a.example/banking-soc https://competitor-b.example/banking-security",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-02T15:43:22.055Z",
+          "completedAt": "2026-06-02T15:43:22.054Z",
+          "screenshotUrl": null,
+          "performance_ms": null,
+          "engine": {
+            "id": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+            "name": "StoredFixture",
+            "version": "validation-only",
+            "createdAt": "2026-06-02T15:43:22.010Z"
+          },
+          "mentions": [
+            {
+              "id": "a5d23b5b-f519-4ddf-a7d6-9cb614a838de",
+              "responseId": "eb7c4862-55ac-4178-ba4d-bf64e99e4c51",
+              "entityId": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+              "entityType": "competitor",
+              "sentimentScore": 0,
+              "contextSnippet": "Competitor A and Competitor B are often referenced",
+              "position": 1,
+              "isRecommended": false,
+              "createdAt": "2026-06-02T15:43:22.071Z"
+            },
+            {
+              "id": "88494fea-1ed2-4030-9a60-bb6c54ffd876",
+              "responseId": "eb7c4862-55ac-4178-ba4d-bf64e99e4c51",
+              "entityId": "94cb110b-91d8-476c-9447-10cbf68025da",
+              "entityType": "competitor",
+              "sentimentScore": 0,
+              "contextSnippet": "Competitor A and Competitor B are often referenced",
+              "position": 2,
+              "isRecommended": false,
+              "createdAt": "2026-06-02T15:43:22.071Z"
+            }
+          ],
+          "citations": [
+            {
+              "id": "5a98398d-8982-41a4-aba6-ed1ebc1b92e8",
+              "responseId": "eb7c4862-55ac-4178-ba4d-bf64e99e4c51",
+              "url": "https://competitor-a.example/banking-soc",
+              "title": "Competitor A Banking SOC",
+              "domain": "competitor-a.example",
+              "authorityScore": null,
+              "createdAt": "2026-06-02T15:43:22.084Z"
+            },
+            {
+              "id": "fbf34836-2157-4c64-8aa7-84232aede404",
+              "responseId": "eb7c4862-55ac-4178-ba4d-bf64e99e4c51",
+              "url": "https://competitor-b.example/banking-security",
+              "title": "Competitor B Banking Security",
+              "domain": "competitor-b.example",
+              "authorityScore": null,
+              "createdAt": "2026-06-02T15:43:22.084Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "analytics": [
+    {
+      "id": "248f9e18-1182-43bf-b62e-66ac3ef09656",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "engineId": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+      "snapshotDate": "2026-06-02T04:00:00.000Z",
+      "geoScore": 48,
+      "shareOfVoice": 20,
+      "avgSentiment": 0.6,
+      "mentionCount": 1,
+      "citationCount": 5,
+      "createdAt": "2026-06-02T15:43:22.095Z",
+      "engine": {
+        "id": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+        "name": "StoredFixture",
+        "version": "validation-only",
+        "createdAt": "2026-06-02T15:43:22.010Z"
+      }
+    }
+  ]
+}

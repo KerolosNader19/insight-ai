@@ -1,19 +1,51 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import Stripe from 'stripe';
+import { resolveEntitlements } from '../common/plan-limits';
+import { requireOrgRole } from '../common/rbac';
 
 @Injectable()
 export class BillingService {
-  private stripe: Stripe;
+  private stripe: Stripe | null;
   private readonly logger = new Logger(BillingService.name);
 
   constructor(private prisma: PrismaService) {
-    this.stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
-      apiVersion: '2023-08-16',
+    this.stripe = process.env.STRIPE_SECRET_KEY
+      ? new Stripe(process.env.STRIPE_SECRET_KEY, { apiVersion: '2023-08-16' })
+      : null;
+  }
+
+  async listPlans() {
+    return this.prisma.plan.findMany({
+      where: { isActive: true },
+      orderBy: { priceMonthly: 'asc' },
     });
   }
 
+  async getSubscription(userId: string, organizationId: string) {
+    await requireOrgRole(this.prisma, userId, organizationId, 'VIEWER');
+    const entitlements = await resolveEntitlements(this.prisma, organizationId);
+    const subscription = await this.prisma.subscription.findFirst({
+      where: { organizationId },
+      include: { plan: true },
+      orderBy: { createdAt: 'desc' },
+    });
+
+    return {
+      ...entitlements,
+      subscription,
+      stripeEnabled: Boolean(this.stripe),
+    };
+  }
+
   async createCheckoutSession(orgId: string, planId: string) {
+    if (!this.stripe) {
+      return {
+        url: null,
+        message: 'Stripe checkout is deferred until billing credentials are configured.',
+      };
+    }
+
     const org = await this.prisma.organization.findUnique({ where: { id: orgId } });
     if (!org) throw new Error('Organization not found');
 
@@ -32,8 +64,20 @@ export class BillingService {
   }
 
   async createPortalSession(orgId: string) {
+    if (!this.stripe) {
+      return {
+        url: null,
+        message: 'Billing portal is deferred until Stripe credentials are configured.',
+      };
+    }
+
     const org = await this.prisma.organization.findUnique({ where: { id: orgId } });
-    if (!org?.stripeCustomerId) throw new Error('No stripe customer found');
+    if (!org?.stripeCustomerId) {
+      return {
+        url: null,
+        message: 'Billing portal is unavailable until this organization has a Stripe customer record.',
+      };
+    }
 
     const session = await this.stripe.billingPortal.sessions.create({
       customer: org.stripeCustomerId,
@@ -44,6 +88,10 @@ export class BillingService {
   }
 
   async handleWebhook(signature: string, payload: Buffer) {
+    if (!this.stripe) {
+      throw new Error('Stripe webhook received but Stripe is not configured');
+    }
+
     let event: Stripe.Event;
 
     try {

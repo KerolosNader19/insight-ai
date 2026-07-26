@@ -1,0 +1,13 @@
+{
+  "label": "03-add-competitor-paloalto",
+  "url": "/brands/7c51d959-ea7b-48ca-80f0-e25aad4a50e7/competitors",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "ccbb64ec-9cdf-4ca0-9179-d67ca88b3706",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "name": "Palo Alto Networks",
+    "websiteUrl": "https://www.paloaltonetworks.com",
+    "createdAt": "2026-06-08T05:51:48.781Z"
+  }
+}

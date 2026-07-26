@@ -1,0 +1,744 @@
+{
+  "status": "COMPLETED",
+  "engine": "TREND_ENGINE",
+  "data": [
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::saudiaramco.com::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "saudiaramco.com",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::orcatech.com::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "orcatech.com",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::1a5da051-c2ca-4349-b320-6d88b51ffe47::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "1a5da051-c2ca-4349-b320-6d88b51ffe47",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 80,
+      "latestValue": 80,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 80 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 80 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 62
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::stc.com.sa::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "stc.com.sa",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::1dc38547-7ec4-4eba-bde8-677ac651d983::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "1dc38547-7ec4-4eba-bde8-677ac651d983",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::checkpoint.com::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "checkpoint.com",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::44e3ae9e-b315-4b88-9046-6b40c95491d7::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "44e3ae9e-b315-4b88-9046-6b40c95491d7",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "THREAT_ENGINE_V2::COMPETITOR::2a21eae5-a5f3-4595-b0e1-882f3d4c5339::threatScore",
+      "engine": "THREAT_ENGINE_V2",
+      "subjectType": "COMPETITOR",
+      "subjectId": "2a21eae5-a5f3-4595-b0e1-882f3d4c5339",
+      "metricKey": "threatScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 13,
+      "latestValue": 13,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 13 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 13 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::5c10ee67-04d9-4249-a3f0-e6aa0131be2e::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "5c10ee67-04d9-4249-a3f0-e6aa0131be2e",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "COMPETITOR_INTELLIGENCE_ENGINE::COMPETITOR::2a21eae5-a5f3-4595-b0e1-882f3d4c5339::competitorGeoScore",
+      "engine": "COMPETITOR_INTELLIGENCE_ENGINE",
+      "subjectType": "COMPETITOR",
+      "subjectId": "2a21eae5-a5f3-4595-b0e1-882f3d4c5339",
+      "metricKey": "competitorGeoScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 18,
+      "latestValue": 18,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 18 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 18 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::6b848841-0b9c-4c01-8959-a11de9c3f61e::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "6b848841-0b9c-4c01-8959-a11de9c3f61e",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::paloaltonetworks.com::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "paloaltonetworks.com",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::6c915483-05c0-4677-b75c-38fc7310ec92::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "6c915483-05c0-4677-b75c-38fc7310ec92",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::mcit.gov.sa::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "mcit.gov.sa",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::976cc2e5-d985-4fd9-b281-d6bbcd446e3c::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "976cc2e5-d985-4fd9-b281-d6bbcd446e3c",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "THREAT_ENGINE_V2::COMPETITOR::4e721818-9b09-4762-b407-687ee6d593c7::threatScore",
+      "engine": "THREAT_ENGINE_V2",
+      "subjectType": "COMPETITOR",
+      "subjectId": "4e721818-9b09-4762-b407-687ee6d593c7",
+      "metricKey": "threatScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 13,
+      "latestValue": 13,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 13 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 13 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::d9123ecd-78a8-4176-a12f-19c13a39e74f::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "d9123ecd-78a8-4176-a12f-19c13a39e74f",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "COMPETITOR_INTELLIGENCE_ENGINE::COMPETITOR::4e721818-9b09-4762-b407-687ee6d593c7::competitorGeoScore",
+      "engine": "COMPETITOR_INTELLIGENCE_ENGINE",
+      "subjectType": "COMPETITOR",
+      "subjectId": "4e721818-9b09-4762-b407-687ee6d593c7",
+      "metricKey": "competitorGeoScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 18,
+      "latestValue": 18,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 18 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 18 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::ede24e08-04a2-418b-9b0a-1c5d6c341159::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "ede24e08-04a2-418b-9b0a-1c5d6c341159",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 54,
+      "latestValue": 54,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 54 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 54 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::sama.gov.sa::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "sama.gov.sa",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::keywordCoverage::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "keywordCoverage",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 55,
+      "latestValue": 55,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 55 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 55 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 50
+    },
+    {
+      "key": "CITATION_AUTHORITY_ENGINE::CITATION_SOURCE::cyberoam.com::citationAuthority",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "cyberoam.com",
+      "metricKey": "citationAuthority",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 43,
+      "latestValue": 43,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 43 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 43 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::llmsFullTxt::opportunityScore",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "subjectType": "OPPORTUNITY",
+      "subjectId": "llmsFullTxt",
+      "metricKey": "opportunityScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 35,
+      "latestValue": 35,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 35 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 35 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 50
+    },
+    {
+      "key": "THREAT_ENGINE_V2::COMPETITOR::ff9f628f-e310-4071-82e3-7364cb0f7bd3::threatScore",
+      "engine": "THREAT_ENGINE_V2",
+      "subjectType": "COMPETITOR",
+      "subjectId": "ff9f628f-e310-4071-82e3-7364cb0f7bd3",
+      "metricKey": "threatScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 13,
+      "latestValue": 13,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 13 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 13 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "PROMPT_COVERAGE_ENGINE::PROMPT::141af455-8f00-4cfa-b571-8faa53cde5e6::promptOpportunity",
+      "engine": "PROMPT_COVERAGE_ENGINE",
+      "subjectType": "PROMPT",
+      "subjectId": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+      "metricKey": "promptOpportunity",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 71,
+      "latestValue": 71,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 71 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 71 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 62
+    },
+    {
+      "key": "COMPETITOR_INTELLIGENCE_ENGINE::COMPETITOR::ff9f628f-e310-4071-82e3-7364cb0f7bd3::competitorGeoScore",
+      "engine": "COMPETITOR_INTELLIGENCE_ENGINE",
+      "subjectType": "COMPETITOR",
+      "subjectId": "ff9f628f-e310-4071-82e3-7364cb0f7bd3",
+      "metricKey": "competitorGeoScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 18,
+      "latestValue": 18,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 18 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 18 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    },
+    {
+      "key": "PROMPT_COVERAGE_ENGINE::PROMPT::900f80ae-1484-4306-8bbe-85b33626ea59::promptOpportunity",
+      "engine": "PROMPT_COVERAGE_ENGINE",
+      "subjectType": "PROMPT",
+      "subjectId": "900f80ae-1484-4306-8bbe-85b33626ea59",
+      "metricKey": "promptOpportunity",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 72,
+      "latestValue": 72,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 72 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 72 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 62
+    },
+    {
+      "key": "GEO_SCORE_V3::BRAND::3dfc86a2-9639-4482-b9d1-1a0ba7b755b7::geoScore",
+      "engine": "GEO_SCORE_V3",
+      "subjectType": "BRAND",
+      "subjectId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "metricKey": "geoScore",
+      "direction": "STABLE",
+      "velocity": "SLOW",
+      "firstValue": 85,
+      "latestValue": 85,
+      "delta": 0,
+      "sampleSize": 2,
+      "evidence": [
+        {
+          "claim": "First sample 85 at 2026-06-08T03:21:23.743Z.",
+          "source": "Trend Engine",
+          "url": null
+        },
+        {
+          "claim": "Latest sample 85 at 2026-06-08T03:21:25.239Z.",
+          "source": "Trend Engine",
+          "url": null
+        }
+      ],
+      "confidenceScore": 69
+    }
+  ],
+  "evidence": [
+    {
+      "claim": "Calculated 28 trend stream(s) from 56 snapshot(s).",
+      "source": "Trend Engine",
+      "url": "https://orcatech.online"
+    }
+  ],
+  "confidenceScore": 67,
+  "dataSource": "INTELLIGENCE_SNAPSHOTS",
+  "lastVerifiedAt": "2026-06-08T03:21:25.433Z"
+}

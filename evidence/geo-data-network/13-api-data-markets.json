@@ -1,0 +1,190 @@
+{
+  "label": "13-api-data-markets",
+  "method": "GET",
+  "url": "/api/data/markets",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_DATA_API",
+    "data": {
+      "endpoint": "markets",
+      "recordsReturned": 7,
+      "data": [
+        {
+          "id": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+          "name": "Legal Services GCC",
+          "slug": "legal-services-gcc-en-legal-services",
+          "industry": "Legal Services",
+          "region": "GCC",
+          "country": "GCC",
+          "language": "en",
+          "vertical": "Legal Services",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 0 brand(s), 4 prompt(s), 0 citation domain(s), and 15 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T07:04:13.287Z"
+            }
+          ],
+          "confidenceScore": 37,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T07:04:13.287Z",
+          "createdAt": "2026-06-08T07:04:12.663Z",
+          "updatedAt": "2026-06-08T07:04:13.288Z"
+        },
+        {
+          "id": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+          "name": "FinTech Saudi Arabia",
+          "slug": "fintech-saudi-arabia-en-fintech",
+          "industry": "FinTech",
+          "region": "GCC",
+          "country": "Saudi Arabia",
+          "language": "en",
+          "vertical": "FinTech",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 0 brand(s), 4 prompt(s), 0 citation domain(s), and 15 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T07:04:12.601Z"
+            }
+          ],
+          "confidenceScore": 37,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T07:04:12.601Z",
+          "createdAt": "2026-06-08T07:04:11.930Z",
+          "updatedAt": "2026-06-08T07:04:12.603Z"
+        },
+        {
+          "id": "2a8dbdb6-6719-463e-b964-f481994699db",
+          "name": "SaaS GCC",
+          "slug": "saas-gcc-en-saas",
+          "industry": "SaaS",
+          "region": "GCC",
+          "country": "GCC",
+          "language": "en",
+          "vertical": "SaaS",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 0 brand(s), 4 prompt(s), 0 citation domain(s), and 14 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T07:04:11.882Z"
+            }
+          ],
+          "confidenceScore": 37,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T07:04:11.882Z",
+          "createdAt": "2026-06-08T07:04:11.303Z",
+          "updatedAt": "2026-06-08T07:04:11.883Z"
+        },
+        {
+          "id": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+          "name": "SEO Egypt",
+          "slug": "seo-egypt-en-digital-marketing",
+          "industry": "SEO",
+          "region": "MENA",
+          "country": "Egypt",
+          "language": "en",
+          "vertical": "Digital Marketing",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 0 brand(s), 4 prompt(s), 0 citation domain(s), and 14 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T07:04:11.247Z"
+            }
+          ],
+          "confidenceScore": 37,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T07:04:11.247Z",
+          "createdAt": "2026-06-08T07:04:10.642Z",
+          "updatedAt": "2026-06-08T07:04:11.248Z"
+        },
+        {
+          "id": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+          "name": "Cybersecurity Qatar",
+          "slug": "cybersecurity-qatar-en-cybersecurity",
+          "industry": "Cybersecurity",
+          "region": "GCC",
+          "country": "Qatar",
+          "language": "en",
+          "vertical": "Cybersecurity",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 17 brand(s), 12 prompt(s), 16 citation domain(s), and 22 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T07:04:10.589Z"
+            }
+          ],
+          "confidenceScore": 51,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T07:04:10.589Z",
+          "createdAt": "2026-06-08T07:04:08.708Z",
+          "updatedAt": "2026-06-08T07:04:10.590Z"
+        },
+        {
+          "id": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "name": "Cybersecurity UAE",
+          "slug": "cybersecurity-uae-en-cybersecurity",
+          "industry": "Cybersecurity",
+          "region": "GCC",
+          "country": "UAE",
+          "language": "en",
+          "vertical": "Cybersecurity",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 17 brand(s), 12 prompt(s), 8 citation domain(s), and 44 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T07:04:08.655Z"
+            }
+          ],
+          "confidenceScore": 57,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T07:04:08.655Z",
+          "createdAt": "2026-06-08T07:04:06.287Z",
+          "updatedAt": "2026-06-08T07:04:08.657Z"
+        },
+        {
+          "id": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "name": "Cybersecurity Saudi Arabia",
+          "slug": "cybersecurity-saudi-arabia-en-cybersecurity",
+          "industry": "Cybersecurity",
+          "region": "GCC",
+          "country": "Saudi Arabia",
+          "language": "en",
+          "vertical": "Cybersecurity",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Market sync collected 17 brand(s), 30 prompt(s), 8 citation domain(s), and 98 trend(s).",
+              "source": "Market Intelligence Cloud",
+              "lastVerifiedAt": "2026-06-08T06:43:17.837Z"
+            }
+          ],
+          "confidenceScore": 75,
+          "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+          "lastRefreshedAt": "2026-06-08T06:43:17.836Z",
+          "createdAt": "2026-06-08T06:43:15.350Z",
+          "updatedAt": "2026-06-08T06:43:17.838Z"
+        }
+      ]
+    },
+    "confidenceScore": 82,
+    "evidence": [
+      {
+        "claim": "Commercial GEO data endpoint /api/data/markets returned 7 record(s).",
+        "source": "GEO Data API",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:15.961Z"
+      }
+    ],
+    "dataSource": "GEO_DATA_API",
+    "lastVerifiedAt": "2026-06-08T07:04:15.961Z"
+  }
+}

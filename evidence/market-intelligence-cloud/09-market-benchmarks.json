@@ -1,0 +1,156 @@
+{
+  "label": "09-market-benchmarks",
+  "method": "GET",
+  "url": "/market-benchmarks?marketId=8b6f3261-eab2-47b7-b8e9-5d3a014a2daf&brandId=7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "MARKET_BENCHMARKS",
+    "data": {
+      "id": "f633937d-3b6e-46e1-acfc-e5d19ef8f779",
+      "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+      "brandName": "Cloudflare SRO 1780897908191",
+      "customerBrandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "sampleSize": 17,
+      "marketAverage": {
+        "geoScore": 13.71,
+        "growthScore": 31,
+        "citationScore": 11.76,
+        "visibilityScore": 13.47
+      },
+      "topTenPercent": {
+        "geoScore": 81.5,
+        "growthScore": 39,
+        "citationScore": 50,
+        "visibilityScore": 79.5
+      },
+      "brandMetrics": {
+        "id": "fef243bd-4bc6-4f61-856e-39b66a7a9941",
+        "name": "Cloudflare SRO 1780897908191",
+        "rank": 3,
+        "category": "CUSTOMER_BRAND",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+            "source": "Market Database",
+            "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+          }
+        ],
+        "geoScore": 82,
+        "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+        "createdAt": "2026-06-08T06:43:15.627Z",
+        "updatedAt": "2026-06-08T06:43:15.874Z",
+        "dataSource": "MARKET_DATABASE",
+        "websiteUrl": "https://www.cloudflare.com",
+        "entityShare": 80,
+        "growthScore": 0,
+        "shareOfVoice": 49,
+        "citationScore": 0,
+        "citationShare": 0,
+        "lastVerifiedAt": "2026-06-08T06:43:15.625Z",
+        "trendDirection": "STABLE",
+        "confidenceScore": 52,
+        "customerBrandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "visibilityScore": 78
+      },
+      "competitorMetrics": [
+        {
+          "rank": 1,
+          "geoScore": 81,
+          "brandName": "CrowdStrike",
+          "citationScore": 100,
+          "visibilityScore": 81
+        },
+        {
+          "rank": 2,
+          "geoScore": 70,
+          "brandName": "Palo Alto Networks",
+          "citationScore": 100,
+          "visibilityScore": 70
+        },
+        {
+          "rank": 9,
+          "geoScore": 0,
+          "brandName": "Competitor B",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 10,
+          "geoScore": 0,
+          "brandName": "Competitor UI 20260602183515",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 11,
+          "geoScore": 0,
+          "brandName": "Competitor UI 20260602183641",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 7,
+          "geoScore": 0,
+          "brandName": "Cyberoam",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 12,
+          "geoScore": 0,
+          "brandName": "Manager Brand 20260602183015",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 13,
+          "geoScore": 0,
+          "brandName": "OrcaTech",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 14,
+          "geoScore": 0,
+          "brandName": "OrcaTech Product 20260602183015",
+          "citationScore": 0,
+          "visibilityScore": 0
+        },
+        {
+          "rank": 15,
+          "geoScore": 0,
+          "brandName": "OrcaTech UI 20260602183641",
+          "citationScore": 0,
+          "visibilityScore": 0
+        }
+      ],
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Benchmark calculated from 17 market brand row(s).",
+          "source": "Market Benchmarks",
+          "lastVerifiedAt": "2026-06-08T06:43:18.117Z"
+        }
+      ],
+      "confidenceScore": 85,
+      "capturedAt": "2026-06-08T06:43:18.118Z",
+      "dataSource": "MARKET_BENCHMARKS",
+      "createdAt": "2026-06-08T06:43:18.118Z"
+    },
+    "confidenceScore": 85,
+    "evidence": [
+      {
+        "claim": "Benchmark calculated from 17 market brand row(s).",
+        "source": "Market Benchmarks",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T06:43:18.117Z"
+      }
+    ],
+    "dataSource": "MARKET_BENCHMARKS",
+    "lastVerifiedAt": "2026-06-08T06:43:18.132Z"
+  }
+}

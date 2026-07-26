@@ -1,0 +1,478 @@
+{
+  "status": 201,
+  "ok": true,
+  "url": "/geo-copilot/command-center",
+  "method": "POST",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "EXECUTIVE_COMMAND_CENTER",
+    "data": {
+      "id": "15aea2af-0b19-4258-8369-0492cb49ea4f",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "whatHappened": [
+        {
+          "title": "No material intelligence change detected",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Loaded 0 change event(s) since 2026-05-09T04:45:01.013Z.",
+              "source": "Intelligence Timeline"
+            }
+          ]
+        }
+      ],
+      "why": [
+        {
+          "title": "Palo Alto Networks threat",
+          "reason": "Palo Alto Networks is visible in tracked AI responses; Palo Alto Networks owns trusted source citations; Palo Alto Networks is tied to prompt/content gaps.",
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks appeared in 1 real prompt response(s).",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Palo Alto Networks dominated 0 prompt response(s) where OrcaTech was absent.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "paloaltonetworks.com owned 1 citation(s) in stored AI responses.",
+              "source": "Citation Discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "1 prompt/content opportunity record(s) reference this competitor.",
+              "source": "Prompt Discovery + Content Gaps"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Brand latest GEO baseline is 85/100.",
+              "source": "GEO Score V2"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "0 prompt(s) are lost to Palo Alto Networks.",
+              "source": "Prompt Coverage Engine"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "0 citation source(s) show competitor citation advantage.",
+              "source": "Citation Authority Engine"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "0 entity gap(s) are dominated by competitors.",
+              "source": "Entity Intelligence Engine"
+            }
+          ]
+        },
+        {
+          "title": "Brightskies threat",
+          "reason": "Brightskies has limited stored evidence, so threat is currently low.",
+          "evidence": [
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Brightskies appeared in 0 real prompt response(s).",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Brightskies dominated 0 prompt response(s) where OrcaTech was absent.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "brightskies.com owned 0 citation(s) in stored AI responses.",
+              "source": "Citation Discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+              "source": "Prompt Discovery + Content Gaps"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Brand latest GEO baseline is 85/100.",
+              "source": "GEO Score V2"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "0 prompt(s) are lost to Brightskies.",
+              "source": "Prompt Coverage Engine"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "0 citation source(s) show competitor citation advantage.",
+              "source": "Citation Authority Engine"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "0 entity gap(s) are dominated by competitors.",
+              "source": "Entity Intelligence Engine"
+            }
+          ]
+        },
+        {
+          "title": "Check Point threat",
+          "reason": "Check Point is visible in tracked AI responses; Check Point owns trusted source citations; Check Point is tied to prompt/content gaps.",
+          "evidence": [
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Check Point appeared in 1 real prompt response(s).",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Check Point dominated 0 prompt response(s) where OrcaTech was absent.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "checkpoint.com owned 1 citation(s) in stored AI responses.",
+              "source": "Citation Discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "1 prompt/content opportunity record(s) reference this competitor.",
+              "source": "Prompt Discovery + Content Gaps"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Brand latest GEO baseline is 85/100.",
+              "source": "GEO Score V2"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "0 prompt(s) are lost to Check Point.",
+              "source": "Prompt Coverage Engine"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "0 citation source(s) show competitor citation advantage.",
+              "source": "Citation Authority Engine"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "0 entity gap(s) are dominated by competitors.",
+              "source": "Entity Intelligence Engine"
+            }
+          ]
+        },
+        {
+          "title": "Security Matterz threat",
+          "reason": "Security Matterz has limited stored evidence, so threat is currently low.",
+          "evidence": [
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "Security Matterz appeared in 0 real prompt response(s).",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Security Matterz dominated 0 prompt response(s) where OrcaTech was absent.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "securitymatterz.com owned 0 citation(s) in stored AI responses.",
+              "source": "Citation Discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+              "source": "Prompt Discovery + Content Gaps"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Brand latest GEO baseline is 85/100.",
+              "source": "GEO Score V2"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "0 prompt(s) are lost to Security Matterz.",
+              "source": "Prompt Coverage Engine"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "0 citation source(s) show competitor citation advantage.",
+              "source": "Citation Authority Engine"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "0 entity gap(s) are dominated by competitors.",
+              "source": "Entity Intelligence Engine"
+            }
+          ]
+        },
+        {
+          "title": "Cyberoam threat",
+          "reason": "Cyberoam is visible in tracked AI responses; Cyberoam owns trusted source citations; Cyberoam is tied to prompt/content gaps.",
+          "evidence": [
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Cyberoam appeared in 1 real prompt response(s).",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Cyberoam dominated 0 prompt response(s) where OrcaTech was absent.",
+              "source": "Prompt Tracking"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "cyberoam.com owned 1 citation(s) in stored AI responses.",
+              "source": "Citation Discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "2 prompt/content opportunity record(s) reference this competitor.",
+              "source": "Prompt Discovery + Content Gaps"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Brand latest GEO baseline is 85/100.",
+              "source": "GEO Score V2"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "0 prompt(s) are lost to Cyberoam.",
+              "source": "Prompt Coverage Engine"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "0 citation source(s) show competitor citation advantage.",
+              "source": "Citation Authority Engine"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "0 entity gap(s) are dominated by competitors.",
+              "source": "Entity Intelligence Engine"
+            }
+          ]
+        },
+        {
+          "title": "saudiaramco.com trend",
+          "reason": "UP / FAST",
+          "evidence": [
+            {
+              "url": "https://saudiaramco.com/",
+              "claim": "saudiaramco.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ]
+        },
+        {
+          "title": "cyberoam.com trend",
+          "reason": "UP / FAST",
+          "evidence": [
+            {
+              "url": "https://cyberoam.com/",
+              "claim": "cyberoam.com appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ]
+        },
+        {
+          "title": "mcit.gov.sa trend",
+          "reason": "UP / FAST",
+          "evidence": [
+            {
+              "url": "https://mcit.gov.sa/",
+              "claim": "mcit.gov.sa appeared 6 time(s) in recent research vs 0 in the previous window.",
+              "source": "Trend Discovery Engine"
+            }
+          ]
+        }
+      ],
+      "whatMatters": [
+        {
+          "type": "ACTION",
+          "score": 85,
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "confidenceScore": 98
+        },
+        {
+          "type": "ACTION",
+          "score": 85,
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "confidenceScore": 98
+        },
+        {
+          "type": "ACTION",
+          "score": 85,
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "confidenceScore": 98
+        },
+        {
+          "type": "ACTION",
+          "score": 85,
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "confidenceScore": 98
+        },
+        {
+          "type": "ACTION",
+          "score": 85,
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "confidenceScore": 98
+        },
+        {
+          "type": "THREAT",
+          "score": 25,
+          "title": "Cyberoam",
+          "confidenceScore": 79
+        },
+        {
+          "type": "THREAT",
+          "score": 19,
+          "title": "Palo Alto Networks",
+          "confidenceScore": 79
+        },
+        {
+          "type": "THREAT",
+          "score": 19,
+          "title": "Check Point",
+          "confidenceScore": 79
+        }
+      ],
+      "nextActions": [
+        {
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "250dadef-c8f3-4b0f-ada6-76a3e5177748",
+          "sourceType": "OPPORTUNITY",
+          "description": "Track and optimize for \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+          "impactScore": 85,
+          "confidenceScore": 98,
+          "difficultyScore": 75,
+          "expectedGeoGain": 6.5
+        },
+        {
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "2aa37caf-62d5-4eca-af06-be36377555b0",
+          "sourceType": "OPPORTUNITY",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "impactScore": 85,
+          "confidenceScore": 98,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5
+        },
+        {
+          "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "b2b20782-c248-4cb9-97a0-ca752cd382b1",
+          "sourceType": "GEO_INSIGHT",
+          "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+          "impactScore": 85,
+          "confidenceScore": 98,
+          "difficultyScore": 75,
+          "expectedGeoGain": 9.5
+        },
+        {
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "264536c3-fa3b-4269-82fd-0297de910bd7",
+          "sourceType": "GEO_INSIGHT",
+          "description": "Track and optimize for \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+          "impactScore": 85,
+          "confidenceScore": 98,
+          "difficultyScore": 75,
+          "expectedGeoGain": 6.5
+        },
+        {
+          "title": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "201658b5-a0f9-4f63-a50b-5c6054eff65a",
+          "sourceType": "GEO_INSIGHT",
+          "description": "Track and optimize for \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+          "impactScore": 85,
+          "confidenceScore": 98,
+          "difficultyScore": 75,
+          "expectedGeoGain": 6.5
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Command center assembled changes, reasons, priorities, and next actions from stored intelligence.",
+          "source": "Executive Command Center"
+        }
+      ],
+      "confidenceScore": 58,
+      "dataSource": "EXECUTIVE_COMMAND_CENTER",
+      "createdAt": "2026-06-08T04:45:01.169Z"
+    },
+    "evidence": [
+      {
+        "claim": "Command center assembled changes, reasons, priorities, and next actions from stored intelligence.",
+        "source": "Executive Command Center",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 58,
+    "dataSource": "EXECUTIVE_COMMAND_CENTER",
+    "lastVerifiedAt": "2026-06-08T04:45:01.183Z"
+  }
+}

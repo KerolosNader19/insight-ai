@@ -1,0 +1,52 @@
+{
+  "label": "05-benchmarks",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/benchmarks",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:35:27.936Z",
+  "completedAt": "2026-06-08T02:35:28.014Z",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "INDUSTRY_BENCHMARK_ENGINE",
+    "data": {
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "sampleSize": 3,
+      "industryPercentile": 100,
+      "geoScorePercentile": 100,
+      "citationPercentile": 100,
+      "visibilityPercentile": 100,
+      "confidence": 85,
+      "evidence": [
+        {
+          "claim": "Compared 3 scored brand sample(s) in Cybersecurity / Saudi Arabia.",
+          "source": "Industry Benchmark Engine",
+          "url": "https://orcatech.online"
+        },
+        {
+          "claim": "Current GEO score sample is 97.",
+          "source": "GEO Score V2 + Analytics",
+          "url": "https://orcatech.online"
+        }
+      ],
+      "dataSource": "GEO_SCORE_V2 + ANALYTICS_SNAPSHOTS",
+      "lastVerifiedAt": "2026-06-08T02:35:27.973Z"
+    },
+    "evidence": [
+      {
+        "claim": "Compared 3 scored brand sample(s) in Cybersecurity / Saudi Arabia.",
+        "source": "Industry Benchmark Engine",
+        "url": "https://orcatech.online"
+      },
+      {
+        "claim": "Current GEO score sample is 97.",
+        "source": "GEO Score V2 + Analytics",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 85,
+    "dataSource": "GEO_SCORE_V2 + ANALYTICS_SNAPSHOTS",
+    "lastVerifiedAt": "2026-06-08T02:35:28.010Z"
+  }
+}

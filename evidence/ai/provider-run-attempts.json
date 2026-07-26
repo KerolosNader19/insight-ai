@@ -1,0 +1,45 @@
+{
+  "checkedAt": "2026-06-02T17:14:02.346Z",
+  "apiBaseUrl": "http://localhost:4000",
+  "login": {
+    "status": 201,
+    "hasToken": true,
+    "organizationId": null
+  },
+  "brand": {
+    "id": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+    "name": "OrcaTech",
+    "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+    "competitorCount": 2
+  },
+  "prompt": {
+    "id": "a6246b4b-d65a-481c-8ba9-ba40848974d1",
+    "queryText": "Best cybersecurity company in Saudi Arabia"
+  },
+  "runs": [
+    {
+      "requestedEngine": "Groq",
+      "httpStatus": 201,
+      "responseId": "4a49a55d-f06d-43eb-b5f9-a7fd6d836df8",
+      "storedStatus": "FAILED",
+      "provider": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "rawContentLength": 0,
+      "error": "GROQ_API_KEY is not configured",
+      "mentionCount": 0,
+      "citationCount": 0
+    },
+    {
+      "requestedEngine": "Gemini",
+      "httpStatus": 201,
+      "responseId": "8d49858a-8a82-4282-a48b-937415320a5b",
+      "storedStatus": "FAILED",
+      "provider": "Gemini",
+      "model": "gemini-1.5-flash",
+      "rawContentLength": 0,
+      "error": "GEMINI_API_KEY is not configured",
+      "mentionCount": 0,
+      "citationCount": 0
+    }
+  ]
+}

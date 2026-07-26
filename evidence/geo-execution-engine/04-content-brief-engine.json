@@ -1,0 +1,257 @@
+{
+  "label": "04-content-brief-engine",
+  "method": "POST",
+  "url": "/geo-execution/content-brief",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "8d366425-52e6-4ab2-8ab2-11e2892924c3",
+    "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "type": "CONTENT_BRIEF",
+    "title": "Content Brief - Best cybersecurity company in Saudi Arabia",
+    "status": "GENERATED",
+    "input": {
+      "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "country": "Saudi Arabia",
+      "industry": "Cybersecurity",
+      "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+    },
+    "output": {
+      "sources": [
+        "linkedin.com",
+        "x.com",
+        "instagram.com",
+        "youtube.com",
+        "marketplace.crowdstrike.com",
+        "ir.crowdstrike.com",
+        "crowdstrikeracing.com",
+        "supportportal.crowdstrike.com",
+        "developer.crowdstrike.com",
+        "community.crowdstrike.com",
+        "privacyportal.onetrust.com",
+        "paloaltonetworks.de",
+        "paloaltonetworks.ca",
+        "paloaltonetworks.tw",
+        "paloaltonetworks.com.br",
+        "paloaltonetworks.co.kr",
+        "paloaltonetworks.in",
+        "paloaltonetworks.es",
+        "paloaltonetworks.cn",
+        "paloaltonetworks.com.mx"
+      ],
+      "entities": [
+        "Cloudflare SRO",
+        "Cybersecurity Saudi Arabia Best",
+        "Saudi Arabia Missing",
+        "Competitors",
+        "Cybersecurity Saudi Arabia Palo",
+        "Alto Networks Leader Competitors",
+        "Cybersecurity Protection Competitors",
+        "Software Competitors",
+        "Modern Enterprises Competitors",
+        "Palo Alto Networks Control",
+        "Introducing Idira Competitors",
+        "RECOMMENDED Missing",
+        "Cybersecurity Saudi Arabia CrowdStrike",
+        "CrowdStrike We Stop Breaches",
+        "Cybersecurity New Frontier AI",
+        "Readiness Resilience Service New",
+        "Frontier AI Readiness Securing",
+        "AI Where It Executes",
+        "The Endpoint Is New",
+        "Control Point AI Agent",
+        "Security Securing",
+        "Alto Networks Leader Cybersecurity",
+        "Protection Software Modern Enterprises",
+        "Introducing Idira RECOMMENDED Gartner"
+      ],
+      "citations": [
+        {
+          "use": "Reference linkedin.com when supporting claims about Cybersecurity.",
+          "domain": "linkedin.com"
+        },
+        {
+          "use": "Reference x.com when supporting claims about Cybersecurity.",
+          "domain": "x.com"
+        },
+        {
+          "use": "Reference instagram.com when supporting claims about Cybersecurity.",
+          "domain": "instagram.com"
+        },
+        {
+          "use": "Reference youtube.com when supporting claims about Cybersecurity.",
+          "domain": "youtube.com"
+        },
+        {
+          "use": "Reference marketplace.crowdstrike.com when supporting claims about Cybersecurity.",
+          "domain": "marketplace.crowdstrike.com"
+        },
+        {
+          "use": "Reference ir.crowdstrike.com when supporting claims about Cybersecurity.",
+          "domain": "ir.crowdstrike.com"
+        },
+        {
+          "use": "Reference crowdstrikeracing.com when supporting claims about Cybersecurity.",
+          "domain": "crowdstrikeracing.com"
+        },
+        {
+          "use": "Reference supportportal.crowdstrike.com when supporting claims about Cybersecurity.",
+          "domain": "supportportal.crowdstrike.com"
+        },
+        {
+          "use": "Reference developer.crowdstrike.com when supporting claims about Cybersecurity.",
+          "domain": "developer.crowdstrike.com"
+        },
+        {
+          "use": "Reference community.crowdstrike.com when supporting claims about Cybersecurity.",
+          "domain": "community.crowdstrike.com"
+        },
+        {
+          "use": "Reference privacyportal.onetrust.com when supporting claims about Cybersecurity.",
+          "domain": "privacyportal.onetrust.com"
+        },
+        {
+          "use": "Reference paloaltonetworks.de when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.de"
+        },
+        {
+          "use": "Reference paloaltonetworks.ca when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.ca"
+        },
+        {
+          "use": "Reference paloaltonetworks.tw when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.tw"
+        },
+        {
+          "use": "Reference paloaltonetworks.com.br when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.com.br"
+        },
+        {
+          "use": "Reference paloaltonetworks.co.kr when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.co.kr"
+        },
+        {
+          "use": "Reference paloaltonetworks.in when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.in"
+        },
+        {
+          "use": "Reference paloaltonetworks.es when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.es"
+        },
+        {
+          "use": "Reference paloaltonetworks.cn when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.cn"
+        },
+        {
+          "use": "Reference paloaltonetworks.com.mx when supporting claims about Cybersecurity.",
+          "domain": "paloaltonetworks.com.mx"
+        }
+      ],
+      "questions": [
+        "What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?",
+        "Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?",
+        "Which Cybersecurity capabilities matter most?",
+        "What proof, certifications, or outcomes should be shown?",
+        "Which competitors should be compared?",
+        "Which sources should be cited?",
+        "What FAQ answers should be schema-ready?"
+      ],
+      "internalLinks": [
+        "service page",
+        "comparison page",
+        "FAQ page",
+        "case study page",
+        "contact page"
+      ],
+      "targetPrompts": [
+        "Best cybersecurity company in Saudi Arabia",
+        "Best Cybersecurity companies in Saudi Arabia",
+        "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia",
+        "Top Cybersecurity providers for enterprises in Saudi Arabia",
+        "Compare Cybersecurity vendors in Saudi Arabia",
+        "Cybersecurity provider with local support in Saudi Arabia",
+        "Best cybersecurity company in Saudi Arabia for a CEO",
+        "Best cybersecurity company in Saudi Arabia for a CTO",
+        "Best cybersecurity company in Saudi Arabia for a CISO",
+        "Best cybersecurity company in Saudi Arabia for a SOC Manager",
+        "How to choose a Cybersecurity provider in Saudi Arabia",
+        "Best cybersecurity company in Saudi Arabia for a Compliance Buyer"
+      ],
+      "targetKeywords": [
+        "cybersecurity",
+        "saudi",
+        "arabia",
+        "cloudflare",
+        "sro",
+        "missing",
+        "competitors",
+        "palo",
+        "alto",
+        "networks",
+        "leader",
+        "protection",
+        "software",
+        "modern",
+        "enterprises",
+        "control",
+        "introducing",
+        "idira"
+      ],
+      "externalReferences": [
+        "linkedin.com",
+        "x.com",
+        "instagram.com",
+        "youtube.com",
+        "marketplace.crowdstrike.com",
+        "ir.crowdstrike.com",
+        "crowdstrikeracing.com",
+        "supportportal.crowdstrike.com"
+      ],
+      "writerInstructions": [
+        "Lead with a direct answer in the first 70 words.",
+        "Use comparison language where competitors dominate prompts.",
+        "Include FAQPage and Service schema.",
+        "Cite external sources only when the claim is specific and supportable."
+      ]
+    },
+    "markdown": "# Content Brief: Best cybersecurity company in Saudi Arabia\n\n## Target Keywords\n- cybersecurity\n- saudi\n- arabia\n- cloudflare\n- sro\n- missing\n- competitors\n- palo\n- alto\n- networks\n- leader\n- protection\n- software\n- modern\n- enterprises\n- control\n- introducing\n- idira\n\n## Target Prompts\n- Best cybersecurity company in Saudi Arabia\n- Best Cybersecurity companies in Saudi Arabia\n- Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia\n- Top Cybersecurity providers for enterprises in Saudi Arabia\n- Compare Cybersecurity vendors in Saudi Arabia\n- Cybersecurity provider with local support in Saudi Arabia\n- Best cybersecurity company in Saudi Arabia for a CEO\n- Best cybersecurity company in Saudi Arabia for a CTO\n- Best cybersecurity company in Saudi Arabia for a CISO\n- Best cybersecurity company in Saudi Arabia for a SOC Manager\n- How to choose a Cybersecurity provider in Saudi Arabia\n- Best cybersecurity company in Saudi Arabia for a Compliance Buyer\n\n## Entities\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n- Cybersecurity Protection Competitors\n- Software Competitors\n- Modern Enterprises Competitors\n- Palo Alto Networks Control\n- Introducing Idira Competitors\n- RECOMMENDED Missing\n- Cybersecurity Saudi Arabia CrowdStrike\n- CrowdStrike We Stop Breaches\n- Cybersecurity New Frontier AI\n- Readiness Resilience Service New\n- Frontier AI Readiness Securing\n- AI Where It Executes\n- The Endpoint Is New\n- Control Point AI Agent\n- Security Securing\n- Alto Networks Leader Cybersecurity\n- Protection Software Modern Enterprises\n- Introducing Idira RECOMMENDED Gartner\n\n## Questions\n- What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?\n- Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?\n- Which Cybersecurity capabilities matter most?\n- What proof, certifications, or outcomes should be shown?\n- Which competitors should be compared?\n- Which sources should be cited?\n- What FAQ answers should be schema-ready?\n\n## Sources / Citations\n- linkedin.com\n- x.com\n- instagram.com\n- youtube.com\n- marketplace.crowdstrike.com\n- ir.crowdstrike.com\n- crowdstrikeracing.com\n- supportportal.crowdstrike.com\n- developer.crowdstrike.com\n- community.crowdstrike.com\n- privacyportal.onetrust.com\n- paloaltonetworks.de\n- paloaltonetworks.ca\n- paloaltonetworks.tw\n- paloaltonetworks.com.br\n- paloaltonetworks.co.kr\n- paloaltonetworks.in\n- paloaltonetworks.es\n- paloaltonetworks.cn\n- paloaltonetworks.com.mx\n\n## Writer Instructions\n- Lead with a direct answer in the first 70 words.\n- Use comparison language where competitors dominate prompts.\n- Include FAQPage and Service schema.\n- Cite external sources only when the claim is specific and supportable.",
+    "evidence": [
+      {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+        "source": "CONTENT_BRIEF",
+        "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+      },
+      {
+        "url": "https://www.cloudflare.com/",
+        "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+        "source": "SRO Analysis",
+        "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+      },
+      {
+        "url": "https://www.cloudflare.com",
+        "claim": "Used 12 stored prompt suggestion row(s).",
+        "source": "Prompt Discovery",
+        "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+      }
+    ],
+    "confidenceScore": 86,
+    "revenueImpact": 80,
+    "geoImpact": 80,
+    "difficultyScore": 36,
+    "priorityScore": 70,
+    "dataSource": "GEO_EXECUTION_ENGINE_V1",
+    "lastVerifiedAt": "2026-06-08T06:14:36.211Z",
+    "createdAt": "2026-06-08T06:14:36.213Z",
+    "updatedAt": "2026-06-08T06:14:36.213Z"
+  }
+}

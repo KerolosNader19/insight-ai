@@ -1,0 +1,703 @@
+{
+  "label": "12-competitor-radar",
+  "method": "GET",
+  "url": "/competitor-radar?marketId=8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "COMPETITOR_RADAR",
+    "data": {
+      "market": {
+        "id": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+        "name": "Cybersecurity Saudi Arabia",
+        "slug": "cybersecurity-saudi-arabia-en-cybersecurity",
+        "industry": "Cybersecurity",
+        "region": "GCC",
+        "country": "Saudi Arabia",
+        "language": "en",
+        "vertical": "Cybersecurity",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Market sync collected 17 brand(s), 30 prompt(s), 8 citation domain(s), and 98 trend(s).",
+            "source": "Market Intelligence Cloud",
+            "lastVerifiedAt": "2026-06-08T06:43:17.837Z"
+          }
+        ],
+        "confidenceScore": 75,
+        "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+        "lastRefreshedAt": "2026-06-08T06:43:17.836Z",
+        "createdAt": "2026-06-08T06:43:15.350Z",
+        "updatedAt": "2026-06-08T06:43:17.838Z"
+      },
+      "newCompetitors": [
+        {
+          "id": "ad64f4dd-ee44-49d2-9115-681921a3c321",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Brightskies",
+          "websiteUrl": "https://brightskies.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 98,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 4,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.568Z",
+          "createdAt": "2026-06-08T06:43:15.569Z",
+          "updatedAt": "2026-06-08T06:43:15.897Z"
+        },
+        {
+          "id": "bd60bd86-dd75-4f05-84a6-52ae13ada95f",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Check Point",
+          "websiteUrl": "https://www.checkpoint.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 98,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 5,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.530Z",
+          "createdAt": "2026-06-08T06:43:15.530Z",
+          "updatedAt": "2026-06-08T06:43:15.917Z"
+        },
+        {
+          "id": "0e46200c-4bd5-4128-a0c5-7b39e7d96573",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Security Matterz",
+          "websiteUrl": "https://www.securitymatterz.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 93,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 6,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 93,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.588Z",
+          "createdAt": "2026-06-08T06:43:15.589Z",
+          "updatedAt": "2026-06-08T06:43:15.940Z"
+        },
+        {
+          "id": "5e0e5cd2-fecf-4fac-a6b5-bdcfe8bcc383",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Cyberoam",
+          "websiteUrl": "https://www.cyberoam.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 88,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 7,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 88,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.606Z",
+          "createdAt": "2026-06-08T06:43:15.608Z",
+          "updatedAt": "2026-06-08T06:43:15.958Z"
+        }
+      ],
+      "growingCompetitors": [
+        {
+          "id": "ad64f4dd-ee44-49d2-9115-681921a3c321",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Brightskies",
+          "websiteUrl": "https://brightskies.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 98,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 4,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.568Z",
+          "createdAt": "2026-06-08T06:43:15.569Z",
+          "updatedAt": "2026-06-08T06:43:15.897Z"
+        },
+        {
+          "id": "bd60bd86-dd75-4f05-84a6-52ae13ada95f",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Check Point",
+          "websiteUrl": "https://www.checkpoint.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 98,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 5,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.530Z",
+          "createdAt": "2026-06-08T06:43:15.530Z",
+          "updatedAt": "2026-06-08T06:43:15.917Z"
+        },
+        {
+          "id": "0e46200c-4bd5-4128-a0c5-7b39e7d96573",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Security Matterz",
+          "websiteUrl": "https://www.securitymatterz.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 93,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 6,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 93,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.588Z",
+          "createdAt": "2026-06-08T06:43:15.589Z",
+          "updatedAt": "2026-06-08T06:43:15.940Z"
+        },
+        {
+          "id": "5e0e5cd2-fecf-4fac-a6b5-bdcfe8bcc383",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Cyberoam",
+          "websiteUrl": "https://www.cyberoam.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 88,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 7,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 88,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.606Z",
+          "createdAt": "2026-06-08T06:43:15.608Z",
+          "updatedAt": "2026-06-08T06:43:15.958Z"
+        },
+        {
+          "id": "976cd071-11e0-4834-8a58-770d5ee39abe",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "CrowdStrike",
+          "websiteUrl": "https://www.crowdstrike.com",
+          "category": "COMPETITOR",
+          "geoScore": 81,
+          "visibilityScore": 81,
+          "citationScore": 100,
+          "growthScore": 78,
+          "trendDirection": "UP",
+          "shareOfVoice": 31,
+          "citationShare": 100,
+          "entityShare": 81,
+          "rank": 1,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.663Z",
+          "createdAt": "2026-06-08T06:43:15.664Z",
+          "updatedAt": "2026-06-08T06:43:15.834Z"
+        },
+        {
+          "id": "3d7f832e-11f1-4ac4-ae49-9f1595278599",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Palo Alto Networks",
+          "websiteUrl": "https://www.paloaltonetworks.com",
+          "category": "COMPETITOR",
+          "geoScore": 70,
+          "visibilityScore": 70,
+          "citationScore": 100,
+          "growthScore": 72,
+          "trendDirection": "UP",
+          "shareOfVoice": 29,
+          "citationShare": 100,
+          "entityShare": 70,
+          "rank": 2,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.647Z",
+          "createdAt": "2026-06-08T06:43:15.548Z",
+          "updatedAt": "2026-06-08T06:43:15.851Z"
+        }
+      ],
+      "emergingCompetitors": [
+        {
+          "id": "ad64f4dd-ee44-49d2-9115-681921a3c321",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Brightskies",
+          "websiteUrl": "https://brightskies.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 98,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 4,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.568Z",
+          "createdAt": "2026-06-08T06:43:15.569Z",
+          "updatedAt": "2026-06-08T06:43:15.897Z"
+        },
+        {
+          "id": "bd60bd86-dd75-4f05-84a6-52ae13ada95f",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Check Point",
+          "websiteUrl": "https://www.checkpoint.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 98,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 5,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.530Z",
+          "createdAt": "2026-06-08T06:43:15.530Z",
+          "updatedAt": "2026-06-08T06:43:15.917Z"
+        },
+        {
+          "id": "0e46200c-4bd5-4128-a0c5-7b39e7d96573",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Security Matterz",
+          "websiteUrl": "https://www.securitymatterz.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 93,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 6,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 93,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.588Z",
+          "createdAt": "2026-06-08T06:43:15.589Z",
+          "updatedAt": "2026-06-08T06:43:15.940Z"
+        },
+        {
+          "id": "5e0e5cd2-fecf-4fac-a6b5-bdcfe8bcc383",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Cyberoam",
+          "websiteUrl": "https://www.cyberoam.com/",
+          "category": "COMPETITOR_CANDIDATE",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "growthScore": 88,
+          "trendDirection": "UP",
+          "shareOfVoice": 0,
+          "citationShare": 0,
+          "entityShare": 0,
+          "rank": 7,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 88,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.606Z",
+          "createdAt": "2026-06-08T06:43:15.608Z",
+          "updatedAt": "2026-06-08T06:43:15.958Z"
+        },
+        {
+          "id": "976cd071-11e0-4834-8a58-770d5ee39abe",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "CrowdStrike",
+          "websiteUrl": "https://www.crowdstrike.com",
+          "category": "COMPETITOR",
+          "geoScore": 81,
+          "visibilityScore": 81,
+          "citationScore": 100,
+          "growthScore": 78,
+          "trendDirection": "UP",
+          "shareOfVoice": 31,
+          "citationShare": 100,
+          "entityShare": 81,
+          "rank": 1,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.663Z",
+          "createdAt": "2026-06-08T06:43:15.664Z",
+          "updatedAt": "2026-06-08T06:43:15.834Z"
+        },
+        {
+          "id": "3d7f832e-11f1-4ac4-ae49-9f1595278599",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "customerBrandId": null,
+          "name": "Palo Alto Networks",
+          "websiteUrl": "https://www.paloaltonetworks.com",
+          "category": "COMPETITOR",
+          "geoScore": 70,
+          "visibilityScore": 70,
+          "citationScore": 100,
+          "growthScore": 72,
+          "trendDirection": "UP",
+          "shareOfVoice": 29,
+          "citationShare": 100,
+          "entityShare": 70,
+          "rank": 2,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "MARKET_DATABASE",
+          "lastVerifiedAt": "2026-06-08T06:43:15.647Z",
+          "createdAt": "2026-06-08T06:43:15.548Z",
+          "updatedAt": "2026-06-08T06:43:15.851Z"
+        }
+      ],
+      "decliningCompetitors": []
+    },
+    "confidenceScore": 61,
+    "evidence": [
+      {
+        "claim": "Competitor radar evaluated 17 market brand row(s).",
+        "source": "Competitor Radar",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T06:43:18.873Z"
+      }
+    ],
+    "dataSource": "COMPETITOR_RADAR",
+    "lastVerifiedAt": "2026-06-08T06:43:18.873Z"
+  }
+}

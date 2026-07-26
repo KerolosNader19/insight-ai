@@ -1,0 +1,249 @@
+{
+  "label": "08-content-calendar-generator",
+  "method": "POST",
+  "url": "/geo-execution/content-calendar",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "f2a4838d-2e00-49c2-9039-e8112c5404de",
+    "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "type": "CONTENT_CALENDAR",
+    "title": "90-Day GEO Content Calendar - Cloudflare SRO 1780897908191",
+    "status": "GENERATED",
+    "input": {
+      "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "country": "Saudi Arabia",
+      "industry": "Cybersecurity",
+      "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+    },
+    "output": {
+      "sixtyDay": [
+        {
+          "week": 5,
+          "asset": "comparison page",
+          "phase": "60-day",
+          "topic": "Compare Cybersecurity vendors in Saudi Arabia",
+          "expectedImpact": "topic authority growth",
+          "targetEntities": [
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader Competitors",
+            "Cybersecurity Protection Competitors",
+            "Software Competitors",
+            "Modern Enterprises Competitors"
+          ]
+        },
+        {
+          "week": 6,
+          "asset": "citation-support article",
+          "phase": "60-day",
+          "topic": "Cybersecurity provider with local support in Saudi Arabia",
+          "expectedImpact": "topic authority growth",
+          "targetEntities": [
+            "Alto Networks Leader Competitors",
+            "Cybersecurity Protection Competitors",
+            "Software Competitors",
+            "Modern Enterprises Competitors",
+            "Palo Alto Networks Control"
+          ]
+        },
+        {
+          "week": 7,
+          "asset": "FAQ/service page",
+          "phase": "60-day",
+          "topic": "Best cybersecurity company in Saudi Arabia for a CEO",
+          "expectedImpact": "topic authority growth",
+          "targetEntities": [
+            "Cybersecurity Protection Competitors",
+            "Software Competitors",
+            "Modern Enterprises Competitors",
+            "Palo Alto Networks Control",
+            "Introducing Idira Competitors"
+          ]
+        },
+        {
+          "week": 8,
+          "asset": "comparison page",
+          "phase": "60-day",
+          "topic": "Best cybersecurity company in Saudi Arabia for a CTO",
+          "expectedImpact": "topic authority growth",
+          "targetEntities": [
+            "Software Competitors",
+            "Modern Enterprises Competitors",
+            "Palo Alto Networks Control",
+            "Introducing Idira Competitors",
+            "RECOMMENDED Missing"
+          ]
+        }
+      ],
+      "ninetyDay": [
+        {
+          "week": 9,
+          "asset": "citation-support article",
+          "phase": "90-day",
+          "topic": "Best cybersecurity company in Saudi Arabia for a CISO",
+          "expectedImpact": "market coverage expansion",
+          "targetEntities": [
+            "Modern Enterprises Competitors",
+            "Palo Alto Networks Control",
+            "Introducing Idira Competitors",
+            "RECOMMENDED Missing",
+            "Cybersecurity Saudi Arabia CrowdStrike"
+          ]
+        },
+        {
+          "week": 10,
+          "asset": "FAQ/service page",
+          "phase": "90-day",
+          "topic": "Best cybersecurity company in Saudi Arabia for a SOC Manager",
+          "expectedImpact": "market coverage expansion",
+          "targetEntities": [
+            "Palo Alto Networks Control",
+            "Introducing Idira Competitors",
+            "RECOMMENDED Missing",
+            "Cybersecurity Saudi Arabia CrowdStrike",
+            "CrowdStrike We Stop Breaches"
+          ]
+        },
+        {
+          "week": 11,
+          "asset": "comparison page",
+          "phase": "90-day",
+          "topic": "How to choose a Cybersecurity provider in Saudi Arabia",
+          "expectedImpact": "market coverage expansion",
+          "targetEntities": [
+            "Introducing Idira Competitors",
+            "RECOMMENDED Missing",
+            "Cybersecurity Saudi Arabia CrowdStrike",
+            "CrowdStrike We Stop Breaches",
+            "Cybersecurity New Frontier AI"
+          ]
+        },
+        {
+          "week": 12,
+          "asset": "citation-support article",
+          "phase": "90-day",
+          "topic": "Best cybersecurity company in Saudi Arabia for a Compliance Buyer",
+          "expectedImpact": "market coverage expansion",
+          "targetEntities": [
+            "RECOMMENDED Missing",
+            "Cybersecurity Saudi Arabia CrowdStrike",
+            "CrowdStrike We Stop Breaches",
+            "Cybersecurity New Frontier AI",
+            "Readiness Resilience Service New"
+          ]
+        },
+        {
+          "week": 13,
+          "asset": "FAQ/service page",
+          "phase": "90-day",
+          "topic": "Best cybersecurity company in Saudi Arabia",
+          "expectedImpact": "market coverage expansion",
+          "targetEntities": [
+            "Cybersecurity Saudi Arabia CrowdStrike",
+            "CrowdStrike We Stop Breaches",
+            "Cybersecurity New Frontier AI",
+            "Readiness Resilience Service New",
+            "Frontier AI Readiness Securing"
+          ]
+        }
+      ],
+      "thirtyDay": [
+        {
+          "week": 1,
+          "asset": "FAQ/service page",
+          "phase": "30-day",
+          "topic": "Best cybersecurity company in Saudi Arabia",
+          "expectedImpact": "quick visibility lift",
+          "targetEntities": [
+            "Cloudflare SRO",
+            "Cybersecurity Saudi Arabia Best",
+            "Saudi Arabia Missing",
+            "Competitors",
+            "Cybersecurity Saudi Arabia Palo"
+          ]
+        },
+        {
+          "week": 2,
+          "asset": "comparison page",
+          "phase": "30-day",
+          "topic": "Best Cybersecurity companies in Saudi Arabia",
+          "expectedImpact": "quick visibility lift",
+          "targetEntities": [
+            "Cybersecurity Saudi Arabia Best",
+            "Saudi Arabia Missing",
+            "Competitors",
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader Competitors"
+          ]
+        },
+        {
+          "week": 3,
+          "asset": "citation-support article",
+          "phase": "30-day",
+          "topic": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia",
+          "expectedImpact": "quick visibility lift",
+          "targetEntities": [
+            "Saudi Arabia Missing",
+            "Competitors",
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader Competitors",
+            "Cybersecurity Protection Competitors"
+          ]
+        },
+        {
+          "week": 4,
+          "asset": "FAQ/service page",
+          "phase": "30-day",
+          "topic": "Top Cybersecurity providers for enterprises in Saudi Arabia",
+          "expectedImpact": "quick visibility lift",
+          "targetEntities": [
+            "Competitors",
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader Competitors",
+            "Cybersecurity Protection Competitors",
+            "Software Competitors"
+          ]
+        }
+      ]
+    },
+    "markdown": "# GEO Content Calendar: Cloudflare SRO 1780897908191\n\n## Week 1 (30-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia\n- Entities: Cloudflare SRO, Cybersecurity Saudi Arabia Best, Saudi Arabia Missing, Competitors, Cybersecurity Saudi Arabia Palo\n- Expected impact: quick visibility lift\n\n## Week 2 (30-day)\n- Asset: comparison page\n- Topic: Best Cybersecurity companies in Saudi Arabia\n- Entities: Cybersecurity Saudi Arabia Best, Saudi Arabia Missing, Competitors, Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors\n- Expected impact: quick visibility lift\n\n## Week 3 (30-day)\n- Asset: citation-support article\n- Topic: Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia\n- Entities: Saudi Arabia Missing, Competitors, Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors, Cybersecurity Protection Competitors\n- Expected impact: quick visibility lift\n\n## Week 4 (30-day)\n- Asset: FAQ/service page\n- Topic: Top Cybersecurity providers for enterprises in Saudi Arabia\n- Entities: Competitors, Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors, Cybersecurity Protection Competitors, Software Competitors\n- Expected impact: quick visibility lift\n\n## Week 5 (60-day)\n- Asset: comparison page\n- Topic: Compare Cybersecurity vendors in Saudi Arabia\n- Entities: Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors, Cybersecurity Protection Competitors, Software Competitors, Modern Enterprises Competitors\n- Expected impact: topic authority growth\n\n## Week 6 (60-day)\n- Asset: citation-support article\n- Topic: Cybersecurity provider with local support in Saudi Arabia\n- Entities: Alto Networks Leader Competitors, Cybersecurity Protection Competitors, Software Competitors, Modern Enterprises Competitors, Palo Alto Networks Control\n- Expected impact: topic authority growth\n\n## Week 7 (60-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia for a CEO\n- Entities: Cybersecurity Protection Competitors, Software Competitors, Modern Enterprises Competitors, Palo Alto Networks Control, Introducing Idira Competitors\n- Expected impact: topic authority growth\n\n## Week 8 (60-day)\n- Asset: comparison page\n- Topic: Best cybersecurity company in Saudi Arabia for a CTO\n- Entities: Software Competitors, Modern Enterprises Competitors, Palo Alto Networks Control, Introducing Idira Competitors, RECOMMENDED Missing\n- Expected impact: topic authority growth\n\n## Week 9 (90-day)\n- Asset: citation-support article\n- Topic: Best cybersecurity company in Saudi Arabia for a CISO\n- Entities: Modern Enterprises Competitors, Palo Alto Networks Control, Introducing Idira Competitors, RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike\n- Expected impact: market coverage expansion\n\n## Week 10 (90-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia for a SOC Manager\n- Entities: Palo Alto Networks Control, Introducing Idira Competitors, RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches\n- Expected impact: market coverage expansion\n\n## Week 11 (90-day)\n- Asset: comparison page\n- Topic: How to choose a Cybersecurity provider in Saudi Arabia\n- Entities: Introducing Idira Competitors, RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches, Cybersecurity New Frontier AI\n- Expected impact: market coverage expansion\n\n## Week 12 (90-day)\n- Asset: citation-support article\n- Topic: Best cybersecurity company in Saudi Arabia for a Compliance Buyer\n- Entities: RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches, Cybersecurity New Frontier AI, Readiness Resilience Service New\n- Expected impact: market coverage expansion\n\n## Week 13 (90-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia\n- Entities: Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches, Cybersecurity New Frontier AI, Readiness Resilience Service New, Frontier AI Readiness Securing\n- Expected impact: market coverage expansion\n",
+    "evidence": [
+      {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+        "source": "CONTENT_CALENDAR",
+        "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+      },
+      {
+        "url": "https://www.cloudflare.com/",
+        "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+        "source": "SRO Analysis",
+        "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+      },
+      {
+        "url": "https://www.cloudflare.com",
+        "claim": "Used 12 stored prompt suggestion row(s).",
+        "source": "Prompt Discovery",
+        "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+      }
+    ],
+    "confidenceScore": 86,
+    "revenueImpact": 76,
+    "geoImpact": 78,
+    "difficultyScore": 52,
+    "priorityScore": 66,
+    "dataSource": "GEO_EXECUTION_ENGINE_V1",
+    "lastVerifiedAt": "2026-06-08T06:14:36.345Z",
+    "createdAt": "2026-06-08T06:14:36.347Z",
+    "updatedAt": "2026-06-08T06:14:36.347Z"
+  }
+}

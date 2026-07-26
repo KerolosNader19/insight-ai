@@ -1,0 +1,24 @@
+{
+  "label": "04b-geo-score-v2-db",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/geo-score-v2",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:16:16.587Z",
+  "completedAt": "2026-06-08T02:16:16.611Z",
+  "body": {
+    "status": "INSUFFICIENT_DATA",
+    "engine": "GEO_SCORE_V2",
+    "reason": "No V2 GEO score has been calculated yet.",
+    "evidence": [
+      {
+        "claim": "Run the V2 GEO score engine after audit and prompt evidence exists.",
+        "source": "Trust Layer",
+        "url": null
+      }
+    ],
+    "confidenceScore": 0,
+    "dataSource": "Trust Layer",
+    "lastVerifiedAt": "2026-06-08T02:16:16.607Z"
+  }
+}

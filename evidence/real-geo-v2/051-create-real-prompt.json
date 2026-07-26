@@ -1,0 +1,29 @@
+{
+  "label": "051-create-real-prompt",
+  "url": "/prompts",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:17:01.128Z",
+  "completedAt": "2026-06-08T02:17:01.247Z",
+  "body": {
+    "id": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+    "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "queryText": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+    "frequency": "manual",
+    "isActive": true,
+    "lastRunAt": null,
+    "createdAt": "2026-06-08T02:17:01.227Z",
+    "brand": {
+      "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "OrcaTech",
+      "websiteUrl": "https://orcatech.online",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T21:42:59.849Z",
+      "updatedAt": "2026-06-02T21:42:59.849Z"
+    }
+  }
+}

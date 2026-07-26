@@ -1,0 +1,84 @@
+{
+  "agencies": [
+    {
+      "name": "Acme GEO Agency",
+      "slug": "acme-agency",
+      "billingPlan": "PRO",
+      "members": [
+        {
+          "email": "demo@insight-ai.io",
+          "role": "OWNER"
+        },
+        {
+          "email": "manager@insight-ai.io",
+          "role": "MANAGER"
+        },
+        {
+          "email": "analyst@insight-ai.io",
+          "role": "ANALYST"
+        },
+        {
+          "email": "viewer@insight-ai.io",
+          "role": "VIEWER"
+        }
+      ],
+      "brands": [
+        {
+          "name": "OrcaTech",
+          "competitors": [
+            "Competitor A",
+            "Competitor B"
+          ],
+          "promptCount": 3,
+          "reportCount": 2
+        },
+        {
+          "name": "DesertPay",
+          "competitors": [
+            "MadaPay",
+            "Riyadh Checkout"
+          ],
+          "promptCount": 2,
+          "reportCount": 2
+        }
+      ]
+    },
+    {
+      "name": "Gulf Growth Agency",
+      "slug": "gulf-growth-agency",
+      "billingPlan": "ENTERPRISE",
+      "members": [
+        {
+          "email": "gulf-owner@insight-ai.io",
+          "role": "OWNER"
+        },
+        {
+          "email": "gulf-analyst@insight-ai.io",
+          "role": "ANALYST"
+        }
+      ],
+      "brands": [
+        {
+          "name": "MedinaHealth",
+          "competitors": [
+            "CareCloud KSA",
+            "ClinicOS"
+          ],
+          "promptCount": 2,
+          "reportCount": 2
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "agencies": 2,
+    "brands": 3,
+    "prompts": 7,
+    "responses": 42,
+    "mentions": 114,
+    "citations": 114,
+    "snapshots": 42,
+    "recommendations": 9,
+    "reports": 6
+  }
+}

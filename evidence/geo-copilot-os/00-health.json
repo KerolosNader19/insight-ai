@@ -1,0 +1,10 @@
+{
+  "status": 200,
+  "ok": true,
+  "url": "/health",
+  "method": "GET",
+  "body": {
+    "status": "ok",
+    "timestamp": "2026-06-08T04:44:14.890Z"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "00-health",
+  "url": "/health",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:33:15.799Z",
+  "completedAt": "2026-06-08T02:33:15.893Z",
+  "body": {
+    "status": "ok",
+    "timestamp": "2026-06-08T02:33:15.876Z"
+  }
+}

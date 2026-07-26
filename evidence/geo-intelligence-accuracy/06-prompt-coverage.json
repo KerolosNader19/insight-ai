@@ -1,0 +1,101 @@
+{
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "PROMPT_COVERAGE_ENGINE",
+    "data": [
+      {
+        "promptId": "900f80ae-1484-4306-8bbe-85b33626ea59",
+        "queryText": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+        "industry": "Cybersecurity",
+        "intent": "COMPARISON",
+        "difficulty": 84,
+        "competitorsAppearing": [
+          "Palo Alto Networks",
+          "Check Point",
+          "Cyberoam"
+        ],
+        "brandAppearing": true,
+        "citationSources": [
+          "orcatech.com",
+          "paloaltonetworks.com",
+          "checkpoint.com",
+          "cyberoam.com",
+          "mcit.gov.sa"
+        ],
+        "promptImportanceScore": 91,
+        "promptOpportunityScore": 72,
+        "promptRevenuePotential": "HIGH",
+        "evidence": [
+          {
+            "claim": "Prompt has 1 stored real response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "OrcaTech appeared in this prompt set.",
+            "source": "Prompt Coverage Engine",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "3 competitor(s) appeared; 5 citation source(s) were extracted.",
+            "source": "Prompt Tracking + Citation Extraction",
+            "url": "https://orcatech.online"
+          }
+        ],
+        "confidenceScore": 83,
+        "dataSource": "PROMPT_TRACKING + CITATION_EXTRACTION",
+        "lastVerifiedAt": "2026-06-08T02:17:05.080Z"
+      },
+      {
+        "promptId": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+        "queryText": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+        "industry": "Cybersecurity",
+        "intent": "HIGH_INTENT",
+        "difficulty": 46,
+        "competitorsAppearing": [],
+        "brandAppearing": false,
+        "citationSources": [
+          "stc.com.sa",
+          "saudiaramco.com",
+          "bupaarabia.com.sa",
+          "sama.gov.sa"
+        ],
+        "promptImportanceScore": 97,
+        "promptOpportunityScore": 71,
+        "promptRevenuePotential": "HIGH",
+        "evidence": [
+          {
+            "claim": "Prompt has 1 stored real response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "OrcaTech did not appear in this prompt set.",
+            "source": "Prompt Coverage Engine",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "0 competitor(s) appeared; 4 citation source(s) were extracted.",
+            "source": "Prompt Tracking + Citation Extraction",
+            "url": "https://orcatech.online"
+          }
+        ],
+        "confidenceScore": 79,
+        "dataSource": "PROMPT_TRACKING + CITATION_EXTRACTION",
+        "lastVerifiedAt": "2026-06-08T02:17:02.325Z"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Scored 2 tracked prompt(s) for importance, opportunity, and revenue potential.",
+        "source": "Prompt Coverage Engine",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 81,
+    "dataSource": "PROMPT_TRACKING + CITATION_EXTRACTION",
+    "lastVerifiedAt": "2026-06-08T03:00:55.383Z"
+  }
+}

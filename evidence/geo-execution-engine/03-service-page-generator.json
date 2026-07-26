@@ -1,0 +1,111 @@
+{
+  "label": "03-service-page-generator",
+  "method": "POST",
+  "url": "/geo-execution/service-page",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "targetPrompt": "Best cybersecurity company in Saudi Arabia",
+    "serviceName": "Enterprise Cybersecurity Platform"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "7956d017-e999-4d51-9d31-f840a62c823d",
+    "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "type": "SERVICE_PAGE",
+    "title": "Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+    "status": "GENERATED",
+    "input": {
+      "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "country": "Saudi Arabia",
+      "industry": "Cybersecurity",
+      "serviceName": "Enterprise Cybersecurity Platform",
+      "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+    },
+    "output": {
+      "h1": "Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+      "structure": [
+        "Direct answer block",
+        "Who this service is for",
+        "Problems solved",
+        "Capabilities and entities to cover",
+        "Proof and trust section",
+        "Implementation/process section",
+        "FAQ",
+        "Sources and citations"
+      ],
+      "proofSections": [
+        "Measured outcomes",
+        "Deployment examples",
+        "Security/compliance validation",
+        "Buyer objections"
+      ],
+      "trustElements": [
+        "case studies",
+        "certifications",
+        "customer logos",
+        "local compliance proof",
+        "implementation metrics"
+      ],
+      "missingEntities": [
+        "Cloudflare SRO",
+        "Cybersecurity Saudi Arabia Best",
+        "Saudi Arabia Missing",
+        "Competitors",
+        "Cybersecurity Saudi Arabia Palo",
+        "Alto Networks Leader Competitors",
+        "Cybersecurity Protection Competitors",
+        "Software Competitors",
+        "Modern Enterprises Competitors",
+        "Palo Alto Networks Control",
+        "Introducing Idira Competitors",
+        "RECOMMENDED Missing"
+      ],
+      "citationOpportunities": [
+        "linkedin.com",
+        "x.com",
+        "instagram.com",
+        "youtube.com",
+        "marketplace.crowdstrike.com",
+        "ir.crowdstrike.com",
+        "crowdstrikeracing.com",
+        "supportportal.crowdstrike.com"
+      ]
+    },
+    "markdown": "# Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers\n\n## Recommended Structure\n- Direct answer block\n- Who this service is for\n- Problems solved\n- Capabilities and entities to cover\n- Proof and trust section\n- Implementation/process section\n- FAQ\n- Sources and citations\n\n## Missing Entities To Add\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n- Cybersecurity Protection Competitors\n- Software Competitors\n- Modern Enterprises Competitors\n- Palo Alto Networks Control\n- Introducing Idira Competitors\n- RECOMMENDED Missing\n\n## Trust Elements\n- case studies\n- certifications\n- customer logos\n- local compliance proof\n- implementation metrics\n\n## Citation Opportunities\n- linkedin.com\n- x.com\n- instagram.com\n- youtube.com\n- marketplace.crowdstrike.com\n- ir.crowdstrike.com\n- crowdstrikeracing.com\n- supportportal.crowdstrike.com",
+    "evidence": [
+      {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+        "source": "SERVICE_PAGE",
+        "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+      },
+      {
+        "url": "https://www.cloudflare.com/",
+        "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+        "source": "SRO Analysis",
+        "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+      },
+      {
+        "url": "https://www.cloudflare.com",
+        "claim": "Used 12 stored prompt suggestion row(s).",
+        "source": "Prompt Discovery",
+        "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+      }
+    ],
+    "confidenceScore": 86,
+    "revenueImpact": 78,
+    "geoImpact": 84,
+    "difficultyScore": 46,
+    "priorityScore": 69,
+    "dataSource": "GEO_EXECUTION_ENGINE_V1",
+    "lastVerifiedAt": "2026-06-08T06:14:36.170Z",
+    "createdAt": "2026-06-08T06:14:36.172Z",
+    "updatedAt": "2026-06-08T06:14:36.172Z"
+  }
+}

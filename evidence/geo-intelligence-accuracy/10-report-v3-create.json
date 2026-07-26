@@ -1,0 +1,40 @@
+{
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "ab73501f-c882-48e8-9de7-6499e0764dbf",
+    "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "title": "OrcaTech GEO Accuracy Report V3",
+    "type": "PDF_V3",
+    "status": "GENERATED",
+    "periodStart": "2026-06-07T04:00:00.000Z",
+    "periodEnd": "2026-06-08T03:03:35.154Z",
+    "fileName": "orcatech-1780887815154-geo-intelligence-v3.pdf",
+    "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-1780887815154-geo-intelligence-v3.pdf",
+    "createdAt": "2026-06-08T03:03:35.155Z",
+    "updatedAt": "2026-06-08T03:03:35.520Z",
+    "brand": {
+      "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "OrcaTech",
+      "websiteUrl": "https://orcatech.online",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T21:42:59.849Z",
+      "updatedAt": "2026-06-02T21:42:59.849Z"
+    },
+    "organization": {
+      "id": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "Acme GEO Agency",
+      "slug": "acme-agency",
+      "billingPlan": "AGENCY",
+      "status": "ACTIVE",
+      "stripeCustomerId": null,
+      "logoUrl": null,
+      "brandingColor": "#00f5d4",
+      "createdAt": "2026-06-02T21:42:59.727Z",
+      "updatedAt": "2026-06-02T22:08:18.498Z"
+    }
+  }
+}

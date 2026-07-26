@@ -1,0 +1,166 @@
+{
+  "label": "01-competitor-discovery-groq",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/discover-competitors",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:16:08.755Z",
+  "completedAt": "2026-06-08T02:16:12.665Z",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "COMPETITOR_DISCOVERY",
+    "data": [
+      {
+        "id": "ff9f628f-e310-4071-82e3-7364cb0f7bd3",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "name": "Cyberoam",
+        "websiteUrl": "https://www.cyberoam.com/",
+        "description": "Cyberoam is a leading provider of network security solutions.",
+        "industry": "Cybersecurity",
+        "country": "India",
+        "confidenceScore": 88,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Cyberoam offers a range of security solutions, including firewalls, VPNs, and intrusion prevention systems.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": null,
+            "claim": "Their products are designed to provide comprehensive network security and threat protection.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": "https://www.cyberoam.com/",
+            "claim": "Domain verification returned HTTP 200.",
+            "source": "Domain Validation"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "sources": {
+          "url": "https://www.cyberoam.com/",
+          "model": "llama-3.1-8b-instant",
+          "source": "AI_PROVIDER",
+          "provider": "Groq",
+          "generatedAt": "2026-06-08T02:16:11.563Z"
+        },
+        "dataSource": "AI_PROVIDER + DOMAIN_VALIDATION",
+        "status": "PENDING",
+        "approvedCompetitorId": null,
+        "lastVerifiedAt": "2026-06-08T02:16:11.018Z",
+        "discoveredAt": "2026-06-08T02:16:11.564Z",
+        "createdAt": "2026-06-08T02:16:11.564Z",
+        "updatedAt": "2026-06-08T02:16:11.564Z"
+      },
+      {
+        "id": "2a21eae5-a5f3-4595-b0e1-882f3d4c5339",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "name": "Check Point",
+        "websiteUrl": "https://www.checkpoint.com/",
+        "description": "Check Point is a leading provider of cybersecurity solutions.",
+        "industry": "Cybersecurity",
+        "country": "Israel",
+        "confidenceScore": 98,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Check Point offers a range of security solutions, including firewalls, VPNs, and threat prevention systems.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": null,
+            "claim": "Their products are designed to provide comprehensive network security and threat protection.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": "https://www.checkpoint.com/",
+            "claim": "Domain verification returned HTTP 200.",
+            "source": "Domain Validation"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "sources": {
+          "url": "https://www.checkpoint.com/",
+          "model": "llama-3.1-8b-instant",
+          "source": "AI_PROVIDER",
+          "provider": "Groq",
+          "generatedAt": "2026-06-08T02:16:12.024Z"
+        },
+        "dataSource": "AI_PROVIDER + DOMAIN_VALIDATION",
+        "status": "PENDING",
+        "approvedCompetitorId": null,
+        "lastVerifiedAt": "2026-06-08T02:16:11.018Z",
+        "discoveredAt": "2026-06-08T02:16:12.025Z",
+        "createdAt": "2026-06-08T02:16:12.025Z",
+        "updatedAt": "2026-06-08T02:16:12.025Z"
+      },
+      {
+        "id": "4e721818-9b09-4762-b407-687ee6d593c7",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "name": "Palo Alto Networks",
+        "websiteUrl": "https://www.paloaltonetworks.com/",
+        "description": "Palo Alto Networks is a leading provider of cybersecurity solutions.",
+        "industry": "Cybersecurity",
+        "country": "USA",
+        "confidenceScore": 100,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Palo Alto Networks offers a range of security solutions, including firewalls, VPNs, and threat prevention systems.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": null,
+            "claim": "Their products are designed to provide comprehensive network security and threat protection.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": "https://www.paloaltonetworks.com/",
+            "claim": "Domain verification returned HTTP 200.",
+            "source": "Domain Validation"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "sources": {
+          "url": "https://www.paloaltonetworks.com/",
+          "model": "llama-3.1-8b-instant",
+          "source": "AI_PROVIDER",
+          "provider": "Groq",
+          "generatedAt": "2026-06-08T02:16:12.640Z"
+        },
+        "dataSource": "AI_PROVIDER + DOMAIN_VALIDATION",
+        "status": "PENDING",
+        "approvedCompetitorId": null,
+        "lastVerifiedAt": "2026-06-08T02:16:11.018Z",
+        "discoveredAt": "2026-06-08T02:16:12.642Z",
+        "createdAt": "2026-06-08T02:16:12.642Z",
+        "updatedAt": "2026-06-08T02:16:12.642Z"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Stored 3 competitor suggestions with confidence >= 60.",
+        "source": "Competitor Discovery Engine",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 95,
+    "dataSource": "COMPETITOR_DISCOVERY",
+    "lastVerifiedAt": "2026-06-08T02:16:12.658Z",
+    "provider": "Groq",
+    "model": "llama-3.1-8b-instant",
+    "rejected": []
+  }
+}

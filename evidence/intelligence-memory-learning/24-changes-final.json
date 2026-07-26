@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETED",
+  "engine": "INTELLIGENCE_CHANGES",
+  "data": [],
+  "evidence": [
+    {
+      "claim": "Loaded 0 change event(s) since 2026-05-09T03:22:21.899Z.",
+      "source": "Intelligence Timeline",
+      "url": null
+    }
+  ],
+  "confidenceScore": 0,
+  "dataSource": "INTELLIGENCE_CHANGE",
+  "lastVerifiedAt": "2026-06-08T03:22:21.901Z"
+}

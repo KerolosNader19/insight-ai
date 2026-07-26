@@ -51,6 +51,8 @@ marketing.log
 pg.log
 redis.log
 web.log
+generated-reports/
+apps/api/generated-reports/
 
 project.zip
 *.zip

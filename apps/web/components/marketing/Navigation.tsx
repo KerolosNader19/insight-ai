@@ -36,7 +36,7 @@ export function Navigation() {
         {/* Desktop Nav */}
         <div className={`hidden md:flex items-center gap-8 ${isRTL ? 'flex-row-reverse' : ''}`}>
           <Link href="/#features" className="text-sm font-medium text-foreground/60 hover:text-brand-accent transition-colors">{t.common.features}</Link>
-          <Link href="/#pricing" className="text-sm font-medium text-foreground/60 hover:text-brand-accent transition-colors">{t.common.pricing}</Link>
+          <Link href="/pricing" className="text-sm font-medium text-foreground/60 hover:text-brand-accent transition-colors">{t.common.pricing}</Link>
           <Link href="/dashboard" className="text-sm font-medium text-foreground/60 hover:text-brand-accent transition-colors">{t.common.dashboard}</Link>
         </div>
 
@@ -71,7 +71,7 @@ export function Navigation() {
               {t.common.features}
             </Link>
             <Link 
-              href="/#pricing" 
+              href="/pricing" 
               onClick={() => setMobileMenuOpen(false)}
               className="text-2xl font-bold hover:text-brand-accent transition-colors"
             >

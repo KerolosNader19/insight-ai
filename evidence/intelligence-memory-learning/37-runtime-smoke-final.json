@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-06-08T03:26:48.831Z",
+  "health": {
+    "status": "ok",
+    "timestamp": "2026-06-08T03:26:48.602Z"
+  },
+  "brand": {
+    "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "name": "OrcaTech"
+  },
+  "confidenceStatus": "COMPLETED",
+  "confidenceScore": 97,
+  "redis": "API restarted after docker compose redis start; no Redis ECONNREFUSED observed on clean boot."
+}

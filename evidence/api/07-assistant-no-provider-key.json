@@ -1,0 +1,8 @@
+{
+  "status": 503,
+  "body": {
+    "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI",
+    "error": "Service Unavailable",
+    "statusCode": 503
+  }
+}

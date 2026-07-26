@@ -1,0 +1,1216 @@
+{
+  "label": "10-asset-list",
+  "method": "GET",
+  "url": "/geo-execution/brands/7c51d959-ea7b-48ca-80f0-e25aad4a50e7/assets",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": [
+    {
+      "id": "9afbaf1a-5d0b-47d9-8175-53dbaf3fffa6",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "SCHEMA_GENERATOR",
+      "title": "Schema Pack - Cloudflare SRO 1780897908191",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "serviceName": "Enterprise Cybersecurity Platform",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "schemas": {
+          "faqSchema": {
+            "@type": "FAQPage",
+            "@context": "https://schema.org",
+            "mainEntity": [
+              {
+                "name": "What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?",
+                "@type": "Question",
+                "acceptedAnswer": {
+                  "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources.",
+                  "@type": "Answer"
+                }
+              },
+              {
+                "name": "Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?",
+                "@type": "Question",
+                "acceptedAnswer": {
+                  "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources.",
+                  "@type": "Answer"
+                }
+              },
+              {
+                "name": "Which Cybersecurity capabilities matter most?",
+                "@type": "Question",
+                "acceptedAnswer": {
+                  "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources.",
+                  "@type": "Answer"
+                }
+              },
+              {
+                "name": "What proof, certifications, or outcomes should be shown?",
+                "@type": "Question",
+                "acceptedAnswer": {
+                  "text": "Buyers should look for clear service scope, local market relevance in Saudi Arabia, credible proof, citations, and schema-backed answers.",
+                  "@type": "Answer"
+                }
+              }
+            ]
+          },
+          "articleSchema": {
+            "@type": "Article",
+            "about": [
+              "Cloudflare SRO",
+              "Cybersecurity Saudi Arabia Best",
+              "Saudi Arabia Missing",
+              "Competitors",
+              "Cybersecurity Saudi Arabia Palo",
+              "Alto Networks Leader Competitors",
+              "Cybersecurity Protection Competitors",
+              "Software Competitors"
+            ],
+            "author": {
+              "name": "Cloudflare SRO 1780897908191",
+              "@type": "Organization"
+            },
+            "@context": "https://schema.org",
+            "headline": "Best cybersecurity company in Saudi Arabia"
+          },
+          "serviceSchema": {
+            "name": "Enterprise Cybersecurity Platform",
+            "@type": "Service",
+            "@context": "https://schema.org",
+            "provider": {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "name": "Cloudflare SRO 1780897908191",
+              "@type": "Organization"
+            },
+            "areaServed": "Saudi Arabia",
+            "description": "Cloudflare SRO 1780897908191 provides Enterprise Cybersecurity Platform for Cybersecurity buyers in Saudi Arabia.",
+            "serviceType": "Cybersecurity"
+          },
+          "breadcrumbSchema": {
+            "@type": "BreadcrumbList",
+            "@context": "https://schema.org",
+            "itemListElement": [
+              {
+                "item": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "name": "Home",
+                "@type": "ListItem",
+                "position": 1
+              },
+              {
+                "item": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "name": "Enterprise Cybersecurity Platform",
+                "@type": "ListItem",
+                "position": 2
+              }
+            ]
+          },
+          "organizationSchema": {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "name": "Cloudflare SRO 1780897908191",
+            "@type": "Organization",
+            "@context": "https://schema.org",
+            "areaServed": "Saudi Arabia",
+            "knowsAbout": [
+              "Cloudflare SRO",
+              "Cybersecurity Saudi Arabia Best",
+              "Saudi Arabia Missing",
+              "Competitors",
+              "Cybersecurity Saudi Arabia Palo",
+              "Alto Networks Leader Competitors",
+              "Cybersecurity Protection Competitors",
+              "Software Competitors",
+              "Modern Enterprises Competitors",
+              "Palo Alto Networks Control"
+            ]
+          }
+        },
+        "validation": {
+          "faqSchema": {
+            "valid": true,
+            "errors": []
+          },
+          "articleSchema": {
+            "valid": true,
+            "errors": []
+          },
+          "serviceSchema": {
+            "valid": true,
+            "errors": []
+          },
+          "breadcrumbSchema": {
+            "valid": true,
+            "errors": []
+          },
+          "organizationSchema": {
+            "valid": true,
+            "errors": []
+          }
+        }
+      },
+      "markdown": "# Schema Pack: Cloudflare SRO 1780897908191\n\n## organizationSchema\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Cloudflare SRO 1780897908191\",\n  \"url\": \"https://www.cloudflare.com/application-services/products/cloudflare-one/\",\n  \"areaServed\": \"Saudi Arabia\",\n  \"knowsAbout\": [\n    \"Cloudflare SRO\",\n    \"Cybersecurity Saudi Arabia Best\",\n    \"Saudi Arabia Missing\",\n    \"Competitors\",\n    \"Cybersecurity Saudi Arabia Palo\",\n    \"Alto Networks Leader Competitors\",\n    \"Cybersecurity Protection Competitors\",\n    \"Software Competitors\",\n    \"Modern Enterprises Competitors\",\n    \"Palo Alto Networks Control\"\n  ]\n}\n```\n\n## serviceSchema\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Service\",\n  \"name\": \"Enterprise Cybersecurity Platform\",\n  \"provider\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Cloudflare SRO 1780897908191\",\n    \"url\": \"https://www.cloudflare.com/application-services/products/cloudflare-one/\"\n  },\n  \"areaServed\": \"Saudi Arabia\",\n  \"serviceType\": \"Cybersecurity\",\n  \"description\": \"Cloudflare SRO 1780897908191 provides Enterprise Cybersecurity Platform for Cybersecurity buyers in Saudi Arabia.\"\n}\n```\n\n## faqSchema\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What is the best answer to \\\"Best cybersecurity company in Saudi Arabia\\\"?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which Cybersecurity capabilities matter most?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What proof, certifications, or outcomes should be shown?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Buyers should look for clear service scope, local market relevance in Saudi Arabia, credible proof, citations, and schema-backed answers.\"\n      }\n    }\n  ]\n}\n```\n\n## articleSchema\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Article\",\n  \"headline\": \"Best cybersecurity company in Saudi Arabia\",\n  \"author\": {\n    \"@type\": \"Organization\",\n    \"name\": \"Cloudflare SRO 1780897908191\"\n  },\n  \"about\": [\n    \"Cloudflare SRO\",\n    \"Cybersecurity Saudi Arabia Best\",\n    \"Saudi Arabia Missing\",\n    \"Competitors\",\n    \"Cybersecurity Saudi Arabia Palo\",\n    \"Alto Networks Leader Competitors\",\n    \"Cybersecurity Protection Competitors\",\n    \"Software Competitors\"\n  ]\n}\n```\n\n## breadcrumbSchema\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"BreadcrumbList\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"name\": \"Home\",\n      \"item\": \"https://www.cloudflare.com/application-services/products/cloudflare-one/\"\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"name\": \"Enterprise Cybersecurity Platform\",\n      \"item\": \"https://www.cloudflare.com/application-services/products/cloudflare-one/\"\n    }\n  ]\n}\n```\n",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "SCHEMA_GENERATOR",
+          "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 68,
+      "geoImpact": 88,
+      "difficultyScore": 24,
+      "priorityScore": 70,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.246Z",
+      "createdAt": "2026-06-08T06:14:36.247Z",
+      "updatedAt": "2026-06-08T06:14:36.247Z"
+    },
+    {
+      "id": "8d366425-52e6-4ab2-8ab2-11e2892924c3",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "CONTENT_BRIEF",
+      "title": "Content Brief - Best cybersecurity company in Saudi Arabia",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "sources": [
+          "linkedin.com",
+          "x.com",
+          "instagram.com",
+          "youtube.com",
+          "marketplace.crowdstrike.com",
+          "ir.crowdstrike.com",
+          "crowdstrikeracing.com",
+          "supportportal.crowdstrike.com",
+          "developer.crowdstrike.com",
+          "community.crowdstrike.com",
+          "privacyportal.onetrust.com",
+          "paloaltonetworks.de",
+          "paloaltonetworks.ca",
+          "paloaltonetworks.tw",
+          "paloaltonetworks.com.br",
+          "paloaltonetworks.co.kr",
+          "paloaltonetworks.in",
+          "paloaltonetworks.es",
+          "paloaltonetworks.cn",
+          "paloaltonetworks.com.mx"
+        ],
+        "entities": [
+          "Cloudflare SRO",
+          "Cybersecurity Saudi Arabia Best",
+          "Saudi Arabia Missing",
+          "Competitors",
+          "Cybersecurity Saudi Arabia Palo",
+          "Alto Networks Leader Competitors",
+          "Cybersecurity Protection Competitors",
+          "Software Competitors",
+          "Modern Enterprises Competitors",
+          "Palo Alto Networks Control",
+          "Introducing Idira Competitors",
+          "RECOMMENDED Missing",
+          "Cybersecurity Saudi Arabia CrowdStrike",
+          "CrowdStrike We Stop Breaches",
+          "Cybersecurity New Frontier AI",
+          "Readiness Resilience Service New",
+          "Frontier AI Readiness Securing",
+          "AI Where It Executes",
+          "The Endpoint Is New",
+          "Control Point AI Agent",
+          "Security Securing",
+          "Alto Networks Leader Cybersecurity",
+          "Protection Software Modern Enterprises",
+          "Introducing Idira RECOMMENDED Gartner"
+        ],
+        "citations": [
+          {
+            "use": "Reference linkedin.com when supporting claims about Cybersecurity.",
+            "domain": "linkedin.com"
+          },
+          {
+            "use": "Reference x.com when supporting claims about Cybersecurity.",
+            "domain": "x.com"
+          },
+          {
+            "use": "Reference instagram.com when supporting claims about Cybersecurity.",
+            "domain": "instagram.com"
+          },
+          {
+            "use": "Reference youtube.com when supporting claims about Cybersecurity.",
+            "domain": "youtube.com"
+          },
+          {
+            "use": "Reference marketplace.crowdstrike.com when supporting claims about Cybersecurity.",
+            "domain": "marketplace.crowdstrike.com"
+          },
+          {
+            "use": "Reference ir.crowdstrike.com when supporting claims about Cybersecurity.",
+            "domain": "ir.crowdstrike.com"
+          },
+          {
+            "use": "Reference crowdstrikeracing.com when supporting claims about Cybersecurity.",
+            "domain": "crowdstrikeracing.com"
+          },
+          {
+            "use": "Reference supportportal.crowdstrike.com when supporting claims about Cybersecurity.",
+            "domain": "supportportal.crowdstrike.com"
+          },
+          {
+            "use": "Reference developer.crowdstrike.com when supporting claims about Cybersecurity.",
+            "domain": "developer.crowdstrike.com"
+          },
+          {
+            "use": "Reference community.crowdstrike.com when supporting claims about Cybersecurity.",
+            "domain": "community.crowdstrike.com"
+          },
+          {
+            "use": "Reference privacyportal.onetrust.com when supporting claims about Cybersecurity.",
+            "domain": "privacyportal.onetrust.com"
+          },
+          {
+            "use": "Reference paloaltonetworks.de when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.de"
+          },
+          {
+            "use": "Reference paloaltonetworks.ca when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.ca"
+          },
+          {
+            "use": "Reference paloaltonetworks.tw when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.tw"
+          },
+          {
+            "use": "Reference paloaltonetworks.com.br when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.com.br"
+          },
+          {
+            "use": "Reference paloaltonetworks.co.kr when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.co.kr"
+          },
+          {
+            "use": "Reference paloaltonetworks.in when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.in"
+          },
+          {
+            "use": "Reference paloaltonetworks.es when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.es"
+          },
+          {
+            "use": "Reference paloaltonetworks.cn when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.cn"
+          },
+          {
+            "use": "Reference paloaltonetworks.com.mx when supporting claims about Cybersecurity.",
+            "domain": "paloaltonetworks.com.mx"
+          }
+        ],
+        "questions": [
+          "What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?",
+          "Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?",
+          "Which Cybersecurity capabilities matter most?",
+          "What proof, certifications, or outcomes should be shown?",
+          "Which competitors should be compared?",
+          "Which sources should be cited?",
+          "What FAQ answers should be schema-ready?"
+        ],
+        "internalLinks": [
+          "service page",
+          "comparison page",
+          "FAQ page",
+          "case study page",
+          "contact page"
+        ],
+        "targetPrompts": [
+          "Best cybersecurity company in Saudi Arabia",
+          "Best Cybersecurity companies in Saudi Arabia",
+          "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia",
+          "Top Cybersecurity providers for enterprises in Saudi Arabia",
+          "Compare Cybersecurity vendors in Saudi Arabia",
+          "Cybersecurity provider with local support in Saudi Arabia",
+          "Best cybersecurity company in Saudi Arabia for a CEO",
+          "Best cybersecurity company in Saudi Arabia for a CTO",
+          "Best cybersecurity company in Saudi Arabia for a CISO",
+          "Best cybersecurity company in Saudi Arabia for a SOC Manager",
+          "How to choose a Cybersecurity provider in Saudi Arabia",
+          "Best cybersecurity company in Saudi Arabia for a Compliance Buyer"
+        ],
+        "targetKeywords": [
+          "cybersecurity",
+          "saudi",
+          "arabia",
+          "cloudflare",
+          "sro",
+          "missing",
+          "competitors",
+          "palo",
+          "alto",
+          "networks",
+          "leader",
+          "protection",
+          "software",
+          "modern",
+          "enterprises",
+          "control",
+          "introducing",
+          "idira"
+        ],
+        "externalReferences": [
+          "linkedin.com",
+          "x.com",
+          "instagram.com",
+          "youtube.com",
+          "marketplace.crowdstrike.com",
+          "ir.crowdstrike.com",
+          "crowdstrikeracing.com",
+          "supportportal.crowdstrike.com"
+        ],
+        "writerInstructions": [
+          "Lead with a direct answer in the first 70 words.",
+          "Use comparison language where competitors dominate prompts.",
+          "Include FAQPage and Service schema.",
+          "Cite external sources only when the claim is specific and supportable."
+        ]
+      },
+      "markdown": "# Content Brief: Best cybersecurity company in Saudi Arabia\n\n## Target Keywords\n- cybersecurity\n- saudi\n- arabia\n- cloudflare\n- sro\n- missing\n- competitors\n- palo\n- alto\n- networks\n- leader\n- protection\n- software\n- modern\n- enterprises\n- control\n- introducing\n- idira\n\n## Target Prompts\n- Best cybersecurity company in Saudi Arabia\n- Best Cybersecurity companies in Saudi Arabia\n- Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia\n- Top Cybersecurity providers for enterprises in Saudi Arabia\n- Compare Cybersecurity vendors in Saudi Arabia\n- Cybersecurity provider with local support in Saudi Arabia\n- Best cybersecurity company in Saudi Arabia for a CEO\n- Best cybersecurity company in Saudi Arabia for a CTO\n- Best cybersecurity company in Saudi Arabia for a CISO\n- Best cybersecurity company in Saudi Arabia for a SOC Manager\n- How to choose a Cybersecurity provider in Saudi Arabia\n- Best cybersecurity company in Saudi Arabia for a Compliance Buyer\n\n## Entities\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n- Cybersecurity Protection Competitors\n- Software Competitors\n- Modern Enterprises Competitors\n- Palo Alto Networks Control\n- Introducing Idira Competitors\n- RECOMMENDED Missing\n- Cybersecurity Saudi Arabia CrowdStrike\n- CrowdStrike We Stop Breaches\n- Cybersecurity New Frontier AI\n- Readiness Resilience Service New\n- Frontier AI Readiness Securing\n- AI Where It Executes\n- The Endpoint Is New\n- Control Point AI Agent\n- Security Securing\n- Alto Networks Leader Cybersecurity\n- Protection Software Modern Enterprises\n- Introducing Idira RECOMMENDED Gartner\n\n## Questions\n- What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?\n- Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?\n- Which Cybersecurity capabilities matter most?\n- What proof, certifications, or outcomes should be shown?\n- Which competitors should be compared?\n- Which sources should be cited?\n- What FAQ answers should be schema-ready?\n\n## Sources / Citations\n- linkedin.com\n- x.com\n- instagram.com\n- youtube.com\n- marketplace.crowdstrike.com\n- ir.crowdstrike.com\n- crowdstrikeracing.com\n- supportportal.crowdstrike.com\n- developer.crowdstrike.com\n- community.crowdstrike.com\n- privacyportal.onetrust.com\n- paloaltonetworks.de\n- paloaltonetworks.ca\n- paloaltonetworks.tw\n- paloaltonetworks.com.br\n- paloaltonetworks.co.kr\n- paloaltonetworks.in\n- paloaltonetworks.es\n- paloaltonetworks.cn\n- paloaltonetworks.com.mx\n\n## Writer Instructions\n- Lead with a direct answer in the first 70 words.\n- Use comparison language where competitors dominate prompts.\n- Include FAQPage and Service schema.\n- Cite external sources only when the claim is specific and supportable.",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "CONTENT_BRIEF",
+          "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 80,
+      "geoImpact": 80,
+      "difficultyScore": 36,
+      "priorityScore": 70,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.211Z",
+      "createdAt": "2026-06-08T06:14:36.213Z",
+      "updatedAt": "2026-06-08T06:14:36.213Z"
+    },
+    {
+      "id": "a420ecc7-ddcb-4eef-9664-e550ef4ba339",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "COMPARISON_PAGE",
+      "title": "Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia",
+        "competitorName": "CrowdStrike"
+      },
+      "output": {
+        "h1": "Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia",
+        "outline": [
+          "Executive answer: which provider fits which buyer?",
+          "Cloudflare SRO 1780897908191 overview and proof points",
+          "CrowdStrike overview and visible strengths",
+          "Feature and trust comparison",
+          "AI-search and citation comparison",
+          "When to choose each provider",
+          "FAQ"
+        ],
+        "faqBlock": [
+          {
+            "answer": "Compare them by service fit, proof, local relevance, citation strength, and whether each page directly answers \"Best cybersecurity company in Saudi Arabia\".",
+            "question": "How should buyers compare Cloudflare SRO 1780897908191 and CrowdStrike?"
+          },
+          {
+            "answer": "Close entity gaps, add FAQ/schema coverage, publish comparison content, and build trusted citation signals.",
+            "question": "What would help Cloudflare SRO 1780897908191 win more AI recommendations?"
+          },
+          {
+            "answer": "The outline is generated from stored SRO, audit, prompt, and citation evidence when available. Low-evidence areas should be verified before publication.",
+            "question": "Is this comparison based on evidence?"
+          }
+        ],
+        "headings": {
+          "h2": [
+            "Short answer",
+            "Comparison matrix",
+            "Entity coverage",
+            "Trust and proof",
+            "FAQ"
+          ],
+          "h3": [
+            "Security capabilities",
+            "Local market fit",
+            "Citations and sources",
+            "Implementation considerations"
+          ]
+        },
+        "comparisonMatrix": [
+          [
+            "AI search visibility",
+            "Cloudflare SRO 1780897908191",
+            "CrowdStrike",
+            "Use stored prompt runs and SRO evidence to make this concrete."
+          ],
+          [
+            "Entity coverage",
+            "Cloudflare SRO, Cybersecurity Saudi Arabia Best, Saudi Arabia Missing, Competitors",
+            "Audit competitor entities",
+            "Close entity gaps before publishing."
+          ],
+          [
+            "Citation readiness",
+            "100/100",
+            "Compare citation domains",
+            "Target source gaps."
+          ],
+          [
+            "FAQ/schema readiness",
+            "82/100",
+            "Inspect competitor schema",
+            "Publish FAQPage and Service schema."
+          ]
+        ],
+        "entityRecommendations": [
+          "Cloudflare SRO",
+          "Cybersecurity Saudi Arabia Best",
+          "Saudi Arabia Missing",
+          "Competitors",
+          "Cybersecurity Saudi Arabia Palo",
+          "Alto Networks Leader Competitors",
+          "Cybersecurity Protection Competitors",
+          "Software Competitors",
+          "Modern Enterprises Competitors",
+          "Palo Alto Networks Control"
+        ],
+        "schemaRecommendations": [
+          "Organization",
+          "Service",
+          "FAQPage",
+          "BreadcrumbList"
+        ]
+      },
+      "markdown": "# Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia\n\n## Page Outline\n1. Executive answer: which provider fits which buyer?\n2. Cloudflare SRO 1780897908191 overview and proof points\n3. CrowdStrike overview and visible strengths\n4. Feature and trust comparison\n5. AI-search and citation comparison\n6. When to choose each provider\n7. FAQ\n\n## Comparison Matrix\n| Criterion | Brand | Competitor | Action |\n|---|---|---|---|\n| AI search visibility | Cloudflare SRO 1780897908191 | CrowdStrike | Use stored prompt runs and SRO evidence to make this concrete. |\n| Entity coverage | Cloudflare SRO, Cybersecurity Saudi Arabia Best, Saudi Arabia Missing, Competitors | Audit competitor entities | Close entity gaps before publishing. |\n| Citation readiness | 100/100 | Compare citation domains | Target source gaps. |\n| FAQ/schema readiness | 82/100 | Inspect competitor schema | Publish FAQPage and Service schema. |\n\n## Entity Recommendations\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n- Cybersecurity Protection Competitors\n- Software Competitors\n- Modern Enterprises Competitors\n- Palo Alto Networks Control\n\n## FAQ Block\n### How should buyers compare Cloudflare SRO 1780897908191 and CrowdStrike?\nCompare them by service fit, proof, local relevance, citation strength, and whether each page directly answers \"Best cybersecurity company in Saudi Arabia\".\n### What would help Cloudflare SRO 1780897908191 win more AI recommendations?\nClose entity gaps, add FAQ/schema coverage, publish comparison content, and build trusted citation signals.\n### Is this comparison based on evidence?\nThe outline is generated from stored SRO, audit, prompt, and citation evidence when available. Low-evidence areas should be verified before publication.",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "COMPARISON_PAGE",
+          "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 86,
+      "geoImpact": 82,
+      "difficultyScore": 58,
+      "priorityScore": 70,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.129Z",
+      "createdAt": "2026-06-08T06:14:36.131Z",
+      "updatedAt": "2026-06-08T06:14:36.131Z"
+    },
+    {
+      "id": "7956d017-e999-4d51-9d31-f840a62c823d",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "SERVICE_PAGE",
+      "title": "Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "serviceName": "Enterprise Cybersecurity Platform",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "h1": "Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+        "structure": [
+          "Direct answer block",
+          "Who this service is for",
+          "Problems solved",
+          "Capabilities and entities to cover",
+          "Proof and trust section",
+          "Implementation/process section",
+          "FAQ",
+          "Sources and citations"
+        ],
+        "proofSections": [
+          "Measured outcomes",
+          "Deployment examples",
+          "Security/compliance validation",
+          "Buyer objections"
+        ],
+        "trustElements": [
+          "case studies",
+          "certifications",
+          "customer logos",
+          "local compliance proof",
+          "implementation metrics"
+        ],
+        "missingEntities": [
+          "Cloudflare SRO",
+          "Cybersecurity Saudi Arabia Best",
+          "Saudi Arabia Missing",
+          "Competitors",
+          "Cybersecurity Saudi Arabia Palo",
+          "Alto Networks Leader Competitors",
+          "Cybersecurity Protection Competitors",
+          "Software Competitors",
+          "Modern Enterprises Competitors",
+          "Palo Alto Networks Control",
+          "Introducing Idira Competitors",
+          "RECOMMENDED Missing"
+        ],
+        "citationOpportunities": [
+          "linkedin.com",
+          "x.com",
+          "instagram.com",
+          "youtube.com",
+          "marketplace.crowdstrike.com",
+          "ir.crowdstrike.com",
+          "crowdstrikeracing.com",
+          "supportportal.crowdstrike.com"
+        ]
+      },
+      "markdown": "# Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers\n\n## Recommended Structure\n- Direct answer block\n- Who this service is for\n- Problems solved\n- Capabilities and entities to cover\n- Proof and trust section\n- Implementation/process section\n- FAQ\n- Sources and citations\n\n## Missing Entities To Add\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n- Cybersecurity Protection Competitors\n- Software Competitors\n- Modern Enterprises Competitors\n- Palo Alto Networks Control\n- Introducing Idira Competitors\n- RECOMMENDED Missing\n\n## Trust Elements\n- case studies\n- certifications\n- customer logos\n- local compliance proof\n- implementation metrics\n\n## Citation Opportunities\n- linkedin.com\n- x.com\n- instagram.com\n- youtube.com\n- marketplace.crowdstrike.com\n- ir.crowdstrike.com\n- crowdstrikeracing.com\n- supportportal.crowdstrike.com",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "SERVICE_PAGE",
+          "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 78,
+      "geoImpact": 84,
+      "difficultyScore": 46,
+      "priorityScore": 69,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.170Z",
+      "createdAt": "2026-06-08T06:14:36.172Z",
+      "updatedAt": "2026-06-08T06:14:36.172Z"
+    },
+    {
+      "id": "f2a4838d-2e00-49c2-9039-e8112c5404de",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "CONTENT_CALENDAR",
+      "title": "90-Day GEO Content Calendar - Cloudflare SRO 1780897908191",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "sixtyDay": [
+          {
+            "week": 5,
+            "asset": "comparison page",
+            "phase": "60-day",
+            "topic": "Compare Cybersecurity vendors in Saudi Arabia",
+            "expectedImpact": "topic authority growth",
+            "targetEntities": [
+              "Cybersecurity Saudi Arabia Palo",
+              "Alto Networks Leader Competitors",
+              "Cybersecurity Protection Competitors",
+              "Software Competitors",
+              "Modern Enterprises Competitors"
+            ]
+          },
+          {
+            "week": 6,
+            "asset": "citation-support article",
+            "phase": "60-day",
+            "topic": "Cybersecurity provider with local support in Saudi Arabia",
+            "expectedImpact": "topic authority growth",
+            "targetEntities": [
+              "Alto Networks Leader Competitors",
+              "Cybersecurity Protection Competitors",
+              "Software Competitors",
+              "Modern Enterprises Competitors",
+              "Palo Alto Networks Control"
+            ]
+          },
+          {
+            "week": 7,
+            "asset": "FAQ/service page",
+            "phase": "60-day",
+            "topic": "Best cybersecurity company in Saudi Arabia for a CEO",
+            "expectedImpact": "topic authority growth",
+            "targetEntities": [
+              "Cybersecurity Protection Competitors",
+              "Software Competitors",
+              "Modern Enterprises Competitors",
+              "Palo Alto Networks Control",
+              "Introducing Idira Competitors"
+            ]
+          },
+          {
+            "week": 8,
+            "asset": "comparison page",
+            "phase": "60-day",
+            "topic": "Best cybersecurity company in Saudi Arabia for a CTO",
+            "expectedImpact": "topic authority growth",
+            "targetEntities": [
+              "Software Competitors",
+              "Modern Enterprises Competitors",
+              "Palo Alto Networks Control",
+              "Introducing Idira Competitors",
+              "RECOMMENDED Missing"
+            ]
+          }
+        ],
+        "ninetyDay": [
+          {
+            "week": 9,
+            "asset": "citation-support article",
+            "phase": "90-day",
+            "topic": "Best cybersecurity company in Saudi Arabia for a CISO",
+            "expectedImpact": "market coverage expansion",
+            "targetEntities": [
+              "Modern Enterprises Competitors",
+              "Palo Alto Networks Control",
+              "Introducing Idira Competitors",
+              "RECOMMENDED Missing",
+              "Cybersecurity Saudi Arabia CrowdStrike"
+            ]
+          },
+          {
+            "week": 10,
+            "asset": "FAQ/service page",
+            "phase": "90-day",
+            "topic": "Best cybersecurity company in Saudi Arabia for a SOC Manager",
+            "expectedImpact": "market coverage expansion",
+            "targetEntities": [
+              "Palo Alto Networks Control",
+              "Introducing Idira Competitors",
+              "RECOMMENDED Missing",
+              "Cybersecurity Saudi Arabia CrowdStrike",
+              "CrowdStrike We Stop Breaches"
+            ]
+          },
+          {
+            "week": 11,
+            "asset": "comparison page",
+            "phase": "90-day",
+            "topic": "How to choose a Cybersecurity provider in Saudi Arabia",
+            "expectedImpact": "market coverage expansion",
+            "targetEntities": [
+              "Introducing Idira Competitors",
+              "RECOMMENDED Missing",
+              "Cybersecurity Saudi Arabia CrowdStrike",
+              "CrowdStrike We Stop Breaches",
+              "Cybersecurity New Frontier AI"
+            ]
+          },
+          {
+            "week": 12,
+            "asset": "citation-support article",
+            "phase": "90-day",
+            "topic": "Best cybersecurity company in Saudi Arabia for a Compliance Buyer",
+            "expectedImpact": "market coverage expansion",
+            "targetEntities": [
+              "RECOMMENDED Missing",
+              "Cybersecurity Saudi Arabia CrowdStrike",
+              "CrowdStrike We Stop Breaches",
+              "Cybersecurity New Frontier AI",
+              "Readiness Resilience Service New"
+            ]
+          },
+          {
+            "week": 13,
+            "asset": "FAQ/service page",
+            "phase": "90-day",
+            "topic": "Best cybersecurity company in Saudi Arabia",
+            "expectedImpact": "market coverage expansion",
+            "targetEntities": [
+              "Cybersecurity Saudi Arabia CrowdStrike",
+              "CrowdStrike We Stop Breaches",
+              "Cybersecurity New Frontier AI",
+              "Readiness Resilience Service New",
+              "Frontier AI Readiness Securing"
+            ]
+          }
+        ],
+        "thirtyDay": [
+          {
+            "week": 1,
+            "asset": "FAQ/service page",
+            "phase": "30-day",
+            "topic": "Best cybersecurity company in Saudi Arabia",
+            "expectedImpact": "quick visibility lift",
+            "targetEntities": [
+              "Cloudflare SRO",
+              "Cybersecurity Saudi Arabia Best",
+              "Saudi Arabia Missing",
+              "Competitors",
+              "Cybersecurity Saudi Arabia Palo"
+            ]
+          },
+          {
+            "week": 2,
+            "asset": "comparison page",
+            "phase": "30-day",
+            "topic": "Best Cybersecurity companies in Saudi Arabia",
+            "expectedImpact": "quick visibility lift",
+            "targetEntities": [
+              "Cybersecurity Saudi Arabia Best",
+              "Saudi Arabia Missing",
+              "Competitors",
+              "Cybersecurity Saudi Arabia Palo",
+              "Alto Networks Leader Competitors"
+            ]
+          },
+          {
+            "week": 3,
+            "asset": "citation-support article",
+            "phase": "30-day",
+            "topic": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia",
+            "expectedImpact": "quick visibility lift",
+            "targetEntities": [
+              "Saudi Arabia Missing",
+              "Competitors",
+              "Cybersecurity Saudi Arabia Palo",
+              "Alto Networks Leader Competitors",
+              "Cybersecurity Protection Competitors"
+            ]
+          },
+          {
+            "week": 4,
+            "asset": "FAQ/service page",
+            "phase": "30-day",
+            "topic": "Top Cybersecurity providers for enterprises in Saudi Arabia",
+            "expectedImpact": "quick visibility lift",
+            "targetEntities": [
+              "Competitors",
+              "Cybersecurity Saudi Arabia Palo",
+              "Alto Networks Leader Competitors",
+              "Cybersecurity Protection Competitors",
+              "Software Competitors"
+            ]
+          }
+        ]
+      },
+      "markdown": "# GEO Content Calendar: Cloudflare SRO 1780897908191\n\n## Week 1 (30-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia\n- Entities: Cloudflare SRO, Cybersecurity Saudi Arabia Best, Saudi Arabia Missing, Competitors, Cybersecurity Saudi Arabia Palo\n- Expected impact: quick visibility lift\n\n## Week 2 (30-day)\n- Asset: comparison page\n- Topic: Best Cybersecurity companies in Saudi Arabia\n- Entities: Cybersecurity Saudi Arabia Best, Saudi Arabia Missing, Competitors, Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors\n- Expected impact: quick visibility lift\n\n## Week 3 (30-day)\n- Asset: citation-support article\n- Topic: Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia\n- Entities: Saudi Arabia Missing, Competitors, Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors, Cybersecurity Protection Competitors\n- Expected impact: quick visibility lift\n\n## Week 4 (30-day)\n- Asset: FAQ/service page\n- Topic: Top Cybersecurity providers for enterprises in Saudi Arabia\n- Entities: Competitors, Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors, Cybersecurity Protection Competitors, Software Competitors\n- Expected impact: quick visibility lift\n\n## Week 5 (60-day)\n- Asset: comparison page\n- Topic: Compare Cybersecurity vendors in Saudi Arabia\n- Entities: Cybersecurity Saudi Arabia Palo, Alto Networks Leader Competitors, Cybersecurity Protection Competitors, Software Competitors, Modern Enterprises Competitors\n- Expected impact: topic authority growth\n\n## Week 6 (60-day)\n- Asset: citation-support article\n- Topic: Cybersecurity provider with local support in Saudi Arabia\n- Entities: Alto Networks Leader Competitors, Cybersecurity Protection Competitors, Software Competitors, Modern Enterprises Competitors, Palo Alto Networks Control\n- Expected impact: topic authority growth\n\n## Week 7 (60-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia for a CEO\n- Entities: Cybersecurity Protection Competitors, Software Competitors, Modern Enterprises Competitors, Palo Alto Networks Control, Introducing Idira Competitors\n- Expected impact: topic authority growth\n\n## Week 8 (60-day)\n- Asset: comparison page\n- Topic: Best cybersecurity company in Saudi Arabia for a CTO\n- Entities: Software Competitors, Modern Enterprises Competitors, Palo Alto Networks Control, Introducing Idira Competitors, RECOMMENDED Missing\n- Expected impact: topic authority growth\n\n## Week 9 (90-day)\n- Asset: citation-support article\n- Topic: Best cybersecurity company in Saudi Arabia for a CISO\n- Entities: Modern Enterprises Competitors, Palo Alto Networks Control, Introducing Idira Competitors, RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike\n- Expected impact: market coverage expansion\n\n## Week 10 (90-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia for a SOC Manager\n- Entities: Palo Alto Networks Control, Introducing Idira Competitors, RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches\n- Expected impact: market coverage expansion\n\n## Week 11 (90-day)\n- Asset: comparison page\n- Topic: How to choose a Cybersecurity provider in Saudi Arabia\n- Entities: Introducing Idira Competitors, RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches, Cybersecurity New Frontier AI\n- Expected impact: market coverage expansion\n\n## Week 12 (90-day)\n- Asset: citation-support article\n- Topic: Best cybersecurity company in Saudi Arabia for a Compliance Buyer\n- Entities: RECOMMENDED Missing, Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches, Cybersecurity New Frontier AI, Readiness Resilience Service New\n- Expected impact: market coverage expansion\n\n## Week 13 (90-day)\n- Asset: FAQ/service page\n- Topic: Best cybersecurity company in Saudi Arabia\n- Entities: Cybersecurity Saudi Arabia CrowdStrike, CrowdStrike We Stop Breaches, Cybersecurity New Frontier AI, Readiness Resilience Service New, Frontier AI Readiness Securing\n- Expected impact: market coverage expansion\n",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "CONTENT_CALENDAR",
+          "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 76,
+      "geoImpact": 78,
+      "difficultyScore": 52,
+      "priorityScore": 66,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.345Z",
+      "createdAt": "2026-06-08T06:14:36.347Z",
+      "updatedAt": "2026-06-08T06:14:36.347Z"
+    },
+    {
+      "id": "69e78df4-7781-40f2-b4a3-d6d814418c10",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "CITATION_OUTREACH",
+      "title": "Citation Outreach - linkedin.com",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "domain": "linkedin.com",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "domain": "linkedin.com",
+        "outreachBrief": {
+          "anchorTopics": [
+            "Cloudflare SRO",
+            "Cybersecurity Saudi Arabia Best",
+            "Saudi Arabia Missing",
+            "Competitors",
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader Competitors"
+          ],
+          "whyThisSource": "linkedin.com is relevant because stored GEO/SRO evidence identifies citation gaps or competitor source patterns.",
+          "proofToInclude": [
+            "customer outcome",
+            "local market context",
+            "technical differentiation",
+            "credible data point"
+          ],
+          "suggestedAngle": "Cloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers."
+        },
+        "outreachEmail": "Subject: Expert input for your Cybersecurity coverage\n\nHi {{first_name}},\n\nI noticed linkedin.com covers topics related to Cybersecurity. Cloudflare SRO 1780897908191 works on Best cybersecurity company in Saudi Arabia, especially for Saudi Arabia buyers.\n\nA useful angle for your readers could be: Cloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers.\n\nWe can share a concise expert quote, implementation checklist, or data-backed perspective if you are updating this coverage.\n\nBest,\n{{sender_name}}"
+      },
+      "markdown": "# Citation Outreach Brief: linkedin.com\n\n## Suggested Angle\nCloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers.\n\n## Anchor Topics\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n\n## Outreach Email\n```text\nSubject: Expert input for your Cybersecurity coverage\n\nHi {{first_name}},\n\nI noticed linkedin.com covers topics related to Cybersecurity. Cloudflare SRO 1780897908191 works on Best cybersecurity company in Saudi Arabia, especially for Saudi Arabia buyers.\n\nA useful angle for your readers could be: Cloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers.\n\nWe can share a concise expert quote, implementation checklist, or data-backed perspective if you are updating this coverage.\n\nBest,\n{{sender_name}}\n```",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "CITATION_OUTREACH",
+          "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 82,
+      "geoImpact": 70,
+      "difficultyScore": 42,
+      "priorityScore": 66,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.310Z",
+      "createdAt": "2026-06-08T06:14:36.311Z",
+      "updatedAt": "2026-06-08T06:14:36.311Z"
+    },
+    {
+      "id": "23d007d4-c583-436c-8b97-b2d424b32563",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "FAQ_GENERATOR",
+      "title": "FAQ Block - Best cybersecurity company in Saudi Arabia",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "faq": [
+          {
+            "answer": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cloudflare SRO.",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "claim": "FAQ question generated from prompt \"Best cybersecurity company in Saudi Arabia\" and stored page intelligence.",
+                "source": "FAQ Generator V1",
+                "lastVerifiedAt": "2026-06-08T06:14:36.052Z"
+              }
+            ],
+            "question": "What makes Cloudflare SRO 1780897908191 relevant for Best cybersecurity company in Saudi Arabia?",
+            "confidenceScore": 80
+          },
+          {
+            "answer": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Best.",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "claim": "FAQ question generated from prompt \"Best cybersecurity company in Saudi Arabia\" and stored page intelligence.",
+                "source": "FAQ Generator V1",
+                "lastVerifiedAt": "2026-06-08T06:14:36.052Z"
+              }
+            ],
+            "question": "How does Cloudflare SRO 1780897908191 help Cybersecurity buyers in Saudi Arabia?",
+            "confidenceScore": 80
+          },
+          {
+            "answer": "Buyers should look for clear service scope, local market relevance in Saudi Arabia, credible proof, citations, and schema-backed answers. It should explicitly cover Saudi Arabia Missing.",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "claim": "FAQ question generated from prompt \"Best cybersecurity company in Saudi Arabia\" and stored page intelligence.",
+                "source": "FAQ Generator V1",
+                "lastVerifiedAt": "2026-06-08T06:14:36.052Z"
+              }
+            ],
+            "question": "What proof should buyers look for when choosing a Cybersecurity provider?",
+            "confidenceScore": 80
+          },
+          {
+            "answer": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Competitors.",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "claim": "FAQ question generated from prompt \"Best cybersecurity company in Saudi Arabia\" and stored page intelligence.",
+                "source": "FAQ Generator V1",
+                "lastVerifiedAt": "2026-06-08T06:14:36.052Z"
+              }
+            ],
+            "question": "Which services or capabilities should be evaluated before shortlisting Cloudflare SRO 1780897908191?",
+            "confidenceScore": 80
+          },
+          {
+            "answer": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Palo.",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "claim": "FAQ question generated from prompt \"Best cybersecurity company in Saudi Arabia\" and stored page intelligence.",
+                "source": "FAQ Generator V1",
+                "lastVerifiedAt": "2026-06-08T06:14:36.052Z"
+              }
+            ],
+            "question": "How can Cloudflare SRO 1780897908191 improve AI-search visibility for this topic?",
+            "confidenceScore": 80
+          },
+          {
+            "answer": "The strongest citation targets from stored evidence are linkedin.com, x.com, instagram.com. These sources should be used to support specific claims rather than generic marketing statements.",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+                "claim": "FAQ question generated from prompt \"Best cybersecurity company in Saudi Arabia\" and stored page intelligence.",
+                "source": "FAQ Generator V1",
+                "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+              }
+            ],
+            "question": "What citations or sources strengthen trust for Best cybersecurity company in Saudi Arabia?",
+            "confidenceScore": 80
+          }
+        ],
+        "validation": {
+          "valid": true,
+          "errors": []
+        },
+        "schemaJsonLd": {
+          "@type": "FAQPage",
+          "@context": "https://schema.org",
+          "mainEntity": [
+            {
+              "name": "What makes Cloudflare SRO 1780897908191 relevant for Best cybersecurity company in Saudi Arabia?",
+              "@type": "Question",
+              "acceptedAnswer": {
+                "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cloudflare SRO.",
+                "@type": "Answer"
+              }
+            },
+            {
+              "name": "How does Cloudflare SRO 1780897908191 help Cybersecurity buyers in Saudi Arabia?",
+              "@type": "Question",
+              "acceptedAnswer": {
+                "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Best.",
+                "@type": "Answer"
+              }
+            },
+            {
+              "name": "What proof should buyers look for when choosing a Cybersecurity provider?",
+              "@type": "Question",
+              "acceptedAnswer": {
+                "text": "Buyers should look for clear service scope, local market relevance in Saudi Arabia, credible proof, citations, and schema-backed answers. It should explicitly cover Saudi Arabia Missing.",
+                "@type": "Answer"
+              }
+            },
+            {
+              "name": "Which services or capabilities should be evaluated before shortlisting Cloudflare SRO 1780897908191?",
+              "@type": "Question",
+              "acceptedAnswer": {
+                "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Competitors.",
+                "@type": "Answer"
+              }
+            },
+            {
+              "name": "How can Cloudflare SRO 1780897908191 improve AI-search visibility for this topic?",
+              "@type": "Question",
+              "acceptedAnswer": {
+                "text": "Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Palo.",
+                "@type": "Answer"
+              }
+            },
+            {
+              "name": "What citations or sources strengthen trust for Best cybersecurity company in Saudi Arabia?",
+              "@type": "Question",
+              "acceptedAnswer": {
+                "text": "The strongest citation targets from stored evidence are linkedin.com, x.com, instagram.com. These sources should be used to support specific claims rather than generic marketing statements.",
+                "@type": "Answer"
+              }
+            }
+          ]
+        }
+      },
+      "markdown": "# FAQ Block: Best cybersecurity company in Saudi Arabia\n\n## What makes Cloudflare SRO 1780897908191 relevant for Best cybersecurity company in Saudi Arabia?\nCloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cloudflare SRO.\n\n## How does Cloudflare SRO 1780897908191 help Cybersecurity buyers in Saudi Arabia?\nCloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Best.\n\n## What proof should buyers look for when choosing a Cybersecurity provider?\nBuyers should look for clear service scope, local market relevance in Saudi Arabia, credible proof, citations, and schema-backed answers. It should explicitly cover Saudi Arabia Missing.\n\n## Which services or capabilities should be evaluated before shortlisting Cloudflare SRO 1780897908191?\nCloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Competitors.\n\n## How can Cloudflare SRO 1780897908191 improve AI-search visibility for this topic?\nCloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Palo.\n\n## What citations or sources strengthen trust for Best cybersecurity company in Saudi Arabia?\nThe strongest citation targets from stored evidence are linkedin.com, x.com, instagram.com. These sources should be used to support specific claims rather than generic marketing statements.\n\n## FAQ Schema JSON-LD\n```json\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What makes Cloudflare SRO 1780897908191 relevant for Best cybersecurity company in Saudi Arabia?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cloudflare SRO.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How does Cloudflare SRO 1780897908191 help Cybersecurity buyers in Saudi Arabia?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Best.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What proof should buyers look for when choosing a Cybersecurity provider?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Buyers should look for clear service scope, local market relevance in Saudi Arabia, credible proof, citations, and schema-backed answers. It should explicitly cover Saudi Arabia Missing.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which services or capabilities should be evaluated before shortlisting Cloudflare SRO 1780897908191?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Competitors.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How can Cloudflare SRO 1780897908191 improve AI-search visibility for this topic?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Cloudflare SRO 1780897908191 should answer this topic directly for Saudi Arabia Cybersecurity buyers, explain the use case, include proof, and connect the page to credible sources. It should explicitly cover Cybersecurity Saudi Arabia Palo.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What citations or sources strengthen trust for Best cybersecurity company in Saudi Arabia?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The strongest citation targets from stored evidence are linkedin.com, x.com, instagram.com. These sources should be used to support specific claims rather than generic marketing statements.\"\n      }\n    }\n  ]\n}\n```",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "FAQ_GENERATOR",
+          "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 72,
+      "geoImpact": 76,
+      "difficultyScore": 28,
+      "priorityScore": 66,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.054Z",
+      "createdAt": "2026-06-08T06:14:36.056Z",
+      "updatedAt": "2026-06-08T06:14:36.056Z"
+    },
+    {
+      "id": "9f18f140-6b93-4fdb-8935-0da4e7e20112",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "type": "LLMS_GENERATOR",
+      "title": "llms.txt Pack - Cloudflare SRO 1780897908191",
+      "status": "GENERATED",
+      "input": {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "country": "Saudi Arabia",
+        "industry": "Cybersecurity",
+        "services": [
+          "Cloud security",
+          "Zero trust",
+          "Application security"
+        ],
+        "resources": [
+          "nist.gov",
+          "cloudflare.com",
+          "cisa.gov"
+        ],
+        "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+      },
+      "output": {
+        "llmsTxt": "# Cloudflare SRO 1780897908191\n> Cloudflare SRO 1780897908191 provides Cybersecurity services for Saudi Arabia.\n\n## Priority Pages\n- https://www.cloudflare.com: Brand and service overview\n\n## Services\n- Cloud security\n- Zero trust\n- Application security\n\n## Recommended AI Search Context\n- Target prompt: Best cybersecurity company in Saudi Arabia",
+        "services": [
+          "Cloud security",
+          "Zero trust",
+          "Application security"
+        ],
+        "resources": [
+          "nist.gov",
+          "cloudflare.com",
+          "cisa.gov"
+        ],
+        "llmsFullTxt": "# Cloudflare SRO 1780897908191\n> Cloudflare SRO 1780897908191 provides Cybersecurity services for Saudi Arabia.\n\n## Priority Pages\n- https://www.cloudflare.com: Brand and service overview\n\n## Services\n- Cloud security\n- Zero trust\n- Application security\n\n## Recommended AI Search Context\n- Target prompt: Best cybersecurity company in Saudi Arabia\n\n## Buyer Questions\n- What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?\n- Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?\n- Which Cybersecurity capabilities matter most?\n- What proof, certifications, or outcomes should be shown?\n- Which competitors should be compared?\n- Which sources should be cited?\n- What FAQ answers should be schema-ready?\n\n## Proof And Trust Signals To Expose\n- case studies\n- certifications\n- compliance coverage\n- implementation process\n- citation-worthy research or documentation\n\n## Trusted Sources / Citation Targets\n- nist.gov\n- cloudflare.com\n- cisa.gov"
+      },
+      "markdown": "# llms.txt\n```text\n# Cloudflare SRO 1780897908191\n> Cloudflare SRO 1780897908191 provides Cybersecurity services for Saudi Arabia.\n\n## Priority Pages\n- https://www.cloudflare.com: Brand and service overview\n\n## Services\n- Cloud security\n- Zero trust\n- Application security\n\n## Recommended AI Search Context\n- Target prompt: Best cybersecurity company in Saudi Arabia\n```\n\n# llms-full.txt\n```text\n# Cloudflare SRO 1780897908191\n> Cloudflare SRO 1780897908191 provides Cybersecurity services for Saudi Arabia.\n\n## Priority Pages\n- https://www.cloudflare.com: Brand and service overview\n\n## Services\n- Cloud security\n- Zero trust\n- Application security\n\n## Recommended AI Search Context\n- Target prompt: Best cybersecurity company in Saudi Arabia\n\n## Buyer Questions\n- What is the best answer to \"Best cybersecurity company in Saudi Arabia\"?\n- Why should Saudi Arabia buyers trust Cloudflare SRO 1780897908191?\n- Which Cybersecurity capabilities matter most?\n- What proof, certifications, or outcomes should be shown?\n- Which competitors should be compared?\n- Which sources should be cited?\n- What FAQ answers should be schema-ready?\n\n## Proof And Trust Signals To Expose\n- case studies\n- certifications\n- compliance coverage\n- implementation process\n- citation-worthy research or documentation\n\n## Trusted Sources / Citation Targets\n- nist.gov\n- cloudflare.com\n- cisa.gov\n```",
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+          "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+          "source": "LLMS_GENERATOR",
+          "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+          "source": "SRO Analysis",
+          "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+        },
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "Used 12 stored prompt suggestion row(s).",
+          "source": "Prompt Discovery",
+          "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+        }
+      ],
+      "confidenceScore": 86,
+      "revenueImpact": 58,
+      "geoImpact": 76,
+      "difficultyScore": 18,
+      "priorityScore": 63,
+      "dataSource": "GEO_EXECUTION_ENGINE_V1",
+      "lastVerifiedAt": "2026-06-08T06:14:36.280Z",
+      "createdAt": "2026-06-08T06:14:36.281Z",
+      "updatedAt": "2026-06-08T06:14:36.281Z"
+    }
+  ]
+}

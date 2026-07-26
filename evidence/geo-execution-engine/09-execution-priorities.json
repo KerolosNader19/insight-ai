@@ -1,0 +1,269 @@
+{
+  "label": "09-execution-priorities",
+  "method": "GET",
+  "url": "/geo-execution/brands/7c51d959-ea7b-48ca-80f0-e25aad4a50e7/priorities",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "assets": [
+      {
+        "rank": 1,
+        "id": "9afbaf1a-5d0b-47d9-8175-53dbaf3fffa6",
+        "type": "SCHEMA_GENERATOR",
+        "title": "Schema Pack - Cloudflare SRO 1780897908191",
+        "revenueImpact": 68,
+        "geoImpact": 88,
+        "difficultyScore": 24,
+        "confidenceScore": 86,
+        "priorityScore": 70,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "SCHEMA_GENERATOR",
+            "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "id": "8d366425-52e6-4ab2-8ab2-11e2892924c3",
+        "type": "CONTENT_BRIEF",
+        "title": "Content Brief - Best cybersecurity company in Saudi Arabia",
+        "revenueImpact": 80,
+        "geoImpact": 80,
+        "difficultyScore": 36,
+        "confidenceScore": 86,
+        "priorityScore": 70,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "CONTENT_BRIEF",
+            "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "id": "a420ecc7-ddcb-4eef-9664-e550ef4ba339",
+        "type": "COMPARISON_PAGE",
+        "title": "Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia",
+        "revenueImpact": 86,
+        "geoImpact": 82,
+        "difficultyScore": 58,
+        "confidenceScore": 86,
+        "priorityScore": 70,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "COMPARISON_PAGE",
+            "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "id": "7956d017-e999-4d51-9d31-f840a62c823d",
+        "type": "SERVICE_PAGE",
+        "title": "Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+        "revenueImpact": 78,
+        "geoImpact": 84,
+        "difficultyScore": 46,
+        "confidenceScore": 86,
+        "priorityScore": 69,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "SERVICE_PAGE",
+            "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+          }
+        ]
+      },
+      {
+        "rank": 5,
+        "id": "f2a4838d-2e00-49c2-9039-e8112c5404de",
+        "type": "CONTENT_CALENDAR",
+        "title": "90-Day GEO Content Calendar - Cloudflare SRO 1780897908191",
+        "revenueImpact": 76,
+        "geoImpact": 78,
+        "difficultyScore": 52,
+        "confidenceScore": 86,
+        "priorityScore": 66,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "CONTENT_CALENDAR",
+            "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.345Z"
+          }
+        ]
+      },
+      {
+        "rank": 6,
+        "id": "69e78df4-7781-40f2-b4a3-d6d814418c10",
+        "type": "CITATION_OUTREACH",
+        "title": "Citation Outreach - linkedin.com",
+        "revenueImpact": 82,
+        "geoImpact": 70,
+        "difficultyScore": 42,
+        "confidenceScore": 86,
+        "priorityScore": 66,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "CITATION_OUTREACH",
+            "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+          }
+        ]
+      },
+      {
+        "rank": 7,
+        "id": "23d007d4-c583-436c-8b97-b2d424b32563",
+        "type": "FAQ_GENERATOR",
+        "title": "FAQ Block - Best cybersecurity company in Saudi Arabia",
+        "revenueImpact": 72,
+        "geoImpact": 76,
+        "difficultyScore": 28,
+        "confidenceScore": 86,
+        "priorityScore": 66,
+        "reason": "Medium-high priority; useful execution asset with manageable effort.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "FAQ_GENERATOR",
+            "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+          }
+        ]
+      },
+      {
+        "rank": 8,
+        "id": "9f18f140-6b93-4fdb-8935-0da4e7e20112",
+        "type": "LLMS_GENERATOR",
+        "title": "llms.txt Pack - Cloudflare SRO 1780897908191",
+        "revenueImpact": 58,
+        "geoImpact": 76,
+        "difficultyScore": 18,
+        "confidenceScore": 86,
+        "priorityScore": 63,
+        "reason": "Lower priority; keep available, but execute after higher-impact assets.",
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+            "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+            "source": "LLMS_GENERATOR",
+            "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+          },
+          {
+            "url": "https://www.cloudflare.com/",
+            "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+            "source": "SRO Analysis",
+            "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+          },
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Used 12 stored prompt suggestion row(s).",
+            "source": "Prompt Discovery",
+            "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+          }
+        ]
+      }
+    ]
+  }
+}

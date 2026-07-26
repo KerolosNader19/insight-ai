@@ -1,0 +1,144 @@
+{
+  "generatedAt": "2026-06-08T02:18:19.945Z",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "database": "insight_ai.public from .env DATABASE_URL",
+  "counts": {
+    "competitorSuggestions": 3,
+    "promptSuggestions": 1,
+    "citationOpportunities": 8,
+    "geoScoreSnapshots": 1,
+    "realPromptRuns": 2,
+    "realMentions": 12,
+    "realCitations": 9
+  },
+  "promptRunRecords": [
+    {
+      "promptId": "900f80ae-1484-4306-8bbe-85b33626ea59",
+      "queryText": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+      "responseCount": 1,
+      "responses": [
+        {
+          "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+          "status": "COMPLETED",
+          "engine": "Groq",
+          "model": "llama-3.1-8b-instant",
+          "mentions": 12,
+          "citations": 5,
+          "citationDomains": [
+            "orcatech.com",
+            "paloaltonetworks.com",
+            "checkpoint.com",
+            "cyberoam.com",
+            "mcit.gov.sa"
+          ]
+        }
+      ]
+    },
+    {
+      "promptId": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+      "queryText": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+      "responseCount": 1,
+      "responses": [
+        {
+          "responseId": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+          "status": "COMPLETED",
+          "engine": "Groq",
+          "model": "llama-3.1-8b-instant",
+          "mentions": 0,
+          "citations": 4,
+          "citationDomains": [
+            "stc.com.sa",
+            "saudiaramco.com",
+            "bupaarabia.com.sa",
+            "sama.gov.sa"
+          ]
+        }
+      ]
+    }
+  ],
+  "latestGeoScore": {
+    "id": "bd8ed5fe-12d0-47f7-8934-916d20809907",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "engineId": "1860bc70-425e-4396-9587-318605a63201",
+    "promptId": null,
+    "geoAuditId": "e56a0841-ba8b-4d6a-beaf-dc99a1db8fc1",
+    "snapshotDate": "2026-06-07T04:00:00.000Z",
+    "overallScore": 97,
+    "schemaScore": 100,
+    "faqScore": 100,
+    "authorityScore": 84,
+    "contentScore": 96,
+    "citationScore": 100,
+    "entityScore": 100,
+    "breakdown": {
+      "faq": {
+        "raw": 100,
+        "contribution": 15
+      },
+      "schema": {
+        "raw": 100,
+        "contribution": 15
+      },
+      "content": {
+        "raw": 96,
+        "contribution": 19.2
+      },
+      "entities": {
+        "raw": 100,
+        "contribution": 15
+      },
+      "authority": {
+        "raw": 84,
+        "contribution": 12.6
+      },
+      "citations": {
+        "raw": 100,
+        "contribution": 20
+      }
+    },
+    "evidence": [
+      {
+        "url": "https://orcatech.online/",
+        "claim": "Schema score 100/100 from latest audit JSON-LD/entity checks.",
+        "source": "GEO Audit"
+      },
+      {
+        "url": "https://orcatech.online/",
+        "claim": "FAQ score 100/100 from FAQ schema and question coverage.",
+        "source": "GEO Audit"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Citation score 100/100 from 9 non-demo citation rows.",
+        "source": "Prompt Tracking + Citation Discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Entity score 100/100 from 12 brand mentions and 0 competitor mentions.",
+        "source": "Prompt Tracking"
+      }
+    ],
+    "explanation": {
+      "why": [
+        "Schema is a strength at 100/100.",
+        "FAQ coverage is a strength at 100/100.",
+        "Authority signals is a strength at 84/100.",
+        "Content coverage is a strength at 96/100.",
+        "Citation profile is a strength at 100/100.",
+        "Entity coverage is a strength at 100/100."
+      ],
+      "weights": {
+        "faq": 15,
+        "schema": 15,
+        "content": 20,
+        "entities": 15,
+        "authority": 15,
+        "citations": 20
+      }
+    },
+    "dataSource": "GEO_AUDIT + PROMPT_TRACKING + CITATION_DISCOVERY",
+    "confidenceScore": 81,
+    "lastVerifiedAt": "2026-06-08T02:17:52.476Z",
+    "createdAt": "2026-06-08T02:17:52.478Z"
+  }
+}

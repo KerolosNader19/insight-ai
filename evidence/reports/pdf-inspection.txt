@@ -1,0 +1,13 @@
+-rw-rw-r-- 1 omar omar 1.1K Jun  2 11:47 apps/api/generated-reports/orcatech-1780415240934-visibility-report.pdf
+apps/api/generated-reports/orcatech-1780415240934-visibility-report.pdf: PDF document, version 1.4, 1 page(s)
+OrcaTech Visibility Report - Validation
+Agency: Acme GEO Agency
+Brand: OrcaTech
+Generated: 2026-06-02T15:47:20.936Z
+GEO Score: 48
+Share of Voice: 20%
+Brand Mentions: 1
+Citations: 5
+Recommendations: No recommendations stored yet.
+
+

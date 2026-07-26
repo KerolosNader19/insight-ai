@@ -1,0 +1,561 @@
+{
+  "startedAt": "2026-06-02T22:06:25.445Z",
+  "base": "http://localhost:3000",
+  "css": {
+    "stylesheetLinks": [
+      "http://localhost:3000/_next/static/css/app/layout.css?v=1780437986152"
+    ],
+    "cssFetches": [
+      {
+        "href": "http://localhost:3000/_next/static/css/app/layout.css?v=1780437986152",
+        "status": 200,
+        "contentType": "text/css; charset=UTF-8",
+        "bytes": 57793,
+        "hasTailwindClass": true
+      }
+    ],
+    "bodyBackground": "rgb(12, 16, 24)",
+    "bodyColor": "rgb(248, 250, 252)",
+    "h1FontSize": "96px",
+    "h1Color": "rgba(0, 0, 0, 0)",
+    "classCount": 217
+  },
+  "routes": [
+    {
+      "route": "/",
+      "label": "home-desktop-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nFeatures\nPricing\nDashboard\nEN\nLogin\nGet Started\nTHE NEW STANDARD FOR AI SEARCH ANALYTICS\nYour Brand, Visible in AI Search.\n\nInsight AI tracks how Cha",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "block",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/pricing",
+      "label": "pricing-desktop-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nFeatures\nPricing\nDashboard\nEN\nLogin\nGet Started\nPredictable Pricing\n\nChoose the plan that fits your growth stage.\n\nFree\n$0/mo\n\nFor small businesses s",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "block",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/login",
+      "label": "login-desktop-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Back to home\nWelcome back\n\nLog in to your Insight AI account\n\nEMAIL ADDRESS\nPASSWORD\nSign In\n\nDon't have an account? Sign Up",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": null,
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/register",
+      "label": "register-desktop-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Back to home\nGet Started\n\nCreate your Insight AI account today\n\nFULL NAME\nAGENCY NAME\nEMAIL ADDRESS\nPASSWORD\nCreate Account\n\nAlready have an account? Sign In",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": null,
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/",
+      "label": "home-mobile-en",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nTHE NEW STANDARD FOR AI SEARCH ANALYTICS\nYour Brand, Visible in AI Search.\n\nInsight AI tracks how ChatGPT, Perplexity, and Gemini talk about your bra",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "block",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/pricing",
+      "label": "pricing-tablet-en",
+      "status": 200,
+      "viewport": {
+        "width": 820,
+        "height": 1180
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nFeatures\nPricing\nDashboard\nEN\nLogin\nGet Started\nPredictable Pricing\n\nChoose the plan that fits your growth stage.\n\nFree\n$0/mo\n\nFor small businesses s",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "block",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard",
+      "label": "dashboard-overview-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n\nDemo Agency Owner\n\nOWNER\n",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/analytics",
+      "label": "dashboard-analytics-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/prompts",
+      "label": "dashboard-prompts-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/competitors",
+      "label": "dashboard-competitors-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/recommendations",
+      "label": "dashboard-recommendations-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/reports",
+      "label": "dashboard-reports-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/settings",
+      "label": "dashboard-settings-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard/billing",
+      "label": "dashboard-billing-en",
+      "status": 200,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "Insight AI\nOverview\nAnalytics\nPrompts\nCompetitors\nRecommendations\nReports\nBilling & Subscription\nSettings\nLogout\nA\nAcme GEO Agency\nEN\n1\n\nDemo Agency Owner\n\nOWNE",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "flex",
+        "styled": true,
+        "dir": "ltr",
+        "lang": "en"
+      }
+    },
+    {
+      "route": "/dashboard",
+      "label": "dashboard-mobile-en",
+      "status": 200,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "style": {
+        "title": "Insight AI | AI Search Visibility & GEO Analytics",
+        "statusText": "A\nAcme GEO Agency\nAR\nنظرة عامة\n\nتعمق في مقاييس ظهورك في بحث الذكاء الاصطناعي.\n\nإصدار تقرير\nمخزن\n\nمتوسط درجة GEO\n\n51.7\n\nمخزن\n\nحصة الصوت\n\n26.32%\n\nمخزن\n\nعدد الاستش",
+        "bodyBackground": "rgb(12, 16, 24)",
+        "bodyColor": "rgb(248, 250, 252)",
+        "styleSheets": 2,
+        "navDisplay": "none",
+        "styled": true,
+        "dir": "rtl",
+        "lang": "ar"
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "label": "home-desktop-en",
+      "path": "evidence/frontend-runtime/screenshots/home-desktop-en.png"
+    },
+    {
+      "label": "pricing-desktop-en",
+      "path": "evidence/frontend-runtime/screenshots/pricing-desktop-en.png"
+    },
+    {
+      "label": "login-desktop-en",
+      "path": "evidence/frontend-runtime/screenshots/login-desktop-en.png"
+    },
+    {
+      "label": "register-desktop-en",
+      "path": "evidence/frontend-runtime/screenshots/register-desktop-en.png"
+    },
+    {
+      "label": "home-mobile-en",
+      "path": "evidence/frontend-runtime/screenshots/home-mobile-en.png"
+    },
+    {
+      "label": "pricing-tablet-en",
+      "path": "evidence/frontend-runtime/screenshots/pricing-tablet-en.png"
+    },
+    {
+      "label": "home-desktop-ar",
+      "path": "evidence/frontend-runtime/screenshots/home-desktop-ar.png"
+    },
+    {
+      "label": "dashboard-overview-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-overview-en.png"
+    },
+    {
+      "label": "dashboard-analytics-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-analytics-en.png"
+    },
+    {
+      "label": "dashboard-prompts-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-prompts-en.png"
+    },
+    {
+      "label": "dashboard-competitors-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-competitors-en.png"
+    },
+    {
+      "label": "dashboard-recommendations-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-recommendations-en.png"
+    },
+    {
+      "label": "dashboard-reports-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-reports-en.png"
+    },
+    {
+      "label": "dashboard-settings-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-settings-en.png"
+    },
+    {
+      "label": "dashboard-billing-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-billing-en.png"
+    },
+    {
+      "label": "dashboard-overview-ar",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-overview-ar.png"
+    },
+    {
+      "label": "dashboard-mobile-en",
+      "path": "evidence/frontend-runtime/screenshots/dashboard-mobile-en.png"
+    },
+    {
+      "label": "buttons-competitors-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-competitors-after.png"
+    },
+    {
+      "label": "buttons-prompts-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-prompts-after.png"
+    },
+    {
+      "label": "buttons-reports-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-reports-after.png"
+    },
+    {
+      "label": "buttons-assistant-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-assistant-after.png"
+    },
+    {
+      "label": "buttons-notifications-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-notifications-after.png"
+    },
+    {
+      "label": "buttons-billing-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-billing-after.png"
+    },
+    {
+      "label": "buttons-settings-after",
+      "path": "evidence/frontend-runtime/screenshots/buttons-settings-after.png"
+    }
+  ],
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 500 (Internal Server Error)"
+  ],
+  "failedRequests": [
+    {
+      "url": "http://localhost:3000/_next/static/webpack/webpack.32084a2ca1ac62dc.hot-update.js",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:3000/_next/static/webpack/webpack.959b1d7c83a9116a.hot-update.js",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/share-of-voice?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/recommendations?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/summary?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084&brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/visibility-trend?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7&days=30",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/share-of-voice?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/recommendations?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/analytics/visibility-trend?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7&days=30",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/prompts?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084&brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:3000/_next/static/webpack/webpack.58c616b2d1096b89.hot-update.js",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:3000/_next/static/webpack/webpack.41a85a6108a2b7f3.hot-update.js",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/notifications?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/brands?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/notifications?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/brands?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/prompts/754ac25b-81a4-423d-9f23-f08924380a03/run",
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "http://localhost:4000/billing/portal?organizationId=568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "status": 500
+    }
+  ],
+  "buttons": [
+    {
+      "name": "Create Brand",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Add Competitor",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Create Prompt",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Run Prompt",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Generate Report",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Ask Insight AI",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Notifications",
+      "ok": false,
+      "detail": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('Notifications')\u001b[22m\n\u001b[2m    - locator resolved to <button aria-label=\"Notifications\" class=\"hidden sm:block p-2 text-foreground/60 hover:text-foreground transition-colors relative\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    54 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+    },
+    {
+      "name": "Billing Manage",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    },
+    {
+      "name": "Settings Save Agency",
+      "ok": true,
+      "detail": "worked or displayed handled state"
+    }
+  ],
+  "language": [
+    {
+      "route": "/",
+      "locale": "ar",
+      "text": "Insight AI\nFeatures\nPricing\nDashboard\nEN\nLogin\nGet Started\nTHE NEW STANDARD FOR AI SEARCH ANALYTICS\nYour Brand, Visible in AI Search.\n\nInsight AI tracks how ChatGPT, Perplexity, and Gemini talk about your brand. Optimize",
+      "dir": "ltr"
+    },
+    {
+      "route": "/dashboard",
+      "locale": "ar",
+      "dir": "ltr",
+      "text": ""
+    }
+  ]
+}

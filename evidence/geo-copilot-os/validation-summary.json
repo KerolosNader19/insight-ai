@@ -1,0 +1,204 @@
+{
+  "generatedAt": "2026-06-08T04:48:30.433Z",
+  "evidenceDirectory": "evidence/geo-copilot-os",
+  "organization": {
+    "id": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "name": "Acme GEO Agency",
+    "slug": "acme-agency",
+    "role": "OWNER",
+    "billingPlan": "AGENCY",
+    "logoUrl": null,
+    "brandingColor": "#00f5d4"
+  },
+  "brand": {
+    "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "name": "OrcaTech",
+    "websiteUrl": "https://orcatech.online",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia"
+  },
+  "health": {
+    "status": "ok",
+    "timestamp": "2026-06-08T04:44:14.890Z"
+  },
+  "aiProviders": {
+    "status": "configured",
+    "nodeProcess": {
+      "groqApiKey": true,
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": true,
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "configService": {
+      "groqApiKey": true,
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": true,
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "aiProviderService": {
+      "groq": {
+        "hasApiKey": true,
+        "model": "llama-3.1-8b-instant"
+      },
+      "gemini": {
+        "hasApiKey": true,
+        "model": "gemini-flash-latest"
+      },
+      "availableProviders": [
+        "Groq",
+        "Gemini"
+      ]
+    }
+  },
+  "endpoints": {
+    "askV2ThisWeek": {
+      "httpStatus": 201,
+      "engine": "ASK_INSIGHT_AI_V2",
+      "provider": "Gemini",
+      "model": "gemini-flash-latest",
+      "confidenceScore": 42.6,
+      "evidenceCount": 7,
+      "recommendedActions": 6,
+      "sources": [
+        "sama.gov.sa",
+        "saudiaramco.com",
+        "stc.com.sa",
+        "mcit.gov.sa",
+        "cyberoam.com",
+        "checkpoint.com",
+        "paloaltonetworks.com",
+        "orcatech.com"
+      ],
+      "answerPreview": "### Insight AI GEO Copilot V2 | Weekly Action Plan for OrcaTech\n\n**Current Baseline:** GEO Score is stable at **85/100** (Confidence: 88%). While Schema and FAQ readiness are at 100%, visibility is limited by **Entity Coverage (50/100)** and **Citations (76/100)**. Competitors currently capture 50% of tracked AI search visibility.\n\n---\n\n### **Recommended Actions for This Week**\n\n#### **1. Optimize Content for High-Impact Prompt Gaps (High Priority)**\n*   **Action:** Create and optimize dedicated landing pages, case studies, and structured text targeting regulated banking and AI security.\n*   **Primary Target Phrase:** *\"Best SOC provider for regulated banks in Saudi Arabia.\"*\n    *   **Expec"
+    },
+    "askV2BiggestThreat": {
+      "httpStatus": 201,
+      "engine": "ASK_INSIGHT_AI_V2",
+      "provider": "deterministic-fallback",
+      "model": "stored-intelligence",
+      "confidenceScore": 43.6,
+      "evidenceCount": 7,
+      "recommendedActions": 6,
+      "sources": [
+        "sama.gov.sa",
+        "saudiaramco.com",
+        "stc.com.sa",
+        "mcit.gov.sa",
+        "cyberoam.com",
+        "checkpoint.com",
+        "paloaltonetworks.com",
+        "orcatech.com"
+      ],
+      "answerPreview": "Palo Alto Networks is currently the highest-evidence competitor threat. Threat score: 13. Recommended next action: Best SOC provider for regulated banks in Saudi Arabia.."
+    },
+    "actionPlanner": {
+      "httpStatus": 201,
+      "engine": "GEO_ACTION_PLANNER",
+      "planCount": 3,
+      "horizons": [
+        30,
+        60,
+        90
+      ],
+      "taskCounts": [
+        6,
+        8,
+        10
+      ],
+      "confidenceScores": [
+        84,
+        89.9,
+        89.9
+      ]
+    },
+    "taskEngine": {
+      "generatedHttpStatus": 201,
+      "listedHttpStatus": 200,
+      "updateHttpStatus": 200,
+      "created": 0,
+      "skippedExisting": 24,
+      "listedTasks": 24,
+      "updatedTask": {
+        "id": "b1bd7b8d-78f5-46f8-8b8b-207571594283",
+        "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+        "status": "IN_PROGRESS",
+        "confidenceScore": 98
+      }
+    },
+    "autonomousAnalyst": {
+      "httpStatus": 201,
+      "status": "COMPLETED",
+      "engine": "AUTONOMOUS_GEO_ANALYST",
+      "analystSummary": "OrcaTech weekly GEO research summary. Market discovery stored 26 research item(s). Trend discovery found 38 trend stream(s). Competitor monitoring produced 5 alert(s). Citation research ranked 32 source opportunity row(s).",
+      "commandCenterId": "15a0ca39-3b55-45e3-aeac-bc53071b5f66"
+    },
+    "warRoom": {
+      "httpStatus": 201,
+      "id": "b2e02935-b320-45fd-8654-db6ac51b3752",
+      "confidenceScore": 77.7,
+      "threatRanking": 5,
+      "citationRanking": 80,
+      "geoRanking": 5,
+      "promptRanking": 2,
+      "trendRanking": 38
+    },
+    "graphInfluence": {
+      "httpStatus": 201,
+      "id": "7be27be6-b236-4dd2-a976-9bdf367ee094",
+      "confidenceScore": 69.9,
+      "sourceInfluence": 8,
+      "competitorInfluence": 7,
+      "topicInfluence": 14,
+      "citationInfluence": 8
+    },
+    "predictiveGeo": {
+      "httpStatus": 201,
+      "status": "COMPLETED",
+      "engine": "PREDICTIVE_GEO_ENGINE",
+      "forecastCount": 15,
+      "firstForecast": {
+        "id": "2f6deea1-96a0-46e0-b732-22b44bd99b50",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "horizonDays": 30,
+        "metricKey": "threatScore.rollup",
+        "currentValue": 13,
+        "predictedValue": 13,
+        "delta": 0,
+        "direction": "STABLE",
+        "assumptions": [
+          "Forecast uses stored intelligence memory velocity only.",
+          "No fake market growth or revenue assumptions are added.",
+          "Multiple historical samples available."
+        ],
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+            "source": "Predictive GEO Engine"
+          }
+        ],
+        "confidenceScore": 90.7,
+        "dataSource": "PREDICTIVE_GEO_ENGINE",
+        "createdAt": "2026-06-08T04:45:00.739Z"
+      }
+    },
+    "commandCenter": {
+      "httpStatus": 201,
+      "id": "15aea2af-0b19-4258-8369-0492cb49ea4f",
+      "confidenceScore": 58,
+      "whatHappened": 1,
+      "why": 8,
+      "whatMatters": 8,
+      "nextActions": 5
+    },
+    "agencyCopilot": {
+      "httpStatus": 201,
+      "id": "0d9c48ba-b009-4059-b4e5-c44c2aed73cc",
+      "confidenceScore": 81.9,
+      "atRiskClients": 3,
+      "fastGrowingClients": 0,
+      "opportunities": 5,
+      "threats": 3
+    }
+  }
+}

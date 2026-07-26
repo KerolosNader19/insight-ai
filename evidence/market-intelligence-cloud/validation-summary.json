@@ -1,0 +1,21 @@
+{
+  "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+  "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+  "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+  "counts": {
+    "markets": 1,
+    "marketBrands": 17,
+    "marketPrompts": 29,
+    "marketCitationDomains": 8,
+    "marketTrends": 58,
+    "visibilitySnapshots": 17,
+    "leaderboardSnapshots": 12,
+    "benchmarkSnapshots": 2,
+    "marketOpportunities": 100,
+    "insightAiIndexSnapshots": 1
+  },
+  "topBrand": "CrowdStrike",
+  "topPrompt": "Best Cybersecurity companies in Saudi Arabia",
+  "topCitationDomain": "sama.gov.sa",
+  "indexScore": 60
+}

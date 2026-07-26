@@ -1,0 +1,39 @@
+{
+  "label": "04-geo-score-v2-recalculate",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/recalculate-geo-score",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:16:16.552Z",
+  "completedAt": "2026-06-08T02:16:16.586Z",
+  "body": {
+    "status": "INSUFFICIENT_DATA",
+    "engine": "GEO_SCORE_V2",
+    "reason": "Not enough verified audit, prompt, and citation evidence for a reliable V2 score.",
+    "evidence": [
+      {
+        "claim": "Schema score 100/100 from latest audit JSON-LD/entity checks.",
+        "source": "GEO Audit",
+        "url": "https://orcatech.online/"
+      },
+      {
+        "claim": "FAQ score 100/100 from FAQ schema and question coverage.",
+        "source": "GEO Audit",
+        "url": "https://orcatech.online/"
+      },
+      {
+        "claim": "Citation score 0/100 from 0 non-demo citation rows.",
+        "source": "Prompt Tracking + Citation Discovery",
+        "url": "https://orcatech.online"
+      },
+      {
+        "claim": "Entity score 0/100 from 0 brand mentions and 0 competitor mentions.",
+        "source": "Prompt Tracking",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 45,
+    "dataSource": "Trust Layer",
+    "lastVerifiedAt": "2026-06-08T02:16:16.584Z"
+  }
+}

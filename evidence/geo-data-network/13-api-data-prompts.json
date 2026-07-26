@@ -1,0 +1,433 @@
+{
+  "label": "13-api-data-prompts",
+  "method": "GET",
+  "url": "/api/data/prompts?marketId=4dd45f0b-29bd-42d1-842a-381603df2d2a",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_DATA_API",
+    "data": {
+      "endpoint": "prompts",
+      "recordsReturned": 12,
+      "data": [
+        {
+          "id": "1181603b-1830-4adb-952e-b54633f91389",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Best Cybersecurity companies in UAE",
+          "category": "HIGH_INTENT",
+          "promptVolume": 92,
+          "difficultyScore": 58,
+          "competitionScore": 50,
+          "opportunityScore": 92,
+          "growthScore": 63,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 55,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.763Z",
+          "createdAt": "2026-06-08T07:04:06.766Z",
+          "updatedAt": "2026-06-08T07:04:06.766Z"
+        },
+        {
+          "id": "be6b1da3-d651-40d1-b6b9-9e6b197886e5",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE",
+          "category": "COMPARISON",
+          "promptVolume": 88,
+          "difficultyScore": 52,
+          "competitionScore": 50,
+          "opportunityScore": 88,
+          "growthScore": 62,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 55,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.779Z",
+          "createdAt": "2026-06-08T07:04:06.781Z",
+          "updatedAt": "2026-06-08T07:04:06.781Z"
+        },
+        {
+          "id": "0eee971b-cd4e-4851-a8ac-590886d6afa4",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Top Cybersecurity providers for enterprises in UAE",
+          "category": "COMMERCIAL",
+          "promptVolume": 86,
+          "difficultyScore": 55,
+          "competitionScore": 50,
+          "opportunityScore": 86,
+          "growthScore": 59,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 55,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.791Z",
+          "createdAt": "2026-06-08T07:04:06.793Z",
+          "updatedAt": "2026-06-08T07:04:06.793Z"
+        },
+        {
+          "id": "082635ac-e4ed-47d3-83f0-c99a90850f9c",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "category": "INFORMATIONAL",
+          "promptVolume": 85,
+          "difficultyScore": 75,
+          "competitionScore": 50,
+          "opportunityScore": 85,
+          "growthScore": 48,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Competitor A and Competitor B are also top cloud security firms for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 83,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.819Z",
+          "createdAt": "2026-06-08T07:04:06.821Z",
+          "updatedAt": "2026-06-08T07:04:06.821Z"
+        },
+        {
+          "id": "e075231b-8890-4375-93fc-ea0e76caf135",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Best SOC provider for regulated banks in UAE.",
+          "category": "INFORMATIONAL",
+          "promptVolume": 85,
+          "difficultyScore": 75,
+          "competitionScore": 50,
+          "opportunityScore": 85,
+          "growthScore": 48,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 83,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.804Z",
+          "createdAt": "2026-06-08T07:04:06.808Z",
+          "updatedAt": "2026-06-08T07:04:06.808Z"
+        },
+        {
+          "id": "7e4bbae5-46d4-452c-882e-d8c57e0eaf18",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Compare Cybersecurity vendors in UAE",
+          "category": "COMPARISON",
+          "promptVolume": 84,
+          "difficultyScore": 50,
+          "competitionScore": 50,
+          "opportunityScore": 84,
+          "growthScore": 59,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 55,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.832Z",
+          "createdAt": "2026-06-08T07:04:06.834Z",
+          "updatedAt": "2026-06-08T07:04:06.834Z"
+        },
+        {
+          "id": "68598f9f-0060-4bfe-870c-c15d9c57dd4c",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Best cybersecurity company in UAE for a CEO",
+          "category": "COMMERCIAL",
+          "promptVolume": 82,
+          "difficultyScore": 45,
+          "competitionScore": 50,
+          "opportunityScore": 82,
+          "growthScore": 60,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for strategic buyer choosing a growth-safe vendor.",
+              "source": "Persona Fan-Out Engine",
+              "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+            }
+          ],
+          "confidenceScore": 59,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.846Z",
+          "createdAt": "2026-06-08T07:04:06.847Z",
+          "updatedAt": "2026-06-08T07:04:06.847Z"
+        },
+        {
+          "id": "b8d3842c-a1e8-414a-b684-33886b9492f7",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Cybersecurity provider with local support in UAE",
+          "category": "HIGH_INTENT",
+          "promptVolume": 82,
+          "difficultyScore": 46,
+          "competitionScore": 50,
+          "opportunityScore": 82,
+          "growthScore": 59,
+          "trendDirection": "UP",
+          "commercialValue": 45,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 55,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.858Z",
+          "createdAt": "2026-06-08T07:04:06.860Z",
+          "updatedAt": "2026-06-08T07:04:06.860Z"
+        },
+        {
+          "id": "a92cdbc3-5ed0-4d3e-af59-cc55c0d11fb3",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Best cybersecurity company in UAE for a CTO",
+          "category": "COMMERCIAL",
+          "promptVolume": 80,
+          "difficultyScore": 49,
+          "competitionScore": 50,
+          "opportunityScore": 80,
+          "growthScore": 56,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for technical leader validating architecture and integrations.",
+              "source": "Persona Fan-Out Engine",
+              "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+            }
+          ],
+          "confidenceScore": 59,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.901Z",
+          "createdAt": "2026-06-08T07:04:06.903Z",
+          "updatedAt": "2026-06-08T07:04:06.903Z"
+        },
+        {
+          "id": "5f1f1f41-002f-4760-933a-a604830bdc82",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?",
+          "category": "INFORMATIONAL",
+          "promptVolume": 80,
+          "difficultyScore": 70,
+          "competitionScore": 50,
+          "opportunityScore": 80,
+          "growthScore": 45,
+          "trendDirection": "UP",
+          "commercialValue": 45,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "Check Point's services for regulated banks in Saudi Arabia are not publicly disclosed.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 80,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.914Z",
+          "createdAt": "2026-06-08T07:04:06.915Z",
+          "updatedAt": "2026-06-08T07:04:06.915Z"
+        },
+        {
+          "id": "ebed1a47-f4fc-4853-bdd3-78893a12759d",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Best cybersecurity company in UAE for AI security and regulated banks.",
+          "category": "INFORMATIONAL",
+          "promptVolume": 80,
+          "difficultyScore": 70,
+          "competitionScore": 50,
+          "opportunityScore": 80,
+          "growthScore": 45,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 80,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.887Z",
+          "createdAt": "2026-06-08T07:04:06.889Z",
+          "updatedAt": "2026-06-08T07:04:06.889Z"
+        },
+        {
+          "id": "0128a153-7c1e-48d1-b669-a77734cb985d",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "queryText": "Best cybersecurity company in UAE for regulated banks",
+          "category": "INFORMATIONAL",
+          "promptVolume": 80,
+          "difficultyScore": 70,
+          "competitionScore": 50,
+          "opportunityScore": 80,
+          "growthScore": 45,
+          "trendDirection": "UP",
+          "commercialValue": 80,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides SOC services for regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "PROMPT_MARKETPLACE",
+          "lastVerifiedAt": "2026-06-08T07:04:06.873Z",
+          "createdAt": "2026-06-08T07:04:06.875Z",
+          "updatedAt": "2026-06-08T07:04:06.875Z"
+        }
+      ]
+    },
+    "confidenceScore": 85,
+    "evidence": [
+      {
+        "claim": "Commercial GEO data endpoint /api/data/prompts returned 12 record(s).",
+        "source": "GEO Data API",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:16.018Z"
+      }
+    ],
+    "dataSource": "GEO_DATA_API",
+    "lastVerifiedAt": "2026-06-08T07:04:16.018Z"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "label": "03-quick-wins",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/quick-wins",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:35:27.787Z",
+  "completedAt": "2026-06-08T02:35:27.885Z",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "QUICK_WINS_ENGINE",
+    "data": {
+      "oneDayActions": [
+        {
+          "title": "llms-full.txt is available",
+          "why": "Publish llms-full.txt with complete AI-readable brand, service, and proof content.",
+          "expectedGain": 5,
+          "difficulty": 20,
+          "confidence": 78,
+          "evidence": [
+            {
+              "claim": "llms-full.txt is available failed with value false.",
+              "source": "GEO Audit",
+              "url": "https://orcatech.online/"
+            }
+          ],
+          "dataSource": "GEO_AUDIT",
+          "lastVerifiedAt": "2026-06-08T02:16:16.532Z"
+        }
+      ],
+      "sevenDayActions": [
+        {
+          "title": "Earn citation on sama.gov.sa",
+          "why": "Earn credible third-party coverage or citations on sama.gov.sa because it is supported by V2 discovery evidence.",
+          "expectedGain": 35,
+          "difficulty": 51,
+          "confidence": 81,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Domain appeared 1 time(s) in real provider responses.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": null,
+              "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": "https://sama.gov.sa/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "PROMPT_TRACKING",
+          "lastVerifiedAt": "2026-06-08T02:17:32.496Z"
+        },
+        {
+          "title": "Earn citation on saudiaramco.com",
+          "why": "Earn credible third-party coverage or citations on saudiaramco.com because it is supported by V2 discovery evidence.",
+          "expectedGain": 35,
+          "difficulty": 51,
+          "confidence": 81,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Domain appeared 1 time(s) in real provider responses.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": null,
+              "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": "https://saudiaramco.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "PROMPT_TRACKING",
+          "lastVerifiedAt": "2026-06-08T02:17:32.496Z"
+        },
+        {
+          "title": "Earn citation on stc.com.sa",
+          "why": "Earn credible third-party coverage or citations on stc.com.sa because it is supported by V2 discovery evidence.",
+          "expectedGain": 35,
+          "difficulty": 51,
+          "confidence": 81,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Domain appeared 1 time(s) in real provider responses.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": null,
+              "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": "https://stc.com.sa/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "PROMPT_TRACKING",
+          "lastVerifiedAt": "2026-06-08T02:17:32.496Z"
+        },
+        {
+          "title": "Earn citation on mcit.gov.sa",
+          "why": "Earn credible third-party coverage or citations on mcit.gov.sa because it is supported by V2 discovery evidence.",
+          "expectedGain": 35,
+          "difficulty": 51,
+          "confidence": 81,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Domain appeared 1 time(s) in real provider responses.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": null,
+              "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+              "source": "Citation discovery"
+            },
+            {
+              "url": "https://mcit.gov.sa/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "PROMPT_TRACKING",
+          "lastVerifiedAt": "2026-06-08T02:17:32.496Z"
+        }
+      ],
+      "thirtyDayActions": [
+        {
+          "title": "Best cybersecurity company in Saudi Arabia for regulated banks",
+          "why": "Track and optimize for \"Best cybersecurity company in Saudi Arabia for regulated banks\".",
+          "expectedGain": 60,
+          "difficulty": 70,
+          "confidence": 85,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides SOC services for regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "dataSource": "AI_PROVIDER + BRAND_PROFILE",
+          "lastVerifiedAt": "2026-06-08T02:16:14.176Z"
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "claim": "Generated 6 time-boxed quick win action(s) from V2 opportunities.",
+        "source": "Quick Wins Engine",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 81,
+    "dataSource": "VISIBILITY_OPPORTUNITY_ENGINE_V2",
+    "lastVerifiedAt": "2026-06-08T02:35:27.880Z"
+  }
+}

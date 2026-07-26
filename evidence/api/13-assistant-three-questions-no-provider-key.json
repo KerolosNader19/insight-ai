@@ -1,0 +1,42 @@
+{
+  "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+  "providerConfiguration": {
+    "hasGroqApiKey": false,
+    "hasGeminiApiKey": false
+  },
+  "results": [
+    {
+      "question": "Why am I not appearing in Gemini?",
+      "response": {
+        "status": 503,
+        "body": {
+          "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI",
+          "error": "Service Unavailable",
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "question": "How can I outrank Competitor A?",
+      "response": {
+        "status": 503,
+        "body": {
+          "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI",
+          "error": "Service Unavailable",
+          "statusCode": 503
+        }
+      }
+    },
+    {
+      "question": "What GEO actions should I take this month?",
+      "response": {
+        "status": 503,
+        "body": {
+          "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI",
+          "error": "Service Unavailable",
+          "statusCode": 503
+        }
+      }
+    }
+  ]
+}

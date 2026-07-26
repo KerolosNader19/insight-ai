@@ -1,0 +1,23 @@
+{
+  "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+  "generatedAssetIds": {
+    "faq": "23d007d4-c583-436c-8b97-b2d424b32563",
+    "comparison": "a420ecc7-ddcb-4eef-9664-e550ef4ba339",
+    "service": "7956d017-e999-4d51-9d31-f840a62c823d",
+    "brief": "8d366425-52e6-4ab2-8ab2-11e2892924c3",
+    "schema": "9afbaf1a-5d0b-47d9-8175-53dbaf3fffa6",
+    "llms": "9f18f140-6b93-4fdb-8935-0da4e7e20112",
+    "outreach": "69e78df4-7781-40f2-b4a3-d6d814418c10",
+    "calendar": "f2a4838d-2e00-49c2-9039-e8112c5404de"
+  },
+  "prioritiesReturned": 8,
+  "storedAssetCount": 8,
+  "exportFiles": [
+    "/home/omar/Pictures/insight-ai/evidence/geo-execution-engine/exports/content-brief.md",
+    "/home/omar/Pictures/insight-ai/evidence/geo-execution-engine/exports/faq-generator.docx",
+    "/home/omar/Pictures/insight-ai/evidence/geo-execution-engine/exports/faq-generator.md",
+    "/home/omar/Pictures/insight-ai/evidence/geo-execution-engine/exports/faq-generator.pdf",
+    "/home/omar/Pictures/insight-ai/evidence/geo-execution-engine/exports/llms-pack.md",
+    "/home/omar/Pictures/insight-ai/evidence/geo-execution-engine/exports/schema-pack.md"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-08T02:35:28.530Z",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "evidenceFiles": [
+    "00-health.json",
+    "01-threats.json",
+    "02-opportunities-v2.json",
+    "03-quick-wins.json",
+    "04-lost-revenue.json",
+    "05-benchmarks.json",
+    "06-money-page-v2.json",
+    "07-report-v2-create.json",
+    "08-report-v2-download.json",
+    "08-report-v2-download.pdf",
+    "validation-summary.json"
+  ],
+  "noSecrets": true
+}

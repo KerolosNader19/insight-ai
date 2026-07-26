@@ -1,0 +1,952 @@
+{
+  "label": "13-api-data-trends",
+  "method": "GET",
+  "url": "/api/data/trends?marketId=4dd45f0b-29bd-42d1-842a-381603df2d2a",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_DATA_API",
+    "data": {
+      "endpoint": "trends",
+      "recordsReturned": 26,
+      "data": [
+        {
+          "id": "1b02fd66-eb5a-48d2-88d1-71ee041075c9",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "competitors",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.120Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.122Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.120Z",
+          "createdAt": "2026-06-08T07:04:07.122Z",
+          "updatedAt": "2026-06-08T07:04:07.122Z"
+        },
+        {
+          "id": "05f52522-f335-4120-86ad-cfa59c619c56",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "1780897908191",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.106Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.107Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.106Z",
+          "createdAt": "2026-06-08T07:04:07.107Z",
+          "updatedAt": "2026-06-08T07:04:07.107Z"
+        },
+        {
+          "id": "4b910476-125b-4529-b324-f73da1104577",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "sro",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.096Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.097Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.096Z",
+          "createdAt": "2026-06-08T07:04:07.097Z",
+          "updatedAt": "2026-06-08T07:04:07.097Z"
+        },
+        {
+          "id": "5608e48f-e8f3-40b0-81dd-baedf33e27dc",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "cloudflare",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 88,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.085Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.086Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.086Z",
+          "createdAt": "2026-06-08T07:04:07.086Z",
+          "updatedAt": "2026-06-08T07:04:07.086Z"
+        },
+        {
+          "id": "81055f9c-2fce-412c-bb53-eb55fba73eed",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "enterprises",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 86,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Top Cybersecurity providers for enterprises in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.163Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.165Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.163Z",
+          "createdAt": "2026-06-08T07:04:07.165Z",
+          "updatedAt": "2026-06-08T07:04:07.165Z"
+        },
+        {
+          "id": "cd2d9123-2a3f-4c81-bc82-56d92fe32c02",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "providers",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 86,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Top Cybersecurity providers for enterprises in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.146Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.148Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.146Z",
+          "createdAt": "2026-06-08T07:04:07.148Z",
+          "updatedAt": "2026-06-08T07:04:07.148Z"
+        },
+        {
+          "id": "c9ae8b2a-e5e7-4e78-b903-c97a056a72a6",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "soc",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 85,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best SOC provider for regulated banks in UAE.\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.255Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 73,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.258Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.256Z",
+          "createdAt": "2026-06-08T07:04:07.258Z",
+          "updatedAt": "2026-06-08T07:04:07.258Z"
+        },
+        {
+          "id": "f2e22998-2074-4348-89e5-e4703ba19453",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "saudi",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 85,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.241Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 73,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.243Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.242Z",
+          "createdAt": "2026-06-08T07:04:07.243Z",
+          "updatedAt": "2026-06-08T07:04:07.243Z"
+        },
+        {
+          "id": "98ac89b3-1949-43d4-8f28-fa0f0e8595fb",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "firms",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 85,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.223Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 73,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.226Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.223Z",
+          "createdAt": "2026-06-08T07:04:07.226Z",
+          "updatedAt": "2026-06-08T07:04:07.226Z"
+        },
+        {
+          "id": "d98a880d-d114-4ccd-af89-1f6bdafa806e",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "cloud",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 85,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.193Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 73,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.196Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.194Z",
+          "createdAt": "2026-06-08T07:04:07.196Z",
+          "updatedAt": "2026-06-08T07:04:07.196Z"
+        },
+        {
+          "id": "ab1457e5-6720-4e3e-8601-3007e3cce4f4",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "vendors",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 84,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Compare Cybersecurity vendors in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.349Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.351Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.349Z",
+          "createdAt": "2026-06-08T07:04:07.351Z",
+          "updatedAt": "2026-06-08T07:04:07.351Z"
+        },
+        {
+          "id": "d36168cb-0457-4f09-82e8-537396dcd0ed",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "compare",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 84,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Compare Cybersecurity vendors in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.321Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.324Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.321Z",
+          "createdAt": "2026-06-08T07:04:07.324Z",
+          "updatedAt": "2026-06-08T07:04:07.324Z"
+        },
+        {
+          "id": "cbcb6416-ebd9-4148-9f28-8ebe40661991",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "ceo",
+          "direction": "UP",
+          "velocity": "FAST",
+          "score": 82,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for a CEO\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.456Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for strategic buyer choosing a growth-safe vendor.",
+              "source": "Persona Fan-Out Engine",
+              "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+            }
+          ],
+          "confidenceScore": 49,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.458Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.456Z",
+          "createdAt": "2026-06-08T07:04:07.458Z",
+          "updatedAt": "2026-06-08T07:04:07.458Z"
+        },
+        {
+          "id": "29bbfb49-d496-453e-8c62-805bdff7b212",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "support",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 82,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cybersecurity provider with local support in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.415Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.417Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.416Z",
+          "createdAt": "2026-06-08T07:04:07.417Z",
+          "updatedAt": "2026-06-08T07:04:07.417Z"
+        },
+        {
+          "id": "8ad8f9d5-e770-4f23-878b-1f4391653513",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "local",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 82,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cybersecurity provider with local support in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.401Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.403Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.402Z",
+          "createdAt": "2026-06-08T07:04:07.403Z",
+          "updatedAt": "2026-06-08T07:04:07.403Z"
+        },
+        {
+          "id": "3a6ea70c-68f1-47b2-b537-4bf8dd4dd9f4",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "provider",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 82,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Cybersecurity provider with local support in UAE\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.389Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.277Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.389Z",
+          "createdAt": "2026-06-08T07:04:07.277Z",
+          "updatedAt": "2026-06-08T07:04:07.390Z"
+        },
+        {
+          "id": "274356c8-8733-48b3-8e0e-6170bf806c4b",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "banks",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.666Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.310Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.666Z",
+          "createdAt": "2026-06-08T07:04:07.310Z",
+          "updatedAt": "2026-06-08T07:04:07.667Z"
+        },
+        {
+          "id": "aed8e4f5-2f46-4a45-b866-14a2b4b4380a",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "regulated",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.654Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.296Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.654Z",
+          "createdAt": "2026-06-08T07:04:07.296Z",
+          "updatedAt": "2026-06-08T07:04:07.656Z"
+        },
+        {
+          "id": "4846c7a8-e5bb-45a8-aeb1-daea4df22911",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "uae",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.639Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.077Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.639Z",
+          "createdAt": "2026-06-08T07:04:07.077Z",
+          "updatedAt": "2026-06-08T07:04:07.640Z"
+        },
+        {
+          "id": "42bc9a36-c156-4dfe-8c28-84a7233de7ab",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "cybersecurity",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for regulated banks\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.627Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 60,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.066Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.628Z",
+          "createdAt": "2026-06-08T07:04:07.066Z",
+          "updatedAt": "2026-06-08T07:04:07.629Z"
+        },
+        {
+          "id": "9cc44f00-c45d-4515-a112-28cfcb5a964d",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "security",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for AI security and regulated banks.\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.597Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.208Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.597Z",
+          "createdAt": "2026-06-08T07:04:07.208Z",
+          "updatedAt": "2026-06-08T07:04:07.599Z"
+        },
+        {
+          "id": "79b2f77c-ea5b-45ed-b3fd-818232f3547c",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "cto",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"Best cybersecurity company in UAE for a CTO\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.550Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for technical leader validating architecture and integrations.",
+              "source": "Persona Fan-Out Engine",
+              "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+            }
+          ],
+          "confidenceScore": 49,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.551Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.550Z",
+          "createdAt": "2026-06-08T07:04:07.551Z",
+          "updatedAt": "2026-06-08T07:04:07.551Z"
+        },
+        {
+          "id": "9f59e333-fa9c-4a51-b056-5229a86954f3",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "check",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.511Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.513Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.511Z",
+          "createdAt": "2026-06-08T07:04:07.513Z",
+          "updatedAt": "2026-06-08T07:04:07.513Z"
+        },
+        {
+          "id": "b21da126-2142-4bb8-b6c9-2b5eb59810a0",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "apart",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.501Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.502Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.501Z",
+          "createdAt": "2026-06-08T07:04:07.502Z",
+          "updatedAt": "2026-06-08T07:04:07.502Z"
+        },
+        {
+          "id": "0f3ff52d-2486-4511-9ee8-cfcf89843c1a",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "orcatech",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.488Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.490Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.488Z",
+          "createdAt": "2026-06-08T07:04:07.490Z",
+          "updatedAt": "2026-06-08T07:04:07.490Z"
+        },
+        {
+          "id": "824d30d6-ecb2-467a-a896-7ae3e9ddcb1a",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "trendType": "TOPIC",
+          "label": "sets",
+          "direction": "UP",
+          "velocity": "MEDIUM",
+          "score": 80,
+          "sampleSize": 1,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Trend seed extracted from market prompt \"What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?\".",
+              "source": "Market Evolution Engine",
+              "lastVerifiedAt": "2026-06-08T07:04:07.469Z"
+            },
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": null,
+              "claim": "OrcaTech has experience providing cybersecurity services to regulated banks in Saudi Arabia.",
+              "source": "AI prompt discovery"
+            }
+          ],
+          "confidenceScore": 70,
+          "dataSource": "TREND_INTELLIGENCE",
+          "firstSeenAt": "2026-06-08T07:04:07.472Z",
+          "lastVerifiedAt": "2026-06-08T07:04:07.470Z",
+          "createdAt": "2026-06-08T07:04:07.472Z",
+          "updatedAt": "2026-06-08T07:04:07.472Z"
+        }
+      ]
+    },
+    "confidenceScore": 85,
+    "evidence": [
+      {
+        "claim": "Commercial GEO data endpoint /api/data/trends returned 26 record(s).",
+        "source": "GEO Data API",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:15.990Z"
+      }
+    ],
+    "dataSource": "GEO_DATA_API",
+    "lastVerifiedAt": "2026-06-08T07:04:15.990Z"
+  }
+}

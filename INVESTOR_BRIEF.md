@@ -1,60 +1,49 @@
-# Insight AI - Investor Executive Brief
+# Investor Brief
 
-## 1. Executive Summary
-Insight AI is a first-of-its-kind **Generative Engine Optimization (GEO)** platform. As consumer behavior shifts from traditional keyword search (Google) to conversational AI (ChatGPT, Perplexity, Gemini), brands are losing visibility into their "AI Share of Voice." Insight AI provides the analytics and strategic intelligence necessary to dominate this new frontier.
+## Summary
 
----
+Insight AI helps brands and agencies measure and improve visibility inside AI-generated answers. The MVP demonstrates the core business workflow: agencies add clients, track prompts, compare competitors, inspect citations, generate recommendations, and export white-label reports.
 
-## 2. The Market Opportunity
-### The "Death of the Link"
-Traditional SEO is based on driving traffic through links. Conversational AI, however, provides direct answers. If a brand is not mentioned or cited within that answer, they effectively do not exist in the user's discovery path.
+## Why It Matters
 
-### The Rise of GEO
-Generative Engine Optimization (GEO) is the new SEO. It is a multi-billion dollar emerging market where companies will spend heavily to ensure AI engines recommend their products with high authority and positive sentiment.
+AI answers are changing discovery. If a brand is missing from ChatGPT, Gemini, Perplexity, or similar answer engines, it can disappear from high-intent research journeys. GEO is the emerging operating layer for making brands visible, trusted, and cited in those answers.
 
----
+## MVP Proof
 
-## 3. The Solution: Insight AI
-Insight AI acts as a **Visibility Firewall** for modern brands:
-- **Continuous Monitoring**: Scans all major AI engines for brand and competitor mentions.
-- **Sentiment Analysis**: Understands not just *if* you are mentioned, but *how* (e.g., "Insight AI is the leader..." vs. "Insight AI is a newcomer...").
-- **Citation Tracking**: Identifies which third-party sources AI engines use to validate claims about your brand.
-- **GEO Scoring**: A proprietary 0-100 score indicating your overall visibility and recommendation likelihood.
+The current product shows:
+- Agency management and RBAC.
+- Client brands and competitor tracking.
+- Prompt history and stored response analytics.
+- Visibility score, share of voice, citations, sentiment, and recommendations from stored data.
+- PDF visibility reports with agency branding metadata.
+- English/Arabic UI and RTL readiness.
+- Provider-ready Groq/Gemini integration.
+- Production build validation across the MVP monorepo.
 
----
+## Demo Positioning
 
-## 4. MVP Status & Product Maturity
-We have successfully developed a **High-Fidelity MVP** ready for investor demos and early pilot partners:
-- **Enterprise Dashboard**: A premium, bilingual (English/Arabic) analytics interface.
-- **Strategic Roadmap**: A clearly defined path from the current UI-stable version to a fully automated AI tracking engine.
-- **Scalable Architecture**: Built on a modern monorepo stack (Next.js, NestJS, FastAPI) designed to handle millions of tracking queries.
+Use the MVP as a first-customer and investor demo. It is not positioned as enterprise scale yet. The correct claim is:
 
----
+> Insight AI has the core agency workflow, data model, analytics engine, and reporting layer needed for a launchable MVP. Live Groq/Gemini execution is ready to activate when keys are configured.
 
-## 5. Business Model
-Insight AI operates on a **Tiered SaaS Model**:
-- **Starter ($149/mo)**: 50 tracked prompts, daily analytics.
-- **Pro ($499/mo)**: Real-time alerts, competitor benchmarking, API access.
-- **Enterprise (Custom)**: Unlimited prompts, white-label reporting, dedicated AI strategy support.
+Avoid claiming:
 
----
+> Live AI-provider execution has been validated in this environment.
 
-## 6. Competitive Advantage
-- **Multi-Engine Intelligence**: Unified tracking for ChatGPT, Gemini, and Perplexity.
-- **Native Bilingual Support**: Fully optimized for English and Arabic markets (RTL-native).
-- **Actionable Insights**: We don't just show data; we provide specific recommendations on how to update website content to improve AI rankings.
+That requires provider credentials and a successful prompt run.
 
----
+## Business Model
 
-## 7. Future Roadmap & Growth
-1. **AI-Automation (Q3 2026)**: Full integration of Playwright-based autonomous scrapers.
-2. **Agency White-labeling (Q4 2026)**: Enabling marketing agencies to resell GEO analytics to their clients.
-3. **API Ecosystem (Q1 2027)**: Allowing enterprises to pull GEO scores directly into their internal BI tools.
+- Starter: basic prompt tracking and reporting.
+- Growth: multi-brand agency workflows, deeper analytics, recommendations.
+- Agency: white-label reports, team roles, higher limits.
 
----
+Stripe integration is architecturally present but checkout is deferred until billing credentials and pricing are finalized.
 
-## 8. Investment Use
-Funding will be primarily directed toward:
-- **Engineering**: Building out the autonomous scraping infrastructure.
-- **AI R&D**: Refining our proprietary GEO scoring algorithm.
-- **Market Expansion**: Aggressive sales outreach to Top 500 Marketing Agencies.
+## Near-Term Roadmap
+
+1. Configure provider keys and validate live Groq/Gemini prompt execution.
+2. Run first customer pilots with agency workflow and PDF reporting.
+3. Add scheduled prompt execution using retained BullMQ/Redis/Playwright infrastructure.
+4. Harden billing checkout and usage limits after pricing is confirmed.
+5. Schedule dependency compatibility upgrades for the remaining audit advisories.

@@ -1,0 +1,385 @@
+{
+  "checkedAt": "2026-06-02T18:20:32.658Z",
+  "apiBaseUrl": "http://localhost:4000",
+  "steps": [],
+  "providerHealth": {
+    "status": "configured",
+    "nodeProcess": {
+      "groqApiKey": true,
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": true,
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "configService": {
+      "groqApiKey": true,
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": true,
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "aiProviderService": {
+      "groq": {
+        "hasApiKey": true,
+        "model": "llama-3.1-8b-instant"
+      },
+      "gemini": {
+        "hasApiKey": true,
+        "model": "gemini-1.5-flash"
+      },
+      "availableProviders": [
+        "Groq",
+        "Gemini"
+      ]
+    }
+  },
+  "login": {
+    "status": 201,
+    "hasToken": true,
+    "user": "demo@insight-ai.io"
+  },
+  "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+  "brandCreate": {
+    "status": 201,
+    "id": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+    "name": "OrcaTech Audit 20260602182032"
+  },
+  "competitorsCreate": [
+    {
+      "status": 201,
+      "id": "a051054a-9062-45cf-b265-f9239872245b",
+      "name": "Competitor A Audit 20260602182032",
+      "websiteUrl": "https://competitor-a.example"
+    },
+    {
+      "status": 201,
+      "id": "835c7822-ff4b-44ad-98a5-c83c97a33f88",
+      "name": "Competitor B Audit 20260602182032",
+      "websiteUrl": "https://competitor-b.example"
+    }
+  ],
+  "brandReloadPersistence": {
+    "found": true,
+    "competitorCount": 2
+  },
+  "promptCreate": {
+    "status": 201,
+    "id": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+    "queryTextLength": 345
+  },
+  "promptRuns": [
+    {
+      "requestedEngine": "Groq",
+      "httpStatus": 201,
+      "responseId": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+      "status": "COMPLETED",
+      "provider": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "rawContentLength": 2773,
+      "rawContentPreview": "Based on my analysis, I've compared the AI visibility audits of OrcaTech, Competitor A, and Competitor B in the Saudi Arabia cybersecurity market. Here's a summary of the findings:\n\n**OrcaTech Audit 20260602182032**\n\n* Strengths:\n + Strong online presence with a well-designed website (https://orcatech.sa)\n + Active social media engagement with a large following\n + Partnerships with reputable cybersecurity companies\n* Weaknesses:\n + Limited visibility in search engine results for specific keyword",
+      "mentionCount": 3,
+      "citationCount": 3,
+      "mentions": [
+        {
+          "entityType": "brand",
+          "position": 1,
+          "isRecommended": true
+        },
+        {
+          "entityType": "competitor",
+          "position": 1,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 1,
+          "isRecommended": false
+        }
+      ],
+      "citations": [
+        {
+          "url": "https://orcatech.sa",
+          "domain": "orcatech.sa"
+        },
+        {
+          "url": "https://competitor-a.example",
+          "domain": "competitor-a.example"
+        },
+        {
+          "url": "https://competitor-b.example",
+          "domain": "competitor-b.example"
+        }
+      ],
+      "error": null
+    },
+    {
+      "requestedEngine": "Gemini",
+      "httpStatus": 201,
+      "responseId": "6d23dcd2-2364-4297-b8ee-a9a4ec24213d",
+      "status": "FAILED",
+      "provider": "Gemini",
+      "model": "gemini-1.5-flash",
+      "rawContentLength": 0,
+      "rawContentPreview": "",
+      "mentionCount": 0,
+      "citationCount": 0,
+      "mentions": [],
+      "citations": [],
+      "error": "Gemini request failed with 404"
+    }
+  ],
+  "analytics": {
+    "shareOfVoice": {
+      "status": 200,
+      "body": {
+        "brandId": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+        "share": 33.33,
+        "totalMentions": 3,
+        "breakdown": [
+          {
+            "id": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+            "name": "OrcaTech Audit 20260602182032",
+            "type": "brand",
+            "mentions": 1
+          },
+          {
+            "id": "a051054a-9062-45cf-b265-f9239872245b",
+            "name": "Competitor A Audit 20260602182032",
+            "mentions": 1,
+            "type": "competitor"
+          },
+          {
+            "id": "835c7822-ff4b-44ad-98a5-c83c97a33f88",
+            "name": "Competitor B Audit 20260602182032",
+            "mentions": 1,
+            "type": "competitor"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "status": 200,
+      "body": {
+        "brands": 1,
+        "activePrompts": 1,
+        "responses": 2,
+        "totalMentions": 1,
+        "totalCitations": 3,
+        "avgGeoScore": 70
+      }
+    },
+    "trend": {
+      "status": 200,
+      "count": 1,
+      "sample": [
+        {
+          "id": "bfe8dab6-4e8f-4488-929b-807581ccb9f8",
+          "brandId": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+          "engineId": "1860bc70-425e-4396-9587-318605a63201",
+          "snapshotDate": "2026-06-02T04:00:00.000Z",
+          "geoScore": 70,
+          "shareOfVoice": 33.33333333333333,
+          "avgSentiment": 0,
+          "mentionCount": 1,
+          "citationCount": 3,
+          "createdAt": "2026-06-02T18:20:35.228Z",
+          "engine": {
+            "id": "1860bc70-425e-4396-9587-318605a63201",
+            "name": "Groq",
+            "version": "llama-3.1-8b-instant",
+            "createdAt": "2026-06-02T15:31:09.153Z"
+          }
+        }
+      ]
+    },
+    "citations": {
+      "status": 200,
+      "count": 3,
+      "sample": [
+        {
+          "id": "e2b8f478-c675-4903-b5c3-15f2287dc905",
+          "responseId": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+          "url": "https://orcatech.sa",
+          "title": "orcatech.sa",
+          "domain": "orcatech.sa",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:20:35.216Z",
+          "response": {
+            "id": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+            "promptId": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the AI visibility audits of OrcaTech, Competitor A, and Competitor B in the Saudi Arabia cybersecurity market. Here's a summary of the findings:\n\n**OrcaTech Audit 20260602182032**\n\n* Strengths:\n + Strong online presence with a well-designed website (https://orcatech.sa)\n + Active social media engagement with a large following\n + Partnerships with reputable cybersecurity companies\n* Weaknesses:\n + Limited visibility in search engine results for specific keywords\n + Insufficient content marketing efforts\n\n**Competitor A Audit 20260602182032**\n\n* Strengths:\n + High search engine rankings for specific keywords related to cybersecurity\n + Effective content marketing strategy with regular blog posts and whitepapers\n + Strong network of industry connections and partnerships\n* Weaknesses:\n + Limited online presence in Saudi Arabia, with most content targeting international audiences\n + Inconsistent social media engagement\n\n**Competitor B Audit 20260602182032**\n\n* Strengths:\n + Strong brand recognition and reputation in the Saudi Arabia market\n + Effective use of influencer marketing and thought leadership\n + Partnerships with government agencies and industry associations\n* Weaknesses:\n + Limited online presence, with most content available only through email newsletters\n + Inadequate search engine optimization (SEO) efforts\n\n**Recommendation**\n\nBased on the analysis, I recommend **OrcaTech** as the top choice for AI visibility audit in Saudi Arabia cybersecurity. While they have some weaknesses, their strong online presence, active social media engagement, and partnerships with reputable companies make them a leader in the market. Additionally, their website (https://orcatech.sa) is well-designed and user-friendly, making it easy for customers to find and engage with their content.\n\n**Comparison Chart**\n\n| Company | Strengths | Weaknesses |\n| --- | --- | --- |\n| OrcaTech | Strong online presence, active social media engagement, partnerships with reputable companies | Limited visibility in search engine results, insufficient content marketing efforts |\n| Competitor A | High search engine rankings, effective content marketing strategy, strong network of industry connections | Limited online presence in Saudi Arabia, inconsistent social media engagement |\n| Competitor B | Strong brand recognition, effective use of influencer marketing, partnerships with government agencies | Limited online presence, inadequate SEO efforts |\n\n**Sources**\n\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example\n\nPlease note that this analysis is based on publicly available information and may not reflect the companies' current strategies or performance.",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:20:34.253Z",
+            "completedAt": "2026-06-02T18:20:34.252Z",
+            "screenshotUrl": null,
+            "performance_ms": 1236,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Audit 20260602182032, Competitor A Audit 20260602182032, and Competitor B Audit 20260602182032. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:20:35.634Z",
+              "createdAt": "2026-06-02T18:20:32.978Z"
+            }
+          }
+        },
+        {
+          "id": "7835d906-cb0f-4b2c-bd7a-39ff64b669a3",
+          "responseId": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+          "url": "https://competitor-a.example",
+          "title": "competitor-a.example",
+          "domain": "competitor-a.example",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:20:35.216Z",
+          "response": {
+            "id": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+            "promptId": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the AI visibility audits of OrcaTech, Competitor A, and Competitor B in the Saudi Arabia cybersecurity market. Here's a summary of the findings:\n\n**OrcaTech Audit 20260602182032**\n\n* Strengths:\n + Strong online presence with a well-designed website (https://orcatech.sa)\n + Active social media engagement with a large following\n + Partnerships with reputable cybersecurity companies\n* Weaknesses:\n + Limited visibility in search engine results for specific keywords\n + Insufficient content marketing efforts\n\n**Competitor A Audit 20260602182032**\n\n* Strengths:\n + High search engine rankings for specific keywords related to cybersecurity\n + Effective content marketing strategy with regular blog posts and whitepapers\n + Strong network of industry connections and partnerships\n* Weaknesses:\n + Limited online presence in Saudi Arabia, with most content targeting international audiences\n + Inconsistent social media engagement\n\n**Competitor B Audit 20260602182032**\n\n* Strengths:\n + Strong brand recognition and reputation in the Saudi Arabia market\n + Effective use of influencer marketing and thought leadership\n + Partnerships with government agencies and industry associations\n* Weaknesses:\n + Limited online presence, with most content available only through email newsletters\n + Inadequate search engine optimization (SEO) efforts\n\n**Recommendation**\n\nBased on the analysis, I recommend **OrcaTech** as the top choice for AI visibility audit in Saudi Arabia cybersecurity. While they have some weaknesses, their strong online presence, active social media engagement, and partnerships with reputable companies make them a leader in the market. Additionally, their website (https://orcatech.sa) is well-designed and user-friendly, making it easy for customers to find and engage with their content.\n\n**Comparison Chart**\n\n| Company | Strengths | Weaknesses |\n| --- | --- | --- |\n| OrcaTech | Strong online presence, active social media engagement, partnerships with reputable companies | Limited visibility in search engine results, insufficient content marketing efforts |\n| Competitor A | High search engine rankings, effective content marketing strategy, strong network of industry connections | Limited online presence in Saudi Arabia, inconsistent social media engagement |\n| Competitor B | Strong brand recognition, effective use of influencer marketing, partnerships with government agencies | Limited online presence, inadequate SEO efforts |\n\n**Sources**\n\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example\n\nPlease note that this analysis is based on publicly available information and may not reflect the companies' current strategies or performance.",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:20:34.253Z",
+            "completedAt": "2026-06-02T18:20:34.252Z",
+            "screenshotUrl": null,
+            "performance_ms": 1236,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Audit 20260602182032, Competitor A Audit 20260602182032, and Competitor B Audit 20260602182032. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:20:35.634Z",
+              "createdAt": "2026-06-02T18:20:32.978Z"
+            }
+          }
+        },
+        {
+          "id": "9fe48871-15f0-49dc-9798-b8db0f10abc7",
+          "responseId": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+          "url": "https://competitor-b.example",
+          "title": "competitor-b.example",
+          "domain": "competitor-b.example",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:20:35.216Z",
+          "response": {
+            "id": "b639cc2a-5bec-48a7-9c92-114af123c43c",
+            "promptId": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the AI visibility audits of OrcaTech, Competitor A, and Competitor B in the Saudi Arabia cybersecurity market. Here's a summary of the findings:\n\n**OrcaTech Audit 20260602182032**\n\n* Strengths:\n + Strong online presence with a well-designed website (https://orcatech.sa)\n + Active social media engagement with a large following\n + Partnerships with reputable cybersecurity companies\n* Weaknesses:\n + Limited visibility in search engine results for specific keywords\n + Insufficient content marketing efforts\n\n**Competitor A Audit 20260602182032**\n\n* Strengths:\n + High search engine rankings for specific keywords related to cybersecurity\n + Effective content marketing strategy with regular blog posts and whitepapers\n + Strong network of industry connections and partnerships\n* Weaknesses:\n + Limited online presence in Saudi Arabia, with most content targeting international audiences\n + Inconsistent social media engagement\n\n**Competitor B Audit 20260602182032**\n\n* Strengths:\n + Strong brand recognition and reputation in the Saudi Arabia market\n + Effective use of influencer marketing and thought leadership\n + Partnerships with government agencies and industry associations\n* Weaknesses:\n + Limited online presence, with most content available only through email newsletters\n + Inadequate search engine optimization (SEO) efforts\n\n**Recommendation**\n\nBased on the analysis, I recommend **OrcaTech** as the top choice for AI visibility audit in Saudi Arabia cybersecurity. While they have some weaknesses, their strong online presence, active social media engagement, and partnerships with reputable companies make them a leader in the market. Additionally, their website (https://orcatech.sa) is well-designed and user-friendly, making it easy for customers to find and engage with their content.\n\n**Comparison Chart**\n\n| Company | Strengths | Weaknesses |\n| --- | --- | --- |\n| OrcaTech | Strong online presence, active social media engagement, partnerships with reputable companies | Limited visibility in search engine results, insufficient content marketing efforts |\n| Competitor A | High search engine rankings, effective content marketing strategy, strong network of industry connections | Limited online presence in Saudi Arabia, inconsistent social media engagement |\n| Competitor B | Strong brand recognition, effective use of influencer marketing, partnerships with government agencies | Limited online presence, inadequate SEO efforts |\n\n**Sources**\n\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example\n\nPlease note that this analysis is based on publicly available information and may not reflect the companies' current strategies or performance.",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:20:34.253Z",
+            "completedAt": "2026-06-02T18:20:34.252Z",
+            "screenshotUrl": null,
+            "performance_ms": 1236,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "c9c6c220-844b-401f-bea5-7299dba7ed6b",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "e216888f-5908-4c1a-b897-cd0edb073fc3",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Audit 20260602182032, Competitor A Audit 20260602182032, and Competitor B Audit 20260602182032. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:20:35.634Z",
+              "createdAt": "2026-06-02T18:20:32.978Z"
+            }
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": 200,
+      "count": 1,
+      "sample": [
+        {
+          "id": "2b9685d7-ecaf-4203-81a4-1560b0f4ab9e",
+          "title": "OrcaTech Audit 20260602182032 GEO action plan",
+          "priority": "medium",
+          "contentLength": 1122
+        }
+      ]
+    }
+  },
+  "assistant": [
+    {
+      "status": 201,
+      "question": "Why is OrcaTech Audit 20260602182032 not dominating Gemini?",
+      "provider": "Groq",
+      "answerLength": 1250,
+      "answerPreview": "Based on the provided GEO context, it appears that OrcaTech Audit 20260602182032 is not dominating Gemini due to several reasons. \n\nFirstly, the latest scores indicate that OrcaTech Audit 20260602182032 has a geoScore of 70, which is not explicitly stated as the highest score. \n\nSecondly, the shareOfVoice is 33.33%, which suggests that OrcaTech Audit 20260602182032 is not the most prominent brand in the Saudi Arabia cybersecurity industry.\n\nLastly, the failed prompt indicates that there was an i",
+      "contextKeys": [
+        "brand",
+        "latestScores",
+        "recommendations",
+        "citedDomains",
+        "prompts"
+      ],
+      "message": null
+    },
+    {
+      "status": 201,
+      "question": "How can OrcaTech Audit 20260602182032 outrank Competitor A Audit 20260602182032?",
+      "provider": "Groq",
+      "answerLength": 1719,
+      "answerPreview": "Based on the provided GEO context, to outrank Competitor A Audit 20260602182032, I recommend the following actions:\n\n1. **Improve search engine optimization (SEO) efforts**: Enhance your website's visibility in search engine results by optimizing your content, meta tags, and internal linking structure. This will help you rank higher for specific keywords and outrank Competitor A Audit 20260602182032.\n\n2. **Enhance content marketing strategy**: Develop a content marketing strategy that targets sp",
+      "contextKeys": [
+        "brand",
+        "latestScores",
+        "recommendations",
+        "citedDomains",
+        "prompts"
+      ],
+      "message": null
+    },
+    {
+      "status": 201,
+      "question": "What GEO actions should I take this month?",
+      "provider": "Groq",
+      "answerLength": 1215,
+      "answerPreview": "Based on the provided GEO context, I recommend the following actions for this month:\n\n1. **Improve search engine optimization (SEO) efforts**: Enhance your website's visibility in search engine results by optimizing your content and structure.\n2. **Enhance content marketing strategy**: Develop a content marketing plan to target specific keywords and establish thought leadership in the cybersecurity industry in Saudi Arabia.\n3. **Increase online presence in Saudi Arabia**: Strengthen your online ",
+      "contextKeys": [
+        "brand",
+        "latestScores",
+        "recommendations",
+        "citedDomains",
+        "prompts"
+      ],
+      "message": null
+    }
+  ],
+  "reportCreate": {
+    "status": 201,
+    "id": "e9838804-d6e2-4a0e-b185-f7c9c4b4fefc",
+    "fileName": "orcatech-audit-20260602182032-1780424438031-visibility-report.pdf",
+    "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-audit-20260602182032-1780424438031-visibility-report.pdf"
+  },
+  "reportDownload": {
+    "status": 200,
+    "bytes": 1118,
+    "file": "evidence/full-product/full-product-report-e9838804-d6e2-4a0e-b185-f7c9c4b4fefc.pdf",
+    "startsWithPdf": true
+  }
+}

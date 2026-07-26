@@ -1,0 +1,104 @@
+{
+  "status": "COMPLETED",
+  "engine": "COMPETITOR_MONITORING_ENGINE",
+  "data": {
+    "days": 30,
+    "alerts": [
+      {
+        "type": "NEW_COMPETITOR",
+        "title": "Palo Alto Networks",
+        "score": 100,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Palo Alto Networks offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": null,
+            "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": "https://www.paloaltonetworks.com/",
+            "claim": "Domain verification returned HTTP 200.",
+            "source": "Domain Validation"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "confidenceScore": 100
+      },
+      {
+        "type": "NEW_COMPETITOR",
+        "title": "Check Point",
+        "score": 98,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": null,
+            "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": "https://www.checkpoint.com/",
+            "claim": "Domain verification returned HTTP 200.",
+            "source": "Domain Validation"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "confidenceScore": 98
+      },
+      {
+        "type": "NEW_COMPETITOR",
+        "title": "Cyberoam",
+        "score": 88,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Cyberoam offers a range of network security solutions, including firewalls, VPNs, and intrusion prevention systems.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": null,
+            "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+            "source": "AI competitor discovery"
+          },
+          {
+            "url": "https://www.cyberoam.com/",
+            "claim": "Domain verification returned HTTP 200.",
+            "source": "Domain Validation"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "confidenceScore": 88
+      }
+    ],
+    "storedAlerts": 3
+  },
+  "evidence": [
+    {
+      "claim": "COMPETITOR_MONITORING_ENGINE returned 3 evidence-backed row(s).",
+      "source": "COMPETITOR_MONITORING_ENGINE",
+      "url": "https://orcatech.online"
+    }
+  ],
+  "confidenceScore": 95.3,
+  "dataSource": "COMPETITOR_MONITORING_ENGINE",
+  "lastVerifiedAt": "2026-06-08T03:52:07.597Z"
+}

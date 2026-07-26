@@ -1,0 +1,216 @@
+{
+  "label": "08-niche-explorer",
+  "url": "/sro/niche-explorer",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "generated": 6,
+    "prompts": [
+      {
+        "id": "4f01f58b-eadb-424a-95f6-c77c8b701c83",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Best Cybersecurity companies in Saudi Arabia",
+        "category": "HIGH_INTENT",
+        "intentScore": 84,
+        "opportunityScore": 92,
+        "difficultyScore": 58,
+        "expectedVisibilityGain": 86,
+        "confidenceScore": 70,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+            "source": "Niche Explorer V1",
+            "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+          }
+        ],
+        "sources": [
+          {
+            "source": "INDUSTRY_COUNTRY_INPUT",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          }
+        ],
+        "dataSource": "NICHE_EXPLORER_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.373Z",
+        "discoveredAt": "2026-06-08T05:51:50.374Z",
+        "createdAt": "2026-06-08T05:51:50.374Z",
+        "updatedAt": "2026-06-08T05:51:50.374Z"
+      },
+      {
+        "id": "7a6b44f2-bae7-457a-95dc-c4688e652a3f",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia",
+        "category": "COMPARISON",
+        "intentScore": 80,
+        "opportunityScore": 88,
+        "difficultyScore": 52,
+        "expectedVisibilityGain": 80,
+        "confidenceScore": 70,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+            "source": "Niche Explorer V1",
+            "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+          }
+        ],
+        "sources": [
+          {
+            "source": "INDUSTRY_COUNTRY_INPUT",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          }
+        ],
+        "dataSource": "NICHE_EXPLORER_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.373Z",
+        "discoveredAt": "2026-06-08T05:51:50.386Z",
+        "createdAt": "2026-06-08T05:51:50.386Z",
+        "updatedAt": "2026-06-08T05:51:50.386Z"
+      },
+      {
+        "id": "428c4fc6-36a0-422e-b369-86291913e0ec",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Top Cybersecurity providers for enterprises in Saudi Arabia",
+        "category": "COMMERCIAL",
+        "intentScore": 78,
+        "opportunityScore": 86,
+        "difficultyScore": 55,
+        "expectedVisibilityGain": 78,
+        "confidenceScore": 70,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+            "source": "Niche Explorer V1",
+            "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+          }
+        ],
+        "sources": [
+          {
+            "source": "INDUSTRY_COUNTRY_INPUT",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          }
+        ],
+        "dataSource": "NICHE_EXPLORER_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.373Z",
+        "discoveredAt": "2026-06-08T05:51:50.405Z",
+        "createdAt": "2026-06-08T05:51:50.405Z",
+        "updatedAt": "2026-06-08T05:51:50.405Z"
+      },
+      {
+        "id": "5289b529-83b2-432d-9f80-284dda546d07",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Compare Cybersecurity vendors in Saudi Arabia",
+        "category": "COMPARISON",
+        "intentScore": 76,
+        "opportunityScore": 84,
+        "difficultyScore": 50,
+        "expectedVisibilityGain": 76,
+        "confidenceScore": 70,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+            "source": "Niche Explorer V1",
+            "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+          }
+        ],
+        "sources": [
+          {
+            "source": "INDUSTRY_COUNTRY_INPUT",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          }
+        ],
+        "dataSource": "NICHE_EXPLORER_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.373Z",
+        "discoveredAt": "2026-06-08T05:51:50.450Z",
+        "createdAt": "2026-06-08T05:51:50.450Z",
+        "updatedAt": "2026-06-08T05:51:50.450Z"
+      },
+      {
+        "id": "d2c26e12-f6cf-4afe-8683-bbbb66f3206a",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "Cybersecurity provider with local support in Saudi Arabia",
+        "category": "HIGH_INTENT",
+        "intentScore": 74,
+        "opportunityScore": 82,
+        "difficultyScore": 46,
+        "expectedVisibilityGain": 72,
+        "confidenceScore": 70,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+            "source": "Niche Explorer V1",
+            "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+          }
+        ],
+        "sources": [
+          {
+            "source": "INDUSTRY_COUNTRY_INPUT",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          }
+        ],
+        "dataSource": "NICHE_EXPLORER_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.373Z",
+        "discoveredAt": "2026-06-08T05:51:50.436Z",
+        "createdAt": "2026-06-08T05:51:50.436Z",
+        "updatedAt": "2026-06-08T05:51:50.436Z"
+      },
+      {
+        "id": "3192664a-a2fb-45ec-af71-31719e6a7d25",
+        "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "queryText": "How to choose a Cybersecurity provider in Saudi Arabia",
+        "category": "INFORMATIONAL",
+        "intentScore": 66,
+        "opportunityScore": 74,
+        "difficultyScore": 42,
+        "expectedVisibilityGain": 62,
+        "confidenceScore": 70,
+        "evidence": [
+          {
+            "url": "https://www.cloudflare.com",
+            "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+            "source": "Niche Explorer V1",
+            "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+          }
+        ],
+        "sources": [
+          {
+            "source": "INDUSTRY_COUNTRY_INPUT",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          }
+        ],
+        "dataSource": "NICHE_EXPLORER_V1",
+        "sourceCompetitorIds": [],
+        "status": "PENDING",
+        "approvedPromptId": null,
+        "lastVerifiedAt": "2026-06-08T05:51:50.373Z",
+        "discoveredAt": "2026-06-08T05:51:50.418Z",
+        "createdAt": "2026-06-08T05:51:50.418Z",
+        "updatedAt": "2026-06-08T05:51:50.418Z"
+      }
+    ]
+  }
+}

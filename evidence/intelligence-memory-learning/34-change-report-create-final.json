@@ -1,0 +1,36 @@
+{
+  "id": "5c43fc5a-e215-41a2-a6dd-b14967d43cfd",
+  "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "title": "OrcaTech Executive Change Report",
+  "type": "PDF_CHANGE",
+  "status": "GENERATED",
+  "periodStart": "2026-05-09T03:22:22.225Z",
+  "periodEnd": "2026-06-07T04:00:00.000Z",
+  "fileName": "orcatech-1780888942225-executive-change-report.pdf",
+  "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-1780888942225-executive-change-report.pdf",
+  "createdAt": "2026-06-08T03:22:22.226Z",
+  "updatedAt": "2026-06-08T03:22:22.368Z",
+  "brand": {
+    "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "name": "OrcaTech",
+    "websiteUrl": "https://orcatech.online",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "createdAt": "2026-06-02T21:42:59.849Z",
+    "updatedAt": "2026-06-02T21:42:59.849Z"
+  },
+  "organization": {
+    "id": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "name": "Acme GEO Agency",
+    "slug": "acme-agency",
+    "billingPlan": "AGENCY",
+    "status": "ACTIVE",
+    "stripeCustomerId": null,
+    "logoUrl": null,
+    "brandingColor": "#00f5d4",
+    "createdAt": "2026-06-02T21:42:59.727Z",
+    "updatedAt": "2026-06-02T22:08:18.498Z"
+  }
+}

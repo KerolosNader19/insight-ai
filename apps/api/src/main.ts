@@ -1,11 +1,12 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
-import { ValidationPipe } from '@nestjs/common';
+import { Logger, ValidationPipe } from '@nestjs/common';
 import helmet from 'helmet';
 import * as compression from 'compression';
 
 async function bootstrap() {
+  const logger = new Logger('Bootstrap');
   const app = await NestFactory.create(AppModule);
   
   // Security
@@ -41,12 +42,12 @@ async function bootstrap() {
   app.enableShutdownHooks();
   
   process.on('SIGTERM', async () => {
-    console.log('SIGTERM signal received: closing HTTP server');
+    logger.log('SIGTERM signal received: closing HTTP server');
     await app.close();
     process.exit(0);
   });
 
-  console.log(`🚀 API is running on: http://localhost:${port}`);
-  console.log(`📄 Documentation available at: http://localhost:${port}/docs`);
+  logger.log(`API is running on: http://localhost:${port}`);
+  logger.log(`Documentation available at: http://localhost:${port}/docs`);
 }
 bootstrap();

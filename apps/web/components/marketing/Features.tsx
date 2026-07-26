@@ -7,26 +7,10 @@ import { useTranslation } from "@/hooks/useTranslation";
 gsap.registerPlugin(ScrollTrigger);
 
 const FEATURES = [
-  {
-    title: "AI Share of Voice",
-    description: "Measure how often your brand is mentioned across ChatGPT, Perplexity, and Gemini compared to competitors.",
-    icon: "📊",
-  },
-  {
-    title: "Citation Tracking",
-    description: "Identify which sources AI engines are using to back up their claims about your products and services.",
-    icon: "🔗",
-  },
-  {
-    title: "Sentiment Intelligence",
-    description: "Analyze the tone of AI responses. Are you being recommended or simply mentioned?",
-    icon: "🧠",
-  },
-  {
-    title: "GEO Score",
-    description: "Our proprietary Generative Engine Optimization score helps you understand your visibility ranking.",
-    icon: "📈",
-  },
+  { icon: "📊" },
+  { icon: "🔗" },
+  { icon: "🧠" },
+  { icon: "📈" },
 ];
 
 export function Features() {
@@ -68,7 +52,9 @@ export function Features() {
           {t.features.items.map((feature, i) => (
             <div
               key={i}
-              ref={(el) => (cardsRef.current[i] = el!)}
+              ref={(el) => {
+                if (el) cardsRef.current[i] = el;
+              }}
               className="p-8 rounded-2xl border border-brand-border bg-brand-surface/30 glass hover:border-brand-accent/50 transition-colors group"
             >
               <div className="text-3xl mb-4 group-hover:scale-110 transition-transform inline-block">

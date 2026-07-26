@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-06-02T17:14:27.049Z",
+  "responseIds": [
+    "4a49a55d-f06d-43eb-b5f9-a7fd6d836df8",
+    "8d49858a-8a82-4282-a48b-937415320a5b"
+  ],
+  "records": [
+    {
+      "id": "8d49858a-8a82-4282-a48b-937415320a5b",
+      "promptId": "a6246b4b-d65a-481c-8ba9-ba40848974d1",
+      "brandId": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+      "brandName": "OrcaTech",
+      "queryText": "Best cybersecurity company in Saudi Arabia",
+      "engine": "Gemini",
+      "model": "gemini-1.5-flash",
+      "status": "FAILED",
+      "error": "GEMINI_API_KEY is not configured",
+      "rawContentLength": 0,
+      "mentionCount": 0,
+      "citationCount": 0,
+      "completedAt": "2026-06-02T17:14:03.069Z",
+      "capturedAt": "2026-06-02T17:14:03.070Z"
+    },
+    {
+      "id": "4a49a55d-f06d-43eb-b5f9-a7fd6d836df8",
+      "promptId": "a6246b4b-d65a-481c-8ba9-ba40848974d1",
+      "brandId": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+      "brandName": "OrcaTech",
+      "queryText": "Best cybersecurity company in Saudi Arabia",
+      "engine": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "status": "FAILED",
+      "error": "GROQ_API_KEY is not configured",
+      "rawContentLength": 0,
+      "mentionCount": 0,
+      "citationCount": 0,
+      "completedAt": "2026-06-02T17:14:02.989Z",
+      "capturedAt": "2026-06-02T17:14:02.990Z"
+    }
+  ]
+}

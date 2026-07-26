@@ -1,0 +1,36 @@
+{
+  "label": "01-register",
+  "url": "/auth/register",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "user": {
+      "id": "b4ec88ad-2468-4764-a4b0-47c871cdc168",
+      "email": "sro-validation-1780897908191@example.test",
+      "fullName": "SRO Validation Owner",
+      "avatarUrl": null,
+      "platformRole": "USER"
+    },
+    "organizations": [
+      {
+        "id": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+        "name": "SRO Validation Agency 1780897908191",
+        "slug": "sro-validation-agency-1780897908191",
+        "role": "OWNER",
+        "billingPlan": "FREE",
+        "logoUrl": null,
+        "brandingColor": null
+      }
+    ],
+    "currentOrg": {
+      "id": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "name": "SRO Validation Agency 1780897908191",
+      "slug": "sro-validation-agency-1780897908191",
+      "role": "OWNER",
+      "billingPlan": "FREE",
+      "logoUrl": null,
+      "brandingColor": null
+    },
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJiNGVjODhhZC0yNDY4LTQ3NjQtYTRiMC00N2M4NzFjZGMxNjgiLCJlbWFpbCI6InNyby12YWxpZGF0aW9uLTE3ODA4OTc5MDgxOTFAZXhhbXBsZS50ZXN0IiwiaWF0IjoxNzgwODk3OTA4LCJleHAiOjE3ODA5ODQzMDh9.KwXzx8ET1fJ4thHBZvTWiwQOEPiCWtwiCOBdCiCiEc0"
+  }
+}

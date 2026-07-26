@@ -1,0 +1,9 @@
+/home/omar/Pictures/insight-ai/.env
+  GROQ_API_KEY=[absent]
+  GROQ_MODEL=[absent]
+  GEMINI_API_KEY=[absent]
+  GEMINI_MODEL=[absent]
+  DATABASE_URL=[present]
+  JWT_SECRET=[present]
+/home/omar/Pictures/insight-ai/apps/api/.env
+  [file missing]

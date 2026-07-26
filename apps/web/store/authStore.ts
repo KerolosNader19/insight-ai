@@ -6,13 +6,17 @@ interface User {
   email: string;
   fullName: string;
   avatarUrl?: string;
+  platformRole?: 'USER' | 'SUPER_ADMIN';
 }
 
 interface Organization {
   id: string;
   name: string;
   slug: string;
-  role: 'OWNER' | 'ADMIN' | 'MEMBER';
+  role: 'OWNER' | 'ADMIN' | 'MANAGER' | 'ANALYST' | 'VIEWER';
+  billingPlan?: 'FREE' | 'PRO' | 'PREMIUM' | 'AGENCY' | 'ENTERPRISE';
+  logoUrl?: string;
+  brandingColor?: string;
 }
 
 interface AuthState {
@@ -20,10 +24,12 @@ interface AuthState {
   token: string | null;
   currentOrg: Organization | null;
   isAuthenticated: boolean;
+  hasHydrated: boolean;
   
-  setAuth: (user: User, token: string) => void;
+  setAuth: (user: User, token: string, organizations?: Organization[], currentOrg?: Organization | null) => void;
   setOrg: (org: Organization) => void;
   logout: () => void;
+  setHasHydrated: (value: boolean) => void;
 }
 
 export const useAuthStore = create<AuthState>()(
@@ -33,13 +39,23 @@ export const useAuthStore = create<AuthState>()(
       token: null,
       currentOrg: null,
       isAuthenticated: false,
+      hasHydrated: false,
 
-      setAuth: (user, token) => set({ user, token, isAuthenticated: true }),
+      setAuth: (user, token, organizations = [], currentOrg = null) => set({
+        user,
+        token,
+        currentOrg: currentOrg || organizations[0] || null,
+        isAuthenticated: true,
+      }),
       setOrg: (currentOrg) => set({ currentOrg }),
       logout: () => set({ user: null, token: null, currentOrg: null, isAuthenticated: false }),
+      setHasHydrated: (value) => set({ hasHydrated: value }),
     }),
     {
       name: 'insight-ai-auth',
+      onRehydrateStorage: () => (state) => {
+        state?.setHasHydrated(true);
+      },
     }
   )
 );

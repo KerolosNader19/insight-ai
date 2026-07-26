@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED",
+  "engine": "INTELLIGENCE_MEMORY_ROLLUP",
+  "data": {
+    "rawSnapshots": 56,
+    "rollupsCreated": 28,
+    "duplicateGroups": 28
+  },
+  "evidence": [
+    {
+      "claim": "Created 28 rollup snapshot(s) without deleting raw history.",
+      "source": "Rollup Engine",
+      "url": "https://orcatech.online"
+    }
+  ],
+  "confidenceScore": 49,
+  "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+  "lastVerifiedAt": "2026-06-08T03:21:25.502Z"
+}

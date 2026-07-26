@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-06-02T17:27:27.029Z",
+  "responseIds": [
+    "4ba4cc9d-835a-426a-a853-c9981e92b911",
+    "15a7fbd0-05ef-45bd-acbf-510e114a5183"
+  ],
+  "records": [
+    {
+      "id": "15a7fbd0-05ef-45bd-acbf-510e114a5183",
+      "brandName": "OrcaTech",
+      "queryText": "Best cybersecurity company in Saudi Arabia",
+      "engine": "Gemini",
+      "model": "gemini-1.5-flash",
+      "status": "FAILED",
+      "error": "GEMINI_API_KEY is not configured",
+      "rawContentLength": 0,
+      "mentionCount": 0,
+      "citationCount": 0,
+      "capturedAt": "2026-06-02T17:27:06.185Z",
+      "completedAt": "2026-06-02T17:27:06.184Z"
+    },
+    {
+      "id": "4ba4cc9d-835a-426a-a853-c9981e92b911",
+      "brandName": "OrcaTech",
+      "queryText": "Best cybersecurity company in Saudi Arabia",
+      "engine": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "status": "FAILED",
+      "error": "GROQ_API_KEY is not configured",
+      "rawContentLength": 0,
+      "mentionCount": 0,
+      "citationCount": 0,
+      "capturedAt": "2026-06-02T17:27:06.102Z",
+      "completedAt": "2026-06-02T17:27:06.101Z"
+    }
+  ]
+}

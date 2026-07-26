@@ -1,0 +1,21 @@
+{
+  "label": "03-industries",
+  "method": "GET",
+  "url": "/industries",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": [
+    {
+      "industry": "Cybersecurity",
+      "markets": 1,
+      "countries": [
+        "Saudi Arabia"
+      ],
+      "regions": [
+        "GCC"
+      ],
+      "averageConfidence": 75
+    }
+  ]
+}

@@ -1,0 +1,3382 @@
+{
+  "label": "11-agency-intelligence-network",
+  "method": "GET",
+  "url": "/agency-intelligence-network/e4314273-5ae5-43f9-846a-b812c6cf74d2",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "AGENCY_INTELLIGENCE_NETWORK",
+    "data": {
+      "agency": {
+        "organization": "Geo Data Network Agency 1780902246006",
+        "clientRankings": [],
+        "industryRankings": [],
+        "growthRankings": [],
+        "riskRankings": []
+      },
+      "regional": {
+        "id": "b063b5be-cb56-43e8-bfb1-62b10bfce677",
+        "region": "GCC",
+        "indexName": "Insight AI Regional GEO Index",
+        "score": 46.17,
+        "marketCount": 6,
+        "sampleSize": 134,
+        "topMarkets": [
+          {
+            "score": 58,
+            "market": "Cybersecurity Qatar",
+            "confidenceScore": 51
+          },
+          {
+            "score": 57,
+            "market": "Cybersecurity UAE",
+            "confidenceScore": 57
+          },
+          {
+            "score": 54,
+            "market": "Cybersecurity Saudi Arabia",
+            "confidenceScore": 75
+          },
+          {
+            "score": 36,
+            "market": "SaaS GCC",
+            "confidenceScore": 37
+          },
+          {
+            "score": 36,
+            "market": "FinTech Saudi Arabia",
+            "confidenceScore": 37
+          },
+          {
+            "score": 36,
+            "market": "Legal Services GCC",
+            "confidenceScore": 37
+          }
+        ],
+        "topBrands": [
+          {
+            "name": "Cloudflare SRO 1780897908191",
+            "rank": 1,
+            "score": 82,
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Cloudflare SRO 1780897908191 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                "source": "Geo Data Network",
+                "lastVerifiedAt": "2026-06-08T07:04:06.342Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "confidenceScore": 35
+          },
+          {
+            "name": "Cloudflare SRO 1780897908191",
+            "rank": 2,
+            "score": 82,
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Cloudflare SRO 1780897908191 copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                "source": "Geo Data Network",
+                "lastVerifiedAt": "2026-06-08T07:04:08.743Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "confidenceScore": 35
+          },
+          {
+            "name": "Cloudflare SRO 1780897908191",
+            "rank": 3,
+            "score": 82,
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 52
+          },
+          {
+            "name": "CrowdStrike",
+            "rank": 4,
+            "score": 81,
+            "evidence": [
+              {
+                "url": "https://www.crowdstrike.com",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 74
+          },
+          {
+            "name": "CrowdStrike",
+            "rank": 5,
+            "score": 81,
+            "evidence": [
+              {
+                "url": "https://www.crowdstrike.com",
+                "claim": "CrowdStrike copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                "source": "Geo Data Network",
+                "lastVerifiedAt": "2026-06-08T07:04:06.354Z"
+              },
+              {
+                "url": "https://www.crowdstrike.com",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "confidenceScore": 54
+          },
+          {
+            "name": "CrowdStrike",
+            "rank": 6,
+            "score": 81,
+            "evidence": [
+              {
+                "url": "https://www.crowdstrike.com",
+                "claim": "CrowdStrike copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                "source": "Geo Data Network",
+                "lastVerifiedAt": "2026-06-08T07:04:08.774Z"
+              },
+              {
+                "url": "https://www.crowdstrike.com",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "confidenceScore": 54
+          },
+          {
+            "name": "Palo Alto Networks",
+            "rank": 7,
+            "score": 70,
+            "evidence": [
+              {
+                "url": "https://www.paloaltonetworks.com",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 74
+          },
+          {
+            "name": "Palo Alto Networks",
+            "rank": 8,
+            "score": 70,
+            "evidence": [
+              {
+                "url": "https://www.paloaltonetworks.com",
+                "claim": "Palo Alto Networks copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                "source": "Geo Data Network",
+                "lastVerifiedAt": "2026-06-08T07:04:06.372Z"
+              },
+              {
+                "url": "https://www.paloaltonetworks.com",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "confidenceScore": 54
+          },
+          {
+            "name": "Palo Alto Networks",
+            "rank": 9,
+            "score": 70,
+            "evidence": [
+              {
+                "url": "https://www.paloaltonetworks.com",
+                "claim": "Palo Alto Networks copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+                "source": "Geo Data Network",
+                "lastVerifiedAt": "2026-06-08T07:04:08.798Z"
+              },
+              {
+                "url": "https://www.paloaltonetworks.com",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "confidenceScore": 54
+          },
+          {
+            "name": "Cyberoam",
+            "rank": 10,
+            "score": 0,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                "source": "AI competitor discovery"
+              },
+              {
+                "url": null,
+                "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+                "source": "AI competitor discovery"
+              },
+              {
+                "url": "https://www.cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 88
+          },
+          {
+            "name": "OrcaTech Product 20260602183015",
+            "rank": 11,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://orcatech.sa",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 46
+          },
+          {
+            "name": "Security Matterz",
+            "rank": 12,
+            "score": 0,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+                "source": "AI competitor discovery"
+              },
+              {
+                "url": null,
+                "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+                "source": "AI competitor discovery"
+              },
+              {
+                "url": "https://www.securitymatterz.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 93
+          },
+          {
+            "name": "Competitor UI 20260602183515",
+            "rank": 13,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://competitor-ui-20260602183515.sa",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 45
+          },
+          {
+            "name": "Competitor UI 20260602183641",
+            "rank": 14,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://competitor-ui-20260602183641.sa",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 45
+          },
+          {
+            "name": "Runtime Competitor 1780438046715",
+            "rank": 15,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://runtime-competitor-1780438046715.example",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 45
+          },
+          {
+            "name": "Check Point",
+            "rank": 16,
+            "score": 0,
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+                "source": "AI competitor discovery"
+              },
+              {
+                "url": null,
+                "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+                "source": "AI competitor discovery"
+              },
+              {
+                "url": "https://www.checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 98
+          },
+          {
+            "name": "Runtime Brand 1780438046715",
+            "rank": 17,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://runtime-1780438046715.example",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 46
+          },
+          {
+            "name": "OrcaTech UI 20260602183641",
+            "rank": 18,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://orcatech.sa",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 46
+          },
+          {
+            "name": "Manager Brand 20260602183015",
+            "rank": 19,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://manager-brand.sa",
+                "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+                "source": "Market Database",
+                "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 46
+          },
+          {
+            "name": "Competitor A",
+            "rank": 20,
+            "score": 0,
+            "evidence": [
+              {
+                "url": "https://competitor-a.sa",
+                "claim": "Competitor row uses competitor page analysis when available.",
+                "source": "Competitor Radar",
+                "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "confidenceScore": 45
+          }
+        ],
+        "topPrompts": [
+          {
+            "id": "1181603b-1830-4adb-952e-b54633f91389",
+            "category": "HIGH_INTENT",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.766Z",
+            "queryText": "Best Cybersecurity companies in UAE",
+            "updatedAt": "2026-06-08T07:04:06.766Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 63,
+            "promptVolume": 92,
+            "lastVerifiedAt": "2026-06-08T07:04:06.763Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 55,
+            "difficultyScore": 58,
+            "competitionScore": 50,
+            "opportunityScore": 92
+          },
+          {
+            "id": "74658d07-a83a-47f9-8364-58e76024dc5f",
+            "category": "HIGH_INTENT",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:09.227Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.228Z",
+            "queryText": "Best Cybersecurity companies in Qatar",
+            "updatedAt": "2026-06-08T07:04:09.240Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 63,
+            "promptVolume": 92,
+            "lastVerifiedAt": "2026-06-08T07:04:09.239Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 55,
+            "difficultyScore": 58,
+            "competitionScore": 50,
+            "opportunityScore": 92
+          },
+          {
+            "id": "ed210e63-9ec8-44ac-90c7-2d9847d8429b",
+            "category": "HIGH_INTENT",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.745Z",
+            "queryText": "Best Cybersecurity companies in Saudi Arabia",
+            "updatedAt": "2026-06-08T06:43:15.745Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 63,
+            "promptVolume": 92,
+            "lastVerifiedAt": "2026-06-08T06:43:15.743Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 70,
+            "difficultyScore": 58,
+            "competitionScore": 50,
+            "opportunityScore": 92
+          },
+          {
+            "id": "69d7f155-2e40-4bd3-bb5b-c99f9463fe7c",
+            "category": "COMPARISON",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:09.227Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.252Z",
+            "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Qatar",
+            "updatedAt": "2026-06-08T07:04:09.262Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 62,
+            "promptVolume": 88,
+            "lastVerifiedAt": "2026-06-08T07:04:09.261Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 40,
+            "difficultyScore": 52,
+            "competitionScore": 50,
+            "opportunityScore": 88
+          },
+          {
+            "id": "be6b1da3-d651-40d1-b6b9-9e6b197886e5",
+            "category": "COMPARISON",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.781Z",
+            "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE",
+            "updatedAt": "2026-06-08T07:04:06.781Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 62,
+            "promptVolume": 88,
+            "lastVerifiedAt": "2026-06-08T07:04:06.779Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 55,
+            "difficultyScore": 52,
+            "competitionScore": 50,
+            "opportunityScore": 88
+          },
+          {
+            "id": "64362af6-f95b-454b-8687-c0dd4906a4bd",
+            "category": "COMPARISON",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.875Z",
+            "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia",
+            "updatedAt": "2026-06-08T06:43:15.875Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 62,
+            "promptVolume": 90,
+            "lastVerifiedAt": "2026-06-08T06:43:15.874Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 70,
+            "difficultyScore": 52,
+            "competitionScore": 50,
+            "opportunityScore": 88
+          },
+          {
+            "id": "2567f20c-3ff8-4eba-ab85-1489e282589d",
+            "category": "COMMERCIAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:09.227Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.275Z",
+            "queryText": "Top Cybersecurity providers for enterprises in Qatar",
+            "updatedAt": "2026-06-08T07:04:09.286Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 86,
+            "lastVerifiedAt": "2026-06-08T07:04:09.285Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 55,
+            "difficultyScore": 55,
+            "competitionScore": 50,
+            "opportunityScore": 86
+          },
+          {
+            "id": "f6bffb1f-574a-404d-985a-79075fde1f40",
+            "category": "COMMERCIAL",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.958Z",
+            "queryText": "Top Cybersecurity providers for enterprises in Saudi Arabia",
+            "updatedAt": "2026-06-08T06:43:15.958Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 89,
+            "lastVerifiedAt": "2026-06-08T06:43:15.956Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 70,
+            "difficultyScore": 55,
+            "competitionScore": 50,
+            "opportunityScore": 86
+          },
+          {
+            "id": "0eee971b-cd4e-4851-a8ac-590886d6afa4",
+            "category": "COMMERCIAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.793Z",
+            "queryText": "Top Cybersecurity providers for enterprises in UAE",
+            "updatedAt": "2026-06-08T07:04:06.793Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 86,
+            "lastVerifiedAt": "2026-06-08T07:04:06.791Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 55,
+            "difficultyScore": 55,
+            "competitionScore": 50,
+            "opportunityScore": 86
+          },
+          {
+            "id": "bf09a6b7-b05f-4281-913d-33c0a7db9dd7",
+            "category": "INFORMATIONAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.569Z",
+            "queryText": "Best SOC provider for regulated banks in Saudi Arabia.",
+            "updatedAt": "2026-06-08T06:43:15.569Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 48,
+            "promptVolume": 98,
+            "lastVerifiedAt": "2026-06-08T06:43:15.568Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 98,
+            "difficultyScore": 75,
+            "competitionScore": 50,
+            "opportunityScore": 85
+          },
+          {
+            "id": "e075231b-8890-4375-93fc-ea0e76caf135",
+            "category": "INFORMATIONAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.808Z",
+            "queryText": "Best SOC provider for regulated banks in UAE.",
+            "updatedAt": "2026-06-08T07:04:06.808Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 48,
+            "promptVolume": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:06.804Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 83,
+            "difficultyScore": 75,
+            "competitionScore": 50,
+            "opportunityScore": 85
+          },
+          {
+            "id": "082635ac-e4ed-47d3-83f0-c99a90850f9c",
+            "category": "INFORMATIONAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": null,
+                "claim": "Competitor A and Competitor B are also top cloud security firms for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.821Z",
+            "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+            "updatedAt": "2026-06-08T07:04:06.821Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 48,
+            "promptVolume": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:06.819Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 83,
+            "difficultyScore": 75,
+            "competitionScore": 50,
+            "opportunityScore": 85
+          },
+          {
+            "id": "62dd1af3-6c36-4706-a4fe-a19901412d83",
+            "category": "INFORMATIONAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:09.227Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": null,
+                "claim": "Competitor A and Competitor B are also top cloud security firms for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.321Z",
+            "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+            "updatedAt": "2026-06-08T07:04:09.330Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 48,
+            "promptVolume": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:09.329Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 83,
+            "difficultyScore": 75,
+            "competitionScore": 50,
+            "opportunityScore": 85
+          },
+          {
+            "id": "5e821a61-5d2e-416b-820a-1acf87d30083",
+            "category": "INFORMATIONAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "OrcaTech provides cloud security services for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": null,
+                "claim": "Competitor A and Competitor B are also top cloud security firms for Saudi enterprises.",
+                "source": "AI prompt discovery"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.701Z",
+            "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+            "updatedAt": "2026-06-08T06:43:15.701Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 48,
+            "promptVolume": 98,
+            "lastVerifiedAt": "2026-06-08T06:43:15.700Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 98,
+            "difficultyScore": 75,
+            "competitionScore": 50,
+            "opportunityScore": 85
+          },
+          {
+            "id": "8f3ba042-d4d4-41ae-823e-22c81a11b816",
+            "category": "INFORMATIONAL",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:09.227Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": null,
+                "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+                "source": "AI prompt discovery"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.296Z",
+            "queryText": "Best SOC provider for regulated banks in Qatar.",
+            "updatedAt": "2026-06-08T07:04:09.311Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 48,
+            "promptVolume": 85,
+            "lastVerifiedAt": "2026-06-08T07:04:09.310Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 68,
+            "difficultyScore": 75,
+            "competitionScore": 50,
+            "opportunityScore": 85
+          },
+          {
+            "id": "7e4bbae5-46d4-452c-882e-d8c57e0eaf18",
+            "category": "COMPARISON",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.834Z",
+            "queryText": "Compare Cybersecurity vendors in UAE",
+            "updatedAt": "2026-06-08T07:04:06.834Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 84,
+            "lastVerifiedAt": "2026-06-08T07:04:06.832Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 55,
+            "difficultyScore": 50,
+            "competitionScore": 50,
+            "opportunityScore": 84
+          },
+          {
+            "id": "47a7f312-4ef3-4beb-b140-c4fc717f8c10",
+            "category": "COMPARISON",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.897Z",
+            "queryText": "Compare Cybersecurity vendors in Saudi Arabia",
+            "updatedAt": "2026-06-08T06:43:15.897Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 88,
+            "lastVerifiedAt": "2026-06-08T06:43:15.896Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 70,
+            "difficultyScore": 50,
+            "competitionScore": 50,
+            "opportunityScore": 84
+          },
+          {
+            "id": "2fa29156-b31e-4542-a6c0-5d25fdf646dc",
+            "category": "COMPARISON",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:09.227Z"
+              },
+              {
+                "url": null,
+                "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+                "source": "Prompt Marketplace",
+                "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+              },
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.340Z",
+            "queryText": "Compare Cybersecurity vendors in Qatar",
+            "updatedAt": "2026-06-08T07:04:09.352Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 84,
+            "lastVerifiedAt": "2026-06-08T07:04:09.350Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 40,
+            "difficultyScore": 50,
+            "competitionScore": 50,
+            "opportunityScore": 84
+          },
+          {
+            "id": "f6657964-9a48-4307-8b90-3e1c02384643",
+            "category": "HIGH_INTENT",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+                "source": "Niche Explorer V1",
+                "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.917Z",
+            "queryText": "Cybersecurity provider with local support in Saudi Arabia",
+            "updatedAt": "2026-06-08T06:43:15.917Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 59,
+            "promptVolume": 87,
+            "lastVerifiedAt": "2026-06-08T06:43:15.916Z",
+            "trendDirection": "UP",
+            "commercialValue": 45,
+            "confidenceScore": 70,
+            "difficultyScore": 46,
+            "competitionScore": 50,
+            "opportunityScore": 82
+          },
+          {
+            "id": "8d7e666f-c041-4261-94c4-42bd1fee67fa",
+            "category": "COMMERCIAL",
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "Generated from core prompt \"Best cybersecurity company in Saudi Arabia\" for strategic buyer choosing a growth-safe vendor.",
+                "source": "Persona Fan-Out Engine",
+                "lastVerifiedAt": "2026-06-08T05:51:50.251Z"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.758Z",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a CEO",
+            "updatedAt": "2026-06-08T06:43:15.758Z",
+            "dataSource": "PROMPT_MARKETPLACE",
+            "growthScore": 60,
+            "promptVolume": 89,
+            "lastVerifiedAt": "2026-06-08T06:43:15.757Z",
+            "trendDirection": "UP",
+            "commercialValue": 80,
+            "confidenceScore": 74,
+            "difficultyScore": 45,
+            "competitionScore": 50,
+            "opportunityScore": 82
+          }
+        ],
+        "topCitations": [
+          {
+            "id": "ee0c5759-76d0-4a9c-bf03-3e76a1b15f51",
+            "domain": "orcatech.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://orcatech.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://orcatech.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://orcatech.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://orcatech.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://orcatech.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.448Z",
+            "updatedAt": "2026-06-08T06:43:15.448Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.446Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "4edde311-eb62-44e3-a167-f5b48addfdee",
+            "domain": "paloaltonetworks.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://paloaltonetworks.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://paloaltonetworks.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://paloaltonetworks.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://paloaltonetworks.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://paloaltonetworks.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.464Z",
+            "updatedAt": "2026-06-08T06:43:15.464Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.462Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "ae9a67e6-3ada-418d-a463-69e1042ecfae",
+            "domain": "checkpoint.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.480Z",
+            "updatedAt": "2026-06-08T06:43:15.480Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.479Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "a55849dc-f8c0-4af6-aeaf-03b1544054e2",
+            "domain": "cyberoam.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.502Z",
+            "updatedAt": "2026-06-08T06:43:15.502Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.500Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "eb5b6ef5-fde3-43b6-b32d-b9ae8f2526aa",
+            "domain": "mcit.gov.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://mcit.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://mcit.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://mcit.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://mcit.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://mcit.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.521Z",
+            "updatedAt": "2026-06-08T06:43:15.521Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.520Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": true,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "84c83a88-b129-4cfb-95ff-e065ee8ab53e",
+            "domain": "stc.com.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://stc.com.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://stc.com.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://stc.com.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://stc.com.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://stc.com.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.540Z",
+            "updatedAt": "2026-06-08T06:43:15.540Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.538Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "bdf2ab48-cbe0-48b6-969a-a1058f18cad3",
+            "domain": "saudiaramco.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://saudiaramco.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://saudiaramco.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://saudiaramco.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://saudiaramco.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://saudiaramco.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.561Z",
+            "updatedAt": "2026-06-08T06:43:15.561Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.560Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "a0d25a33-4a4d-4070-94e7-46ab409ead37",
+            "domain": "sama.gov.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://sama.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://sama.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://sama.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://sama.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://sama.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              },
+              {
+                "url": "https://orcatech.online",
+                "claim": "Citation source evaluated for Cybersecurity in Saudi Arabia.",
+                "source": "Brand Profile"
+              }
+            ],
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "createdAt": "2026-06-08T06:43:15.579Z",
+            "updatedAt": "2026-06-08T06:43:15.579Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T06:43:15.577Z",
+            "researchSource": false,
+            "confidenceScore": 81,
+            "governmentSource": true,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "07e834fb-6a52-4874-bc2e-f5c7e67105f0",
+            "domain": "checkpoint.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "checkpoint.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.943Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://checkpoint.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.946Z",
+            "updatedAt": "2026-06-08T07:04:06.946Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:06.943Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "b74ae75b-892c-4f2a-9284-a635de9e48c7",
+            "domain": "cyberoam.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "cyberoam.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.964Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://cyberoam.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.966Z",
+            "updatedAt": "2026-06-08T07:04:06.966Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:06.964Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "6e32069f-d5eb-49a4-b83d-03e1c76a1697",
+            "domain": "mcit.gov.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "mcit.gov.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.978Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://mcit.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:06.980Z",
+            "updatedAt": "2026-06-08T07:04:06.980Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:06.978Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": true,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "49d9eec6-073c-4a93-a106-82c33bd84359",
+            "domain": "orcatech.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "orcatech.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.998Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://orcatech.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:07.000Z",
+            "updatedAt": "2026-06-08T07:04:07.000Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:06.998Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "c7bfff0c-4fc9-4c35-9847-64d744e09fbb",
+            "domain": "paloaltonetworks.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "paloaltonetworks.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:07.012Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://paloaltonetworks.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:07.013Z",
+            "updatedAt": "2026-06-08T07:04:07.013Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:07.012Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "92ad3038-3454-432b-a574-c7a843b048e9",
+            "domain": "sama.gov.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "sama.gov.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:07.024Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://sama.gov.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:07.025Z",
+            "updatedAt": "2026-06-08T07:04:07.025Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:07.024Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": true,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "d21a623a-89a1-4cc5-9b9c-3ef9185f5c30",
+            "domain": "saudiaramco.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "saudiaramco.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:07.034Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://saudiaramco.com/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:07.035Z",
+            "updatedAt": "2026-06-08T07:04:07.035Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:07.034Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "8b777410-506c-4167-bcbf-6fd11ad3a135",
+            "domain": "stc.com.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "stc.com.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:07.044Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": "https://stc.com.sa/",
+                "claim": "Domain verification returned HTTP 200.",
+                "source": "Domain Validation"
+              }
+            ],
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "createdAt": "2026-06-08T07:04:07.045Z",
+            "updatedAt": "2026-06-08T07:04:07.045Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:07.044Z",
+            "researchSource": false,
+            "confidenceScore": 66,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "c3b94248-2cae-4eaa-b3b3-60a709743412",
+            "domain": "cyberoam.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "cyberoam.com copied as a cross-market citation reference from another Cybersecurity market. Validate for Qatar before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:09.461Z"
+              },
+              {
+                "url": null,
+                "claim": "cyberoam.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.964Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.378Z",
+            "updatedAt": "2026-06-08T07:04:09.462Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:09.461Z",
+            "researchSource": false,
+            "confidenceScore": 51,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "5384a8f1-9323-4f4b-b675-424fdb284a8e",
+            "domain": "checkpoint.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "checkpoint.com copied as a cross-market citation reference from another Cybersecurity market. Validate for Qatar before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:09.451Z"
+              },
+              {
+                "url": null,
+                "claim": "checkpoint.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.943Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.367Z",
+            "updatedAt": "2026-06-08T07:04:09.452Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:09.451Z",
+            "researchSource": false,
+            "confidenceScore": 51,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "d32ad31b-da52-4159-b709-46692e78f1e5",
+            "domain": "mcit.gov.sa",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "mcit.gov.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for Qatar before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:09.471Z"
+              },
+              {
+                "url": null,
+                "claim": "mcit.gov.sa copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.978Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.392Z",
+            "updatedAt": "2026-06-08T07:04:09.472Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:09.471Z",
+            "researchSource": false,
+            "confidenceScore": 51,
+            "governmentSource": true,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          },
+          {
+            "id": "2b6efbbe-48ea-4e65-b0d5-a6c9360fa54a",
+            "domain": "orcatech.com",
+            "evidence": [
+              {
+                "url": null,
+                "claim": "orcatech.com copied as a cross-market citation reference from another Cybersecurity market. Validate for Qatar before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:09.480Z"
+              },
+              {
+                "url": null,
+                "claim": "orcatech.com copied as a cross-market citation reference from another Cybersecurity market. Validate for UAE before outreach.",
+                "source": "Citation Market Intelligence",
+                "lastVerifiedAt": "2026-06-08T07:04:06.998Z"
+              },
+              {
+                "url": null,
+                "claim": "Domain appeared 1 time(s) in real provider responses.",
+                "source": "Citation discovery"
+              },
+              {
+                "url": null,
+                "claim": "Prompts: Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+                "source": "Citation discovery"
+              }
+            ],
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "createdAt": "2026-06-08T07:04:09.402Z",
+            "updatedAt": "2026-06-08T07:04:09.481Z",
+            "dataSource": "CITATION_MARKET_INTELLIGENCE",
+            "sourceType": "OTHER",
+            "growthScore": 54,
+            "authorityScore": 53,
+            "lastVerifiedAt": "2026-06-08T07:04:09.480Z",
+            "researchSource": false,
+            "confidenceScore": 51,
+            "governmentSource": false,
+            "citationFrequency": 5,
+            "industryRelevance": 55,
+            "publicationSource": false
+          }
+        ],
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Regional index calculated from 6 market(s) and 134 market data row(s).",
+            "source": "Regional Intelligence",
+            "lastVerifiedAt": "2026-06-08T07:04:14.331Z"
+          }
+        ],
+        "confidenceScore": 85,
+        "capturedAt": "2026-06-08T07:04:14.343Z",
+        "dataSource": "REGIONAL_INTELLIGENCE",
+        "createdAt": "2026-06-08T07:04:14.343Z"
+      },
+      "global": {
+        "id": "680d1529-673f-4c83-8f6e-fdfa38f56b39",
+        "indexName": "Insight AI Global GEO Index",
+        "score": 44.71,
+        "marketCount": 7,
+        "industryCount": 5,
+        "countryCount": 5,
+        "sampleSize": 131,
+        "rankings": {
+          "brands": [
+            {
+              "name": "Cloudflare SRO 1780897908191",
+              "rank": 1,
+              "score": 82,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Cloudflare SRO 1780897908191",
+              "rank": 2,
+              "score": 82,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Cloudflare SRO 1780897908191",
+              "rank": 3,
+              "score": 82,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "CrowdStrike",
+              "rank": 4,
+              "score": 81,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "CrowdStrike",
+              "rank": 5,
+              "score": 81,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "CrowdStrike",
+              "rank": 6,
+              "score": 81,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Palo Alto Networks",
+              "rank": 7,
+              "score": 70,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Palo Alto Networks",
+              "rank": 8,
+              "score": 70,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Palo Alto Networks",
+              "rank": 9,
+              "score": 70,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "OrcaTech Product 20260602183015",
+              "rank": 10,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Competitor UI 20260602183515",
+              "rank": 11,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Competitor UI 20260602183641",
+              "rank": 12,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Manager Brand 20260602183015",
+              "rank": 13,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "OrcaTech UI 20260602183641",
+              "rank": 14,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Competitor B",
+              "rank": 15,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Competitor UI 20260602183641",
+              "rank": 16,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Manager Brand 20260602183015",
+              "rank": 17,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "OrcaTech",
+              "rank": 18,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "OrcaTech Product 20260602183015",
+              "rank": 19,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "OrcaTech UI 20260602183641",
+              "rank": 20,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Runtime Brand 1780438046715",
+              "rank": 21,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Brightskies",
+              "rank": 22,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Check Point",
+              "rank": 23,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Competitor A",
+              "rank": 24,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Runtime Competitor 1780438046715",
+              "rank": 25,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Manager Brand 20260602183015",
+              "rank": 26,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "OrcaTech",
+              "rank": 27,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "OrcaTech Product 20260602183015",
+              "rank": 28,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Security Matterz",
+              "rank": 29,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Cyberoam",
+              "rank": 30,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Competitor UI 20260602183515",
+              "rank": 31,
+              "score": 0,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "name": "Cyberoam",
+              "rank": 32,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Check Point",
+              "rank": 33,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Competitor A",
+              "rank": 34,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "OrcaTech UI 20260602183641",
+              "rank": 35,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Runtime Brand 1780438046715",
+              "rank": 36,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Runtime Competitor 1780438046715",
+              "rank": 37,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Brightskies",
+              "rank": 38,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Security Matterz",
+              "rank": 39,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Competitor B",
+              "rank": 40,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Competitor UI 20260602183515",
+              "rank": 41,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "Competitor B",
+              "rank": 42,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Competitor UI 20260602183641",
+              "rank": 43,
+              "score": 0,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "name": "OrcaTech",
+              "rank": 44,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Brightskies",
+              "rank": 45,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Check Point",
+              "rank": 46,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Security Matterz",
+              "rank": 47,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Cyberoam",
+              "rank": 48,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Competitor A",
+              "rank": 49,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "name": "Runtime Brand 1780438046715",
+              "rank": 50,
+              "score": 0,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            }
+          ],
+          "markets": [
+            {
+              "score": 58,
+              "market": "Cybersecurity Qatar",
+              "region": "GCC",
+              "country": "Qatar",
+              "industry": "Cybersecurity"
+            },
+            {
+              "score": 57,
+              "market": "Cybersecurity UAE",
+              "region": "GCC",
+              "country": "UAE",
+              "industry": "Cybersecurity"
+            },
+            {
+              "score": 54,
+              "market": "Cybersecurity Saudi Arabia",
+              "region": "GCC",
+              "country": "Saudi Arabia",
+              "industry": "Cybersecurity"
+            },
+            {
+              "score": 36,
+              "market": "SEO Egypt",
+              "region": "MENA",
+              "country": "Egypt",
+              "industry": "SEO"
+            },
+            {
+              "score": 36,
+              "market": "SaaS GCC",
+              "region": "GCC",
+              "country": "GCC",
+              "industry": "SaaS"
+            },
+            {
+              "score": 36,
+              "market": "FinTech Saudi Arabia",
+              "region": "GCC",
+              "country": "Saudi Arabia",
+              "industry": "FinTech"
+            },
+            {
+              "score": 36,
+              "market": "Legal Services GCC",
+              "region": "GCC",
+              "country": "GCC",
+              "industry": "Legal Services"
+            }
+          ],
+          "prompts": [
+            {
+              "rank": 1,
+              "score": 92,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+              "queryText": "Best Cybersecurity companies in Qatar"
+            },
+            {
+              "rank": 2,
+              "score": 92,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Best Cybersecurity companies in UAE"
+            },
+            {
+              "rank": 3,
+              "score": 92,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best Cybersecurity companies in Saudi Arabia"
+            },
+            {
+              "rank": 4,
+              "score": 88,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE"
+            },
+            {
+              "rank": 5,
+              "score": 88,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+              "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Qatar"
+            },
+            {
+              "rank": 6,
+              "score": 88,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia"
+            },
+            {
+              "rank": 7,
+              "score": 86,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+              "queryText": "Top Cybersecurity providers for enterprises in Qatar"
+            },
+            {
+              "rank": 8,
+              "score": 86,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Top Cybersecurity providers for enterprises in UAE"
+            },
+            {
+              "rank": 9,
+              "score": 86,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Top Cybersecurity providers for enterprises in Saudi Arabia"
+            },
+            {
+              "rank": 10,
+              "score": 85,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+              "queryText": "Best SOC provider for regulated banks in Qatar."
+            },
+            {
+              "rank": 11,
+              "score": 85,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+            },
+            {
+              "rank": 12,
+              "score": 85,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+              "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+            },
+            {
+              "rank": 13,
+              "score": 85,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best SOC provider for regulated banks in Saudi Arabia."
+            },
+            {
+              "rank": 14,
+              "score": 85,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Best SOC provider for regulated banks in UAE."
+            },
+            {
+              "rank": 15,
+              "score": 85,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+            },
+            {
+              "rank": 16,
+              "score": 84,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Compare Cybersecurity vendors in UAE"
+            },
+            {
+              "rank": 17,
+              "score": 84,
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+              "queryText": "Compare Cybersecurity vendors in Qatar"
+            },
+            {
+              "rank": 18,
+              "score": 84,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Compare Cybersecurity vendors in Saudi Arabia"
+            },
+            {
+              "rank": 19,
+              "score": 82,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for a CEO"
+            },
+            {
+              "rank": 20,
+              "score": 82,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Best cybersecurity company in UAE for a CEO"
+            },
+            {
+              "rank": 21,
+              "score": 82,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Cybersecurity provider with local support in Saudi Arabia"
+            },
+            {
+              "rank": 22,
+              "score": 82,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Cybersecurity provider with local support in UAE"
+            },
+            {
+              "rank": 23,
+              "score": 80,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Best cybersecurity company in UAE for regulated banks"
+            },
+            {
+              "rank": 24,
+              "score": 80,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Best cybersecurity company in UAE for AI security and regulated banks."
+            },
+            {
+              "rank": 25,
+              "score": 80,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "Best cybersecurity company in UAE for a CTO"
+            },
+            {
+              "rank": 26,
+              "score": 80,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks."
+            },
+            {
+              "rank": 27,
+              "score": 80,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for regulated banks"
+            },
+            {
+              "rank": 28,
+              "score": 80,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for a CTO"
+            },
+            {
+              "rank": 29,
+              "score": 80,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in Saudi Arabia?"
+            },
+            {
+              "rank": 30,
+              "score": 80,
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+              "queryText": "What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?"
+            },
+            {
+              "rank": 31,
+              "score": 78,
+              "marketId": "2a8dbdb6-6719-463e-b964-f481994699db",
+              "queryText": "Best SaaS companies in GCC"
+            },
+            {
+              "rank": 32,
+              "score": 78,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for a CISO"
+            },
+            {
+              "rank": 33,
+              "score": 78,
+              "marketId": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+              "queryText": "Best SEO companies in Egypt"
+            },
+            {
+              "rank": 34,
+              "score": 78,
+              "marketId": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+              "queryText": "Best FinTech companies in Saudi Arabia"
+            },
+            {
+              "rank": 35,
+              "score": 78,
+              "marketId": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+              "queryText": "Best Legal Services companies in GCC"
+            },
+            {
+              "rank": 36,
+              "score": 76,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for a SOC Manager"
+            },
+            {
+              "rank": 37,
+              "score": 75,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "How does OrcaTech's GEO Optimization service compare to Palo Alto Networks' in terms of AI visibility audits?"
+            },
+            {
+              "rank": 38,
+              "score": 75,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Top cloud security firms for Saudi enterprises."
+            },
+            {
+              "rank": 39,
+              "score": 74,
+              "marketId": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+              "queryText": "Top Legal Services providers for enterprises in GCC"
+            },
+            {
+              "rank": 40,
+              "score": 74,
+              "marketId": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+              "queryText": "Top FinTech providers for enterprises in Saudi Arabia"
+            },
+            {
+              "rank": 41,
+              "score": 74,
+              "marketId": "2a8dbdb6-6719-463e-b964-f481994699db",
+              "queryText": "Top SaaS providers for enterprises in GCC"
+            },
+            {
+              "rank": 42,
+              "score": 74,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for a Compliance Buyer"
+            },
+            {
+              "rank": 43,
+              "score": 74,
+              "marketId": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+              "queryText": "Top SEO providers for enterprises in Egypt"
+            },
+            {
+              "rank": 44,
+              "score": 74,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "How to choose a Cybersecurity provider in Saudi Arabia"
+            },
+            {
+              "rank": 45,
+              "score": 72,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Best cybersecurity company in Saudi Arabia for a Enterprise Buyer"
+            },
+            {
+              "rank": 46,
+              "score": 72,
+              "marketId": "2a8dbdb6-6719-463e-b964-f481994699db",
+              "queryText": "Compare SaaS vendors in GCC"
+            },
+            {
+              "rank": 47,
+              "score": 72,
+              "marketId": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+              "queryText": "Compare FinTech vendors in Saudi Arabia"
+            },
+            {
+              "rank": 48,
+              "score": 72,
+              "marketId": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+              "queryText": "Compare SEO vendors in Egypt"
+            },
+            {
+              "rank": 49,
+              "score": 72,
+              "marketId": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+              "queryText": "Compare Legal Services vendors in GCC"
+            },
+            {
+              "rank": 50,
+              "score": 70,
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+              "queryText": "Compare OrcaTech's cybersecurity services with Cyberoam's in Saudi Arabia, including their AI security offerings."
+            }
+          ],
+          "citations": [
+            {
+              "rank": 1,
+              "score": 53,
+              "domain": "orcatech.com",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 2,
+              "score": 53,
+              "domain": "paloaltonetworks.com",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 3,
+              "score": 53,
+              "domain": "checkpoint.com",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 4,
+              "score": 53,
+              "domain": "cyberoam.com",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 5,
+              "score": 53,
+              "domain": "mcit.gov.sa",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 6,
+              "score": 53,
+              "domain": "stc.com.sa",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 7,
+              "score": 53,
+              "domain": "saudiaramco.com",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 8,
+              "score": 53,
+              "domain": "sama.gov.sa",
+              "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+            },
+            {
+              "rank": 9,
+              "score": 53,
+              "domain": "checkpoint.com",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 10,
+              "score": 53,
+              "domain": "cyberoam.com",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 11,
+              "score": 53,
+              "domain": "mcit.gov.sa",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 12,
+              "score": 53,
+              "domain": "orcatech.com",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 13,
+              "score": 53,
+              "domain": "paloaltonetworks.com",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 14,
+              "score": 53,
+              "domain": "sama.gov.sa",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 15,
+              "score": 53,
+              "domain": "saudiaramco.com",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 16,
+              "score": 53,
+              "domain": "stc.com.sa",
+              "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+            },
+            {
+              "rank": 17,
+              "score": 53,
+              "domain": "cyberoam.com",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 18,
+              "score": 53,
+              "domain": "checkpoint.com",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 19,
+              "score": 53,
+              "domain": "mcit.gov.sa",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 20,
+              "score": 53,
+              "domain": "orcatech.com",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 21,
+              "score": 53,
+              "domain": "paloaltonetworks.com",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 22,
+              "score": 53,
+              "domain": "sama.gov.sa",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 23,
+              "score": 53,
+              "domain": "saudiaramco.com",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            },
+            {
+              "rank": 24,
+              "score": 53,
+              "domain": "stc.com.sa",
+              "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+            }
+          ]
+        },
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Global GEO Index calculated from 7 market(s), 5 industry/industries, and 5 country/countries.",
+            "source": "Global GEO Index",
+            "lastVerifiedAt": "2026-06-08T07:04:14.407Z"
+          }
+        ],
+        "confidenceScore": 85,
+        "capturedAt": "2026-06-08T07:04:14.410Z",
+        "dataSource": "GLOBAL_GEO_INDEX",
+        "createdAt": "2026-06-08T07:04:14.410Z"
+      }
+    },
+    "confidenceScore": 70,
+    "evidence": [
+      {
+        "claim": "Agency intelligence network compared clients against regional and global market data.",
+        "source": "Agency Intelligence Network",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:14.428Z"
+      }
+    ],
+    "dataSource": "AGENCY_INTELLIGENCE_NETWORK",
+    "lastVerifiedAt": "2026-06-08T07:04:14.428Z"
+  }
+}

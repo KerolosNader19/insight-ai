@@ -1,0 +1,469 @@
+{
+  "status": 201,
+  "ok": true,
+  "url": "/geo-copilot/forecast",
+  "method": "POST",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "PREDICTIVE_GEO_ENGINE",
+    "data": {
+      "forecasts": [
+        {
+          "id": "2f6deea1-96a0-46e0-b732-22b44bd99b50",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 30,
+          "metricKey": "threatScore.rollup",
+          "currentValue": 13,
+          "predictedValue": 13,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.739Z"
+        },
+        {
+          "id": "54aac21e-a508-4866-b4cd-51e5ddf2df53",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 60,
+          "metricKey": "threatScore.rollup",
+          "currentValue": 13,
+          "predictedValue": 13,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.753Z"
+        },
+        {
+          "id": "fdb5d81d-e141-4199-8364-6810e4103d37",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 90,
+          "metricKey": "threatScore.rollup",
+          "currentValue": 13,
+          "predictedValue": 13,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.766Z"
+        },
+        {
+          "id": "2c17c4c8-c822-4e41-a3ef-4fc75f91e903",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 30,
+          "metricKey": "competitorGeoScore.rollup",
+          "currentValue": 18,
+          "predictedValue": 18,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "competitorGeoScore.rollup current value 18; velocity per day 0.00 from 6 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.780Z"
+        },
+        {
+          "id": "99baa900-c6fe-4a65-8c5f-5bc0ae023291",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 60,
+          "metricKey": "competitorGeoScore.rollup",
+          "currentValue": 18,
+          "predictedValue": 18,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "competitorGeoScore.rollup current value 18; velocity per day 0.00 from 6 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.796Z"
+        },
+        {
+          "id": "b2b2fbcc-b61c-49ff-8210-3e9a07991d3d",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 90,
+          "metricKey": "competitorGeoScore.rollup",
+          "currentValue": 18,
+          "predictedValue": 18,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "competitorGeoScore.rollup current value 18; velocity per day 0.00 from 6 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.809Z"
+        },
+        {
+          "id": "163cf3a6-8cc2-4c41-8946-e46ec1ca0856",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 30,
+          "metricKey": "opportunityScore.rollup",
+          "currentValue": 54,
+          "predictedValue": 24,
+          "delta": -30,
+          "direction": "DOWN",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "opportunityScore.rollup current value 54; velocity per day -26.00 from 22 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.819Z"
+        },
+        {
+          "id": "002725e1-ad34-4f08-859c-1d28dba9efdc",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 60,
+          "metricKey": "opportunityScore.rollup",
+          "currentValue": 54,
+          "predictedValue": 24,
+          "delta": -30,
+          "direction": "DOWN",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "opportunityScore.rollup current value 54; velocity per day -26.00 from 22 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.831Z"
+        },
+        {
+          "id": "b9788683-c441-4260-be7c-2cae7c7d8a07",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 90,
+          "metricKey": "opportunityScore.rollup",
+          "currentValue": 54,
+          "predictedValue": 24,
+          "delta": -30,
+          "direction": "DOWN",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "opportunityScore.rollup current value 54; velocity per day -26.00 from 22 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.845Z"
+        },
+        {
+          "id": "bdcf8e54-6fce-4e88-9e12-e84a6a988fdd",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 30,
+          "metricKey": "promptOpportunity.rollup",
+          "currentValue": 72,
+          "predictedValue": 100,
+          "delta": 28,
+          "direction": "UP",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "promptOpportunity.rollup current value 72; velocity per day 1.00 from 4 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 87.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.859Z"
+        },
+        {
+          "id": "db86e272-648a-4381-85e4-76619cf917bc",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 60,
+          "metricKey": "promptOpportunity.rollup",
+          "currentValue": 72,
+          "predictedValue": 100,
+          "delta": 28,
+          "direction": "UP",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "promptOpportunity.rollup current value 72; velocity per day 1.00 from 4 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 87.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.871Z"
+        },
+        {
+          "id": "8b8549de-8b6c-4fce-8037-d0876f11388a",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 90,
+          "metricKey": "promptOpportunity.rollup",
+          "currentValue": 72,
+          "predictedValue": 100,
+          "delta": 28,
+          "direction": "UP",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "promptOpportunity.rollup current value 72; velocity per day 1.00 from 4 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 87.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.888Z"
+        },
+        {
+          "id": "a69ce592-7e5c-44e8-b3ca-80ad087d3152",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 30,
+          "metricKey": "citationAuthority.rollup",
+          "currentValue": 43,
+          "predictedValue": 43,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "citationAuthority.rollup current value 43; velocity per day 0.00 from 16 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.899Z"
+        },
+        {
+          "id": "f246df9d-0d87-47ff-ba5b-c122200b283b",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 60,
+          "metricKey": "citationAuthority.rollup",
+          "currentValue": 43,
+          "predictedValue": 43,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "citationAuthority.rollup current value 43; velocity per day 0.00 from 16 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.909Z"
+        },
+        {
+          "id": "91d699c7-94c5-488e-8719-5b36537e3aea",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "horizonDays": 90,
+          "metricKey": "citationAuthority.rollup",
+          "currentValue": 43,
+          "predictedValue": 43,
+          "delta": 0,
+          "direction": "STABLE",
+          "assumptions": [
+            "Forecast uses stored intelligence memory velocity only.",
+            "No fake market growth or revenue assumptions are added.",
+            "Multiple historical samples available."
+          ],
+          "evidence": [
+            {
+              "url": "https://orcatech.online",
+              "claim": "citationAuthority.rollup current value 43; velocity per day 0.00 from 16 historical sample(s).",
+              "source": "Predictive GEO Engine"
+            }
+          ],
+          "confidenceScore": 90.7,
+          "dataSource": "PREDICTIVE_GEO_ENGINE",
+          "createdAt": "2026-06-08T04:45:00.928Z"
+        }
+      ]
+    },
+    "evidence": [
+      {
+        "url": "https://orcatech.online",
+        "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "threatScore.rollup current value 13; velocity per day 0.00 from 6 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "competitorGeoScore.rollup current value 18; velocity per day 0.00 from 6 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "competitorGeoScore.rollup current value 18; velocity per day 0.00 from 6 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "competitorGeoScore.rollup current value 18; velocity per day 0.00 from 6 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "opportunityScore.rollup current value 54; velocity per day -26.00 from 22 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "opportunityScore.rollup current value 54; velocity per day -26.00 from 22 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "opportunityScore.rollup current value 54; velocity per day -26.00 from 22 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "promptOpportunity.rollup current value 72; velocity per day 1.00 from 4 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "promptOpportunity.rollup current value 72; velocity per day 1.00 from 4 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "promptOpportunity.rollup current value 72; velocity per day 1.00 from 4 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "citationAuthority.rollup current value 43; velocity per day 0.00 from 16 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "citationAuthority.rollup current value 43; velocity per day 0.00 from 16 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "citationAuthority.rollup current value 43; velocity per day 0.00 from 16 historical sample(s).",
+        "source": "Predictive GEO Engine"
+      }
+    ],
+    "confidenceScore": 90.1,
+    "dataSource": "PREDICTIVE_GEO_ENGINE",
+    "lastVerifiedAt": "2026-06-08T04:45:00.942Z"
+  }
+}

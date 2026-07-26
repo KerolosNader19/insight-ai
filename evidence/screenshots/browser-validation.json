@@ -1,0 +1,138 @@
+{
+  "captures": [
+    {
+      "name": "overview-desktop-en",
+      "url": "/dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Overview",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/overview-desktop-en.png"
+    },
+    {
+      "name": "analytics-desktop-en",
+      "url": "/dashboard/analytics",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/analytics-desktop-en.png"
+    },
+    {
+      "name": "prompts-desktop-en",
+      "url": "/dashboard/prompts",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/prompts-desktop-en.png"
+    },
+    {
+      "name": "competitors-desktop-en",
+      "url": "/dashboard/competitors",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/competitors-desktop-en.png"
+    },
+    {
+      "name": "recommendations-desktop-en",
+      "url": "/dashboard/recommendations",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/recommendations-desktop-en.png"
+    },
+    {
+      "name": "reports-desktop-en",
+      "url": "/dashboard/reports",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/reports-desktop-en.png"
+    },
+    {
+      "name": "settings-desktop-en",
+      "url": "/dashboard/settings",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/settings-desktop-en.png"
+    },
+    {
+      "name": "overview-tablet-en",
+      "url": "/dashboard",
+      "viewport": {
+        "width": 834,
+        "height": 1112
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/overview-tablet-en.png"
+    },
+    {
+      "name": "overview-mobile-en",
+      "url": "/dashboard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "locale": "en",
+      "title": "Welcome back",
+      "dir": "ltr",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/overview-mobile-en.png"
+    },
+    {
+      "name": "overview-desktop-ar-rtl",
+      "url": "/dashboard",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "locale": "ar",
+      "title": "مرحباً بك مجدداً",
+      "dir": "rtl",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/overview-desktop-ar-rtl.png"
+    },
+    {
+      "name": "overview-mobile-ar-rtl",
+      "url": "/dashboard",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "locale": "ar",
+      "title": "مرحباً بك مجدداً",
+      "dir": "rtl",
+      "file": "/home/omar/Pictures/insight-ai/evidence/screenshots/overview-mobile-ar-rtl.png"
+    }
+  ],
+  "consoleMessages": [],
+  "failedRequests": []
+}

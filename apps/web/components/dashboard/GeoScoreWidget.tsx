@@ -1,6 +1,7 @@
 "use client";
 
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
+import { useTranslation } from "@/hooks/useTranslation";
 
 interface GeoScoreProps {
   score: number;
@@ -8,6 +9,7 @@ interface GeoScoreProps {
 }
 
 export function GeoScoreWidget({ score, label }: GeoScoreProps) {
+  const { t } = useTranslation();
   const data = [
     { value: score },
     { value: 100 - score },
@@ -40,16 +42,16 @@ export function GeoScoreWidget({ score, label }: GeoScoreProps) {
         
         <div className="absolute inset-0 flex flex-col items-center justify-center pt-8">
           <span className="text-4xl font-bold">{score}</span>
-          <span className="text-xs text-foreground/40 uppercase tracking-widest">Score</span>
+          <span className="text-xs text-foreground/40 uppercase tracking-widest">{t.charts.score}</span>
         </div>
       </div>
 
       <div className="mt-4 flex items-center justify-between text-xs">
         <div className="flex items-center gap-1.5">
           <div className="w-2 h-2 rounded-full bg-brand-accent" />
-          <span>Visibility</span>
+          <span>{t.charts.visibility}</span>
         </div>
-        <span className="text-brand-accent font-medium">+12% vs last month</span>
+        <span className="text-brand-accent font-medium">{t.charts.storedData}</span>
       </div>
     </div>
   );

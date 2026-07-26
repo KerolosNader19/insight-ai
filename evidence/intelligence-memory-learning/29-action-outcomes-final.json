@@ -1,0 +1,61 @@
+[
+  {
+    "id": "17da1ae6-d6c4-4c1e-80e4-40bfb13e6a6c",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "actionId": null,
+    "actionType": "GEO_OPTIMIZATION",
+    "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+    "status": "COMPLETED",
+    "expectedMetric": "opportunityScore",
+    "expectedImpact": 5,
+    "baselineValue": 35,
+    "actualValue": 35,
+    "actualImpact": 0,
+    "effectivenessScore": 0,
+    "evidence": [
+      {
+        "url": null,
+        "claim": "Baseline opportunityScore was 35 when tracking started.",
+        "source": "Action Outcome Tracking"
+      },
+      {
+        "url": null,
+        "claim": "Actual opportunityScore is 35; actual impact 0.",
+        "source": "Recommendation Effectiveness Engine"
+      }
+    ],
+    "confidenceScore": 44,
+    "dataSource": "ACTION_OUTCOME_TRACKING",
+    "startedAt": "2026-06-08T03:22:22.029Z",
+    "completedAt": "2026-06-08T03:22:22.067Z",
+    "createdAt": "2026-06-08T03:22:22.030Z",
+    "updatedAt": "2026-06-08T03:22:22.068Z"
+  },
+  {
+    "id": "e9ca5c1d-d52d-4e88-86a5-13c86abf3898",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "actionId": null,
+    "actionType": "GEO_INSIGHT",
+    "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+    "status": "PENDING",
+    "expectedMetric": "GEO_SCORE",
+    "expectedImpact": 5,
+    "baselineValue": null,
+    "actualValue": null,
+    "actualImpact": null,
+    "effectivenessScore": null,
+    "evidence": [
+      {
+        "url": null,
+        "claim": "Baseline GEO_SCORE was unavailable when tracking started.",
+        "source": "Action Outcome Tracking"
+      }
+    ],
+    "confidenceScore": 33,
+    "dataSource": "ACTION_OUTCOME_TRACKING",
+    "startedAt": "2026-06-08T03:21:25.520Z",
+    "completedAt": null,
+    "createdAt": "2026-06-08T03:21:25.521Z",
+    "updatedAt": "2026-06-08T03:21:25.521Z"
+  }
+]

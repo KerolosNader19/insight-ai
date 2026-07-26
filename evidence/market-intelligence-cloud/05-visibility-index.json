@@ -1,0 +1,531 @@
+{
+  "label": "05-visibility-index",
+  "method": "GET",
+  "url": "/visibility-index?marketId=8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "AI_VISIBILITY_INDEX",
+    "data": {
+      "market": {
+        "id": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+        "name": "Cybersecurity Saudi Arabia",
+        "slug": "cybersecurity-saudi-arabia-en-cybersecurity",
+        "industry": "Cybersecurity",
+        "region": "GCC",
+        "country": "Saudi Arabia",
+        "language": "en",
+        "vertical": "Cybersecurity",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Market sync collected 17 brand(s), 30 prompt(s), 8 citation domain(s), and 98 trend(s).",
+            "source": "Market Intelligence Cloud",
+            "lastVerifiedAt": "2026-06-08T06:43:17.837Z"
+          }
+        ],
+        "confidenceScore": 75,
+        "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+        "lastRefreshedAt": "2026-06-08T06:43:17.836Z",
+        "createdAt": "2026-06-08T06:43:15.350Z",
+        "updatedAt": "2026-06-08T06:43:17.838Z"
+      },
+      "rows": [
+        {
+          "id": "357e80f5-0d3d-4427-ae8e-d3678b3fc64a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "f2225826-564c-4973-81d8-294350947565",
+          "brandName": "Runtime Competitor 1780438046715",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 17,
+          "industryRank": 17,
+          "regionalRank": 17,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://runtime-competitor-1780438046715.example",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "capturedAt": "2026-06-08T06:43:17.015Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:17.015Z"
+        },
+        {
+          "id": "b8dfde50-ac89-405b-b42d-f502cae2b967",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "c9f1e094-1340-4c97-a58d-ed4563ecc64d",
+          "brandName": "Runtime Brand 1780438046715",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 16,
+          "industryRank": 16,
+          "regionalRank": 16,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://runtime-1780438046715.example",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+            }
+          ],
+          "confidenceScore": 46,
+          "capturedAt": "2026-06-08T06:43:16.999Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.999Z"
+        },
+        {
+          "id": "cb9319a7-41b8-459b-acdb-e04a0bec1510",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "df24029d-33af-445e-8fdc-f0a5b7f1d932",
+          "brandName": "OrcaTech UI 20260602183641",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 15,
+          "industryRank": 15,
+          "regionalRank": 15,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://orcatech.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+            }
+          ],
+          "confidenceScore": 46,
+          "capturedAt": "2026-06-08T06:43:16.988Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.988Z"
+        },
+        {
+          "id": "bd7f9ebe-0ca4-427c-8caa-f866a622d307",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "c08d0fc9-856a-414e-87f8-c83e4e9058b9",
+          "brandName": "OrcaTech Product 20260602183015",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 14,
+          "industryRank": 14,
+          "regionalRank": 14,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://orcatech.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+            }
+          ],
+          "confidenceScore": 46,
+          "capturedAt": "2026-06-08T06:43:16.974Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.974Z"
+        },
+        {
+          "id": "163624c7-e50e-49c2-b896-64251adbeced",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "30b3d162-8e51-4d5c-b299-d4a7a05ae6fb",
+          "brandName": "OrcaTech",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 13,
+          "industryRank": 13,
+          "regionalRank": 13,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://orcatech.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.740Z"
+            }
+          ],
+          "confidenceScore": 46,
+          "capturedAt": "2026-06-08T06:43:16.963Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.963Z"
+        },
+        {
+          "id": "5dcc33ff-543f-49f8-b0b2-ea89bcbdea46",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "56fdbe3c-7f26-4791-827b-f45e6614d3ee",
+          "brandName": "Manager Brand 20260602183015",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 12,
+          "industryRank": 12,
+          "regionalRank": 12,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://manager-brand.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+            }
+          ],
+          "confidenceScore": 46,
+          "capturedAt": "2026-06-08T06:43:16.952Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.952Z"
+        },
+        {
+          "id": "bf46f654-f3b0-45d9-9062-33c1a5565c02",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "e8adccb7-08cd-4d92-adbe-c16bd3f65080",
+          "brandName": "Competitor UI 20260602183641",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 11,
+          "industryRank": 11,
+          "regionalRank": 11,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://competitor-ui-20260602183641.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "capturedAt": "2026-06-08T06:43:16.943Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.943Z"
+        },
+        {
+          "id": "e97f5284-163f-4501-ab21-b305232b92f9",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "d86aea72-6357-4d72-8e80-beac07f8217d",
+          "brandName": "Competitor UI 20260602183515",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 10,
+          "industryRank": 10,
+          "regionalRank": 10,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://competitor-ui-20260602183515.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "capturedAt": "2026-06-08T06:43:16.927Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.927Z"
+        },
+        {
+          "id": "9e6bfeb8-6954-468e-bc56-2f447a81f184",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "aca2a9e1-6cdc-4995-87cf-66adfb159d03",
+          "brandName": "Competitor B",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 9,
+          "industryRank": 9,
+          "regionalRank": 9,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://competitor-b.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.720Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "capturedAt": "2026-06-08T06:43:16.916Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.916Z"
+        },
+        {
+          "id": "d0d118db-7ac5-4343-8771-416b894e3acd",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "a149082e-ca3a-453f-8657-b1cda333cf62",
+          "brandName": "Competitor A",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 8,
+          "industryRank": 8,
+          "regionalRank": 8,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://competitor-a.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+            }
+          ],
+          "confidenceScore": 45,
+          "capturedAt": "2026-06-08T06:43:16.905Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.905Z"
+        },
+        {
+          "id": "3a555b9f-3895-497e-b049-ce41cd06ed7a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "5e0e5cd2-fecf-4fac-a6b5-bdcfe8bcc383",
+          "brandName": "Cyberoam",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 7,
+          "industryRank": 7,
+          "regionalRank": 7,
+          "trendDirection": "UP",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 88,
+          "capturedAt": "2026-06-08T06:43:16.894Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.894Z"
+        },
+        {
+          "id": "660ce8ee-ccc9-4807-b9ce-e2226840861a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "0e46200c-4bd5-4128-a0c5-7b39e7d96573",
+          "brandName": "Security Matterz",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 6,
+          "industryRank": 6,
+          "regionalRank": 6,
+          "trendDirection": "UP",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 93,
+          "capturedAt": "2026-06-08T06:43:16.882Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.882Z"
+        },
+        {
+          "id": "28dd6d49-20ab-4be8-afe6-e73e026fc5fd",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "bd60bd86-dd75-4f05-84a6-52ae13ada95f",
+          "brandName": "Check Point",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 5,
+          "industryRank": 5,
+          "regionalRank": 5,
+          "trendDirection": "UP",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "capturedAt": "2026-06-08T06:43:16.871Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.871Z"
+        },
+        {
+          "id": "cefb4918-08c1-45be-8ce0-94f684fb098a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "ad64f4dd-ee44-49d2-9115-681921a3c321",
+          "brandName": "Brightskies",
+          "geoScore": 0,
+          "visibilityScore": 0,
+          "citationScore": 0,
+          "marketRank": 4,
+          "industryRank": 4,
+          "regionalRank": 4,
+          "trendDirection": "UP",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ],
+          "confidenceScore": 98,
+          "capturedAt": "2026-06-08T06:43:16.860Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.860Z"
+        },
+        {
+          "id": "5e3ceb21-2b57-42aa-b4f6-32466dd98208",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "fef243bd-4bc6-4f61-856e-39b66a7a9941",
+          "brandName": "Cloudflare SRO 1780897908191",
+          "geoScore": 82,
+          "visibilityScore": 78,
+          "citationScore": 0,
+          "marketRank": 3,
+          "industryRank": 3,
+          "regionalRank": 3,
+          "trendDirection": "STABLE",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+            }
+          ],
+          "confidenceScore": 52,
+          "capturedAt": "2026-06-08T06:43:16.847Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.847Z"
+        },
+        {
+          "id": "24d8382f-aca2-47b5-94ae-4dff3ecee87a",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "3d7f832e-11f1-4ac4-ae49-9f1595278599",
+          "brandName": "Palo Alto Networks",
+          "geoScore": 70,
+          "visibilityScore": 70,
+          "citationScore": 100,
+          "marketRank": 2,
+          "industryRank": 2,
+          "regionalRank": 2,
+          "trendDirection": "UP",
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "capturedAt": "2026-06-08T06:43:16.838Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.838Z"
+        },
+        {
+          "id": "f276f461-2cd0-4802-9836-0b6e52ee4c02",
+          "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+          "marketBrandId": "976cd071-11e0-4834-8a58-770d5ee39abe",
+          "brandName": "CrowdStrike",
+          "geoScore": 81,
+          "visibilityScore": 81,
+          "citationScore": 100,
+          "marketRank": 1,
+          "industryRank": 1,
+          "regionalRank": 1,
+          "trendDirection": "UP",
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "capturedAt": "2026-06-08T06:43:16.827Z",
+          "dataSource": "AI_VISIBILITY_INDEX",
+          "createdAt": "2026-06-08T06:43:16.827Z"
+        }
+      ]
+    },
+    "confidenceScore": 61,
+    "evidence": [
+      {
+        "claim": "Visibility index returned 17 market ranking row(s).",
+        "source": "AI Visibility Index",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T06:43:18.055Z"
+      }
+    ],
+    "dataSource": "AI_VISIBILITY_INDEX",
+    "lastVerifiedAt": "2026-06-08T06:43:18.055Z"
+  }
+}

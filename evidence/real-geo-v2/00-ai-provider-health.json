@@ -1,0 +1,38 @@
+{
+  "label": "00-ai-provider-health",
+  "url": "/health/ai-providers",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:16:08.596Z",
+  "completedAt": "2026-06-08T02:16:08.605Z",
+  "body": {
+    "status": "configured",
+    "nodeProcess": {
+      "groqApiKey": "[REDACTED]",
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": "[REDACTED]",
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "configService": {
+      "groqApiKey": "[REDACTED]",
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": "[REDACTED]",
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "aiProviderService": {
+      "groq": {
+        "hasApiKey": "[REDACTED]",
+        "model": "llama-3.1-8b-instant"
+      },
+      "gemini": {
+        "hasApiKey": "[REDACTED]",
+        "model": "gemini-flash-latest"
+      },
+      "availableProviders": [
+        "Groq",
+        "Gemini"
+      ]
+    }
+  }
+}

@@ -10,7 +10,15 @@ export class UsersService {
   }
 
   async findById(id: string) {
-    return this.prisma.user.findUnique({ where: { id } });
+    return this.prisma.user.findUnique({
+      where: { id },
+      include: {
+        memberships: {
+          include: { organization: true },
+          orderBy: { createdAt: 'asc' },
+        },
+      },
+    });
   }
 
   async create(data: { email: string; passwordHash: string; fullName?: string }) {

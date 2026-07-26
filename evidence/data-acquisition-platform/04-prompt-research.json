@@ -1,0 +1,290 @@
+{
+  "status": "COMPLETED",
+  "engine": "PROMPT_RESEARCH_ENGINE",
+  "data": {
+    "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+    "storedPrompts": 7,
+    "prompts": [
+      {
+        "id": "6acf3d8a-d318-4103-9070-5c7ab55ba0e3",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "TRACKED",
+        "score": 70,
+        "importance": 70,
+        "opportunity": 50,
+        "difficulty": 45,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Prompt is actively tracked for OrcaTech.",
+            "source": "Prompt Tracking"
+          }
+        ],
+        "sources": [],
+        "metadata": {},
+        "confidenceScore": 80,
+        "dataSource": "TRACKED_PROMPT",
+        "sourceHash": "681d4ac28f3db6f76ffb8a4589283d5a796b6d94d4f3cc45b367edf2d7b62822",
+        "firstSeenAt": "2026-06-08T03:51:36.352Z",
+        "lastSeenAt": "2026-06-08T03:51:36.350Z",
+        "createdAt": "2026-06-08T03:51:36.352Z",
+        "updatedAt": "2026-06-08T03:51:36.352Z"
+      },
+      {
+        "id": "94a0bfc4-1b5a-4436-987b-6f8894eb3b86",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Best cybersecurity company in Saudi Arabia",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "TRACKED",
+        "score": 70,
+        "importance": 70,
+        "opportunity": 50,
+        "difficulty": 45,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Prompt is actively tracked for OrcaTech.",
+            "source": "Prompt Tracking"
+          }
+        ],
+        "sources": [],
+        "metadata": {},
+        "confidenceScore": 80,
+        "dataSource": "TRACKED_PROMPT",
+        "sourceHash": "ab8ccb08d2bbe759757ff51e6019e679cb36c9c6d350e67dfffae54bddd0b8ca",
+        "firstSeenAt": "2026-06-08T03:51:36.387Z",
+        "lastSeenAt": "2026-06-08T03:51:36.385Z",
+        "createdAt": "2026-06-08T03:51:36.387Z",
+        "updatedAt": "2026-06-08T03:51:36.387Z"
+      },
+      {
+        "id": "7a418730-0c67-4135-8229-043f3922d16d",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Best SOC provider for regulated banks in Saudi Arabia",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "TRACKED",
+        "score": 70,
+        "importance": 70,
+        "opportunity": 50,
+        "difficulty": 45,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Prompt is actively tracked for OrcaTech.",
+            "source": "Prompt Tracking"
+          }
+        ],
+        "sources": [],
+        "metadata": {},
+        "confidenceScore": 80,
+        "dataSource": "TRACKED_PROMPT",
+        "sourceHash": "01eb6b61ec146e259d5b5915ba3d47e3e9e0baba75325adb07ab9d9aa1b6980d",
+        "firstSeenAt": "2026-06-08T03:51:36.418Z",
+        "lastSeenAt": "2026-06-08T03:51:36.417Z",
+        "createdAt": "2026-06-08T03:51:36.418Z",
+        "updatedAt": "2026-06-08T03:51:36.418Z"
+      },
+      {
+        "id": "ed54a99d-22d9-44d8-9111-bb0a18f7ca41",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Top cloud security firms for Saudi enterprises",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "TRACKED",
+        "score": 70,
+        "importance": 70,
+        "opportunity": 50,
+        "difficulty": 45,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Prompt is actively tracked for OrcaTech.",
+            "source": "Prompt Tracking"
+          }
+        ],
+        "sources": [],
+        "metadata": {},
+        "confidenceScore": 80,
+        "dataSource": "TRACKED_PROMPT",
+        "sourceHash": "27a75956903e2b7e1e02a5472b1cfbd283b3472f3b761efc70c737577c250dc7",
+        "firstSeenAt": "2026-06-08T03:51:36.439Z",
+        "lastSeenAt": "2026-06-08T03:51:36.438Z",
+        "createdAt": "2026-06-08T03:51:36.439Z",
+        "updatedAt": "2026-06-08T03:51:36.439Z"
+      },
+      {
+        "id": "63a074c6-d653-42a8-b38c-70765eacac1e",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Runtime GEO prompt 1780438046715",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "TRACKED",
+        "score": 70,
+        "importance": 70,
+        "opportunity": 50,
+        "difficulty": 45,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Prompt is actively tracked for OrcaTech.",
+            "source": "Prompt Tracking"
+          }
+        ],
+        "sources": [],
+        "metadata": {},
+        "confidenceScore": 80,
+        "dataSource": "TRACKED_PROMPT",
+        "sourceHash": "89183db59a9c3d74b99ab74743bc835d7f2e7d4e9953028ac6e6b7c8c24309f4",
+        "firstSeenAt": "2026-06-08T03:51:36.452Z",
+        "lastSeenAt": "2026-06-08T03:51:36.451Z",
+        "createdAt": "2026-06-08T03:51:36.452Z",
+        "updatedAt": "2026-06-08T03:51:36.452Z"
+      },
+      {
+        "id": "48719ba9-deb7-4315-a299-fa07854eff31",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "TRACKED",
+        "score": 70,
+        "importance": 70,
+        "opportunity": 50,
+        "difficulty": 45,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Prompt is actively tracked for OrcaTech.",
+            "source": "Prompt Tracking"
+          }
+        ],
+        "sources": [],
+        "metadata": {},
+        "confidenceScore": 80,
+        "dataSource": "TRACKED_PROMPT",
+        "sourceHash": "b7a06b5e869f07580a5954ed491475f8344704c7cb3c9c1b8fc002adb2e6f94a",
+        "firstSeenAt": "2026-06-08T03:51:36.473Z",
+        "lastSeenAt": "2026-06-08T03:51:36.471Z",
+        "createdAt": "2026-06-08T03:51:36.473Z",
+        "updatedAt": "2026-06-08T03:51:36.473Z"
+      },
+      {
+        "id": "5bb2882b-d6bd-4f25-a79e-d354ff3aabfd",
+        "runId": "a0cdafb5-a5a7-4854-9dcb-c7ef1a214ca4",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "type": "PROMPT",
+        "title": "Best cybersecurity company in Saudi Arabia for regulated banks",
+        "value": null,
+        "url": null,
+        "domain": null,
+        "category": "INFORMATIONAL",
+        "score": 80,
+        "importance": 90,
+        "opportunity": 80,
+        "difficulty": 70,
+        "revenuePotential": 60,
+        "evidence": [
+          {
+            "url": null,
+            "claim": "OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": null,
+            "claim": "OrcaTech provides SOC services for regulated banks in Saudi Arabia.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": null,
+            "claim": "Competitor A is a cybersecurity company in Saudi Arabia, but lacks SOC services for regulated banks.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": null,
+            "claim": "Competitor B is a cybersecurity company in Saudi Arabia, but has limited experience with SOC services for regulated banks.",
+            "source": "AI prompt discovery"
+          },
+          {
+            "url": "https://orcatech.online",
+            "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+            "source": "Brand Profile"
+          }
+        ],
+        "sources": {
+          "url": "https://orcatech.online",
+          "model": "llama-3.1-8b-instant",
+          "source": "AI_PROVIDER",
+          "provider": "Groq",
+          "generatedAt": "2026-06-08T02:16:14.177Z"
+        },
+        "metadata": {
+          "status": "PENDING",
+          "sourceCompetitorIds": [
+            "1d9cb911-1521-479f-8769-e17ed5240d24",
+            "cdbb92f6-5ba8-4df7-b314-3c39c4a6607e"
+          ]
+        },
+        "confidenceScore": 85,
+        "dataSource": "AI_PROVIDER + BRAND_PROFILE",
+        "sourceHash": "07e4a8a2707405318ea4604b3ed683b46dba1dda517c0b734752f1276e9f83ad",
+        "firstSeenAt": "2026-06-08T03:51:36.489Z",
+        "lastSeenAt": "2026-06-08T03:51:36.487Z",
+        "createdAt": "2026-06-08T03:51:36.489Z",
+        "updatedAt": "2026-06-08T03:51:36.489Z"
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "PROMPT_RESEARCH_ENGINE returned 7 evidence-backed row(s).",
+      "source": "PROMPT_RESEARCH_ENGINE",
+      "url": "https://orcatech.online"
+    }
+  ],
+  "confidenceScore": 80.7,
+  "dataSource": "PROMPT_RESEARCH_ENGINE",
+  "lastVerifiedAt": "2026-06-08T03:51:36.522Z"
+}

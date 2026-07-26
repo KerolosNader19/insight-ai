@@ -1,0 +1,33 @@
+{
+  "label": "02-markets-list",
+  "method": "GET",
+  "url": "/markets?industry=Cybersecurity&country=Saudi%20Arabia",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": [
+    {
+      "id": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+      "name": "Cybersecurity Saudi Arabia",
+      "slug": "cybersecurity-saudi-arabia-en-cybersecurity",
+      "industry": "Cybersecurity",
+      "region": "GCC",
+      "country": "Saudi Arabia",
+      "language": "en",
+      "vertical": "Cybersecurity",
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Market sync collected 17 brand(s), 30 prompt(s), 8 citation domain(s), and 98 trend(s).",
+          "source": "Market Intelligence Cloud",
+          "lastVerifiedAt": "2026-06-08T06:43:17.837Z"
+        }
+      ],
+      "confidenceScore": 75,
+      "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+      "lastRefreshedAt": "2026-06-08T06:43:17.836Z",
+      "createdAt": "2026-06-08T06:43:15.350Z",
+      "updatedAt": "2026-06-08T06:43:17.838Z"
+    }
+  ]
+}

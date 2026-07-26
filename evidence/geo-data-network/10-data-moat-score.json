@@ -1,0 +1,56 @@
+{
+  "label": "10-data-moat-score",
+  "method": "GET",
+  "url": "/data-moat-score",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "PROPRIETARY_DATA_MOAT",
+    "data": {
+      "id": "44465fca-c0a0-4403-bc90-0b345dd1466a",
+      "score": 90,
+      "marketCoverage": 100,
+      "dataFreshness": 100,
+      "dataReliability": 100,
+      "dataConfidence": 59,
+      "coverageStats": {
+        "alerts": 2,
+        "brands": 51,
+        "trends": 135,
+        "indexes": 7,
+        "markets": 7,
+        "prompts": 63,
+        "regions": 2,
+        "reports": 1,
+        "citations": 24,
+        "countries": 5,
+        "industries": 5,
+        "opportunities": 211
+      },
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Data moat score calculated from 7 market(s), 63 prompt(s), 24 citation domain(s), 135 trend row(s), and 211 opportunity row(s).",
+          "source": "Proprietary Data Moat",
+          "lastVerifiedAt": "2026-06-08T07:04:14.245Z"
+        }
+      ],
+      "capturedAt": "2026-06-08T07:04:14.246Z",
+      "dataSource": "PROPRIETARY_DATA_MOAT",
+      "createdAt": "2026-06-08T07:04:14.246Z"
+    },
+    "confidenceScore": 90,
+    "evidence": [
+      {
+        "claim": "Data moat score calculated from 7 market(s), 63 prompt(s), 24 citation domain(s), 135 trend row(s), and 211 opportunity row(s).",
+        "source": "Proprietary Data Moat",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:14.245Z"
+      }
+    ],
+    "dataSource": "PROPRIETARY_DATA_MOAT",
+    "lastVerifiedAt": "2026-06-08T07:04:14.259Z"
+  }
+}

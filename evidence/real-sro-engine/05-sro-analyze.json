@@ -1,0 +1,875 @@
+{
+  "label": "05-sro-analyze",
+  "url": "/sro/analyze",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "dataSource": "PAGE_FETCH+DETERMINISTIC_SRO_ENGINE_V1",
+    "analysis": {
+      "id": "00bc03e6-2ce3-44e8-9717-35c699331489",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "url": "https://www.cloudflare.com/",
+      "targetPrompt": "Best cybersecurity company in Saudi Arabia for enterprise buyers",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "status": "COMPLETED",
+      "sroScore": 78,
+      "geoScore": 82,
+      "citationReadiness": 100,
+      "entityReadiness": 44,
+      "selectionProbability": 78,
+      "confidenceScore": 82,
+      "pageTitle": "Cloudflare: Build for the agent era",
+      "wordCount": 1231,
+      "checks": [
+        {
+          "key": "contentDepth",
+          "label": "Content depth",
+          "value": 100,
+          "passed": true,
+          "evidence": "1231 words"
+        },
+        {
+          "key": "entityReadiness",
+          "label": "Entity readiness",
+          "value": 44,
+          "passed": false,
+          "evidence": "40 extracted entities"
+        },
+        {
+          "key": "schemaReadiness",
+          "label": "Schema readiness",
+          "value": 75,
+          "passed": true,
+          "evidence": "Organization, WebSite, SearchAction, WebPage"
+        },
+        {
+          "key": "faqReadiness",
+          "label": "FAQ readiness",
+          "value": 97,
+          "passed": true,
+          "evidence": "4 questions"
+        },
+        {
+          "key": "citationReadiness",
+          "label": "Citation readiness",
+          "value": 100,
+          "passed": true,
+          "evidence": "12 outbound domains"
+        },
+        {
+          "key": "authoritySignals",
+          "label": "Authority signals",
+          "value": 85,
+          "passed": true,
+          "evidence": "proof language found"
+        }
+      ],
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Analyzed 1231 crawlable words from the target page.",
+          "source": "Target Page Fetch",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Detected 4 schema type(s), 4 question(s), and 12 outbound citation domain(s).",
+          "source": "SRO Extraction V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+        },
+        {
+          "url": "https://www.cloudflare.com/",
+          "claim": "Target page GEO score is 82; strongest competitor delta is -1.",
+          "source": "SRO Scoring V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+        }
+      ],
+      "competitorComparison": [
+        {
+          "url": "https://www.crowdstrike.com/",
+          "status": "COMPLETED",
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "CrowdStrike score 81 vs Cloudflare SRO 1780897908191 score 82.",
+              "source": "SRO Competitor Comparison",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            },
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "CrowdStrike has 2325 words, 40 entities, and 11 outbound citation domains.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "brandScore": 82,
+          "dataSource": "COMPETITOR_PAGE_SCRAPER_V1",
+          "scoreDelta": -1,
+          "threatLevel": "LOW",
+          "competitorId": "2e630385-25bd-444b-9eff-07bf111ac56c",
+          "competitorName": "CrowdStrike",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "competitorScore": 81,
+          "confidenceScore": 84,
+          "missingEntities": [
+            "Cybersecurity Saudi Arabia CrowdStrike",
+            "CrowdStrike",
+            "We Stop Breaches",
+            "Cybersecurity New Frontier AI",
+            "Readiness",
+            "Resilience Service",
+            "New Frontier AI Readiness",
+            "Securing AI Where It",
+            "Executes",
+            "The Endpoint Is",
+            "New Control Point",
+            "AI Agent Security Securing"
+          ],
+          "missingCitations": [
+            "linkedin.com",
+            "x.com",
+            "instagram.com",
+            "youtube.com",
+            "marketplace.crowdstrike.com",
+            "ir.crowdstrike.com",
+            "crowdstrikeracing.com",
+            "supportportal.crowdstrike.com",
+            "developer.crowdstrike.com",
+            "community.crowdstrike.com",
+            "privacyportal.onetrust.com"
+          ],
+          "whyCompetitorWins": "CrowdStrike currently wins on stronger entity coverage."
+        },
+        {
+          "url": "https://www.paloaltonetworks.com/",
+          "status": "COMPLETED",
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks score 70 vs Cloudflare SRO 1780897908191 score 82.",
+              "source": "SRO Competitor Comparison",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks has 1868 words, 40 entities, and 30 outbound citation domains.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "brandScore": 82,
+          "dataSource": "COMPETITOR_PAGE_SCRAPER_V1",
+          "scoreDelta": -12,
+          "threatLevel": "LOW",
+          "competitorId": "ccbb64ec-9cdf-4ca0-9179-d67ca88b3706",
+          "competitorName": "Palo Alto Networks",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "competitorScore": 70,
+          "confidenceScore": 84,
+          "missingEntities": [
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader",
+            "Cybersecurity Protection",
+            "Software",
+            "Modern Enterprises",
+            "Palo Alto Networks Control",
+            "Introducing Idira",
+            "RECOMMENDED",
+            "Gartner",
+            "Magic Quadrant",
+            "Leader",
+            "EPP Palo Alto Networks"
+          ],
+          "missingCitations": [
+            "paloaltonetworks.de",
+            "paloaltonetworks.ca",
+            "paloaltonetworks.tw",
+            "paloaltonetworks.com.br",
+            "paloaltonetworks.co.kr",
+            "paloaltonetworks.in",
+            "paloaltonetworks.es",
+            "paloaltonetworks.cn",
+            "paloaltonetworks.com.mx",
+            "paloaltonetworks.it",
+            "paloaltonetworks.lat",
+            "paloaltonetworks.com.au"
+          ],
+          "whyCompetitorWins": "Palo Alto Networks currently wins on stronger entity coverage."
+        }
+      ],
+      "contentGaps": [
+        {
+          "why": "The audited page does not contain \"cybersecurity\" from the target prompt context.",
+          "type": "ENTITY",
+          "title": "Missing entity/topic: cybersecurity",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"cybersecurity\" from the target prompt context.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"cybersecurity\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"saudi\" from the target prompt context.",
+          "type": "ENTITY",
+          "title": "Missing entity/topic: saudi",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"saudi\" from the target prompt context.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"saudi\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"arabia\" from the target prompt context.",
+          "type": "ENTITY",
+          "title": "Missing entity/topic: arabia",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"arabia\" from the target prompt context.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"arabia\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"buyers\" from the target prompt context.",
+          "type": "ENTITY",
+          "title": "Missing entity/topic: buyers",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"buyers\" from the target prompt context.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"buyers\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "Cybersecurity Saudi Arabia Palo appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Cybersecurity Saudi Arabia Palo",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Cybersecurity Saudi Arabia Palo appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Cybersecurity Saudi Arabia Palo\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "Alto Networks Leader appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Alto Networks Leader",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Alto Networks Leader appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Alto Networks Leader\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "Cybersecurity Protection appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Cybersecurity Protection",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Cybersecurity Protection appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Cybersecurity Protection\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "Software appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Software",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Software appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Software\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "Modern Enterprises appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Modern Enterprises",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Modern Enterprises appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Modern Enterprises\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "Palo Alto Networks Control appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Palo Alto Networks Control",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Palo Alto Networks Control appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Palo Alto Networks Control\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "Introducing Idira appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover Introducing Idira",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Introducing Idira appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"Introducing Idira\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "RECOMMENDED appears in competitor page evidence but not on the audited page.",
+          "type": "COMPETITOR_ENTITY",
+          "title": "Competitors cover RECOMMENDED",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "RECOMMENDED appears in competitor page evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Add proof, FAQ, or service copy around \"RECOMMENDED\" if it is strategically relevant.",
+          "expectedScoreIncrease": 5
+        },
+        {
+          "why": "paloaltonetworks.de appears in competitor page link evidence but not on the audited page.",
+          "type": "CITATION",
+          "title": "Missing trusted source/citation: paloaltonetworks.de",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "paloaltonetworks.de appears in competitor page link evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Use paloaltonetworks.de as a research/source target or create source-worthy content that can earn a mention there.",
+          "expectedScoreIncrease": 4
+        },
+        {
+          "why": "paloaltonetworks.ca appears in competitor page link evidence but not on the audited page.",
+          "type": "CITATION",
+          "title": "Missing trusted source/citation: paloaltonetworks.ca",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "paloaltonetworks.ca appears in competitor page link evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Use paloaltonetworks.ca as a research/source target or create source-worthy content that can earn a mention there.",
+          "expectedScoreIncrease": 4
+        },
+        {
+          "why": "paloaltonetworks.tw appears in competitor page link evidence but not on the audited page.",
+          "type": "CITATION",
+          "title": "Missing trusted source/citation: paloaltonetworks.tw",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "paloaltonetworks.tw appears in competitor page link evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Use paloaltonetworks.tw as a research/source target or create source-worthy content that can earn a mention there.",
+          "expectedScoreIncrease": 4
+        },
+        {
+          "why": "paloaltonetworks.com.br appears in competitor page link evidence but not on the audited page.",
+          "type": "CITATION",
+          "title": "Missing trusted source/citation: paloaltonetworks.com.br",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "paloaltonetworks.com.br appears in competitor page link evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Use paloaltonetworks.com.br as a research/source target or create source-worthy content that can earn a mention there.",
+          "expectedScoreIncrease": 4
+        },
+        {
+          "why": "paloaltonetworks.co.kr appears in competitor page link evidence but not on the audited page.",
+          "type": "CITATION",
+          "title": "Missing trusted source/citation: paloaltonetworks.co.kr",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "paloaltonetworks.co.kr appears in competitor page link evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Use paloaltonetworks.co.kr as a research/source target or create source-worthy content that can earn a mention there.",
+          "expectedScoreIncrease": 4
+        },
+        {
+          "why": "paloaltonetworks.in appears in competitor page link evidence but not on the audited page.",
+          "type": "CITATION",
+          "title": "Missing trusted source/citation: paloaltonetworks.in",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "paloaltonetworks.in appears in competitor page link evidence but not on the audited page.",
+              "source": "Content Gap Engine V2",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "CONTENT_GAP_ENGINE_V2",
+          "difficulty": "MEDIUM",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 74,
+          "recommendedAction": "Use paloaltonetworks.in as a research/source target or create source-worthy content that can earn a mention there.",
+          "expectedScoreIncrease": 4
+        }
+      ],
+      "improvementOpportunities": [
+        {
+          "why": "The page misses important target-prompt entities.",
+          "title": "Expand entity coverage for the target prompt",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The page misses important target-prompt entities.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 1,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 38,
+          "recommendedAction": "Add sections for missing services, technologies, locations, and buyer criteria.",
+          "expectedScoreIncrease": 9
+        },
+        {
+          "why": "The audited page does not contain \"cybersecurity\" from the target prompt context.",
+          "title": "Missing entity/topic: cybersecurity",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"cybersecurity\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 2,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"cybersecurity\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"saudi\" from the target prompt context.",
+          "title": "Missing entity/topic: saudi",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"saudi\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 3,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"saudi\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"arabia\" from the target prompt context.",
+          "title": "Missing entity/topic: arabia",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"arabia\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 4,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"arabia\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"buyers\" from the target prompt context.",
+          "title": "Missing entity/topic: buyers",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"buyers\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 5,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"buyers\".",
+          "expectedScoreIncrease": 6
+        }
+      ],
+      "dataSource": "SRO_ENGINE_V1",
+      "error": null,
+      "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+      "createdAt": "2026-06-08T05:51:50.165Z",
+      "updatedAt": "2026-06-08T05:51:50.165Z",
+      "competitorAnalyses": [
+        {
+          "id": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "competitorId": "ccbb64ec-9cdf-4ca0-9179-d67ca88b3706",
+          "sroAnalysisId": "00bc03e6-2ce3-44e8-9717-35c699331489",
+          "competitorName": "Palo Alto Networks",
+          "url": "https://www.paloaltonetworks.com/",
+          "status": "COMPLETED",
+          "contentDepthScore": 85,
+          "entityScore": 58,
+          "schemaScore": 0,
+          "faqScore": 90,
+          "citationScore": 100,
+          "authoritySignalScore": 100,
+          "overallScore": 70,
+          "confidenceScore": 74,
+          "pageTitle": "Leader in Cybersecurity Protection & Software for the Modern Enterprises - Palo Alto Networks",
+          "wordCount": 1868,
+          "entities": [
+            "Saudi Arabia",
+            "Cybersecurity Saudi Arabia Palo",
+            "Alto Networks Leader",
+            "Cybersecurity Protection",
+            "Software",
+            "Modern Enterprises",
+            "Palo Alto Networks Control",
+            "Secure",
+            "Introducing Idira",
+            "RECOMMENDED",
+            "Gartner",
+            "Magic Quadrant",
+            "Leader",
+            "EPP Palo Alto Networks",
+            "Completes Acquisition",
+            "Portkey",
+            "Secure AI Agents Combat",
+            "Risks",
+            "Frontier AI Models Fight",
+            "AI Introducing Prisma AIRS",
+            "Defining",
+            "Attacks",
+            "Are",
+            "Unit",
+            "MSIAM",
+            "SOC",
+            "INCREASE IN EXPLOITED ZERO",
+            "DAYS",
+            "YoY",
+            "INCREASE IN RANSOMWARE ATTACKS",
+            "INCREASE IN DATA BREACHES",
+            "AND LEAKS",
+            "Attackers",
+            "Platformization",
+            "And",
+            "Precision AI",
+            "MTTR",
+            "Introducing",
+            "Platforms",
+            "Precision AI AI"
+          ],
+          "citations": [
+            "paloaltonetworks.de",
+            "paloaltonetworks.ca",
+            "paloaltonetworks.tw",
+            "paloaltonetworks.com.br",
+            "paloaltonetworks.co.kr",
+            "paloaltonetworks.in",
+            "paloaltonetworks.es",
+            "paloaltonetworks.cn",
+            "paloaltonetworks.com.mx",
+            "paloaltonetworks.it",
+            "paloaltonetworks.lat",
+            "paloaltonetworks.com.au",
+            "paloaltonetworks.sg",
+            "paloaltonetworks.fr",
+            "paloaltonetworks.jp",
+            "paloaltonetworks.co.uk",
+            "support.paloaltonetworks.com",
+            "start.paloaltonetworks.com",
+            "register.paloaltonetworks.com",
+            "events.paloaltonetworks.com",
+            "paloaltonetworks.my.site.com",
+            "jobs.paloaltonetworks.com",
+            "investors.paloaltonetworks.com",
+            "docs.paloaltonetworks.com",
+            "unit42.paloaltonetworks.com",
+            "panwedd.exterro.net",
+            "youtube.com",
+            "facebook.com",
+            "linkedin.com",
+            "twitter.com"
+          ],
+          "schemaTypes": [],
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks page scored 70 from 1868 words.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks exposes 40 entities, 0 schema type(s), and 30 outbound domains.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "COMPETITOR_PAGE_SCRAPER_V1",
+          "error": null,
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "createdAt": "2026-06-08T05:51:50.165Z",
+          "updatedAt": "2026-06-08T05:51:50.165Z"
+        },
+        {
+          "id": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "competitorId": "2e630385-25bd-444b-9eff-07bf111ac56c",
+          "sroAnalysisId": "00bc03e6-2ce3-44e8-9717-35c699331489",
+          "competitorName": "CrowdStrike",
+          "url": "https://www.crowdstrike.com/",
+          "status": "COMPLETED",
+          "contentDepthScore": 85,
+          "entityScore": 58,
+          "schemaScore": 75,
+          "faqScore": 87,
+          "citationScore": 100,
+          "authoritySignalScore": 100,
+          "overallScore": 81,
+          "confidenceScore": 74,
+          "pageTitle": "CrowdStrike: We Stop Breaches with AI-native Cybersecurity",
+          "wordCount": 2325,
+          "entities": [
+            "Saudi Arabia",
+            "Cybersecurity Saudi Arabia CrowdStrike",
+            "CrowdStrike",
+            "We Stop Breaches",
+            "Cybersecurity New Frontier AI",
+            "Readiness",
+            "Resilience Service",
+            "New Frontier AI Readiness",
+            "Securing AI Where It",
+            "Executes",
+            "The Endpoint Is",
+            "New Control Point",
+            "AI Agent Security Securing",
+            "AI Where It Executes",
+            "AI Agent Security Disrupting",
+            "Glassworm",
+            "Inside CrowdStrike",
+            "Takedown",
+            "Developer",
+            "Targeting Botnet Disrupting Glassworm",
+            "Targeting Botnet The Agentic",
+            "Security Platform",
+            "Unified",
+            "Frontier AI Resilience Frontier",
+            "AI Resilience Secure AI",
+            "Secure AI Agentic SOC",
+            "Agentic SOC Recognition",
+            "Leader",
+            "Gartner",
+            "Magic Quadrant",
+            "Cyberthreat Intelligence Technologies",
+            "Cyberthreat Intelligence Technologies CrowdStrike",
+            "Named",
+            "IDC MarketScape",
+            "CNAPP CrowdStrike Named",
+            "CNAPP Tailored",
+            "Try",
+            "Falcon Free Trial Security",
+            "Essentials Falcon Go Enhanced",
+            "Protection Falcon Pro Advanced"
+          ],
+          "citations": [
+            "linkedin.com",
+            "x.com",
+            "instagram.com",
+            "youtube.com",
+            "marketplace.crowdstrike.com",
+            "ir.crowdstrike.com",
+            "crowdstrikeracing.com",
+            "supportportal.crowdstrike.com",
+            "developer.crowdstrike.com",
+            "community.crowdstrike.com",
+            "privacyportal.onetrust.com"
+          ],
+          "schemaTypes": [
+            "Organization",
+            "ImageObject",
+            "WebPage",
+            "WebSite"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "CrowdStrike page scored 81 from 2325 words.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            },
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "CrowdStrike exposes 40 entities, 4 schema type(s), and 11 outbound domains.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "dataSource": "COMPETITOR_PAGE_SCRAPER_V1",
+          "error": null,
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "createdAt": "2026-06-08T05:51:50.165Z",
+          "updatedAt": "2026-06-08T05:51:50.165Z"
+        }
+      ],
+      "brand": {
+        "id": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+        "name": "Cloudflare SRO 1780897908191",
+        "websiteUrl": "https://www.cloudflare.com",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-08T05:51:48.732Z",
+        "updatedAt": "2026-06-08T05:51:48.732Z"
+      }
+    }
+  }
+}

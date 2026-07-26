@@ -1,0 +1,150 @@
+{
+  "startedAt": "2026-06-08T03:51:09.744Z",
+  "steps": [
+    {
+      "name": "03-market-discovery",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "MARKET_DISCOVERY_ENGINE",
+      "confidenceScore": 82.5,
+      "counts": {
+        "storedItems": 20,
+        "items": 20
+      },
+      "at": "2026-06-08T03:51:33.568Z"
+    },
+    {
+      "name": "04-prompt-research",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "PROMPT_RESEARCH_ENGINE",
+      "confidenceScore": 80.7,
+      "counts": {
+        "storedPrompts": 7
+      },
+      "at": "2026-06-08T03:51:36.532Z"
+    },
+    {
+      "name": "05-source-discovery",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "SOURCE_DISCOVERY_ENGINE",
+      "confidenceScore": 81,
+      "counts": {
+        "storedSources": 8
+      },
+      "at": "2026-06-08T03:52:04.393Z"
+    },
+    {
+      "name": "06-knowledge-graph-build",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "ENTITY_KNOWLEDGE_GRAPH",
+      "confidenceScore": 46.8,
+      "counts": {
+        "nodes": 30,
+        "edges": 46
+      },
+      "at": "2026-06-08T03:52:06.087Z"
+    },
+    {
+      "name": "07-knowledge-graph-read",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "KNOWLEDGE_GRAPH_API",
+      "confidenceScore": 43.4,
+      "counts": {
+        "nodes": 30,
+        "edges": 30
+      },
+      "at": "2026-06-08T03:52:06.156Z"
+    },
+    {
+      "name": "08-market-coverage",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "MARKET_COVERAGE_ENGINE",
+      "confidenceScore": 72,
+      "counts": {},
+      "at": "2026-06-08T03:52:06.396Z"
+    },
+    {
+      "name": "09-citation-research",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "CITATION_RESEARCH_ENGINE",
+      "confidenceScore": 81,
+      "counts": {
+        "opportunities": 24
+      },
+      "at": "2026-06-08T03:52:06.819Z"
+    },
+    {
+      "name": "10-citation-research-read",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "CITATION_RESEARCH_API",
+      "confidenceScore": 81,
+      "counts": {
+        "items": 24
+      },
+      "at": "2026-06-08T03:52:06.853Z"
+    },
+    {
+      "name": "11-trends",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "TREND_DISCOVERY_ENGINE",
+      "confidenceScore": 40.9,
+      "counts": {
+        "trends": 28
+      },
+      "at": "2026-06-08T03:52:07.317Z"
+    },
+    {
+      "name": "12-trends-read",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "TREND_DISCOVERY_API",
+      "confidenceScore": 40.9,
+      "counts": {
+        "trends": 28
+      },
+      "at": "2026-06-08T03:52:07.353Z"
+    },
+    {
+      "name": "13-competitor-monitoring",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "COMPETITOR_MONITORING_ENGINE",
+      "confidenceScore": 95.3,
+      "counts": {
+        "alerts": 3
+      },
+      "at": "2026-06-08T03:52:07.602Z"
+    },
+    {
+      "name": "14-automated-geo-analyst",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "AUTOMATED_GEO_ANALYST",
+      "confidenceScore": 74.5,
+      "counts": {},
+      "at": "2026-06-08T03:52:39.398Z"
+    },
+    {
+      "name": "15-research-database",
+      "ok": true,
+      "status": "COMPLETED",
+      "engine": "GEO_RESEARCH_DATABASE",
+      "confidenceScore": 69.1,
+      "counts": {
+        "trends": 31,
+        "items": 113,
+        "summaries": 1
+      },
+      "at": "2026-06-08T03:52:39.529Z"
+    }
+  ],
+  "finishedAt": "2026-06-08T03:52:39.529Z"
+}

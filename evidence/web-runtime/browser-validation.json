@@ -1,0 +1,129 @@
+{
+  "checkedAt": "2026-06-02T18:06:18.987Z",
+  "baseURL": "http://localhost:3000",
+  "pages": [
+    {
+      "name": "homepage-en",
+      "url": "/",
+      "finalUrl": "http://localhost:3000/",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Your Brand, Visible in AI Search.",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/homepage-en.png",
+      "elapsedMs": 3427
+    },
+    {
+      "name": "login-page",
+      "url": "/login",
+      "finalUrl": "http://localhost:3000/login",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Welcome back",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/login-page.png",
+      "elapsedMs": 2192
+    },
+    {
+      "name": "dashboard-after-login",
+      "url": "/dashboard",
+      "finalUrl": "http://localhost:3000/dashboard",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Overview",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-after-login.png"
+    },
+    {
+      "name": "dashboard-overview",
+      "url": "/dashboard",
+      "finalUrl": "http://localhost:3000/dashboard",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Overview",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-overview.png",
+      "elapsedMs": 2813
+    },
+    {
+      "name": "dashboard-prompts",
+      "url": "/dashboard/prompts",
+      "finalUrl": "http://localhost:3000/dashboard/prompts",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Prompts",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-prompts.png",
+      "elapsedMs": 2289
+    },
+    {
+      "name": "dashboard-recommendations",
+      "url": "/dashboard/recommendations",
+      "finalUrl": "http://localhost:3000/dashboard/recommendations",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Recommendations",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-recommendations.png",
+      "elapsedMs": 2083
+    },
+    {
+      "name": "dashboard-reports",
+      "url": "/dashboard/reports",
+      "finalUrl": "http://localhost:3000/dashboard/reports",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Reports",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-reports.png",
+      "elapsedMs": 2475
+    },
+    {
+      "name": "dashboard-analytics",
+      "url": "/dashboard/analytics",
+      "finalUrl": "http://localhost:3000/dashboard/analytics",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Analytics",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-analytics.png",
+      "elapsedMs": 2133
+    },
+    {
+      "name": "dashboard-settings",
+      "url": "/dashboard/settings",
+      "finalUrl": "http://localhost:3000/dashboard/settings",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "Settings",
+      "dir": "ltr",
+      "lang": "en",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-settings.png",
+      "elapsedMs": 2553
+    },
+    {
+      "name": "dashboard-arabic-rtl",
+      "url": "/dashboard",
+      "finalUrl": "http://localhost:3000/dashboard",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "نظرة عامة",
+      "dir": "rtl",
+      "lang": "ar",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/dashboard-arabic-rtl.png"
+    },
+    {
+      "name": "register-page",
+      "url": "/register",
+      "finalUrl": "http://localhost:3000/register",
+      "title": "Insight AI | AI Search Visibility & GEO Analytics",
+      "h1": "ابدأ الآن",
+      "dir": "rtl",
+      "lang": "ar",
+      "screenshot": "/home/omar/Pictures/insight-ai/evidence/web-runtime/screenshots/register-page.png",
+      "elapsedMs": 2209
+    }
+  ],
+  "console": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "failedChecks": []
+}

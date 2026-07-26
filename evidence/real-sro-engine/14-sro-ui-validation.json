@@ -1,0 +1,12 @@
+{
+  "desktopContainsSro": true,
+  "desktopContainsScore": true,
+  "desktopContainsPrompt": true,
+  "arabicContainsSro": true,
+  "screenshots": [
+    "/home/omar/Pictures/insight-ai/evidence/real-sro-engine/screenshots/sro-desktop.png",
+    "/home/omar/Pictures/insight-ai/evidence/real-sro-engine/screenshots/sro-mobile.png",
+    "/home/omar/Pictures/insight-ai/evidence/real-sro-engine/screenshots/sro-arabic.png"
+  ],
+  "arabicContainsRtlCopy": true
+}

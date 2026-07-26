@@ -1,0 +1,94 @@
+{
+  "label": "09-market-alert-network",
+  "method": "GET",
+  "url": "/market-alert-network?marketId=4dd45f0b-29bd-42d1-842a-381603df2d2a",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "MARKET_ALERT_NETWORK",
+    "data": {
+      "alerts": [
+        {
+          "id": "00518880-5f4b-4353-a3b0-22e32b98e7df",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "alertType": "NEW_MARKET_OPPORTUNITY",
+          "title": "High-value opportunity in Cybersecurity UAE",
+          "message": "Target market prompt: Best Cybersecurity companies in UAE",
+          "severity": "HIGH",
+          "status": "OPEN",
+          "recommendedAction": "Review and assign this opportunity to the relevant GEO owner.",
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Prompt adapted from another Cybersecurity market and requires local validation.",
+              "source": "Prompt Marketplace",
+              "lastVerifiedAt": "2026-06-08T07:04:06.762Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Prompt candidate generated from industry \"Cybersecurity\" and country \"Saudi Arabia\".",
+              "source": "Niche Explorer V1",
+              "lastVerifiedAt": "2026-06-08T05:51:50.373Z"
+            }
+          ],
+          "confidenceScore": 55,
+          "triggeredAt": "2026-06-08T07:04:14.197Z",
+          "dataSource": "MARKET_ALERT_NETWORK",
+          "createdAt": "2026-06-08T07:04:14.197Z",
+          "updatedAt": "2026-06-08T07:04:14.197Z"
+        },
+        {
+          "id": "2f7e874f-8242-4bec-8f3e-c47e7a16e283",
+          "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+          "alertType": "COMPETITOR_GROWTH",
+          "title": "Brightskies is growing in Cybersecurity UAE",
+          "message": "Growth score 98; rank 4.",
+          "severity": "HIGH",
+          "status": "OPEN",
+          "recommendedAction": "Review competitor prompt and citation movement.",
+          "evidence": [
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Brightskies copied as a cross-market reference from a verified Cybersecurity market. Validate locally before treating as a confirmed local competitor.",
+              "source": "Geo Data Network",
+              "lastVerifiedAt": "2026-06-08T07:04:06.503Z"
+            },
+            {
+              "url": null,
+              "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            }
+          ],
+          "confidenceScore": 78,
+          "triggeredAt": "2026-06-08T07:04:14.208Z",
+          "dataSource": "MARKET_ALERT_NETWORK",
+          "createdAt": "2026-06-08T07:04:14.208Z",
+          "updatedAt": "2026-06-08T07:04:14.208Z"
+        }
+      ]
+    },
+    "confidenceScore": 67,
+    "evidence": [
+      {
+        "claim": "Generated 2 market alert(s).",
+        "source": "Market Alert Network",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:14.218Z"
+      }
+    ],
+    "dataSource": "MARKET_ALERT_NETWORK",
+    "lastVerifiedAt": "2026-06-08T07:04:14.218Z"
+  }
+}

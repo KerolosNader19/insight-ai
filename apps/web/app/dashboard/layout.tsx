@@ -1,13 +1,37 @@
+"use client";
+
 import { Sidebar } from "./Sidebar";
 import { TopBar } from "./TopBar";
+import { useAuthStore } from "@/store/authStore";
+import { useTranslation } from "@/hooks/useTranslation";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const { isAuthenticated, hasHydrated } = useAuthStore();
+  const { isRTL } = useTranslation();
+  const router = useRouter();
+
+  useEffect(() => {
+    if (hasHydrated && !isAuthenticated) router.push("/login");
+  }, [hasHydrated, isAuthenticated, router]);
+
+  if (!hasHydrated) {
+    return (
+      <div className="min-h-screen bg-brand-primary flex items-center justify-center text-foreground/50">
+        <div className="h-8 w-8 rounded-full border-2 border-brand-accent/20 border-t-brand-accent animate-spin" />
+      </div>
+    );
+  }
+
+  if (!isAuthenticated) return null;
+
   return (
-    <div className="flex h-screen bg-brand-primary overflow-hidden selection:bg-brand-accent/30">
+    <div dir={isRTL ? "rtl" : "ltr"} className={`flex h-screen bg-brand-primary overflow-hidden selection:bg-brand-accent/30 ${isRTL ? "font-cairo" : ""}`}>
       <Sidebar />
       
       <div className="flex-1 flex flex-col relative overflow-hidden">
@@ -18,7 +42,7 @@ export default function DashboardLayout({
         
         <TopBar />
         
-        <main className="flex-1 overflow-y-auto p-8 relative scroll-smooth focus:outline-none">
+        <main className="flex-1 overflow-y-auto p-4 md:p-8 relative scroll-smooth focus:outline-none">
           <div className="max-w-7xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
             {children}
           </div>

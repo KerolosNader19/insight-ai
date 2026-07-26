@@ -1,0 +1,232 @@
+{
+  "brand": {
+    "id": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+    "name": "OrcaTech Product 20260602183015",
+    "organization": "Full Product Audit Agency 20260602183015",
+    "competitors": [
+      "Competitor A",
+      "Competitor B"
+    ]
+  },
+  "counts": {
+    "prompts": 2,
+    "responses": 4,
+    "mentions": 17,
+    "citations": 19,
+    "snapshots": 2,
+    "recommendations": 4,
+    "reports": 2
+  },
+  "responses": [
+    {
+      "id": "3f7a4382-c9ba-4c53-8d97-17e8ff6d451a",
+      "status": "COMPLETED",
+      "engine": "Gemini",
+      "model": "gemini-flash-latest",
+      "rawContentLength": 4009
+    },
+    {
+      "id": "b7462ffa-47fd-432f-959a-6ae4cb3a4433",
+      "status": "COMPLETED",
+      "engine": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "rawContentLength": 2823
+    },
+    {
+      "id": "a9ed9802-af0a-407b-a2c2-daf05f6737fe",
+      "status": "COMPLETED",
+      "engine": "Gemini",
+      "model": "gemini-flash-latest",
+      "rawContentLength": 4034
+    },
+    {
+      "id": "2089eeae-2d45-45cd-875a-622cc896d2c5",
+      "status": "COMPLETED",
+      "engine": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "rawContentLength": 2131
+    }
+  ],
+  "mentions": [
+    {
+      "entityType": "brand",
+      "entityId": "802d83d4-c808-436f-aaf0-c7d2cfebb0dd",
+      "position": 1,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 1,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 2,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 1,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 2,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 1,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 2,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 3,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 4,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 5,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "c8b0b1fd-e4a7-45f3-959a-364c8a9f57b2",
+      "position": 6,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 1,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 2,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 3,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 4,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 5,
+      "sentimentScore": 0
+    },
+    {
+      "entityType": "competitor",
+      "entityId": "8fdb5305-9b42-4c8f-8e6f-a31c7e88350f",
+      "position": 6,
+      "sentimentScore": 0
+    }
+  ],
+  "citationDomains": [
+    "stc.com.sa",
+    "saudiaramco.com",
+    "cyberdefensesa.com",
+    "kaspersky.com",
+    "checkpoint.com",
+    "nca.gov.sa",
+    "site.sa",
+    "cyberani.com",
+    "sirar.com.sa",
+    "helpag.com",
+    "orcatech.sa",
+    "cyberoam.com.sa",
+    "competitor-a.sa",
+    "competitor-b.sa"
+  ],
+  "snapshots": [
+    {
+      "engine": "Groq",
+      "geoScore": 88,
+      "shareOfVoice": 20,
+      "mentionCount": 1,
+      "citationCount": 6
+    },
+    {
+      "engine": "Gemini",
+      "geoScore": 20,
+      "shareOfVoice": 0,
+      "mentionCount": 0,
+      "citationCount": 3
+    }
+  ],
+  "recommendations": [
+    {
+      "id": "b02b9b3e-6e45-4ad1-99f6-bd251864b4ea",
+      "title": "OrcaTech Product 20260602183015 GEO action plan",
+      "priority": "high",
+      "isActioned": false,
+      "contentLength": 955
+    },
+    {
+      "id": "55bef3e0-c233-47cc-8616-3be8212b5b17",
+      "title": "OrcaTech Product 20260602183015 GEO action plan",
+      "priority": "high",
+      "isActioned": true,
+      "contentLength": 2368
+    },
+    {
+      "id": "23e9a774-39a4-4267-974c-d0809c8b80ff",
+      "title": "OrcaTech Product 20260602183015 GEO action plan",
+      "priority": "medium",
+      "isActioned": false,
+      "contentLength": 862
+    },
+    {
+      "id": "99590149-0267-4266-839f-c567f0590c8a",
+      "title": "OrcaTech Product 20260602183015 GEO action plan",
+      "priority": "high",
+      "isActioned": false,
+      "contentLength": 2087
+    }
+  ],
+  "reports": [
+    {
+      "id": "009b70be-94f1-4ae1-b52f-bd94ad5f44b5",
+      "title": "Analyst Report 20260602183015",
+      "fileName": "orcatech-product-20260602183015-1780425127501-visibility-report.pdf",
+      "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-product-20260602183015-1780425127501-visibility-report.pdf",
+      "status": "GENERATED"
+    },
+    {
+      "id": "5b9e0c99-bfc2-4ca3-abf9-e90bb2625342",
+      "title": "Full Product Visibility Report 20260602183015",
+      "fileName": "orcatech-product-20260602183015-1780425127397-visibility-report.pdf",
+      "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-product-20260602183015-1780425127397-visibility-report.pdf",
+      "status": "GENERATED"
+    }
+  ]
+}

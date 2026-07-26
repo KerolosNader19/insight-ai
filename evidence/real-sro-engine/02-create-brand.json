@@ -1,0 +1,17 @@
+{
+  "label": "02-create-brand",
+  "url": "/brands",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+    "name": "Cloudflare SRO 1780897908191",
+    "websiteUrl": "https://www.cloudflare.com",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "createdAt": "2026-06-08T05:51:48.732Z",
+    "updatedAt": "2026-06-08T05:51:48.732Z",
+    "competitors": []
+  }
+}

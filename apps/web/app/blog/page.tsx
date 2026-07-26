@@ -28,15 +28,15 @@ export default function BlogPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-brand-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
                 <div className="flex items-center gap-2 text-brand-accent text-xs font-bold uppercase tracking-widest mb-3">
-                  <span>Optimization</span>
+                  <span>{t.marketing.blog.category}</span>
                   <span className="w-1 h-1 rounded-full bg-brand-border" />
-                  <span>5 min read</span>
+                  <span>{t.marketing.blog.readTime}</span>
                 </div>
                 <h3 className="text-xl font-bold mb-3 group-hover:text-brand-accent transition-colors line-clamp-2">
-                  How Generative Engines are Redefining Search Visibility in 2026
+                  {t.marketing.blog.postTitle}
                 </h3>
                 <p className="text-foreground/50 text-sm line-clamp-3">
-                  As ChatGPT and Gemini become the primary discovery points, traditional SEO isn't enough. Learn how to optimize for citations...
+                  {t.marketing.blog.postExcerpt}
                 </p>
               </article>
             ))}

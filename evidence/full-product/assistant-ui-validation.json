@@ -1,0 +1,13 @@
+{
+  "stamp": "20260602184630",
+  "responses": [
+    {
+      "status": 201,
+      "url": "http://localhost:4000/assistant/ask"
+    }
+  ],
+  "hasProvider": true,
+  "hasLiveResponse": true,
+  "answerPreview": "Live responseBased on the provided GEO context, here are the recommended actions for this month:\n\n1. **Rename the product 'Product 20260602183015' to a marketable, search-friendly name** on the website and in all metadata. (High priority)\n2. **Create a dedicated, high-authority product page** for this solution on orcatech.sa to ensure AI engines link directly to the product rather than the homepage. (High priority)\n3. **Publish and optimize content** highlighting specific NCA (National Cybersecurity Authority) compliance certifications, ECC, and CCC frameworks to maintain the top ranking. (High priority)\n4. **Develop and optimize content specifically targeting NCA (National Cybersecurity Authority) compliance and frameworks** to align with the AI's primary filtering criteria. (High priorit",
+  "screenshot": "/home/omar/Pictures/insight-ai/evidence/full-product/screenshots/assistant-ui-live-20260602184630.png"
+}

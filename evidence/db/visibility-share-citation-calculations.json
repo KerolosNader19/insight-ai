@@ -1,0 +1,113 @@
+{
+  "brand": {
+    "id": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+    "name": "OrcaTech"
+  },
+  "scenarios": [
+    {
+      "responseId": "f2effcfb-8d63-46b6-ba0e-cefe1e2070f5",
+      "prompt": "Best cybersecurity company in Saudi Arabia",
+      "engine": "StoredFixture",
+      "brandAppears": true,
+      "brandPosition": 2,
+      "mentionRows": [
+        {
+          "entityType": "competitor",
+          "entityId": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+          "position": 1,
+          "sentimentScore": 0,
+          "contextSnippet": "Competitor A is frequently cited for enterprise SOC coverage"
+        },
+        {
+          "entityType": "brand",
+          "entityId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+          "position": 2,
+          "sentimentScore": 0.6,
+          "contextSnippet": "OrcaTech is also a strong specialist in incident response and cloud security"
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "94cb110b-91d8-476c-9447-10cbf68025da",
+          "position": 3,
+          "sentimentScore": 0,
+          "contextSnippet": "Competitor B appears for managed compliance"
+        }
+      ],
+      "citationRows": [
+        {
+          "url": "https://orcatech.sa/security-guide",
+          "domain": "orcatech.sa",
+          "title": "OrcaTech Security Guide"
+        },
+        {
+          "url": "https://competitor-a.example/soc",
+          "domain": "competitor-a.example",
+          "title": "Competitor A SOC"
+        },
+        {
+          "url": "https://competitor-b.example/compliance",
+          "domain": "competitor-b.example",
+          "title": "Competitor B Compliance"
+        }
+      ]
+    },
+    {
+      "responseId": "eb7c4862-55ac-4178-ba4d-bf64e99e4c51",
+      "prompt": "Best SOC provider for regulated banks in Saudi Arabia",
+      "engine": "StoredFixture",
+      "brandAppears": false,
+      "brandPosition": null,
+      "mentionRows": [
+        {
+          "entityType": "competitor",
+          "entityId": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+          "position": 1,
+          "sentimentScore": 0,
+          "contextSnippet": "Competitor A and Competitor B are often referenced"
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "94cb110b-91d8-476c-9447-10cbf68025da",
+          "position": 2,
+          "sentimentScore": 0,
+          "contextSnippet": "Competitor A and Competitor B are often referenced"
+        }
+      ],
+      "citationRows": [
+        {
+          "url": "https://competitor-a.example/banking-soc",
+          "domain": "competitor-a.example",
+          "title": "Competitor A Banking SOC"
+        },
+        {
+          "url": "https://competitor-b.example/banking-security",
+          "domain": "competitor-b.example",
+          "title": "Competitor B Banking Security"
+        }
+      ]
+    }
+  ],
+  "formulas": {
+    "visibilityFrequency": "1 brand mentions / 2 stored fixture responses = 50%",
+    "shareOfVoice": "entity mentions for brand / entity mentions for brand plus tracked competitors",
+    "citationCounts": "count stored Citation rows grouped by domain and competitor website prefix"
+  },
+  "computed": {
+    "brandMentions": 1,
+    "totalTrackedMentions": 5,
+    "brandShareOfVoice": 20,
+    "competitorShareOfVoice": {
+      "Competitor A": 40,
+      "Competitor B": 40
+    },
+    "citationsByDomain": {
+      "orcatech.sa": 1,
+      "competitor-a.example": 2,
+      "competitor-b.example": 2
+    },
+    "competitorCitations": {
+      "Competitor A": 2,
+      "Competitor B": 2
+    }
+  }
+}

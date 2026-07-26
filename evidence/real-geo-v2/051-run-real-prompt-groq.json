@@ -1,0 +1,67 @@
+{
+  "label": "051-run-real-prompt-groq",
+  "url": "/prompts/141af455-8f00-4cfa-b571-8faa53cde5e6/run",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:17:01.250Z",
+  "completedAt": "2026-06-08T02:17:03.615Z",
+  "body": {
+    "id": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+    "promptId": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+    "engineId": "1860bc70-425e-4396-9587-318605a63201",
+    "rawContent": "Based on my research, some of the top cybersecurity companies in Saudi Arabia that specialize in AI security and regulated banks include:\n\n1. **STC Cybersecurity**: STC Cybersecurity is a leading cybersecurity company in Saudi Arabia that provides AI-powered security solutions to regulated banks and other organizations. They offer a range of services, including threat detection, incident response, and security consulting. [Source: STC Cybersecurity website](https://www.stc.com.sa/en/our-businesses/cybersecurity)\n2. **Saudi Aramco's Cybersecurity Center**: Saudi Aramco's Cybersecurity Center is a leading cybersecurity research and development center in Saudi Arabia that focuses on AI-powered security solutions. They provide security services to regulated banks and other organizations in the kingdom. [Source: Saudi Aramco website](https://www.saudiaramco.com/en/corporate/cybersecurity-center)\n3. **Bupa Arabia's Cybersecurity Services**: Bupa Arabia is a leading healthcare insurance company in Saudi Arabia that also provides cybersecurity services to regulated banks and other organizations. They offer AI-powered security solutions, including threat detection and incident response. [Source: Bupa Arabia website](https://www.bupaarabia.com.sa/en/our-services/cybersecurity-services)\n4. **Saudi Telecom Company (STC) Cybersecurity Solutions**: STC Cybersecurity Solutions is a leading cybersecurity company in Saudi Arabia that provides AI-powered security solutions to regulated banks and other organizations. They offer a range of services, including threat detection, incident response, and security consulting. [Source: STC website](https://www.stc.com.sa/en/our-businesses/cybersecurity)\n5. **Saudi Arabian Monetary Agency (SAMA) Cybersecurity**: SAMA Cybersecurity is a leading cybersecurity agency in Saudi Arabia that focuses on AI-powered security solutions for regulated banks and other financial institutions. They provide security services, including threat detection and incident response. [Source: SAMA website](https://www.sama.gov.sa/en/Pages/default.aspx)\n\nPlease note that the ranking of the best cybersecurity company in Saudi Arabia may vary depending on the source and criteria used. These companies are some of the top players in the Saudi Arabian cybersecurity market, but it's essential to conduct your own research and due diligence before making a decision.\n\n**Sources:**\n\n* STC Cybersecurity website: https://www.stc.com.sa/en/our-businesses/cybersecurity\n* Saudi Aramco website: https://www.saudiaramco.com/en/corporate/cybersecurity-center\n* Bupa Arabia website: https://www.bupaarabia.com.sa/en/our-services/cybersecurity-services\n* STC website: https://www.stc.com.sa/en/our-businesses/cybersecurity\n* SAMA website: https://www.sama.gov.sa/en/Pages/default.aspx",
+    "structuredContent": null,
+    "status": "COMPLETED",
+    "error": null,
+    "capturedAt": "2026-06-08T02:17:02.325Z",
+    "completedAt": "2026-06-08T02:17:02.324Z",
+    "screenshotUrl": null,
+    "performance_ms": 1031,
+    "engine": {
+      "id": "1860bc70-425e-4396-9587-318605a63201",
+      "name": "Groq",
+      "version": "llama-3.1-8b-instant",
+      "createdAt": "2026-06-02T15:31:09.153Z"
+    },
+    "mentions": [],
+    "citations": [
+      {
+        "id": "84e6a27c-e724-4099-ac6c-3c9f4bc4472c",
+        "responseId": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+        "url": "https://www.stc.com.sa/en/our-businesses/cybersecurity",
+        "title": "stc.com.sa",
+        "domain": "stc.com.sa",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:03.534Z"
+      },
+      {
+        "id": "5f6076b7-f78f-4cc6-8647-8f030c53f66a",
+        "responseId": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+        "url": "https://www.saudiaramco.com/en/corporate/cybersecurity-center",
+        "title": "saudiaramco.com",
+        "domain": "saudiaramco.com",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:03.534Z"
+      },
+      {
+        "id": "15dfe4e4-7fcb-4b78-9400-88237d262f6c",
+        "responseId": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+        "url": "https://www.bupaarabia.com.sa/en/our-services/cybersecurity-services",
+        "title": "bupaarabia.com.sa",
+        "domain": "bupaarabia.com.sa",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:03.534Z"
+      },
+      {
+        "id": "f35fdd21-7e31-4028-bfc0-73d3e9b069ab",
+        "responseId": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+        "url": "https://www.sama.gov.sa/en/Pages/default.aspx",
+        "title": "sama.gov.sa",
+        "domain": "sama.gov.sa",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:03.534Z"
+      }
+    ]
+  }
+}

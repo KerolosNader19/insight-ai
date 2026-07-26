@@ -1,0 +1,3 @@
+TypeError: actionPlan.map is not a function
+    at [stdin]:90:68
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)

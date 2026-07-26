@@ -1,0 +1,617 @@
+{
+  "label": "11-scorecard-report",
+  "url": "/sro/scorecard",
+  "status": 201,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "report": {
+      "id": "716ffbc2-a984-47d8-81fa-60d0272fae90",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "title": "SRO Validation Executive GEO Scorecard",
+      "type": "PDF_SRO_SCORECARD",
+      "status": "GENERATED",
+      "periodStart": null,
+      "periodEnd": null,
+      "fileName": "cloudflare-sro-1780897908191-1780897910567-executive-geo-scorecard.pdf",
+      "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/cloudflare-sro-1780897908191-1780897910567-executive-geo-scorecard.pdf",
+      "createdAt": "2026-06-08T05:51:50.571Z",
+      "updatedAt": "2026-06-08T05:51:50.571Z"
+    },
+    "filePath": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/cloudflare-sro-1780897908191-1780897910567-executive-geo-scorecard.pdf",
+    "scorecard": {
+      "status": "COMPLETED",
+      "brand": {
+        "id": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+        "name": "Cloudflare SRO 1780897908191",
+        "websiteUrl": "https://www.cloudflare.com",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia"
+      },
+      "generatedAt": "2026-06-08T05:51:50.567Z",
+      "summary": {
+        "averageSroScore": 78,
+        "averageSelectionProbability": 78,
+        "pagesAnalyzed": 1,
+        "losingPageCount": 0,
+        "latestGeoAuditScore": null,
+        "confidenceScore": 82
+      },
+      "whatPagesLose": [],
+      "whichCompetitorsWin": [
+        {
+          "competitorName": "CrowdStrike",
+          "averagePageScore": 81,
+          "pagesCompared": 1,
+          "urls": [
+            "https://www.crowdstrike.com/"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "CrowdStrike page scored 81 from 2325 words.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            },
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "CrowdStrike exposes 40 entities, 4 schema type(s), and 11 outbound domains.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ]
+        },
+        {
+          "competitorName": "Palo Alto Networks",
+          "averagePageScore": 70,
+          "pagesCompared": 1,
+          "urls": [
+            "https://www.paloaltonetworks.com/"
+          ],
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks page scored 70 from 1868 words.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            },
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Palo Alto Networks exposes 40 entities, 0 schema type(s), and 30 outbound domains.",
+              "source": "Competitor Page Scraper V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ]
+        }
+      ],
+      "whatToFix": [
+        {
+          "why": "The page misses important target-prompt entities.",
+          "title": "Expand entity coverage for the target prompt",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The page misses important target-prompt entities.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 1,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 38,
+          "recommendedAction": "Add sections for missing services, technologies, locations, and buyer criteria.",
+          "expectedScoreIncrease": 9
+        },
+        {
+          "why": "The audited page does not contain \"cybersecurity\" from the target prompt context.",
+          "title": "Missing entity/topic: cybersecurity",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"cybersecurity\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 2,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"cybersecurity\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"saudi\" from the target prompt context.",
+          "title": "Missing entity/topic: saudi",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"saudi\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 3,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"saudi\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"arabia\" from the target prompt context.",
+          "title": "Missing entity/topic: arabia",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"arabia\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 4,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"arabia\".",
+          "expectedScoreIncrease": 6
+        },
+        {
+          "why": "The audited page does not contain \"buyers\" from the target prompt context.",
+          "title": "Missing entity/topic: buyers",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "The audited page does not contain \"buyers\" from the target prompt context.",
+              "source": "SRO Opportunity Engine V1",
+              "lastVerifiedAt": "2026-06-08T05:51:48.861Z"
+            }
+          ],
+          "priority": 5,
+          "dataSource": "SRO_OPPORTUNITY_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:48.861Z",
+          "confidenceScore": 76,
+          "difficultyScore": 40,
+          "recommendedAction": "Add a section, heading, or answer block that naturally covers \"buyers\".",
+          "expectedScoreIncrease": 6
+        }
+      ],
+      "citationBriefs": [
+        {
+          "domain": "youtube.com",
+          "opportunityScore": 72,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "MEDIUM",
+          "expectedGeoImpact": "+4 to +7 GEO score",
+          "whyAiTrustsThisSource": "youtube.com is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 61, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks, CrowdStrike are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "youtube.com appears in 2 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 75,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "linkedin.com",
+          "opportunityScore": 72,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "MEDIUM",
+          "expectedGeoImpact": "+4 to +7 GEO score",
+          "whyAiTrustsThisSource": "linkedin.com is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 61, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks, CrowdStrike are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "linkedin.com appears in 2 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 75,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.de",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.de is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.de appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.ca",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.ca is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.ca appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.tw",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.tw is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.tw appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.com.br",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.com.br is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.com.br appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.co.kr",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.co.kr is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.co.kr appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.in",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.in is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.in appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.es",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.es is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.es appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.cn",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.cn is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.cn appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.com.mx",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.com.mx is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.com.mx appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.it",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.it is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.it appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.lat",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.lat is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.lat appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.com.au",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.com.au is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.com.au appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.sg",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.sg is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.sg appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.fr",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.fr is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.fr appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.jp",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.jp is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.jp appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "paloaltonetworks.co.uk",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "paloaltonetworks.co.uk is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "paloaltonetworks.co.uk appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "support.paloaltonetworks.com",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "support.paloaltonetworks.com is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "support.paloaltonetworks.com appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        },
+        {
+          "domain": "start.paloaltonetworks.com",
+          "opportunityScore": 66,
+          "authorityLevel": "MEDIUM",
+          "difficulty": "LOW",
+          "expectedGeoImpact": "+2 to +4 GEO score",
+          "whyAiTrustsThisSource": "start.paloaltonetworks.com is treated as valuable because stored citation/page evidence shows competitor or market relevance. Authority 53, relevance 60.",
+          "howCompetitorIsCited": "Palo Alto Networks are connected to this source in stored evidence.",
+          "suggestedOutreachAngle": "Pitch Cloudflare SRO 1780897908191 as a source for Cybersecurity expertise with proof, data, and local context.",
+          "evidence": [
+            {
+              "claim": "start.paloaltonetworks.com appears in 1 competitor page citation/link signal(s).",
+              "source": "Competitor Page Scraper V1",
+              "url": null,
+              "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+            }
+          ],
+          "confidenceScore": 74,
+          "dataSource": "CITATION_OUTREACH_ENGINE_V1",
+          "lastVerifiedAt": "2026-06-08T05:51:50.566Z"
+        }
+      ],
+      "evidence": [
+        {
+          "claim": "Scorecard used 1 stored SRO analysis record(s).",
+          "source": "Executive GEO Scorecard",
+          "url": "https://www.cloudflare.com",
+          "lastVerifiedAt": "2026-06-08T05:51:50.567Z"
+        }
+      ]
+    }
+  }
+}

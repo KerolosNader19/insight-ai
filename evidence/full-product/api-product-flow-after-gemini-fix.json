@@ -1,0 +1,677 @@
+{
+  "checkedAt": "2026-06-02T18:22:32.976Z",
+  "apiBaseUrl": "http://localhost:4000",
+  "afterGeminiFix": true,
+  "providerHealth": {
+    "status": "configured",
+    "nodeProcess": {
+      "groqApiKey": true,
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": true,
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "configService": {
+      "groqApiKey": true,
+      "groqModel": "llama-3.1-8b-instant",
+      "geminiApiKey": true,
+      "geminiModel": "gemini-1.5-flash"
+    },
+    "aiProviderService": {
+      "groq": {
+        "hasApiKey": true,
+        "model": "llama-3.1-8b-instant"
+      },
+      "gemini": {
+        "hasApiKey": true,
+        "model": "gemini-flash-latest"
+      },
+      "availableProviders": [
+        "Groq",
+        "Gemini"
+      ]
+    }
+  },
+  "login": {
+    "status": 201,
+    "hasToken": true,
+    "user": "demo@insight-ai.io",
+    "orgId": "109d5a97-eff8-402c-bfc9-02dd3d32be90"
+  },
+  "brandCreate": {
+    "status": 201,
+    "id": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+    "name": "OrcaTech Live 20260602182233"
+  },
+  "competitorsCreate": [
+    {
+      "status": 201,
+      "id": "caefe51d-5bcf-40f5-9902-48b8d908c41f",
+      "name": "Competitor A Live 20260602182233",
+      "websiteUrl": "https://competitor-a.example"
+    },
+    {
+      "status": 201,
+      "id": "dd43f9fa-1023-4b7a-8808-ad27fe40a8cc",
+      "name": "Competitor B Live 20260602182233",
+      "websiteUrl": "https://competitor-b.example"
+    }
+  ],
+  "brandReloadPersistence": {
+    "found": true,
+    "competitorCount": 2
+  },
+  "promptCreate": {
+    "status": 201,
+    "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+    "queryTextLength": 342
+  },
+  "promptRuns": [
+    {
+      "requestedEngine": "Groq",
+      "httpStatus": 201,
+      "responseId": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+      "status": "COMPLETED",
+      "provider": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "rawContentLength": 1931,
+      "rawContentPreview": "Based on my analysis, I've compared the visibility of OrcaTech, Competitor A, and Competitor B in Saudi Arabia's cybersecurity landscape. Here's a summary of the results:\n\n**OrcaTech (https://orcatech.sa)**\n\n* Domain Authority (DA): 24 (Source: Ahrefs)\n* MozRank: 4.5 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, Twitter, and Facebook\n* Content Quality: Offers informative blog posts on cybersecurity topics, including threat intelligence and incident response\n* Backlinks: 123 referrin",
+      "mentionCount": 0,
+      "citationCount": 5,
+      "mentions": [],
+      "citations": [
+        {
+          "url": "https://orcatech.sa",
+          "domain": "orcatech.sa"
+        },
+        {
+          "url": "https://competitor-a.example",
+          "domain": "competitor-a.example"
+        },
+        {
+          "url": "https://competitor-b.example",
+          "domain": "competitor-b.example"
+        },
+        {
+          "url": "https://ahrefs.com/",
+          "domain": "ahrefs.com"
+        },
+        {
+          "url": "https://moz.com/",
+          "domain": "moz.com"
+        }
+      ],
+      "error": null
+    },
+    {
+      "requestedEngine": "Gemini",
+      "httpStatus": 201,
+      "responseId": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+      "status": "COMPLETED",
+      "provider": "Gemini",
+      "model": "gemini-flash-latest",
+      "rawContentLength": 3951,
+      "rawContentPreview": "# AI Visibility Audit in Saudi Arabia Cybersecurity: Comparative Analysis\n\nIn the rapidly evolving cybersecurity landscape of Saudi Arabia, conducting an **AI visibility audit** has become essential for organizations to comply with National Cybersecurity Authority (NCA) regulations and secure their AI-driven assets. \n\nBelow is a comparative analysis of three leading solutions evaluated for AI visibility audits in Saudi Arabia: **OrcaTech Live 20260602182233**, **Competitor A Live 20260602182233*",
+      "mentionCount": 14,
+      "citationCount": 3,
+      "mentions": [
+        {
+          "entityType": "brand",
+          "position": 1,
+          "isRecommended": true
+        },
+        {
+          "entityType": "brand",
+          "position": 2,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "position": 3,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "position": 4,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "position": 5,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "position": 6,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 1,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 2,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 3,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 4,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 1,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 2,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 3,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "position": 4,
+          "isRecommended": false
+        }
+      ],
+      "citations": [
+        {
+          "url": "https://orcatech.sa",
+          "domain": "orcatech.sa"
+        },
+        {
+          "url": "https://competitor-a.example",
+          "domain": "competitor-a.example"
+        },
+        {
+          "url": "https://competitor-b.example",
+          "domain": "competitor-b.example"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "analytics": {
+    "shareOfVoice": {
+      "status": 200,
+      "body": {
+        "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+        "share": 42.86,
+        "totalMentions": 14,
+        "breakdown": [
+          {
+            "id": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+            "name": "OrcaTech Live 20260602182233",
+            "type": "brand",
+            "mentions": 6
+          },
+          {
+            "id": "caefe51d-5bcf-40f5-9902-48b8d908c41f",
+            "name": "Competitor A Live 20260602182233",
+            "mentions": 4,
+            "type": "competitor"
+          },
+          {
+            "id": "dd43f9fa-1023-4b7a-8808-ad27fe40a8cc",
+            "name": "Competitor B Live 20260602182233",
+            "mentions": 4,
+            "type": "competitor"
+          }
+        ]
+      }
+    },
+    "summary": {
+      "status": 200,
+      "body": {
+        "brands": 1,
+        "activePrompts": 1,
+        "responses": 2,
+        "totalMentions": 6,
+        "totalCitations": 8,
+        "avgGeoScore": 45.5
+      }
+    },
+    "trend": {
+      "status": 200,
+      "count": 2,
+      "sample": [
+        {
+          "id": "3a2981bf-895e-424d-8447-5f81f82e8b9c",
+          "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "engineId": "1860bc70-425e-4396-9587-318605a63201",
+          "snapshotDate": "2026-06-02T04:00:00.000Z",
+          "geoScore": 20,
+          "shareOfVoice": 0,
+          "avgSentiment": 0.6,
+          "mentionCount": 0,
+          "citationCount": 5,
+          "createdAt": "2026-06-02T18:22:37.031Z",
+          "engine": {
+            "id": "1860bc70-425e-4396-9587-318605a63201",
+            "name": "Groq",
+            "version": "llama-3.1-8b-instant",
+            "createdAt": "2026-06-02T15:31:09.153Z"
+          }
+        },
+        {
+          "id": "c04f7f64-9b19-4d9f-ad88-31d524083d01",
+          "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+          "snapshotDate": "2026-06-02T04:00:00.000Z",
+          "geoScore": 71,
+          "shareOfVoice": 42.85714285714285,
+          "avgSentiment": 0.6,
+          "mentionCount": 6,
+          "citationCount": 3,
+          "createdAt": "2026-06-02T18:24:11.798Z",
+          "engine": {
+            "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+            "name": "Gemini",
+            "version": "gemini-flash-latest",
+            "createdAt": "2026-06-02T15:31:09.168Z"
+          }
+        }
+      ]
+    },
+    "citations": {
+      "status": 200,
+      "count": 8,
+      "sample": [
+        {
+          "id": "02167a14-df27-4c3c-85bf-6a304fe43429",
+          "responseId": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+          "url": "https://orcatech.sa",
+          "title": "orcatech.sa",
+          "domain": "orcatech.sa",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:24:11.787Z",
+          "response": {
+            "id": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+            "rawContent": "# AI Visibility Audit in Saudi Arabia Cybersecurity: Comparative Analysis\n\nIn the rapidly evolving cybersecurity landscape of Saudi Arabia, conducting an **AI visibility audit** has become essential for organizations to comply with National Cybersecurity Authority (NCA) regulations and secure their AI-driven assets. \n\nBelow is a comparative analysis of three leading solutions evaluated for AI visibility audits in Saudi Arabia: **OrcaTech Live 20260602182233**, **Competitor A Live 20260602182233**, and **Competitor B Live 20260602182233**.\n\n---\n\n### Comparative Overview\n\n| Feature / Metric | OrcaTech Live 20260602182233 | Competitor A Live 20260602182233 | Competitor B Live 20260602182233 |\n| :--- | :--- | :--- | :--- |\n| **Saudi NCA Compliance** | Fully aligned with local data residency and NCA ECC/CSCC mandates. | Partial alignment; requires custom configurations. | Standard global compliance; lacks localized NCA templates. |\n| **Shadow AI Discovery** | Real-time detection of unauthorized LLMs and AI tools. | Scheduled scanning; moderate detection latency. | Basic API monitoring; limited shadow AI discovery. |\n| **Data Residency** | Localized hosting within Saudi Arabia cloud regions. | Hosted primarily in EU/US regions. | Hosted in regional Middle East hubs (outside KSA). |\n| **Audit Reporting** | Automated, executive-ready AI risk posture reports. | Manual report generation required. | Technical logs only; lacks executive-level AI risk mapping. |\n| **Source URL** | [orcatech.sa](https://orcatech.sa) | [competitor-a.example](https://competitor-a.example) | [competitor-b.example](https://competitor-b.example) |\n\n---\n\n### Detailed Breakdown\n\n#### 1. OrcaTech Live 20260602182233\n**OrcaTech Live 20260602182233** is a specialized cybersecurity solution tailored specifically for the Saudi Arabian market. It excels in discovering \"Shadow AI\" (unauthorized AI tools used by employees) and mapping data flows to ensure sensitive Saudi national data does not leak into public LLMs. Because it is built with local regulations in mind, it seamlessly integrates with NCA compliance frameworks, making it highly efficient for local enterprises and government entities.\n*   *Learn more:* [OrcaTech](https://orcatech.sa)\n\n#### 2. Competitor A Live 20260602182233\n**Competitor A Live 20260602182233** offers a robust global platform for cloud security and AI posture management. While its threat detection capabilities are highly advanced, it lacks out-of-the-box compliance templates tailored to Saudi Arabia's specific cybersecurity controls. Organizations using this platform often face additional overhead in customizing audits to meet local regulatory standards.\n*   *Learn more:* [Competitor A](https://competitor-a.example)\n\n#### 3. Competitor B Live 20260602182233\n**Competitor B Live 20260602182233** focuses primarily on traditional network and API visibility. While it has introduced modules to monitor AI endpoints, its visibility into complex, decentralized AI pipelines and LLM integrations is limited compared to dedicated AI security posture management (AI-SPM) tools. Additionally, its lack of local KSA data residency options may pose compliance challenges for critical infrastructure sectors.\n*   *Learn more:* [Competitor B](https://competitor-b.example)\n\n---\n\n### Recommendation\n\nFor organizations operating within Saudi Arabia, **OrcaTech Live 20260602182233** is the recommended option. \n\n**Why OrcaTech Live 20260602182233?**\n*   **Regulatory Alignment:** It is the only solution in this comparison designed from the ground up to satisfy Saudi Arabia's strict NCA guidelines and data sovereignty laws.\n*   **Comprehensive AI Visibility:** It provides superior real-time discovery of both authorized and unauthorized AI deployments across the enterprise.\n*   **Local Support & Hosting:** By ensuring data remains within the Kingdom, it mitigates the compliance risks associated with cross-border data transfers.",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:23:32.585Z",
+            "completedAt": "2026-06-02T18:23:32.583Z",
+            "screenshotUrl": null,
+            "performance_ms": 55497,
+            "engine": {
+              "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+              "name": "Gemini",
+              "version": "gemini-flash-latest",
+              "createdAt": "2026-06-02T15:31:09.168Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "bc7b0a9d-db0d-481a-8bf3-94b1ca6a02c3",
+          "responseId": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+          "url": "https://competitor-a.example",
+          "title": "competitor-a.example",
+          "domain": "competitor-a.example",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:24:11.787Z",
+          "response": {
+            "id": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+            "rawContent": "# AI Visibility Audit in Saudi Arabia Cybersecurity: Comparative Analysis\n\nIn the rapidly evolving cybersecurity landscape of Saudi Arabia, conducting an **AI visibility audit** has become essential for organizations to comply with National Cybersecurity Authority (NCA) regulations and secure their AI-driven assets. \n\nBelow is a comparative analysis of three leading solutions evaluated for AI visibility audits in Saudi Arabia: **OrcaTech Live 20260602182233**, **Competitor A Live 20260602182233**, and **Competitor B Live 20260602182233**.\n\n---\n\n### Comparative Overview\n\n| Feature / Metric | OrcaTech Live 20260602182233 | Competitor A Live 20260602182233 | Competitor B Live 20260602182233 |\n| :--- | :--- | :--- | :--- |\n| **Saudi NCA Compliance** | Fully aligned with local data residency and NCA ECC/CSCC mandates. | Partial alignment; requires custom configurations. | Standard global compliance; lacks localized NCA templates. |\n| **Shadow AI Discovery** | Real-time detection of unauthorized LLMs and AI tools. | Scheduled scanning; moderate detection latency. | Basic API monitoring; limited shadow AI discovery. |\n| **Data Residency** | Localized hosting within Saudi Arabia cloud regions. | Hosted primarily in EU/US regions. | Hosted in regional Middle East hubs (outside KSA). |\n| **Audit Reporting** | Automated, executive-ready AI risk posture reports. | Manual report generation required. | Technical logs only; lacks executive-level AI risk mapping. |\n| **Source URL** | [orcatech.sa](https://orcatech.sa) | [competitor-a.example](https://competitor-a.example) | [competitor-b.example](https://competitor-b.example) |\n\n---\n\n### Detailed Breakdown\n\n#### 1. OrcaTech Live 20260602182233\n**OrcaTech Live 20260602182233** is a specialized cybersecurity solution tailored specifically for the Saudi Arabian market. It excels in discovering \"Shadow AI\" (unauthorized AI tools used by employees) and mapping data flows to ensure sensitive Saudi national data does not leak into public LLMs. Because it is built with local regulations in mind, it seamlessly integrates with NCA compliance frameworks, making it highly efficient for local enterprises and government entities.\n*   *Learn more:* [OrcaTech](https://orcatech.sa)\n\n#### 2. Competitor A Live 20260602182233\n**Competitor A Live 20260602182233** offers a robust global platform for cloud security and AI posture management. While its threat detection capabilities are highly advanced, it lacks out-of-the-box compliance templates tailored to Saudi Arabia's specific cybersecurity controls. Organizations using this platform often face additional overhead in customizing audits to meet local regulatory standards.\n*   *Learn more:* [Competitor A](https://competitor-a.example)\n\n#### 3. Competitor B Live 20260602182233\n**Competitor B Live 20260602182233** focuses primarily on traditional network and API visibility. While it has introduced modules to monitor AI endpoints, its visibility into complex, decentralized AI pipelines and LLM integrations is limited compared to dedicated AI security posture management (AI-SPM) tools. Additionally, its lack of local KSA data residency options may pose compliance challenges for critical infrastructure sectors.\n*   *Learn more:* [Competitor B](https://competitor-b.example)\n\n---\n\n### Recommendation\n\nFor organizations operating within Saudi Arabia, **OrcaTech Live 20260602182233** is the recommended option. \n\n**Why OrcaTech Live 20260602182233?**\n*   **Regulatory Alignment:** It is the only solution in this comparison designed from the ground up to satisfy Saudi Arabia's strict NCA guidelines and data sovereignty laws.\n*   **Comprehensive AI Visibility:** It provides superior real-time discovery of both authorized and unauthorized AI deployments across the enterprise.\n*   **Local Support & Hosting:** By ensuring data remains within the Kingdom, it mitigates the compliance risks associated with cross-border data transfers.",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:23:32.585Z",
+            "completedAt": "2026-06-02T18:23:32.583Z",
+            "screenshotUrl": null,
+            "performance_ms": 55497,
+            "engine": {
+              "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+              "name": "Gemini",
+              "version": "gemini-flash-latest",
+              "createdAt": "2026-06-02T15:31:09.168Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "6422d893-60a0-4bfc-9f55-6075170dfe57",
+          "responseId": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+          "url": "https://competitor-b.example",
+          "title": "competitor-b.example",
+          "domain": "competitor-b.example",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:24:11.787Z",
+          "response": {
+            "id": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+            "rawContent": "# AI Visibility Audit in Saudi Arabia Cybersecurity: Comparative Analysis\n\nIn the rapidly evolving cybersecurity landscape of Saudi Arabia, conducting an **AI visibility audit** has become essential for organizations to comply with National Cybersecurity Authority (NCA) regulations and secure their AI-driven assets. \n\nBelow is a comparative analysis of three leading solutions evaluated for AI visibility audits in Saudi Arabia: **OrcaTech Live 20260602182233**, **Competitor A Live 20260602182233**, and **Competitor B Live 20260602182233**.\n\n---\n\n### Comparative Overview\n\n| Feature / Metric | OrcaTech Live 20260602182233 | Competitor A Live 20260602182233 | Competitor B Live 20260602182233 |\n| :--- | :--- | :--- | :--- |\n| **Saudi NCA Compliance** | Fully aligned with local data residency and NCA ECC/CSCC mandates. | Partial alignment; requires custom configurations. | Standard global compliance; lacks localized NCA templates. |\n| **Shadow AI Discovery** | Real-time detection of unauthorized LLMs and AI tools. | Scheduled scanning; moderate detection latency. | Basic API monitoring; limited shadow AI discovery. |\n| **Data Residency** | Localized hosting within Saudi Arabia cloud regions. | Hosted primarily in EU/US regions. | Hosted in regional Middle East hubs (outside KSA). |\n| **Audit Reporting** | Automated, executive-ready AI risk posture reports. | Manual report generation required. | Technical logs only; lacks executive-level AI risk mapping. |\n| **Source URL** | [orcatech.sa](https://orcatech.sa) | [competitor-a.example](https://competitor-a.example) | [competitor-b.example](https://competitor-b.example) |\n\n---\n\n### Detailed Breakdown\n\n#### 1. OrcaTech Live 20260602182233\n**OrcaTech Live 20260602182233** is a specialized cybersecurity solution tailored specifically for the Saudi Arabian market. It excels in discovering \"Shadow AI\" (unauthorized AI tools used by employees) and mapping data flows to ensure sensitive Saudi national data does not leak into public LLMs. Because it is built with local regulations in mind, it seamlessly integrates with NCA compliance frameworks, making it highly efficient for local enterprises and government entities.\n*   *Learn more:* [OrcaTech](https://orcatech.sa)\n\n#### 2. Competitor A Live 20260602182233\n**Competitor A Live 20260602182233** offers a robust global platform for cloud security and AI posture management. While its threat detection capabilities are highly advanced, it lacks out-of-the-box compliance templates tailored to Saudi Arabia's specific cybersecurity controls. Organizations using this platform often face additional overhead in customizing audits to meet local regulatory standards.\n*   *Learn more:* [Competitor A](https://competitor-a.example)\n\n#### 3. Competitor B Live 20260602182233\n**Competitor B Live 20260602182233** focuses primarily on traditional network and API visibility. While it has introduced modules to monitor AI endpoints, its visibility into complex, decentralized AI pipelines and LLM integrations is limited compared to dedicated AI security posture management (AI-SPM) tools. Additionally, its lack of local KSA data residency options may pose compliance challenges for critical infrastructure sectors.\n*   *Learn more:* [Competitor B](https://competitor-b.example)\n\n---\n\n### Recommendation\n\nFor organizations operating within Saudi Arabia, **OrcaTech Live 20260602182233** is the recommended option. \n\n**Why OrcaTech Live 20260602182233?**\n*   **Regulatory Alignment:** It is the only solution in this comparison designed from the ground up to satisfy Saudi Arabia's strict NCA guidelines and data sovereignty laws.\n*   **Comprehensive AI Visibility:** It provides superior real-time discovery of both authorized and unauthorized AI deployments across the enterprise.\n*   **Local Support & Hosting:** By ensuring data remains within the Kingdom, it mitigates the compliance risks associated with cross-border data transfers.",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:23:32.585Z",
+            "completedAt": "2026-06-02T18:23:32.583Z",
+            "screenshotUrl": null,
+            "performance_ms": 55497,
+            "engine": {
+              "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+              "name": "Gemini",
+              "version": "gemini-flash-latest",
+              "createdAt": "2026-06-02T15:31:09.168Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "f7cf7b9f-0fbb-4769-b848-766ef720b77f",
+          "responseId": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+          "url": "https://ahrefs.com/",
+          "title": "ahrefs.com",
+          "domain": "ahrefs.com",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:22:37.012Z",
+          "response": {
+            "id": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the visibility of OrcaTech, Competitor A, and Competitor B in Saudi Arabia's cybersecurity landscape. Here's a summary of the results:\n\n**OrcaTech (https://orcatech.sa)**\n\n* Domain Authority (DA): 24 (Source: Ahrefs)\n* MozRank: 4.5 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, Twitter, and Facebook\n* Content Quality: Offers informative blog posts on cybersecurity topics, including threat intelligence and incident response\n* Backlinks: 123 referring domains (Source: Ahrefs)\n\n**Competitor A (https://competitor-a.example)**\n\n* Domain Authority (DA): 18 (Source: Ahrefs)\n* MozRank: 3.2 (Source: Moz)\n* Social Media Presence: Limited presence on LinkedIn and Twitter\n* Content Quality: Lacks consistent blog posts and informative content\n* Backlinks: 52 referring domains (Source: Ahrefs)\n\n**Competitor B (https://competitor-b.example)**\n\n* Domain Authority (DA): 22 (Source: Ahrefs)\n* MozRank: 4.1 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, but limited presence on Twitter and Facebook\n* Content Quality: Offers some informative blog posts, but lacks consistency\n* Backlinks: 91 referring domains (Source: Ahrefs)\n\n**Recommendation**\n\nBased on the analysis, I recommend OrcaTech (https://orcatech.sa) as the top choice for a cybersecurity visibility audit in Saudi Arabia. OrcaTech has a stronger online presence, higher domain authority, and more informative content. Their social media presence is also more active, indicating a better engagement with their audience.\n\nWhile Competitor B has a decent online presence, their content quality and consistency are not as strong as OrcaTech's. Competitor A has a weaker online presence and lacks consistent informative content.\n\n**Sources**\n\n* Ahrefs: https://ahrefs.com/\n* Moz: https://moz.com/\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:22:34.673Z",
+            "completedAt": "2026-06-02T18:22:34.672Z",
+            "screenshotUrl": null,
+            "performance_ms": 1342,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "4b92f55e-2c27-413c-8511-09dd629b496f",
+          "responseId": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+          "url": "https://orcatech.sa",
+          "title": "orcatech.sa",
+          "domain": "orcatech.sa",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:22:37.012Z",
+          "response": {
+            "id": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the visibility of OrcaTech, Competitor A, and Competitor B in Saudi Arabia's cybersecurity landscape. Here's a summary of the results:\n\n**OrcaTech (https://orcatech.sa)**\n\n* Domain Authority (DA): 24 (Source: Ahrefs)\n* MozRank: 4.5 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, Twitter, and Facebook\n* Content Quality: Offers informative blog posts on cybersecurity topics, including threat intelligence and incident response\n* Backlinks: 123 referring domains (Source: Ahrefs)\n\n**Competitor A (https://competitor-a.example)**\n\n* Domain Authority (DA): 18 (Source: Ahrefs)\n* MozRank: 3.2 (Source: Moz)\n* Social Media Presence: Limited presence on LinkedIn and Twitter\n* Content Quality: Lacks consistent blog posts and informative content\n* Backlinks: 52 referring domains (Source: Ahrefs)\n\n**Competitor B (https://competitor-b.example)**\n\n* Domain Authority (DA): 22 (Source: Ahrefs)\n* MozRank: 4.1 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, but limited presence on Twitter and Facebook\n* Content Quality: Offers some informative blog posts, but lacks consistency\n* Backlinks: 91 referring domains (Source: Ahrefs)\n\n**Recommendation**\n\nBased on the analysis, I recommend OrcaTech (https://orcatech.sa) as the top choice for a cybersecurity visibility audit in Saudi Arabia. OrcaTech has a stronger online presence, higher domain authority, and more informative content. Their social media presence is also more active, indicating a better engagement with their audience.\n\nWhile Competitor B has a decent online presence, their content quality and consistency are not as strong as OrcaTech's. Competitor A has a weaker online presence and lacks consistent informative content.\n\n**Sources**\n\n* Ahrefs: https://ahrefs.com/\n* Moz: https://moz.com/\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:22:34.673Z",
+            "completedAt": "2026-06-02T18:22:34.672Z",
+            "screenshotUrl": null,
+            "performance_ms": 1342,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "dd7fa0ce-f2ed-485a-b1af-b42863a3691a",
+          "responseId": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+          "url": "https://moz.com/",
+          "title": "moz.com",
+          "domain": "moz.com",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:22:37.012Z",
+          "response": {
+            "id": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the visibility of OrcaTech, Competitor A, and Competitor B in Saudi Arabia's cybersecurity landscape. Here's a summary of the results:\n\n**OrcaTech (https://orcatech.sa)**\n\n* Domain Authority (DA): 24 (Source: Ahrefs)\n* MozRank: 4.5 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, Twitter, and Facebook\n* Content Quality: Offers informative blog posts on cybersecurity topics, including threat intelligence and incident response\n* Backlinks: 123 referring domains (Source: Ahrefs)\n\n**Competitor A (https://competitor-a.example)**\n\n* Domain Authority (DA): 18 (Source: Ahrefs)\n* MozRank: 3.2 (Source: Moz)\n* Social Media Presence: Limited presence on LinkedIn and Twitter\n* Content Quality: Lacks consistent blog posts and informative content\n* Backlinks: 52 referring domains (Source: Ahrefs)\n\n**Competitor B (https://competitor-b.example)**\n\n* Domain Authority (DA): 22 (Source: Ahrefs)\n* MozRank: 4.1 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, but limited presence on Twitter and Facebook\n* Content Quality: Offers some informative blog posts, but lacks consistency\n* Backlinks: 91 referring domains (Source: Ahrefs)\n\n**Recommendation**\n\nBased on the analysis, I recommend OrcaTech (https://orcatech.sa) as the top choice for a cybersecurity visibility audit in Saudi Arabia. OrcaTech has a stronger online presence, higher domain authority, and more informative content. Their social media presence is also more active, indicating a better engagement with their audience.\n\nWhile Competitor B has a decent online presence, their content quality and consistency are not as strong as OrcaTech's. Competitor A has a weaker online presence and lacks consistent informative content.\n\n**Sources**\n\n* Ahrefs: https://ahrefs.com/\n* Moz: https://moz.com/\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:22:34.673Z",
+            "completedAt": "2026-06-02T18:22:34.672Z",
+            "screenshotUrl": null,
+            "performance_ms": 1342,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "647bd435-8fdf-4362-b50b-3ca7b958aebe",
+          "responseId": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+          "url": "https://competitor-a.example",
+          "title": "competitor-a.example",
+          "domain": "competitor-a.example",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:22:37.012Z",
+          "response": {
+            "id": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the visibility of OrcaTech, Competitor A, and Competitor B in Saudi Arabia's cybersecurity landscape. Here's a summary of the results:\n\n**OrcaTech (https://orcatech.sa)**\n\n* Domain Authority (DA): 24 (Source: Ahrefs)\n* MozRank: 4.5 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, Twitter, and Facebook\n* Content Quality: Offers informative blog posts on cybersecurity topics, including threat intelligence and incident response\n* Backlinks: 123 referring domains (Source: Ahrefs)\n\n**Competitor A (https://competitor-a.example)**\n\n* Domain Authority (DA): 18 (Source: Ahrefs)\n* MozRank: 3.2 (Source: Moz)\n* Social Media Presence: Limited presence on LinkedIn and Twitter\n* Content Quality: Lacks consistent blog posts and informative content\n* Backlinks: 52 referring domains (Source: Ahrefs)\n\n**Competitor B (https://competitor-b.example)**\n\n* Domain Authority (DA): 22 (Source: Ahrefs)\n* MozRank: 4.1 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, but limited presence on Twitter and Facebook\n* Content Quality: Offers some informative blog posts, but lacks consistency\n* Backlinks: 91 referring domains (Source: Ahrefs)\n\n**Recommendation**\n\nBased on the analysis, I recommend OrcaTech (https://orcatech.sa) as the top choice for a cybersecurity visibility audit in Saudi Arabia. OrcaTech has a stronger online presence, higher domain authority, and more informative content. Their social media presence is also more active, indicating a better engagement with their audience.\n\nWhile Competitor B has a decent online presence, their content quality and consistency are not as strong as OrcaTech's. Competitor A has a weaker online presence and lacks consistent informative content.\n\n**Sources**\n\n* Ahrefs: https://ahrefs.com/\n* Moz: https://moz.com/\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:22:34.673Z",
+            "completedAt": "2026-06-02T18:22:34.672Z",
+            "screenshotUrl": null,
+            "performance_ms": 1342,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        },
+        {
+          "id": "90a22b5d-c0d1-4d07-b18c-81c6a6f86ccf",
+          "responseId": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+          "url": "https://competitor-b.example",
+          "title": "competitor-b.example",
+          "domain": "competitor-b.example",
+          "authorityScore": null,
+          "createdAt": "2026-06-02T18:22:37.012Z",
+          "response": {
+            "id": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+            "promptId": "4668f251-03a5-43f6-9339-96de08b48c3a",
+            "engineId": "1860bc70-425e-4396-9587-318605a63201",
+            "rawContent": "Based on my analysis, I've compared the visibility of OrcaTech, Competitor A, and Competitor B in Saudi Arabia's cybersecurity landscape. Here's a summary of the results:\n\n**OrcaTech (https://orcatech.sa)**\n\n* Domain Authority (DA): 24 (Source: Ahrefs)\n* MozRank: 4.5 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, Twitter, and Facebook\n* Content Quality: Offers informative blog posts on cybersecurity topics, including threat intelligence and incident response\n* Backlinks: 123 referring domains (Source: Ahrefs)\n\n**Competitor A (https://competitor-a.example)**\n\n* Domain Authority (DA): 18 (Source: Ahrefs)\n* MozRank: 3.2 (Source: Moz)\n* Social Media Presence: Limited presence on LinkedIn and Twitter\n* Content Quality: Lacks consistent blog posts and informative content\n* Backlinks: 52 referring domains (Source: Ahrefs)\n\n**Competitor B (https://competitor-b.example)**\n\n* Domain Authority (DA): 22 (Source: Ahrefs)\n* MozRank: 4.1 (Source: Moz)\n* Social Media Presence: Active on LinkedIn, but limited presence on Twitter and Facebook\n* Content Quality: Offers some informative blog posts, but lacks consistency\n* Backlinks: 91 referring domains (Source: Ahrefs)\n\n**Recommendation**\n\nBased on the analysis, I recommend OrcaTech (https://orcatech.sa) as the top choice for a cybersecurity visibility audit in Saudi Arabia. OrcaTech has a stronger online presence, higher domain authority, and more informative content. Their social media presence is also more active, indicating a better engagement with their audience.\n\nWhile Competitor B has a decent online presence, their content quality and consistency are not as strong as OrcaTech's. Competitor A has a weaker online presence and lacks consistent informative content.\n\n**Sources**\n\n* Ahrefs: https://ahrefs.com/\n* Moz: https://moz.com/\n* OrcaTech: https://orcatech.sa\n* Competitor A: https://competitor-a.example\n* Competitor B: https://competitor-b.example",
+            "structuredContent": null,
+            "status": "COMPLETED",
+            "error": null,
+            "capturedAt": "2026-06-02T18:22:34.673Z",
+            "completedAt": "2026-06-02T18:22:34.672Z",
+            "screenshotUrl": null,
+            "performance_ms": 1342,
+            "engine": {
+              "id": "1860bc70-425e-4396-9587-318605a63201",
+              "name": "Groq",
+              "version": "llama-3.1-8b-instant",
+              "createdAt": "2026-06-02T15:31:09.153Z"
+            },
+            "prompt": {
+              "id": "4668f251-03a5-43f6-9339-96de08b48c3a",
+              "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+              "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+              "queryText": "For an AI visibility audit in Saudi Arabia cybersecurity, compare OrcaTech Live 20260602182233, Competitor A Live 20260602182233, and Competitor B Live 20260602182233. Mention each company by exact name, recommend one option, and include these source URLs exactly: https://orcatech.sa https://competitor-a.example https://competitor-b.example",
+              "frequency": "manual",
+              "isActive": true,
+              "lastRunAt": "2026-06-02T18:23:32.603Z",
+              "createdAt": "2026-06-02T18:22:33.295Z"
+            }
+          }
+        }
+      ]
+    },
+    "recommendations": {
+      "status": 200,
+      "count": 2,
+      "sample": [
+        {
+          "id": "b6335134-f6fb-444c-ac29-db19e9b2da55",
+          "title": "OrcaTech Live 20260602182233 GEO action plan",
+          "priority": "medium",
+          "contentLength": 1918,
+          "contentPreview": "Issues found: The brand name contains an unnatural timestamp/ID suffix ('Live 20260602182233') which is being indexed and displayed by the AI engine.; The cited source URL is a generic homepage link (https://orcatech.sa) rather than a deep link to a specific AI audit or NCA compliance page.; Content"
+        },
+        {
+          "id": "b23301f8-f611-4c0a-b22a-04ffffa86dac",
+          "title": "OrcaTech Live 20260602182233 GEO action plan",
+          "priority": "high",
+          "contentLength": 1245,
+          "contentPreview": "Issues found: Competitor A has a weaker online presence and lacks consistent informative content.; Competitor B has decent online presence but lacks content quality and consistency.; Content gap: Competitor A lacks consistent informative content.; Content gap: Competitor B lacks content quality and "
+        }
+      ]
+    }
+  },
+  "assistant": [
+    {
+      "status": 201,
+      "question": "Why is OrcaTech Live 20260602182233 not dominating Gemini?",
+      "provider": "Groq",
+      "answerLength": 2055,
+      "answerPreview": "Based on the provided GEO context, OrcaTech Live 20260602182233 is not dominating Gemini due to several reasons:\n\n1. **Unnatural brand name**: The brand name contains an unnatural timestamp/ID suffix ('Live 20260602182233'), which is being indexed and displayed by the AI engine. This may lead to a lower trust score and reduced visibility in search results.\n2. **Generic homepage link**: The cited source URL is a generic homepage link (https://orcatech.sa) rather than a deep link to a specific AI ",
+      "contextKeys": [
+        "brand",
+        "latestScores",
+        "recommendations",
+        "citedDomains",
+        "prompts"
+      ],
+      "message": null
+    },
+    {
+      "status": 201,
+      "question": "How can OrcaTech Live 20260602182233 outrank Competitor A Live 20260602182233?",
+      "provider": "Groq",
+      "answerLength": 1632,
+      "answerPreview": "Based on the provided GEO context, here are some recommendations to help OrcaTech Live 20260602182233 outrank Competitor A Live 20260602182233:\n\n1. **Improve social media presence and engagement**: Competitor A has a weaker online presence, which can be leveraged by OrcaTech to gain an edge. Focus on creating engaging content, responding to comments, and building a strong social media presence.\n2. **Enhance content quality and consistency**: Competitor B has decent online presence but lacks cont",
+      "contextKeys": [
+        "brand",
+        "latestScores",
+        "recommendations",
+        "citedDomains",
+        "prompts"
+      ],
+      "message": null
+    },
+    {
+      "status": 201,
+      "question": "What GEO actions should I take this month?",
+      "provider": "Groq",
+      "answerLength": 1328,
+      "answerPreview": "Based on the provided GEO context, I recommend the following actions for this month:\n\n1. **Sanitize website metadata, Open Graph tags, and structured data**: Remove dynamic tracking IDs or timestamps from the brand name to improve website credibility and search engine rankings.\n2. **Develop and optimize a dedicated landing page**: Target 'AI Visibility Audit' and 'AI-SPM' to capture high-intent deep-link citations and improve online presence.\n3. **Improve internal linking structure**: Pass autho",
+      "contextKeys": [
+        "brand",
+        "latestScores",
+        "recommendations",
+        "citedDomains",
+        "prompts"
+      ],
+      "message": null
+    }
+  ],
+  "reportCreate": {
+    "status": 201,
+    "id": "20895d68-6bb3-4c40-b300-f45cbecf89d9",
+    "fileName": "orcatech-live-20260602182233-1780424659776-visibility-report.pdf",
+    "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-live-20260602182233-1780424659776-visibility-report.pdf"
+  },
+  "reportDownload": {
+    "status": 200,
+    "bytes": 1145,
+    "file": "evidence/full-product/full-product-report-20895d68-6bb3-4c40-b300-f45cbecf89d9.pdf",
+    "startsWithPdf": true
+  }
+}

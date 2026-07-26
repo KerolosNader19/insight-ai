@@ -44,7 +44,7 @@ const trackingWorker = new Worker(
 
       // 2. Capture Screenshots
       const screenshotBuffer = await page.screenshot({ fullPage: true });
-      // In production, upload to S3/GCS. For MVP, we'll store a mock URL.
+      // Deferred infrastructure: upload to S3/GCS before enabling screenshot reports.
       const screenshotUrl = `https://storage.insight-ai.io/screenshots/${job.id}.png`;
 
       // 3. Store Raw Response

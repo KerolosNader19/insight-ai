@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED",
+  "engine": "INSIGHT_CONFIDENCE_ENGINE",
+  "data": {
+    "confidenceScore": 97,
+    "sampleSize": 142,
+    "evidenceCount": 863,
+    "sourceDiversity": 8,
+    "framework": [
+      "sample size",
+      "evidence count",
+      "source diversity",
+      "freshness",
+      "consistency"
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Unified confidence is calculated from sample size, evidence count, source diversity, freshness, and consistency.",
+      "source": "Insight Confidence Engine",
+      "url": null
+    }
+  ],
+  "confidenceScore": 97,
+  "dataSource": "INTELLIGENCE_MEMORY + CHANGE_DETECTION + OUTCOMES",
+  "lastVerifiedAt": "2026-06-08T03:22:22.192Z"
+}

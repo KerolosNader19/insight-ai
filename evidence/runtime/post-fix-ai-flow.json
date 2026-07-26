@@ -1,0 +1,186 @@
+{
+  "checkedAt": "2026-06-02T17:27:05.791Z",
+  "apiBaseUrl": "http://localhost:4000",
+  "health": {
+    "status": 200,
+    "headers": {
+      "access-control-allow-credentials": "true",
+      "connection": "keep-alive",
+      "content-length": "380",
+      "content-security-policy": "default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+      "content-type": "application/json; charset=utf-8",
+      "cross-origin-opener-policy": "same-origin",
+      "cross-origin-resource-policy": "same-origin",
+      "date": "Tue, 02 Jun 2026 17:27:05 GMT",
+      "etag": "W/\"17c-vx0HhAdVor9hBJaXHynwGQQmS9U\"",
+      "keep-alive": "timeout=5",
+      "origin-agent-cluster": "?1",
+      "referrer-policy": "no-referrer",
+      "strict-transport-security": "max-age=15552000; includeSubDomains",
+      "vary": "Origin, Accept-Encoding",
+      "x-content-type-options": "nosniff",
+      "x-dns-prefetch-control": "off",
+      "x-download-options": "noopen",
+      "x-frame-options": "SAMEORIGIN",
+      "x-permitted-cross-domain-policies": "none",
+      "x-xss-protection": "0"
+    },
+    "body": {
+      "status": "missing_provider_keys",
+      "nodeProcess": {
+        "groqApiKey": false,
+        "groqModel": null,
+        "geminiApiKey": false,
+        "geminiModel": null
+      },
+      "configService": {
+        "groqApiKey": false,
+        "groqModel": null,
+        "geminiApiKey": false,
+        "geminiModel": null
+      },
+      "aiProviderService": {
+        "groq": {
+          "hasApiKey": false,
+          "model": "llama-3.1-8b-instant"
+        },
+        "gemini": {
+          "hasApiKey": false,
+          "model": "gemini-1.5-flash"
+        },
+        "availableProviders": []
+      }
+    }
+  },
+  "login": {
+    "status": 201,
+    "hasToken": true
+  },
+  "brand": {
+    "id": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+    "name": "OrcaTech",
+    "organizationId": "109d5a97-eff8-402c-bfc9-02dd3d32be90",
+    "competitorCount": 2
+  },
+  "prompt": {
+    "id": "a6246b4b-d65a-481c-8ba9-ba40848974d1",
+    "queryText": "Best cybersecurity company in Saudi Arabia"
+  },
+  "promptRuns": [
+    {
+      "requestedEngine": "Groq",
+      "httpStatus": 201,
+      "responseId": "4ba4cc9d-835a-426a-a853-c9981e92b911",
+      "status": "FAILED",
+      "provider": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "error": "GROQ_API_KEY is not configured",
+      "rawContentLength": 0,
+      "mentionCount": 0,
+      "citationCount": 0
+    },
+    {
+      "requestedEngine": "Gemini",
+      "httpStatus": 201,
+      "responseId": "15a7fbd0-05ef-45bd-acbf-510e114a5183",
+      "status": "FAILED",
+      "provider": "Gemini",
+      "model": "gemini-1.5-flash",
+      "error": "GEMINI_API_KEY is not configured",
+      "rawContentLength": 0,
+      "mentionCount": 0,
+      "citationCount": 0
+    }
+  ],
+  "analytics": {
+    "shareOfVoice": {
+      "status": 200,
+      "body": {
+        "brandId": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+        "share": 26.32,
+        "totalMentions": 38,
+        "breakdown": [
+          {
+            "id": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+            "name": "OrcaTech",
+            "type": "brand",
+            "mentions": 10
+          },
+          {
+            "id": "35d8fca3-780d-452b-8a13-37aad657233c",
+            "name": "Competitor A",
+            "mentions": 14,
+            "type": "competitor"
+          },
+          {
+            "id": "a818822b-03cd-4cfc-8e11-f3f770960dee",
+            "name": "Competitor B",
+            "mentions": 14,
+            "type": "competitor"
+          }
+        ]
+      }
+    },
+    "recommendations": {
+      "status": 200,
+      "count": 3,
+      "sample": [
+        {
+          "id": "ecc871f1-1717-4728-b23e-450a816d6619",
+          "title": "OrcaTech visibility recovery",
+          "priority": "high"
+        },
+        {
+          "id": "0cda1b74-d181-46f6-b8cf-1e9a1ea7b1bb",
+          "title": "OrcaTech citation expansion",
+          "priority": "medium"
+        },
+        {
+          "id": "ad583803-3909-427e-a83f-d034cabd033d",
+          "title": "OrcaTech citation expansion",
+          "priority": "medium"
+        }
+      ]
+    },
+    "citations": {
+      "status": 200,
+      "count": 38
+    }
+  },
+  "assistant": [
+    {
+      "question": "Why am I not appearing in Gemini?",
+      "status": 503,
+      "provider": null,
+      "answerLength": 0,
+      "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI"
+    },
+    {
+      "question": "How can I outrank Competitor A?",
+      "status": 503,
+      "provider": null,
+      "answerLength": 0,
+      "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI"
+    },
+    {
+      "question": "What GEO actions should I take this month?",
+      "status": 503,
+      "provider": null,
+      "answerLength": 0,
+      "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI"
+    }
+  ],
+  "report": {
+    "status": 201,
+    "id": "c3d7c1b3-9788-4263-b25e-c4f2047a4389",
+    "title": "OrcaTech Runtime Environment Audit Report",
+    "fileName": "orcatech-1780421226377-visibility-report.pdf",
+    "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-1780421226377-visibility-report.pdf"
+  },
+  "reportDownload": {
+    "status": 200,
+    "bytes": 1110,
+    "file": "evidence/runtime/runtime-report-c3d7c1b3-9788-4263-b25e-c4f2047a4389.pdf",
+    "startsWithPdf": true
+  }
+}

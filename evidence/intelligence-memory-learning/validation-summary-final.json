@@ -1,0 +1,102 @@
+{
+  "startedAt": "2026-06-08T03:22:21.085Z",
+  "baseUrl": "http://localhost:4000",
+  "steps": [
+    {
+      "name": "login and brand",
+      "at": "2026-06-08T03:22:21.344Z",
+      "summary": {
+        "user": "demo@insight-ai.io",
+        "organization": "Acme GEO Agency",
+        "brand": "OrcaTech",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7"
+      }
+    },
+    {
+      "name": "additional memory capture",
+      "at": "2026-06-08T03:22:21.784Z",
+      "summary": {
+        "storedSnapshots": 28,
+        "engines": [
+          "GEO_SCORE_V3",
+          "CITATION_AUTHORITY_ENGINE",
+          "PROMPT_COVERAGE_ENGINE",
+          "THREAT_ENGINE_V2",
+          "OPPORTUNITY_ENGINE_V3",
+          "COMPETITOR_INTELLIGENCE_ENGINE"
+        ]
+      }
+    },
+    {
+      "name": "memory comparison",
+      "at": "2026-06-08T03:22:21.846Z",
+      "summary": {
+        "period": "month",
+        "comparisons": 28,
+        "selectedMetricKey": "opportunityScore"
+      }
+    },
+    {
+      "name": "change detection",
+      "at": "2026-06-08T03:22:21.904Z",
+      "summary": {
+        "detectedNow": 0,
+        "storedChanges": 0,
+        "message": "No material intelligence changes detected."
+      }
+    },
+    {
+      "name": "trend calculation",
+      "at": "2026-06-08T03:22:21.950Z",
+      "summary": {}
+    },
+    {
+      "name": "rollup",
+      "at": "2026-06-08T03:22:22.010Z",
+      "summary": {
+        "rawSnapshots": 84,
+        "rollupsCreated": 28,
+        "duplicateGroups": 28
+      }
+    },
+    {
+      "name": "action outcome",
+      "at": "2026-06-08T03:22:22.084Z",
+      "summary": {
+        "outcomeId": "17da1ae6-d6c4-4c1e-80e4-40bfb13e6a6c",
+        "expectedMetric": "opportunityScore",
+        "baselineValue": 35,
+        "actualValue": 35,
+        "effectivenessScore": 0
+      }
+    },
+    {
+      "name": "effectiveness",
+      "at": "2026-06-08T03:22:22.122Z",
+      "summary": {
+        "totalTracked": 2,
+        "completed": 1,
+        "averageEffectiveness": 0
+      }
+    },
+    {
+      "name": "timeline and confidence",
+      "at": "2026-06-08T03:22:22.194Z",
+      "summary": {
+        "timelineEvents": 58,
+        "confidenceScore": 97
+      }
+    },
+    {
+      "name": "change report",
+      "at": "2026-06-08T03:22:22.463Z",
+      "summary": {
+        "reportId": "5c43fc5a-e215-41a2-a6dd-b14967d43cfd",
+        "file": "/home/omar/Pictures/insight-ai/evidence/intelligence-memory-learning/35-change-report-5c43fc5a-e215-41a2-a6dd-b14967d43cfd.pdf",
+        "bytes": 9285,
+        "contentType": "application/pdf"
+      }
+    }
+  ],
+  "finishedAt": "2026-06-08T03:22:22.463Z"
+}

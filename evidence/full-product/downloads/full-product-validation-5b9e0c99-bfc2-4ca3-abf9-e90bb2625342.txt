@@ -1,0 +1,22 @@
+Full Product Visibility Report 20260602183015
+Agency: Full Product Audit Agency 20260602183015
+Branding color: #00f5d4
+Logo URL: https://insight-ai.local/logo.png
+Brand: OrcaTech Product 20260602183015
+Generated: 2026-06-02T18:32:07.398Z
+GEO Score: 0
+Share of Voice: 0%
+Brand Mentions: 0
+Citations: 10
+Recommendations: OrcaTech Product 20260602183015 GEO action plan: Issues found: OrcaTech is
+completely omitted from the AI search response, resulting in 0% share of voice for this
+SITE,
+legacy players.; OrcaTech lacks association with key Saudi cybersecurity regulatory terms
+like 'NCA compliance' within the AI's retrieval model.; Content gap: Comprehensive,
+Cloud
+cybersecurity implementations and threat mitigation for Saudi enterprises.; Content gap: An
+authoritative comparison guide of local Saudi MSSPs vs. global cybersecurity vendors,
+positioning OrcaTech as the optimal hybrid choice.; Schema opportunity: Implement
+Organization Schema with specific 'location' and 'areaServed' properties set to Saudi Arabia
+linking them to 'NCA compliance' via the 'knowsAbout' property.; Schema opportunity: Apply
+WebPage Schema with 'about' and 'mentions' pointing to authoritative Wikidata entities like

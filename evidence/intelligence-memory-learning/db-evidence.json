@@ -1,0 +1,368 @@
+{
+  "generatedAt": "2026-06-08T03:23:20.901Z",
+  "brand": {
+    "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "name": "OrcaTech",
+    "organization": "Acme GEO Agency"
+  },
+  "counts": {
+    "snapshotCount": 140,
+    "changeCount": 0,
+    "outcomeCount": 2,
+    "aliasCount": 1,
+    "changeReportCount": 1
+  },
+  "snapshotsByEngine": [
+    {
+      "engine": "PROMPT_COVERAGE_ENGINE",
+      "count": 6
+    },
+    {
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "count": 33
+    },
+    {
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "count": 24
+    },
+    {
+      "engine": "COMPETITOR_INTELLIGENCE_ENGINE",
+      "count": 9
+    },
+    {
+      "engine": "GEO_SCORE_V3",
+      "count": 3
+    },
+    {
+      "engine": "MEMORY_ROLLUP",
+      "count": 56
+    },
+    {
+      "engine": "THREAT_ENGINE_V2",
+      "count": 9
+    }
+  ],
+  "latestSnapshots": [
+    {
+      "id": "e8f18cd6-0d64-4b0a-9ec4-8e6ad843a0d8",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "stc.com.sa",
+      "metricKey": "citationAuthority.rollup",
+      "metricValue": 43,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "2a90f193-3f1f-45a7-890f-2d5be8eac208",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "cyberoam.com",
+      "metricKey": "citationAuthority.rollup",
+      "metricValue": 43,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "1592dee9-962e-47f5-a907-928d169f44bb",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "sama.gov.sa",
+      "metricKey": "citationAuthority.rollup",
+      "metricValue": 43,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "e79d1d79-6cf6-4d3d-85a6-a49362de73d8",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "saudiaramco.com",
+      "metricKey": "citationAuthority.rollup",
+      "metricValue": 43,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "483331d7-988d-44d2-92f2-d0c5048e2f59",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "COMPETITOR",
+      "subjectId": "ff9f628f-e310-4071-82e3-7364cb0f7bd3",
+      "metricKey": "threatScore.rollup",
+      "metricValue": 13,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "fce5b9e0-a9b6-4825-aaac-4f189ea9f87b",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "mcit.gov.sa",
+      "metricKey": "citationAuthority.rollup",
+      "metricValue": 43,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "2576c692-aadc-4995-befb-020db9e1eca1",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "BRAND",
+      "subjectId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "metricKey": "geoScore.rollup",
+      "metricValue": 85,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    },
+    {
+      "id": "ed5a5796-e3c3-49bc-b152-ee123856b94b",
+      "engine": "MEMORY_ROLLUP",
+      "subjectType": "CITATION_SOURCE",
+      "subjectId": "checkpoint.com",
+      "metricKey": "citationAuthority.rollup",
+      "metricValue": 43,
+      "confidenceScore": 58,
+      "dataSource": "INTELLIGENCE_MEMORY_ROLLUP",
+      "capturedAt": "2026-06-08T03:22:21.981Z",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+          "source": "Rollup Engine"
+        }
+      ]
+    }
+  ],
+  "latestRollups": [
+    {
+      "id": "702f2416-3eef-43b6-b808-fed2fe6554e0",
+      "metricKey": "competitorGeoScore.rollup",
+      "metricValue": 18,
+      "payload": {
+        "key": "COMPETITOR_INTELLIGENCE_ENGINE::COMPETITOR::ff9f628f-e310-4071-82e3-7364cb0f7bd3::competitorGeoScore",
+        "max": 18,
+        "min": 18,
+        "latest": 18,
+        "originalCount": 3,
+        "preservedHistory": true,
+        "originalSnapshotIds": [
+          "bff32b6e-8762-480b-ad49-846cee0c83c6",
+          "7126a934-eb69-4b5d-966c-ec148b6f742b",
+          "040a147b-0d3e-4f14-9540-a686acdb425f"
+        ]
+      },
+      "confidenceScore": 58,
+      "capturedAt": "2026-06-08T03:22:21.981Z"
+    },
+    {
+      "id": "8842d7bf-ec98-4e57-af9d-546ba0fa9fe2",
+      "metricKey": "competitorGeoScore.rollup",
+      "metricValue": 18,
+      "payload": {
+        "key": "COMPETITOR_INTELLIGENCE_ENGINE::COMPETITOR::2a21eae5-a5f3-4595-b0e1-882f3d4c5339::competitorGeoScore",
+        "max": 18,
+        "min": 18,
+        "latest": 18,
+        "originalCount": 3,
+        "preservedHistory": true,
+        "originalSnapshotIds": [
+          "d77724b3-a1c7-4401-ba1c-fa9781d2e80e",
+          "7388ce7b-7b3d-4a24-b845-22b067c19a3c",
+          "b8fd9af7-2ec3-4f8e-bca5-af15b45b9055"
+        ]
+      },
+      "confidenceScore": 58,
+      "capturedAt": "2026-06-08T03:22:21.981Z"
+    },
+    {
+      "id": "4d26fe23-e8d0-4830-89ed-ae718b38a74e",
+      "metricKey": "competitorGeoScore.rollup",
+      "metricValue": 18,
+      "payload": {
+        "key": "COMPETITOR_INTELLIGENCE_ENGINE::COMPETITOR::4e721818-9b09-4762-b407-687ee6d593c7::competitorGeoScore",
+        "max": 18,
+        "min": 18,
+        "latest": 18,
+        "originalCount": 3,
+        "preservedHistory": true,
+        "originalSnapshotIds": [
+          "1b860fbf-a086-46ec-ac2d-04e564f4c896",
+          "4fd793e0-d098-418a-9139-519663588d45",
+          "4a69e962-a433-40c5-bb20-01633103b1c1"
+        ]
+      },
+      "confidenceScore": 58,
+      "capturedAt": "2026-06-08T03:22:21.981Z"
+    },
+    {
+      "id": "d664f3cb-64b6-4bd1-bcbb-24caa2c6ccf4",
+      "metricKey": "opportunityScore.rollup",
+      "metricValue": 35,
+      "payload": {
+        "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::llmsFullTxt::opportunityScore",
+        "max": 35,
+        "min": 35,
+        "latest": 35,
+        "originalCount": 3,
+        "preservedHistory": true,
+        "originalSnapshotIds": [
+          "45c52a9f-9d1d-476a-b0ec-e3d40b761d5e",
+          "d3354529-a34b-40bd-9813-350fabbe7a4f",
+          "eebcacbd-efcc-4bf1-855c-2eb9735b6678"
+        ]
+      },
+      "confidenceScore": 58,
+      "capturedAt": "2026-06-08T03:22:21.981Z"
+    },
+    {
+      "id": "608c0b24-79a6-44a3-b0e4-e46a6f47a8b6",
+      "metricKey": "opportunityScore.rollup",
+      "metricValue": 55,
+      "payload": {
+        "key": "OPPORTUNITY_ENGINE_V3::OPPORTUNITY::keywordCoverage::opportunityScore",
+        "max": 55,
+        "min": 55,
+        "latest": 55,
+        "originalCount": 3,
+        "preservedHistory": true,
+        "originalSnapshotIds": [
+          "2f385f43-6a94-4094-88b8-8e33f93d5ba8",
+          "a9acbbfd-4dcb-4c53-ba23-084852253dac",
+          "a12734c8-ad90-427c-816c-cbfbfcc8fa75"
+        ]
+      },
+      "confidenceScore": 58,
+      "capturedAt": "2026-06-08T03:22:21.981Z"
+    }
+  ],
+  "latestOutcomes": [
+    {
+      "id": "17da1ae6-d6c4-4c1e-80e4-40bfb13e6a6c",
+      "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+      "status": "COMPLETED",
+      "expectedMetric": "opportunityScore",
+      "expectedImpact": 5,
+      "baselineValue": 35,
+      "actualValue": 35,
+      "actualImpact": 0,
+      "effectivenessScore": 0,
+      "confidenceScore": 44,
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Baseline opportunityScore was 35 when tracking started.",
+          "source": "Action Outcome Tracking"
+        },
+        {
+          "url": null,
+          "claim": "Actual opportunityScore is 35; actual impact 0.",
+          "source": "Recommendation Effectiveness Engine"
+        }
+      ],
+      "updatedAt": "2026-06-08T03:22:22.068Z"
+    },
+    {
+      "id": "e9ca5c1d-d52d-4e88-86a5-13c86abf3898",
+      "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+      "status": "PENDING",
+      "expectedMetric": "GEO_SCORE",
+      "expectedImpact": 5,
+      "baselineValue": null,
+      "actualValue": null,
+      "actualImpact": null,
+      "effectivenessScore": null,
+      "confidenceScore": 33,
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Baseline GEO_SCORE was unavailable when tracking started.",
+          "source": "Action Outcome Tracking"
+        }
+      ],
+      "updatedAt": "2026-06-08T03:21:25.521Z"
+    }
+  ],
+  "aliases": [
+    {
+      "id": "edfa5780-3822-4fd4-93ad-efa31156f1fc",
+      "canonical": "Security Operations Center",
+      "alias": "SOC",
+      "category": "TECHNOLOGY",
+      "evidence": [
+        {
+          "url": "https://orcatech.online",
+          "claim": "SOC is normalized to Security Operations Center.",
+          "source": "Entity Normalization"
+        }
+      ],
+      "confidenceScore": 40,
+      "lastVerifiedAt": "2026-06-08T03:21:23.221Z"
+    }
+  ],
+  "latestReports": [
+    {
+      "id": "5c43fc5a-e215-41a2-a6dd-b14967d43cfd",
+      "title": "OrcaTech Executive Change Report",
+      "type": "PDF_CHANGE",
+      "status": "GENERATED",
+      "fileName": "orcatech-1780888942225-executive-change-report.pdf",
+      "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-1780888942225-executive-change-report.pdf",
+      "createdAt": "2026-06-08T03:22:22.226Z"
+    }
+  ]
+}

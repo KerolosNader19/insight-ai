@@ -1,0 +1,49 @@
+{
+  "generatedAt": "2026-06-08T02:18:59.738Z",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "brandName": "OrcaTech",
+  "provider": "Groq",
+  "validationStatus": {
+    "competitorDiscovery": "COMPLETED",
+    "promptDiscovery": "COMPLETED",
+    "citationDiscovery": "COMPLETED after real prompt runs; returned INSUFFICIENT_DATA before prompt evidence existed",
+    "geoScoreV2": "COMPLETED after real prompt runs and GEO audit; returned INSUFFICIENT_DATA before enough evidence existed"
+  },
+  "databaseCounts": {
+    "competitorSuggestions": 3,
+    "promptSuggestions": 1,
+    "citationOpportunities": 8,
+    "geoScoreSnapshots": 1,
+    "realPromptRuns": 2,
+    "realMentions": 12,
+    "realCitations": 9
+  },
+  "evidenceFiles": [
+    "00-ai-provider-health.json",
+    "00-brands-before.json",
+    "00-cleanup.json",
+    "00-health.json",
+    "01-competitor-discovery-groq.json",
+    "01b-competitor-suggestions-db.json",
+    "02-prompt-discovery-groq.json",
+    "02b-prompt-suggestions-db.json",
+    "03-citation-discovery-groq.json",
+    "03b-citation-opportunities-db.json",
+    "04-geo-score-v2-recalculate.json",
+    "04-precondition-geo-audit.json",
+    "04b-geo-score-v2-db.json",
+    "051-create-real-prompt.json",
+    "051-run-real-prompt-groq.json",
+    "052-create-real-prompt.json",
+    "052-run-real-prompt-groq.json",
+    "05c-prompts-after-real-runs.json",
+    "06-citation-discovery-after-real-runs.json",
+    "06b-citation-opportunities-db-after-real-runs.json",
+    "07-geo-score-v2-after-real-runs.json",
+    "07b-geo-score-v2-db-after-real-runs.json",
+    "08-database-records.json",
+    "validation-summary.json"
+  ],
+  "noSecrets": true,
+  "note": "API keys and tokens are redacted. Redis was not running locally, causing BullMQ ECONNREFUSED logs while API endpoints remained available."
+}

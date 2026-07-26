@@ -1,0 +1,114 @@
+{
+  "label": "07-public-market-report",
+  "method": "POST",
+  "url": "/public-market-reports",
+  "requestBody": {
+    "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+    "reportType": "MARKET_REPORT",
+    "title": "Cybersecurity UAE Public GEO Market Report"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "PUBLIC_MARKET_REPORTS",
+    "data": {
+      "id": "da8ebf0f-971c-4a8d-9595-aecd60c80ecd",
+      "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+      "reportType": "MARKET_REPORT",
+      "title": "Cybersecurity UAE Public GEO Market Report",
+      "slug": "cybersecurity-uae-public-geo-market-report-1780902254145",
+      "summary": {
+        "market": "Cybersecurity UAE",
+        "indexScore": 61,
+        "topPrompts": [
+          "Best Cybersecurity companies in UAE",
+          "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE",
+          "Top Cybersecurity providers for enterprises in UAE",
+          "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?",
+          "Best SOC provider for regulated banks in UAE.",
+          "Compare Cybersecurity vendors in UAE",
+          "Cybersecurity provider with local support in UAE",
+          "Best cybersecurity company in UAE for a CEO",
+          "What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?",
+          "Best cybersecurity company in UAE for a CTO"
+        ],
+        "leaderboards": [
+          {
+            "type": "TOP_GEO_BRANDS",
+            "title": "Top GEO Brands in Cybersecurity UAE"
+          },
+          {
+            "type": "TOP_AI_VISIBLE_BRANDS",
+            "title": "Top AI Visible Brands in Cybersecurity UAE"
+          },
+          {
+            "type": "TOP_CITATION_WINNERS",
+            "title": "Top Citation Winners in Cybersecurity UAE"
+          },
+          {
+            "type": "TOP_GROWING_BRANDS",
+            "title": "Top Growing Brands in Cybersecurity UAE"
+          },
+          {
+            "type": "TOP_DECLINING_BRANDS",
+            "title": "Top Declining Brands in Cybersecurity UAE"
+          },
+          {
+            "type": "TOP_CITATION_DOMAINS",
+            "title": "Top Citation Domains in Cybersecurity UAE"
+          }
+        ],
+        "topCitations": [
+          "stc.com.sa",
+          "saudiaramco.com",
+          "sama.gov.sa",
+          "paloaltonetworks.com",
+          "orcatech.com",
+          "mcit.gov.sa",
+          "cyberoam.com",
+          "checkpoint.com"
+        ],
+        "topOpportunities": [
+          "Target market prompt: Best Cybersecurity companies in UAE",
+          "Target market prompt: Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE",
+          "Capture growing topic: sro",
+          "Capture growing topic: 1780897908191",
+          "Capture growing topic: cloudflare",
+          "Capture growing topic: competitors",
+          "Capture growing topic: enterprises",
+          "Capture growing topic: providers",
+          "Target market prompt: Top Cybersecurity providers for enterprises in UAE",
+          "Target market prompt: What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+        ]
+      },
+      "landingPagePath": "/home/omar/Pictures/insight-ai/apps/api/generated-market-reports/cybersecurity-uae-public-geo-market-report-1780902254145.html",
+      "pdfPath": "/home/omar/Pictures/insight-ai/apps/api/generated-market-reports/cybersecurity-uae-public-geo-market-report-1780902254145.pdf",
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Public report generated from 10 prompt(s), 8 citation domain(s), and 10 opportunity row(s).",
+          "source": "Public Market Reports",
+          "lastVerifiedAt": "2026-06-08T07:04:14.145Z"
+        }
+      ],
+      "confidenceScore": 85,
+      "status": "GENERATED",
+      "generatedAt": "2026-06-08T07:04:14.148Z",
+      "dataSource": "PUBLIC_MARKET_REPORTS",
+      "createdAt": "2026-06-08T07:04:14.148Z",
+      "updatedAt": "2026-06-08T07:04:14.148Z"
+    },
+    "confidenceScore": 85,
+    "evidence": [
+      {
+        "claim": "Public report generated from 10 prompt(s), 8 citation domain(s), and 10 opportunity row(s).",
+        "source": "Public Market Reports",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:14.145Z"
+      }
+    ],
+    "dataSource": "PUBLIC_MARKET_REPORTS",
+    "lastVerifiedAt": "2026-06-08T07:04:14.163Z"
+  }
+}

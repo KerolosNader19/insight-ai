@@ -1,0 +1,257 @@
+{
+  "label": "05c-prompts-after-real-runs",
+  "url": "/prompts?brandId=3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:17:05.750Z",
+  "completedAt": "2026-06-08T02:17:05.782Z",
+  "body": [
+    {
+      "id": "900f80ae-1484-4306-8bbe-85b33626ea59",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "queryText": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+      "frequency": "manual",
+      "isActive": true,
+      "lastRunAt": "2026-06-08T02:17:05.098Z",
+      "createdAt": "2026-06-08T02:17:03.649Z",
+      "brand": {
+        "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T21:42:59.849Z",
+        "updatedAt": "2026-06-02T21:42:59.849Z"
+      },
+      "responses": [
+        {
+          "id": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+          "promptId": "900f80ae-1484-4306-8bbe-85b33626ea59",
+          "engineId": "1860bc70-425e-4396-9587-318605a63201",
+          "rawContent": "**Cybersecurity Comparison in Saudi Arabia: OrcaTech, Palo Alto Networks, Check Point, and Cyberoam**\n\nSaudi Arabia has been investing heavily in cybersecurity to protect its critical infrastructure, government institutions, and private sector organizations from cyber threats. In this comparison, we will evaluate OrcaTech, Palo Alto Networks, Check Point, and Cyberoam, four prominent cybersecurity companies operating in the region.\n\n**OrcaTech**\n\nOrcaTech is a Saudi Arabian cybersecurity company that offers a range of services, including threat detection, incident response, and security consulting. Their solutions are designed to protect organizations from advanced threats and comply with Saudi Arabian regulations.\n\n* Strengths: OrcaTech has a strong presence in the Saudi Arabian market, with a deep understanding of local regulations and threat landscapes. (Source: [OrcaTech Website](https://www.orcatech.com/))\n* Weaknesses: Limited international presence and recognition compared to other companies on this list.\n\n**Palo Alto Networks**\n\nPalo Alto Networks is a global cybersecurity leader that offers a range of products and services, including firewalls, threat prevention, and cloud security. They have a significant presence in Saudi Arabia, with a local office and a range of partners.\n\n* Strengths: Palo Alto Networks offers a comprehensive suite of cybersecurity products and services, with a strong focus on threat prevention and cloud security. (Source: [Palo Alto Networks Website](https://www.paloaltonetworks.com/))\n* Weaknesses: Higher costs compared to other companies on this list, and a complex product portfolio that may require significant training and support.\n\n**Check Point**\n\nCheck Point is a global cybersecurity company that offers a range of products and services, including firewalls, threat prevention, and security management. They have a significant presence in Saudi Arabia, with a local office and a range of partners.\n\n* Strengths: Check Point offers a comprehensive suite of cybersecurity products and services, with a strong focus on threat prevention and security management. (Source: [Check Point Website](https://www.checkpoint.com/))\n* Weaknesses: Higher costs compared to other companies on this list, and a complex product portfolio that may require significant training and support.\n\n**Cyberoam**\n\nCyberoam is a global cybersecurity company that offers a range of products and services, including firewalls, threat prevention, and security management. They have a significant presence in Saudi Arabia, with a local office and a range of partners.\n\n* Strengths: Cyberoam offers a comprehensive suite of cybersecurity products and services, with a strong focus on threat prevention and security management. (Source: [Cyberoam Website](https://www.cyberoam.com/))\n* Weaknesses: Limited international presence and recognition compared to other companies on this list.\n\n**Comparison Summary**\n\n| Company | Strengths | Weaknesses |\n| --- | --- | --- |\n| OrcaTech | Strong presence in Saudi Arabia, local expertise | Limited international presence and recognition |\n| Palo Alto Networks | Comprehensive suite of cybersecurity products and services, strong focus on threat prevention and cloud security | Higher costs, complex product portfolio |\n| Check Point | Comprehensive suite of cybersecurity products and services, strong focus on threat prevention and security management | Higher costs, complex product portfolio |\n| Cyberoam | Comprehensive suite of cybersecurity products and services, strong focus on threat prevention and security management | Limited international presence and recognition |\n\n**Recommendation**\n\nBased on our comparison, we recommend Palo Alto Networks and Check Point for organizations in Saudi Arabia that require a comprehensive suite of cybersecurity products and services. Both companies have a strong presence in the region, with a range of partners and a deep understanding of local regulations and threat landscapes.\n\nHowever, for organizations with limited budgets or simpler security requirements, OrcaTech may be a more cost-effective option. Cyberoam may also be a viable option for organizations that require a comprehensive suite of cybersecurity products and services, but have limited international presence and recognition.\n\n**Sources**\n\n* OrcaTech Website: [https://www.orcatech.com/](https://www.orcatech.com/)\n* Palo Alto Networks Website: [https://www.paloaltonetworks.com/](https://www.paloaltonetworks.com/)\n* Check Point Website: [https://www.checkpoint.com/](https://www.checkpoint.com/)\n* Cyberoam Website: [https://www.cyberoam.com/](https://www.cyberoam.com/)\n* Saudi Arabian Ministry of Communications and Information Technology: [https://www.mcit.gov.sa/](https://www.mcit.gov.sa/)",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-08T02:17:05.080Z",
+          "completedAt": "2026-06-08T02:17:05.079Z",
+          "screenshotUrl": null,
+          "performance_ms": 1370,
+          "engine": {
+            "id": "1860bc70-425e-4396-9587-318605a63201",
+            "name": "Groq",
+            "version": "llama-3.1-8b-instant",
+            "createdAt": "2026-06-02T15:31:09.153Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "queryText": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks. Include source URLs.",
+      "frequency": "manual",
+      "isActive": true,
+      "lastRunAt": "2026-06-08T02:17:02.344Z",
+      "createdAt": "2026-06-08T02:17:01.227Z",
+      "brand": {
+        "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T21:42:59.849Z",
+        "updatedAt": "2026-06-02T21:42:59.849Z"
+      },
+      "responses": [
+        {
+          "id": "77ac6f05-f324-41c7-b975-5a79a875a1d6",
+          "promptId": "141af455-8f00-4cfa-b571-8faa53cde5e6",
+          "engineId": "1860bc70-425e-4396-9587-318605a63201",
+          "rawContent": "Based on my research, some of the top cybersecurity companies in Saudi Arabia that specialize in AI security and regulated banks include:\n\n1. **STC Cybersecurity**: STC Cybersecurity is a leading cybersecurity company in Saudi Arabia that provides AI-powered security solutions to regulated banks and other organizations. They offer a range of services, including threat detection, incident response, and security consulting. [Source: STC Cybersecurity website](https://www.stc.com.sa/en/our-businesses/cybersecurity)\n2. **Saudi Aramco's Cybersecurity Center**: Saudi Aramco's Cybersecurity Center is a leading cybersecurity research and development center in Saudi Arabia that focuses on AI-powered security solutions. They provide security services to regulated banks and other organizations in the kingdom. [Source: Saudi Aramco website](https://www.saudiaramco.com/en/corporate/cybersecurity-center)\n3. **Bupa Arabia's Cybersecurity Services**: Bupa Arabia is a leading healthcare insurance company in Saudi Arabia that also provides cybersecurity services to regulated banks and other organizations. They offer AI-powered security solutions, including threat detection and incident response. [Source: Bupa Arabia website](https://www.bupaarabia.com.sa/en/our-services/cybersecurity-services)\n4. **Saudi Telecom Company (STC) Cybersecurity Solutions**: STC Cybersecurity Solutions is a leading cybersecurity company in Saudi Arabia that provides AI-powered security solutions to regulated banks and other organizations. They offer a range of services, including threat detection, incident response, and security consulting. [Source: STC website](https://www.stc.com.sa/en/our-businesses/cybersecurity)\n5. **Saudi Arabian Monetary Agency (SAMA) Cybersecurity**: SAMA Cybersecurity is a leading cybersecurity agency in Saudi Arabia that focuses on AI-powered security solutions for regulated banks and other financial institutions. They provide security services, including threat detection and incident response. [Source: SAMA website](https://www.sama.gov.sa/en/Pages/default.aspx)\n\nPlease note that the ranking of the best cybersecurity company in Saudi Arabia may vary depending on the source and criteria used. These companies are some of the top players in the Saudi Arabian cybersecurity market, but it's essential to conduct your own research and due diligence before making a decision.\n\n**Sources:**\n\n* STC Cybersecurity website: https://www.stc.com.sa/en/our-businesses/cybersecurity\n* Saudi Aramco website: https://www.saudiaramco.com/en/corporate/cybersecurity-center\n* Bupa Arabia website: https://www.bupaarabia.com.sa/en/our-services/cybersecurity-services\n* STC website: https://www.stc.com.sa/en/our-businesses/cybersecurity\n* SAMA website: https://www.sama.gov.sa/en/Pages/default.aspx",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-08T02:17:02.325Z",
+          "completedAt": "2026-06-08T02:17:02.324Z",
+          "screenshotUrl": null,
+          "performance_ms": 1031,
+          "engine": {
+            "id": "1860bc70-425e-4396-9587-318605a63201",
+            "name": "Groq",
+            "version": "llama-3.1-8b-instant",
+            "createdAt": "2026-06-02T15:31:09.153Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "754ac25b-81a4-423d-9f23-f08924380a03",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "queryText": "Runtime GEO prompt 1780438046715",
+      "frequency": "weekly",
+      "isActive": true,
+      "lastRunAt": "2026-06-02T22:07:35.983Z",
+      "createdAt": "2026-06-02T22:07:33.664Z",
+      "brand": {
+        "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T21:42:59.849Z",
+        "updatedAt": "2026-06-02T21:42:59.849Z"
+      },
+      "responses": [
+        {
+          "id": "f14de4b3-2dcb-448c-81cc-baad18bf970e",
+          "promptId": "754ac25b-81a4-423d-9f23-f08924380a03",
+          "engineId": "1860bc70-425e-4396-9587-318605a63201",
+          "rawContent": "I couldn't find any information related to the prompt \"Runtime GEO prompt 1780438046715.\" It's possible that this is a unique or proprietary term, or it may be a typo or incorrect input.\n\nHowever, I can suggest some possible ways to interpret this prompt:\n\n1. **Runtime GEO**: This could be related to a specific software or programming concept. In this case, I couldn't find any relevant information. If you could provide more context or clarify what you mean by \"Runtime GEO,\" I may be able to help further.\n2. **GEO prompt**: This could be related to a geographic information system (GIS) or a geospatial analysis tool. If you're looking for information on a specific geographic location or a GIS-related topic, I'd be happy to help.\n3. **1780438046715**: This appears to be a numerical code or ID. Without more context, it's difficult to determine what this code might represent.\n\nIf you could provide more information or clarify what you're trying to find, I'll do my best to assist you.\n\n**Related resources:**\n\n* Geographic Information System (GIS) tutorials: [ESRI](https://www.esri.com/en-us/landing/gis-tutorials/arcgis-pro)\n* Geospatial analysis tools: [QGIS](https://www.qgis.org/en/site/)\n* Runtime environments: [Wikipedia](https://en.wikipedia.org/wiki/Runtime_environment)\n\nPlease let me know if there's anything else I can help with.",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-02T22:07:35.968Z",
+          "completedAt": "2026-06-02T22:07:35.966Z",
+          "screenshotUrl": null,
+          "performance_ms": 1544,
+          "engine": {
+            "id": "1860bc70-425e-4396-9587-318605a63201",
+            "name": "Groq",
+            "version": "llama-3.1-8b-instant",
+            "createdAt": "2026-06-02T15:31:09.153Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "775daa62-4512-40dd-a2ef-b7586305ae45",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "queryText": "Top cloud security firms for Saudi enterprises",
+      "frequency": "weekly",
+      "isActive": true,
+      "lastRunAt": "2026-06-01T04:00:00.000Z",
+      "createdAt": "2026-06-02T21:42:59.901Z",
+      "brand": {
+        "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T21:42:59.849Z",
+        "updatedAt": "2026-06-02T21:42:59.849Z"
+      },
+      "responses": [
+        {
+          "id": "bea9742c-1bbc-4a41-8617-2cf05015ca55",
+          "promptId": "775daa62-4512-40dd-a2ef-b7586305ae45",
+          "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+          "rawContent": "OrcaTech is mentioned for cybersecurity buyers in Saudi Arabia, especially for regional execution. Competitor A is frequently cited for scale, and Competitor B appears for specialist coverage. Sources: https://orcatech.online/resources https://competitor-a.example/guide https://competitor-b.example/research",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-05-31T04:00:00.000Z",
+          "completedAt": "2026-05-31T04:00:00.000Z",
+          "screenshotUrl": null,
+          "performance_ms": 948,
+          "engine": {
+            "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+            "name": "Gemini",
+            "version": "gemini-1.5-flash",
+            "createdAt": "2026-06-02T15:31:09.168Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "979c5f4a-5476-41c8-b881-be5565c16c0c",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "queryText": "Best SOC provider for regulated banks in Saudi Arabia",
+      "frequency": "weekly",
+      "isActive": true,
+      "lastRunAt": "2026-06-01T04:00:00.000Z",
+      "createdAt": "2026-06-02T21:42:59.885Z",
+      "brand": {
+        "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T21:42:59.849Z",
+        "updatedAt": "2026-06-02T21:42:59.849Z"
+      },
+      "responses": [
+        {
+          "id": "486a32cf-9e95-4d76-a371-322e4ad5a017",
+          "promptId": "979c5f4a-5476-41c8-b881-be5565c16c0c",
+          "engineId": "1860bc70-425e-4396-9587-318605a63201",
+          "rawContent": "OrcaTech is mentioned for cybersecurity buyers in Saudi Arabia, especially for regional execution. Competitor A is frequently cited for scale, and Competitor B appears for specialist coverage. Sources: https://orcatech.online/resources https://competitor-a.example/guide https://competitor-b.example/research",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-01T04:00:00.000Z",
+          "completedAt": "2026-06-01T04:00:00.000Z",
+          "screenshotUrl": null,
+          "performance_ms": 924,
+          "engine": {
+            "id": "1860bc70-425e-4396-9587-318605a63201",
+            "name": "Groq",
+            "version": "llama-3.1-8b-instant",
+            "createdAt": "2026-06-02T15:31:09.153Z"
+          }
+        }
+      ]
+    },
+    {
+      "id": "1b90b9e8-ed87-4479-be59-6090b1fe1ec5",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "queryText": "Best cybersecurity company in Saudi Arabia",
+      "frequency": "weekly",
+      "isActive": true,
+      "lastRunAt": "2026-06-01T04:00:00.000Z",
+      "createdAt": "2026-06-02T21:42:59.873Z",
+      "brand": {
+        "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T21:42:59.849Z",
+        "updatedAt": "2026-06-02T21:42:59.849Z"
+      },
+      "responses": [
+        {
+          "id": "9248208f-99c1-4ccd-9088-e5838d20feb2",
+          "promptId": "1b90b9e8-ed87-4479-be59-6090b1fe1ec5",
+          "engineId": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+          "rawContent": "Competitor A and Competitor B are referenced for cybersecurity buyers in Saudi Arabia. Sources: https://competitor-a.example/guide https://competitor-b.example/research",
+          "structuredContent": null,
+          "status": "COMPLETED",
+          "error": null,
+          "capturedAt": "2026-06-02T04:00:00.000Z",
+          "completedAt": "2026-06-02T04:00:00.000Z",
+          "screenshotUrl": null,
+          "performance_ms": 900,
+          "engine": {
+            "id": "9e2c1b6c-32cf-4d75-960e-4b3e0a33e37c",
+            "name": "StoredFixture",
+            "version": "demo-seed",
+            "createdAt": "2026-06-02T15:43:22.010Z"
+          }
+        }
+      ]
+    }
+  ]
+}

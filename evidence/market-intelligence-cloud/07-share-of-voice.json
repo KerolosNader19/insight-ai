@@ -1,0 +1,395 @@
+{
+  "label": "07-share-of-voice",
+  "method": "GET",
+  "url": "/share-of-voice?marketId=8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "MARKET_SHARE_OF_VOICE",
+    "data": {
+      "market": {
+        "id": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+        "name": "Cybersecurity Saudi Arabia",
+        "slug": "cybersecurity-saudi-arabia-en-cybersecurity",
+        "industry": "Cybersecurity",
+        "region": "GCC",
+        "country": "Saudi Arabia",
+        "language": "en",
+        "vertical": "Cybersecurity",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Market sync collected 17 brand(s), 30 prompt(s), 8 citation domain(s), and 98 trend(s).",
+            "source": "Market Intelligence Cloud",
+            "lastVerifiedAt": "2026-06-08T06:43:17.837Z"
+          }
+        ],
+        "confidenceScore": 75,
+        "dataSource": "MARKET_INTELLIGENCE_CLOUD",
+        "lastRefreshedAt": "2026-06-08T06:43:17.836Z",
+        "createdAt": "2026-06-08T06:43:15.350Z",
+        "updatedAt": "2026-06-08T06:43:17.838Z"
+      },
+      "rows": [
+        {
+          "brandName": "Cloudflare SRO 1780897908191",
+          "industryShareOfVoice": 34.06,
+          "regionalShareOfVoice": 34.06,
+          "promptShareOfVoice": 49,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 34.63,
+          "confidenceScore": 52,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.625Z"
+            }
+          ]
+        },
+        {
+          "brandName": "CrowdStrike",
+          "industryShareOfVoice": 35.37,
+          "regionalShareOfVoice": 35.37,
+          "promptShareOfVoice": 31,
+          "citationShareOfVoice": 50,
+          "entityShareOfVoice": 35.06,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.663Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Palo Alto Networks",
+          "industryShareOfVoice": 30.57,
+          "regionalShareOfVoice": 30.57,
+          "promptShareOfVoice": 29,
+          "citationShareOfVoice": 50,
+          "entityShareOfVoice": 30.3,
+          "confidenceScore": 74,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.647Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Competitor B",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 45,
+          "evidence": [
+            {
+              "url": "https://competitor-b.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.720Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Competitor UI 20260602183515",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 45,
+          "evidence": [
+            {
+              "url": "https://competitor-ui-20260602183515.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.760Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Competitor UI 20260602183641",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 45,
+          "evidence": [
+            {
+              "url": "https://competitor-ui-20260602183641.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.816Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Cyberoam",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 88,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Cyberoam offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Cyberoam has a strong presence in the Middle East and Africa region, which aligns with OrcaTech's target market.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.cyberoam.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ]
+        },
+        {
+          "brandName": "Manager Brand 20260602183015",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 46,
+          "evidence": [
+            {
+              "url": "https://manager-brand.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.777Z"
+            }
+          ]
+        },
+        {
+          "brandName": "OrcaTech",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 46,
+          "evidence": [
+            {
+              "url": "https://orcatech.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.740Z"
+            }
+          ]
+        },
+        {
+          "brandName": "OrcaTech Product 20260602183015",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 46,
+          "evidence": [
+            {
+              "url": "https://orcatech.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.679Z"
+            }
+          ]
+        },
+        {
+          "brandName": "OrcaTech UI 20260602183641",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 46,
+          "evidence": [
+            {
+              "url": "https://orcatech.sa",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.799Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Runtime Brand 1780438046715",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 46,
+          "evidence": [
+            {
+              "url": "https://runtime-1780438046715.example",
+              "claim": "Customer brand row uses latest GEO/SRO snapshots and citation opportunity rows.",
+              "source": "Market Database",
+              "lastVerifiedAt": "2026-06-08T06:43:15.398Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Runtime Competitor 1780438046715",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 45,
+          "evidence": [
+            {
+              "url": "https://runtime-competitor-1780438046715.example",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.450Z"
+            }
+          ]
+        },
+        {
+          "brandName": "Brightskies",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Brightskies operates in Egypt and Saudi Arabia, matching OrcaTech's primary geographic focus.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They offer a dual portfolio of custom software/web development and cybersecurity services, directly competing with OrcaTech's core offerings.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://brightskies.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ]
+        },
+        {
+          "brandName": "Security Matterz",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 93,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Security Matterz is a prominent local cybersecurity player in Saudi Arabia.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "They compete directly with OrcaTech's Security & Pentesting division, offering professional penetration testing and security hardening.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.securitymatterz.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ]
+        },
+        {
+          "brandName": "Check Point",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 98,
+          "evidence": [
+            {
+              "url": null,
+              "claim": "Check Point offers a range of cybersecurity solutions, including firewalls, VPNs, and intrusion prevention systems.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": null,
+              "claim": "Their products are designed to protect businesses from cyber threats, including malware, ransomware, and DDoS attacks.",
+              "source": "AI competitor discovery"
+            },
+            {
+              "url": "https://www.checkpoint.com/",
+              "claim": "Domain verification returned HTTP 200.",
+              "source": "Domain Validation"
+            },
+            {
+              "url": "https://orcatech.online",
+              "claim": "Suggested for Cybersecurity in Saudi Arabia.",
+              "source": "Brand Profile"
+            }
+          ]
+        },
+        {
+          "brandName": "Competitor A",
+          "industryShareOfVoice": 0,
+          "regionalShareOfVoice": 0,
+          "promptShareOfVoice": 0,
+          "citationShareOfVoice": 0,
+          "entityShareOfVoice": 0,
+          "confidenceScore": 45,
+          "evidence": [
+            {
+              "url": "https://competitor-a.sa",
+              "claim": "Competitor row uses competitor page analysis when available.",
+              "source": "Competitor Radar",
+              "lastVerifiedAt": "2026-06-08T06:43:15.701Z"
+            }
+          ]
+        }
+      ]
+    },
+    "confidenceScore": 61,
+    "evidence": [
+      {
+        "claim": "Share of voice calculated from 17 market brand row(s).",
+        "source": "Market Share of Voice",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T06:43:18.087Z"
+      }
+    ],
+    "dataSource": "MARKET_SHARE_OF_VOICE",
+    "lastVerifiedAt": "2026-06-08T06:43:18.087Z"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "checkedAt": "2026-06-02T17:14:43.916Z",
+  "shellEnvironment": {
+    "GROQ_API_KEY": false,
+    "GROQ_MODEL": false,
+    "GEMINI_API_KEY": false,
+    "GEMINI_MODEL": false
+  },
+  "models": {
+    "GROQ_MODEL": null,
+    "GEMINI_MODEL": null
+  },
+  "liveApiProcesses": [
+    {
+      "pid": 4018899,
+      "variablesPresent": {
+        "GROQ_API_KEY": false,
+        "GROQ_MODEL": false,
+        "GEMINI_API_KEY": false,
+        "GEMINI_MODEL": false
+      }
+    },
+    {
+      "pid": 4018900,
+      "variablesPresent": {
+        "GROQ_API_KEY": false,
+        "GROQ_MODEL": false,
+        "GEMINI_API_KEY": false,
+        "GEMINI_MODEL": false
+      }
+    },
+    {
+      "pid": 4095400,
+      "variablesPresent": {
+        "GROQ_API_KEY": false,
+        "GROQ_MODEL": false,
+        "GEMINI_API_KEY": false,
+        "GEMINI_MODEL": false
+      }
+    },
+    {
+      "pid": 4095401,
+      "variablesPresent": {
+        "GROQ_API_KEY": false,
+        "GROQ_MODEL": false,
+        "GEMINI_API_KEY": false,
+        "GEMINI_MODEL": false
+      }
+    }
+  ],
+  "validationStatus": "blocked_missing_provider_key",
+  "secretHandling": "Only boolean presence was recorded. No API key values were written."
+}

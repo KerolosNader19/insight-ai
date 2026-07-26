@@ -1,0 +1,24 @@
+{
+  "status": 201,
+  "body": {
+    "id": "6dbef05c-0238-4d2b-afb3-2dcc949ef5af",
+    "promptId": "5fc562c3-775f-40e6-8b27-bfb7c2bcfbb7",
+    "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+    "rawContent": "",
+    "structuredContent": null,
+    "status": "FAILED",
+    "error": "GEMINI_API_KEY is not configured",
+    "capturedAt": "2026-06-02T15:42:30.384Z",
+    "completedAt": "2026-06-02T15:42:30.383Z",
+    "screenshotUrl": null,
+    "performance_ms": 0,
+    "engine": {
+      "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+      "name": "Gemini",
+      "version": "gemini-1.5-flash",
+      "createdAt": "2026-06-02T15:31:09.168Z"
+    },
+    "mentions": [],
+    "citations": []
+  }
+}

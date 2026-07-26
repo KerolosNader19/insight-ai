@@ -1,0 +1,9 @@
+{
+  "message": "PATCH /geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/action-outcomes/undefined failed 404",
+  "response": {
+    "message": "Recommendation outcome not found",
+    "error": "Not Found",
+    "statusCode": 404
+  },
+  "stack": "Error: PATCH /geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/action-outcomes/undefined failed 404\n    at api ([stdin]:22:17)\n    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)\n    at async [stdin]:117:25"
+}

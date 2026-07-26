@@ -1,0 +1,44 @@
+{
+  "label": "14-roi-tracking",
+  "method": "POST",
+  "url": "/geo-autopilot/roi/track",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "011e131e-16ce-4488-afdb-f9ab9602a875",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "taskId": null,
+    "actionTitle": "Brand GEO Autopilot Impact",
+    "baseline": {
+      "geoScore": null,
+      "citations": 0,
+      "selectionProbability": null
+    },
+    "current": {
+      "geoScore": null,
+      "citations": 0,
+      "selectionProbability": 78
+    },
+    "deltas": {
+      "geoScore": null,
+      "citations": 0,
+      "selectionProbability": null
+    },
+    "impactScore": 0,
+    "evidence": [
+      {
+        "url": "https://www.cloudflare.com",
+        "claim": "ROI snapshot measured task completion against GEO score, SRO selection probability, and citation state.",
+        "source": "ROI Tracking",
+        "lastVerifiedAt": "2026-06-08T06:28:52.882Z"
+      }
+    ],
+    "confidenceScore": 82,
+    "dataSource": "GEO_AUTOPILOT_ROI_TRACKING",
+    "measuredAt": "2026-06-08T06:28:52.883Z",
+    "createdAt": "2026-06-08T06:28:52.883Z"
+  }
+}

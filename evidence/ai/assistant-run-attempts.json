@@ -1,0 +1,30 @@
+{
+  "checkedAt": "2026-06-02T17:15:02.042Z",
+  "brand": {
+    "id": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+    "name": "OrcaTech"
+  },
+  "answers": [
+    {
+      "question": "Why am I not appearing in Gemini?",
+      "httpStatus": 503,
+      "provider": null,
+      "answerLength": 0,
+      "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI"
+    },
+    {
+      "question": "How can I outrank Competitor A?",
+      "httpStatus": 503,
+      "provider": null,
+      "answerLength": 0,
+      "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI"
+    },
+    {
+      "question": "What GEO actions should I take this month?",
+      "httpStatus": 503,
+      "provider": null,
+      "answerLength": 0,
+      "message": "GROQ_API_KEY or GEMINI_API_KEY is required for Ask Insight AI"
+    }
+  ]
+}

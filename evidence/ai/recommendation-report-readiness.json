@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-06-02T17:15:19.731Z",
+  "brand": {
+    "id": "f1313a60-2d6e-4ff2-b9cb-bbd94c47a5d7",
+    "name": "OrcaTech"
+  },
+  "recommendationCount": 3,
+  "recommendations": [
+    {
+      "id": "ecc871f1-1717-4728-b23e-450a816d6619",
+      "title": "OrcaTech visibility recovery",
+      "priority": "high",
+      "engine": "StoredFixture",
+      "createdAt": "2026-06-02T16:35:01.136Z"
+    },
+    {
+      "id": "0cda1b74-d181-46f6-b8cf-1e9a1ea7b1bb",
+      "title": "OrcaTech citation expansion",
+      "priority": "medium",
+      "engine": "Gemini",
+      "createdAt": "2026-06-02T16:35:00.841Z"
+    },
+    {
+      "id": "ad583803-3909-427e-a83f-d034cabd033d",
+      "title": "OrcaTech citation expansion",
+      "priority": "medium",
+      "engine": "Groq",
+      "createdAt": "2026-06-02T16:35:00.560Z"
+    }
+  ],
+  "latestReport": {
+    "id": "6bbe11e7-127d-4f60-a16d-7a03ad018dac",
+    "title": "OrcaTech Executive Visibility Report",
+    "status": "GENERATED",
+    "fileName": "orcatech-executive-visibility-report.pdf",
+    "fileUrl": null,
+    "createdAt": "2026-06-02T16:35:01.147Z"
+  },
+  "liveAiReportRegenerationStatus": "ready_to_regenerate"
+}

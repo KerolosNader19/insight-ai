@@ -1,0 +1,60 @@
+{
+  "label": "13-agency-market-intelligence",
+  "method": "GET",
+  "url": "/agency-market-intelligence/e7cb47f3-741b-4c96-bff8-69b58112e938",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "AGENCY_MARKET_INTELLIGENCE",
+    "data": {
+      "organization": "SRO Validation Agency 1780897908191",
+      "clientRankings": [
+        {
+          "brandName": "Cloudflare SRO 1780897908191",
+          "market": "Cybersecurity Saudi Arabia",
+          "rank": 3,
+          "geoScore": 82,
+          "visibilityScore": 78,
+          "growthScore": 0,
+          "risk": "LOW"
+        }
+      ],
+      "industryRankings": [
+        {
+          "brandName": "Cloudflare SRO 1780897908191",
+          "market": "Cybersecurity Saudi Arabia",
+          "rank": 3,
+          "geoScore": 82,
+          "visibilityScore": 78,
+          "growthScore": 0,
+          "risk": "LOW"
+        }
+      ],
+      "growthRankings": [
+        {
+          "brandName": "Cloudflare SRO 1780897908191",
+          "market": "Cybersecurity Saudi Arabia",
+          "rank": 3,
+          "geoScore": 82,
+          "visibilityScore": 78,
+          "growthScore": 0,
+          "risk": "LOW"
+        }
+      ],
+      "riskRankings": []
+    },
+    "confidenceScore": 46,
+    "evidence": [
+      {
+        "claim": "Agency market intelligence evaluated 1 client market ranking row(s).",
+        "source": "Agency Market Intelligence",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T06:43:18.889Z"
+      }
+    ],
+    "dataSource": "AGENCY_MARKET_INTELLIGENCE",
+    "lastVerifiedAt": "2026-06-08T06:43:18.889Z"
+  }
+}

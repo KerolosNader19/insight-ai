@@ -1,0 +1,42 @@
+{
+  "user": "demo@insight-ai.io",
+  "organization": {
+    "id": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "name": "Acme GEO Agency",
+    "slug": "acme-agency",
+    "role": "OWNER",
+    "billingPlan": "AGENCY",
+    "logoUrl": null,
+    "brandingColor": "#00f5d4"
+  },
+  "brand": {
+    "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "name": "OrcaTech",
+    "websiteUrl": "https://orcatech.online",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "createdAt": "2026-06-02T21:42:59.849Z",
+    "updatedAt": "2026-06-02T21:42:59.849Z",
+    "competitors": [
+      {
+        "id": "1d9cb911-1521-479f-8769-e17ed5240d24",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "name": "Competitor A",
+        "websiteUrl": "https://competitor-a.example",
+        "createdAt": "2026-06-02T21:42:59.849Z"
+      },
+      {
+        "id": "cdbb92f6-5ba8-4df7-b314-3c39c4a6607e",
+        "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "name": "Competitor B",
+        "websiteUrl": "https://competitor-b.example",
+        "createdAt": "2026-06-02T21:42:59.849Z"
+      }
+    ],
+    "_count": {
+      "prompts": 6,
+      "analytics": 16
+    }
+  }
+}

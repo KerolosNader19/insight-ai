@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-06-08T03:03:35.701Z",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "brandName": "OrcaTech",
+  "endpoints": {
+    "02-geo-score-v3-recalculate": {
+      "status": "COMPLETED",
+      "engine": "GEO_SCORE_V3",
+      "confidenceScore": 88,
+      "rowCount": null
+    },
+    "03-geo-score-v3": {
+      "status": "COMPLETED",
+      "engine": "GEO_SCORE_V3",
+      "confidenceScore": 88,
+      "rowCount": null
+    },
+    "04-citation-authority": {
+      "status": "COMPLETED",
+      "engine": "CITATION_AUTHORITY_ENGINE",
+      "confidenceScore": 83,
+      "rowCount": 8
+    },
+    "05-entity-intelligence": {
+      "status": "COMPLETED",
+      "engine": "ENTITY_INTELLIGENCE_ENGINE",
+      "confidenceScore": 65,
+      "rowCount": 5
+    },
+    "06-prompt-coverage": {
+      "status": "COMPLETED",
+      "engine": "PROMPT_COVERAGE_ENGINE",
+      "confidenceScore": 81,
+      "rowCount": 2
+    },
+    "07-threats-v2": {
+      "status": "COMPLETED",
+      "engine": "THREAT_ENGINE_V2",
+      "confidenceScore": 79,
+      "rowCount": 3
+    },
+    "08-opportunities-v3": {
+      "status": "COMPLETED",
+      "engine": "OPPORTUNITY_ENGINE_V3",
+      "confidenceScore": 82,
+      "rowCount": 11
+    },
+    "09-competitor-intelligence": {
+      "status": "COMPLETED",
+      "engine": "COMPETITOR_INTELLIGENCE_ENGINE",
+      "confidenceScore": 84,
+      "rowCount": 3
+    }
+  },
+  "report": {
+    "id": "ab73501f-c882-48e8-9de7-6499e0764dbf",
+    "type": "PDF_V3",
+    "fileName": "orcatech-1780887815154-geo-intelligence-v3.pdf",
+    "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-1780887815154-geo-intelligence-v3.pdf"
+  }
+}

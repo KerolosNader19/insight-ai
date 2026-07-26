@@ -1,0 +1,169 @@
+{
+  "label": "01-threats",
+  "url": "/geo-intelligence/brands/3dfc86a2-9639-4482-b9d1-1a0ba7b755b7/threats",
+  "method": "GET",
+  "status": 200,
+  "ok": true,
+  "startedAt": "2026-06-08T02:35:27.635Z",
+  "completedAt": "2026-06-08T02:35:27.725Z",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "COMPETITOR_THREAT_ENGINE",
+    "data": [
+      {
+        "competitorId": "4e721818-9b09-4762-b407-687ee6d593c7",
+        "competitorName": "Palo Alto Networks",
+        "websiteUrl": "https://www.paloaltonetworks.com/",
+        "source": "suggestion",
+        "threatScore": 13,
+        "threatLevel": "LOW",
+        "visibilityAdvantage": 8,
+        "citationAdvantage": 18,
+        "contentAdvantage": 16,
+        "geoAdvantage": 12,
+        "whyWinning": "Palo Alto Networks is visible in tracked AI responses; Palo Alto Networks owns trusted source citations.",
+        "promptsDominated": [],
+        "citationsOwned": [
+          "paloaltonetworks.com"
+        ],
+        "contentGaps": [],
+        "evidence": [
+          {
+            "claim": "Palo Alto Networks appeared in 1 real prompt response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "Palo Alto Networks dominated 0 prompt response(s) where OrcaTech was absent.",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "paloaltonetworks.com owned 1 citation(s) in stored AI responses.",
+            "source": "Citation Discovery",
+            "url": "https://www.paloaltonetworks.com/"
+          },
+          {
+            "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+            "source": "Prompt Discovery + Content Gaps",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "Brand latest GEO baseline is 97/100.",
+            "source": "GEO Score V2",
+            "url": "https://orcatech.online"
+          }
+        ],
+        "confidenceScore": 79,
+        "dataSource": "PROMPT_TRACKING + CITATION_DISCOVERY + GEO_SCORE_V2",
+        "lastVerifiedAt": "2026-06-08T02:35:27.697Z"
+      },
+      {
+        "competitorId": "2a21eae5-a5f3-4595-b0e1-882f3d4c5339",
+        "competitorName": "Check Point",
+        "websiteUrl": "https://www.checkpoint.com/",
+        "source": "suggestion",
+        "threatScore": 13,
+        "threatLevel": "LOW",
+        "visibilityAdvantage": 8,
+        "citationAdvantage": 18,
+        "contentAdvantage": 16,
+        "geoAdvantage": 12,
+        "whyWinning": "Check Point is visible in tracked AI responses; Check Point owns trusted source citations.",
+        "promptsDominated": [],
+        "citationsOwned": [
+          "checkpoint.com"
+        ],
+        "contentGaps": [],
+        "evidence": [
+          {
+            "claim": "Check Point appeared in 1 real prompt response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "Check Point dominated 0 prompt response(s) where OrcaTech was absent.",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "checkpoint.com owned 1 citation(s) in stored AI responses.",
+            "source": "Citation Discovery",
+            "url": "https://www.checkpoint.com/"
+          },
+          {
+            "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+            "source": "Prompt Discovery + Content Gaps",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "Brand latest GEO baseline is 97/100.",
+            "source": "GEO Score V2",
+            "url": "https://orcatech.online"
+          }
+        ],
+        "confidenceScore": 79,
+        "dataSource": "PROMPT_TRACKING + CITATION_DISCOVERY + GEO_SCORE_V2",
+        "lastVerifiedAt": "2026-06-08T02:35:27.697Z"
+      },
+      {
+        "competitorId": "ff9f628f-e310-4071-82e3-7364cb0f7bd3",
+        "competitorName": "Cyberoam",
+        "websiteUrl": "https://www.cyberoam.com/",
+        "source": "suggestion",
+        "threatScore": 13,
+        "threatLevel": "LOW",
+        "visibilityAdvantage": 8,
+        "citationAdvantage": 18,
+        "contentAdvantage": 16,
+        "geoAdvantage": 12,
+        "whyWinning": "Cyberoam is visible in tracked AI responses; Cyberoam owns trusted source citations.",
+        "promptsDominated": [],
+        "citationsOwned": [
+          "cyberoam.com"
+        ],
+        "contentGaps": [],
+        "evidence": [
+          {
+            "claim": "Cyberoam appeared in 1 real prompt response(s).",
+            "source": "Prompt Tracking",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "Cyberoam dominated 0 prompt response(s) where OrcaTech was absent.",
+            "source": "Prompt Tracking",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "cyberoam.com owned 1 citation(s) in stored AI responses.",
+            "source": "Citation Discovery",
+            "url": "https://www.cyberoam.com/"
+          },
+          {
+            "claim": "0 prompt/content opportunity record(s) reference this competitor.",
+            "source": "Prompt Discovery + Content Gaps",
+            "url": "https://orcatech.online"
+          },
+          {
+            "claim": "Brand latest GEO baseline is 97/100.",
+            "source": "GEO Score V2",
+            "url": "https://orcatech.online"
+          }
+        ],
+        "confidenceScore": 79,
+        "dataSource": "PROMPT_TRACKING + CITATION_DISCOVERY + GEO_SCORE_V2",
+        "lastVerifiedAt": "2026-06-08T02:35:27.698Z"
+      }
+    ],
+    "evidence": [
+      {
+        "claim": "Calculated 3 competitor threat profile(s) from stored prompt and citation evidence.",
+        "source": "Competitor Threat Engine",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 79,
+    "dataSource": "PROMPT_TRACKING + CITATION_DISCOVERY + GEO_SCORE_V2",
+    "lastVerifiedAt": "2026-06-08T02:35:27.713Z"
+  }
+}

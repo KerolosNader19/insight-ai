@@ -1,0 +1,83 @@
+{
+  "label": "07-citation-outreach-generator",
+  "method": "POST",
+  "url": "/geo-execution/citation-outreach",
+  "requestBody": {
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+    "industry": "Cybersecurity",
+    "country": "Saudi Arabia",
+    "targetPrompt": "Best cybersecurity company in Saudi Arabia",
+    "domain": "linkedin.com"
+  },
+  "status": 201,
+  "ok": true,
+  "body": {
+    "id": "69e78df4-7781-40f2-b4a3-d6d814418c10",
+    "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+    "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+    "type": "CITATION_OUTREACH",
+    "title": "Citation Outreach - linkedin.com",
+    "status": "GENERATED",
+    "input": {
+      "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+      "domain": "linkedin.com",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "country": "Saudi Arabia",
+      "industry": "Cybersecurity",
+      "targetPrompt": "Best cybersecurity company in Saudi Arabia"
+    },
+    "output": {
+      "domain": "linkedin.com",
+      "outreachBrief": {
+        "anchorTopics": [
+          "Cloudflare SRO",
+          "Cybersecurity Saudi Arabia Best",
+          "Saudi Arabia Missing",
+          "Competitors",
+          "Cybersecurity Saudi Arabia Palo",
+          "Alto Networks Leader Competitors"
+        ],
+        "whyThisSource": "linkedin.com is relevant because stored GEO/SRO evidence identifies citation gaps or competitor source patterns.",
+        "proofToInclude": [
+          "customer outcome",
+          "local market context",
+          "technical differentiation",
+          "credible data point"
+        ],
+        "suggestedAngle": "Cloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers."
+      },
+      "outreachEmail": "Subject: Expert input for your Cybersecurity coverage\n\nHi {{first_name}},\n\nI noticed linkedin.com covers topics related to Cybersecurity. Cloudflare SRO 1780897908191 works on Best cybersecurity company in Saudi Arabia, especially for Saudi Arabia buyers.\n\nA useful angle for your readers could be: Cloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers.\n\nWe can share a concise expert quote, implementation checklist, or data-backed perspective if you are updating this coverage.\n\nBest,\n{{sender_name}}"
+    },
+    "markdown": "# Citation Outreach Brief: linkedin.com\n\n## Suggested Angle\nCloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers.\n\n## Anchor Topics\n- Cloudflare SRO\n- Cybersecurity Saudi Arabia Best\n- Saudi Arabia Missing\n- Competitors\n- Cybersecurity Saudi Arabia Palo\n- Alto Networks Leader Competitors\n\n## Outreach Email\n```text\nSubject: Expert input for your Cybersecurity coverage\n\nHi {{first_name}},\n\nI noticed linkedin.com covers topics related to Cybersecurity. Cloudflare SRO 1780897908191 works on Best cybersecurity company in Saudi Arabia, especially for Saudi Arabia buyers.\n\nA useful angle for your readers could be: Cloudflare SRO 1780897908191 can contribute expert guidance on Best cybersecurity company in Saudi Arabia for Saudi Arabia buyers.\n\nWe can share a concise expert quote, implementation checklist, or data-backed perspective if you are updating this coverage.\n\nBest,\n{{sender_name}}\n```",
+    "evidence": [
+      {
+        "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+        "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+        "source": "CITATION_OUTREACH",
+        "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+      },
+      {
+        "url": "https://www.cloudflare.com/",
+        "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+        "source": "SRO Analysis",
+        "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+      },
+      {
+        "url": "https://www.cloudflare.com",
+        "claim": "Used 12 stored prompt suggestion row(s).",
+        "source": "Prompt Discovery",
+        "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+      }
+    ],
+    "confidenceScore": 86,
+    "revenueImpact": 82,
+    "geoImpact": 70,
+    "difficultyScore": 42,
+    "priorityScore": 66,
+    "dataSource": "GEO_EXECUTION_ENGINE_V1",
+    "lastVerifiedAt": "2026-06-08T06:14:36.310Z",
+    "createdAt": "2026-06-08T06:14:36.311Z",
+    "updatedAt": "2026-06-08T06:14:36.311Z"
+  }
+}

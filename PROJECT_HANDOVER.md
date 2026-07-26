@@ -1,114 +1,62 @@
-# Insight AI - Technical Handover Documentation
+# Project Handover
 
-## 1. Project Overview
-Insight AI is an enterprise-grade SaaS platform designed for **Generative Engine Optimization (GEO)**. As AI search (ChatGPT, Perplexity, Gemini) replaces traditional search engines, brands need visibility into how they are being cited and recommended.
+## Product
 
-**Core Value Proposition:**
-- Track brand mentions across top AI engines.
-- Analyze sentiment and citation authority.
-- Provide actionable recommendations to improve "AI Share of Voice."
+Insight AI is an MVP for agencies and brands that need to understand how AI engines mention, cite, and recommend them. The MVP prioritizes a realistic first-customer workflow over enterprise scale.
 
----
+## Architecture
 
-## 2. Product Architecture
-Insight AI is built as a **Turborepo monorepo**, ensuring consistency between the frontend, backend, and worker services.
+- `apps/web`: primary Next.js app for marketing, auth, dashboard, reports, settings, English/Arabic RTL.
+- `apps/api`: NestJS REST API for auth, RBAC, agency management, brands, competitors, prompts, analytics, assistant, billing shell, tracking shell, reports.
+- `packages/database`: Prisma schema, migrations, and deterministic investor seed data.
+- `packages/ui`: small shared UI primitives.
+- `apps/workers`: deferred BullMQ/Playwright tracking worker.
+- `apps/ai-service`: deferred FastAPI analysis service.
+- `apps/marketing`: deferred secondary landing app.
 
-### Technical Stack:
-- **Frontend**: Next.js 15 (App Router), React 19, TailwindCSS, GSAP (Animations), Lenis (Smooth Scroll).
-- **Backend API**: NestJS (TypeScript) - RESTful architecture.
-- **AI Service**: FastAPI (Python) - NLP, Sentiment Analysis, and GEO Scoring.
-- **Database**: PostgreSQL with Prisma ORM.
-- **Task Queue**: BullMQ + Redis for background scraping and processing.
-- **Automation**: Playwright for headless AI engine interaction.
+## Current Capabilities
 
----
+- Login/register against the API.
+- Agency/team management with roles: `OWNER`, `ADMIN`, `MANAGER`, `ANALYST`, `VIEWER`.
+- Brand and competitor CRUD.
+- Prompt CRUD and provider-backed run path.
+- Stored-data analytics: GEO score, visibility trend, share of voice, citations, recommendations.
+- Ask Insight AI endpoint that builds context from stored analytics and calls Groq/Gemini when configured.
+- Real PDF generation and download from stored analytics.
+- Subscription plan architecture and plan UI; Stripe checkout is deferred.
+- Investor seed data with two agencies, three brands, competitors, prompt history, analytics history, recommendations, and report records.
 
-## 3. Monorepo Structure
-```text
-├── apps/
-│   ├── web/            # Next.js Marketing + Dashboard
-│   ├── api/            # NestJS Backend API
-│   ├── ai-service/     # FastAPI NLP/Scoring service
-│   ├── workers/        # BullMQ background processors
-│   └── marketing/      # Legacy static landing (deprecated)
-├── packages/
-│   ├── database/       # Prisma schema & client
-│   ├── shared/         # Common TypeScript types/utilities
-│   ├── ui/             # Shared React component library
-│   └── config/         # Shared ESLint/TS configs
-```
+## Important Truths
 
----
+- The system must not claim live AI execution unless `GROQ_API_KEY` or `GEMINI_API_KEY` is configured and prompt runs complete with stored provider responses.
+- Existing demo analytics are seeded historical records for demos. Runtime analytics are derived from stored database rows.
+- Playwright/BullMQ/Redis/AI service are retained as deferred infrastructure, not removed.
 
-## 4. Frontend Implementation Details
+## Demo Login
 
-### Internationalization (i18n) & RTL
-We implemented a **zero-dependency, lightweight i18n system** optimized for performance:
-- **State Management**: `i18nStore.ts` (Zustand) persists language/RTL state.
-- **Translations**: Centralized dictionary in `lib/translations.ts`.
-- **RTL Support**: Dynamic `dir` and `lang` attribute switching on `<html>` via the `Providers` layer.
-- **Fonts**: `Cairo` (Arabic) and `Inter/Outfit` (English) are optimized via `next/font`.
+- Owner: `demo@insight-ai.io`
+- Manager: `manager@insight-ai.io`
+- Analyst: `analyst@insight-ai.io`
+- Viewer: `viewer@insight-ai.io`
+- Password: `Password123!`
 
-### Global Modal System
-A centralized `ModalManager` (Zustand-powered) handles complex dashboard flows:
-- **Report Generation**: Simulates processing and PDF export.
-- **Prompt Creation**: Form-based modal for adding tracking queries.
-- **Confirmation**: Generic delete/warning dialogs.
+## Handoff Checklist
 
----
+1. Start Postgres and Redis with `docker compose up -d postgres redis`.
+2. Apply migrations with `npx prisma migrate deploy --schema=packages/database/prisma/schema.prisma`.
+3. Seed demo data with `npm run db:seed`.
+4. Start app with `npm run dev`.
+5. Add `GROQ_API_KEY` or `GEMINI_API_KEY` before demonstrating live prompt execution or Ask Insight AI.
 
-## 5. Current MVP Status & Mocked Logic
+## Latest Hardening Verification
 
-| Feature | Status | Implementation Detail |
-| :--- | :--- | :--- |
-| **Landing Page** | ✅ Complete | Fully responsive, translated, and animated. |
-| **Dashboard UI** | ✅ Complete | All routes (Analytics, Prompts, etc.) are functional. |
-| **i18n / RTL** | ✅ Complete | Seamless EN/AR support across all views. |
-| **Auth Flow** | 🔶 UI Ready | Pages are ready; backend connection is in progress. |
-| **AI Scanning** | 🧪 Mocked | Dashboard shows simulated "AI Responses." |
-| **Analytics** | 🧪 Simulated | Charts use pre-generated demo datasets. |
-| **Report Export** | 🧪 Simulated | Logic triggers processing UI and simulated download. |
+- `npm run build` passes for API, web, marketing, and database packages.
+- API TypeScript, web TypeScript, and Prisma schema validation pass.
+- The React/Vite/Tailwind workspace tree resolves cleanly after removing stale app-local installs.
+- Plain `npm audit fix` was run. Remaining production advisories require planned compatibility upgrades, not a blind forced update.
 
----
+## Known Follow-Ups
 
-## 6. AI Tracking Pipeline (Intended Flow)
-1. **User** submits a `Prompt`.
-2. **API** pushes a job to **BullMQ**.
-3. **Workers** use **Playwright** to scrape ChatGPT/Perplexity.
-4. **AI-Service** (FastAPI) parses raw text for:
-   - Mentions (Brand vs Competitor).
-   - Citations (URL extraction).
-   - Sentiment (NLP scoring).
-5. **Database** updates `AnalyticsSnapshot`.
-
----
-
-## 7. Next Development Phases
-
-### Phase 1: Authentication & Data Persistence
-- Connect `authStore` to NestJS `AuthModule`.
-- Implement JWT rotation and persistent user sessions.
-
-### Phase 2: Playwright Scraper Integration
-- Finalize the Playwright workers to handle AI engine authentication and response extraction.
-
-### Phase 3: Real-time Analytics
-- Replace mock data in `VisibilityTrendChart` with actual time-series data from Prisma.
-
-### Phase 4: Stripe Billing
-- Integrate Stripe Checkout for the `Starter`, `Pro`, and `Enterprise` tiers.
-
----
-
-## 8. Local Setup Instructions
-1. **Environment Variables**: Copy `.env.example` to `.env` in `apps/web` and `apps/api`.
-2. **Docker**: Run `npm run docker:up` to start Redis and PostgreSQL.
-3. **Prisma**: Run `npx turbo run prisma:generate` then `npx turbo run prisma:migrate:dev`.
-4. **Startup**: Run `npm run dev` to start all services via Turbo.
-
----
-
-## 9. Technical Debt & Risks
-- **Scraper Fragility**: AI engines (OpenAI, Perplexity) frequently change their UI, requiring robust Playwright selectors and regular maintenance.
-- **NLP Cost**: High-volume sentiment analysis may require moving from a local FastAPI model to a managed LLM API (GPT-4o) for better accuracy.
-- **Docker in Dev**: The current local Postgres/Redis setup needs hardening for staging/production parity.
+- Add provider-backed integration tests once real API keys are available in CI.
+- Decide whether to promote or permanently retire `apps/marketing`.
+- Upgrade Nest/BullMQ/bcrypt dependency lines in a dedicated compatibility pass if future `npm audit` requires breaking changes.

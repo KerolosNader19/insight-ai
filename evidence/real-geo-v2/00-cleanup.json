@@ -1,0 +1,11 @@
+{
+  "database": "insight_ai.public from .env DATABASE_URL",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "deleted": {
+    "citationOpportunities": 3,
+    "geoScoreSnapshots": 0,
+    "promptSuggestions": 4,
+    "competitorSuggestions": 2
+  },
+  "completedAt": "2026-06-08T02:15:42.291Z"
+}

@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-06-08T02:42:51.676Z",
+  "pages": [
+    {
+      "file": "10-ui-desktop-en.png",
+      "viewport": "desktop",
+      "locale": "en",
+      "url": "http://localhost:3000/dashboard/why-not-recommended",
+      "titleVisible": 1,
+      "hasEngineContent": 10,
+      "reportStatusVisible": 1,
+      "direction": "ltr"
+    },
+    {
+      "file": "11-ui-mobile-en.png",
+      "viewport": "mobile",
+      "locale": "en",
+      "url": "http://localhost:3000/dashboard/why-not-recommended",
+      "titleVisible": 1,
+      "hasEngineContent": 10,
+      "direction": "ltr"
+    },
+    {
+      "file": "12-ui-desktop-ar.png",
+      "viewport": "desktop",
+      "locale": "ar",
+      "url": "http://localhost:3000/dashboard/why-not-recommended",
+      "titleVisible": 1,
+      "hasEngineContent": 10,
+      "direction": "rtl"
+    }
+  ],
+  "consoleErrors": [],
+  "assertions": {
+    "englishDesktopLoaded": true,
+    "englishMobileLoaded": true,
+    "arabicDesktopLoaded": true,
+    "reportButtonWorked": true
+  }
+}

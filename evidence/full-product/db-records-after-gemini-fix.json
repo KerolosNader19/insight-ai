@@ -1,0 +1,183 @@
+{
+  "checkedAt": "2026-06-02T18:24:42.769Z",
+  "brandId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+  "responseRecords": [
+    {
+      "id": "afac1724-e077-42a3-ae09-bd62443f7bf4",
+      "engine": "Groq",
+      "model": "llama-3.1-8b-instant",
+      "status": "COMPLETED",
+      "rawContentLength": 1931,
+      "mentionCount": 0,
+      "mentions": [],
+      "citationCount": 5,
+      "citations": [
+        {
+          "url": "https://orcatech.sa",
+          "domain": "orcatech.sa"
+        },
+        {
+          "url": "https://competitor-a.example",
+          "domain": "competitor-a.example"
+        },
+        {
+          "url": "https://competitor-b.example",
+          "domain": "competitor-b.example"
+        },
+        {
+          "url": "https://ahrefs.com/",
+          "domain": "ahrefs.com"
+        },
+        {
+          "url": "https://moz.com/",
+          "domain": "moz.com"
+        }
+      ],
+      "error": null
+    },
+    {
+      "id": "3e8860eb-7d70-4c0b-8d97-32408e784c42",
+      "engine": "Gemini",
+      "model": "gemini-flash-latest",
+      "status": "COMPLETED",
+      "rawContentLength": 3951,
+      "mentionCount": 14,
+      "mentions": [
+        {
+          "entityType": "brand",
+          "entityId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "position": 1,
+          "isRecommended": true
+        },
+        {
+          "entityType": "brand",
+          "entityId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "position": 2,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "entityId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "position": 3,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "entityId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "position": 4,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "entityId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "position": 5,
+          "isRecommended": false
+        },
+        {
+          "entityType": "brand",
+          "entityId": "b2a52343-aa02-4970-ac4f-d49436db0d78",
+          "position": 6,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "caefe51d-5bcf-40f5-9902-48b8d908c41f",
+          "position": 1,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "caefe51d-5bcf-40f5-9902-48b8d908c41f",
+          "position": 2,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "caefe51d-5bcf-40f5-9902-48b8d908c41f",
+          "position": 3,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "caefe51d-5bcf-40f5-9902-48b8d908c41f",
+          "position": 4,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "dd43f9fa-1023-4b7a-8808-ad27fe40a8cc",
+          "position": 1,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "dd43f9fa-1023-4b7a-8808-ad27fe40a8cc",
+          "position": 2,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "dd43f9fa-1023-4b7a-8808-ad27fe40a8cc",
+          "position": 3,
+          "isRecommended": false
+        },
+        {
+          "entityType": "competitor",
+          "entityId": "dd43f9fa-1023-4b7a-8808-ad27fe40a8cc",
+          "position": 4,
+          "isRecommended": false
+        }
+      ],
+      "citationCount": 3,
+      "citations": [
+        {
+          "url": "https://orcatech.sa",
+          "domain": "orcatech.sa"
+        },
+        {
+          "url": "https://competitor-a.example",
+          "domain": "competitor-a.example"
+        },
+        {
+          "url": "https://competitor-b.example",
+          "domain": "competitor-b.example"
+        }
+      ],
+      "error": null
+    }
+  ],
+  "snapshots": [
+    {
+      "id": "3a2981bf-895e-424d-8447-5f81f82e8b9c",
+      "engine": "Groq",
+      "geoScore": 20,
+      "shareOfVoice": 0,
+      "mentionCount": 0,
+      "citationCount": 5,
+      "recommendationCount": 1,
+      "recommendations": [
+        {
+          "title": "OrcaTech Live 20260602182233 GEO action plan",
+          "priority": "high",
+          "contentLength": 1245
+        }
+      ]
+    },
+    {
+      "id": "c04f7f64-9b19-4d9f-ad88-31d524083d01",
+      "engine": "Gemini",
+      "geoScore": 71,
+      "shareOfVoice": 42.85714285714285,
+      "mentionCount": 6,
+      "citationCount": 3,
+      "recommendationCount": 1,
+      "recommendations": [
+        {
+          "title": "OrcaTech Live 20260602182233 GEO action plan",
+          "priority": "medium",
+          "contentLength": 1918
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": 201,
+  "ok": true,
+  "url": "/geo-copilot/tasks/generate",
+  "method": "POST",
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_TASK_ENGINE",
+    "data": {
+      "created": [],
+      "skippedExisting": 24
+    },
+    "evidence": [],
+    "confidenceScore": 0,
+    "dataSource": "GEO_TASK_ENGINE",
+    "lastVerifiedAt": "2026-06-08T04:44:36.245Z"
+  }
+}

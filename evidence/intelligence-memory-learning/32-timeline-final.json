@@ -1,0 +1,836 @@
+{
+  "status": "COMPLETED",
+  "engine": "INTELLIGENCE_TIMELINE",
+  "data": {
+    "days": 30,
+    "events": [
+      {
+        "type": "RECOMMENDATION_OUTCOME",
+        "at": "2026-06-08T03:22:22.068Z",
+        "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+        "detail": "COMPLETED: expected 5, actual 0.",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Baseline opportunityScore was 35 when tracking started.",
+            "source": "Action Outcome Tracking"
+          },
+          {
+            "url": null,
+            "claim": "Actual opportunityScore is 35; actual impact 0.",
+            "source": "Recommendation Effectiveness Engine"
+          }
+        ],
+        "confidenceScore": 44
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "competitorGeoScore.rollup",
+        "detail": "Rollup average 18.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "geoScore.rollup",
+        "detail": "Rollup average 85.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "threatScore.rollup",
+        "detail": "Rollup average 13.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "promptOpportunity.rollup",
+        "detail": "Rollup average 72.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "promptOpportunity.rollup",
+        "detail": "Rollup average 71.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "threatScore.rollup",
+        "detail": "Rollup average 13.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "threatScore.rollup",
+        "detail": "Rollup average 13.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 80.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 55.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 35.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "competitorGeoScore.rollup",
+        "detail": "Rollup average 18.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:22:21.981Z",
+        "title": "competitorGeoScore.rollup",
+        "detail": "Rollup average 18.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 3 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 58
+      },
+      {
+        "type": "RECOMMENDATION_OUTCOME",
+        "at": "2026-06-08T03:21:25.521Z",
+        "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+        "detail": "PENDING: expected 5, actual pending.",
+        "evidence": [
+          {
+            "url": null,
+            "claim": "Baseline GEO_SCORE was unavailable when tracking started.",
+            "source": "Action Outcome Tracking"
+          }
+        ],
+        "confidenceScore": 33
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "geoScore.rollup",
+        "detail": "Rollup average 85.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 55.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 35.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "threatScore.rollup",
+        "detail": "Rollup average 13.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "promptOpportunity.rollup",
+        "detail": "Rollup average 71.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "competitorGeoScore.rollup",
+        "detail": "Rollup average 18.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "promptOpportunity.rollup",
+        "detail": "Rollup average 72.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "competitorGeoScore.rollup",
+        "detail": "Rollup average 18.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "threatScore.rollup",
+        "detail": "Rollup average 13.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.469Z",
+        "title": "competitorGeoScore.rollup",
+        "detail": "Rollup average 18.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 80.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "threatScore.rollup",
+        "detail": "Rollup average 13.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "opportunityScore.rollup",
+        "detail": "Rollup average 54.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      },
+      {
+        "type": "MEMORY_ROLLUP",
+        "at": "2026-06-08T03:21:25.468Z",
+        "title": "citationAuthority.rollup",
+        "detail": "Rollup average 43.",
+        "evidence": [
+          {
+            "url": "https://orcatech.online",
+            "claim": "Rolled up 2 raw snapshot(s); original rows are preserved.",
+            "source": "Rollup Engine"
+          }
+        ],
+        "confidenceScore": 49
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Loaded 58 timeline event(s) for the last 30 day(s).",
+      "source": "Intelligence Timeline",
+      "url": null
+    }
+  ],
+  "confidenceScore": 53,
+  "dataSource": "INTELLIGENCE_CHANGE + OUTCOMES + ROLLUPS",
+  "lastVerifiedAt": "2026-06-08T03:22:22.153Z"
+}

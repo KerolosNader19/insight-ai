@@ -1,0 +1,27 @@
+{
+  "id": "17da1ae6-d6c4-4c1e-80e4-40bfb13e6a6c",
+  "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+  "actionId": null,
+  "actionType": "GEO_OPTIMIZATION",
+  "title": "Add FAQ schema to OrcaTech cybersecurity service pages",
+  "status": "PENDING",
+  "expectedMetric": "opportunityScore",
+  "expectedImpact": 5,
+  "baselineValue": 35,
+  "actualValue": null,
+  "actualImpact": null,
+  "effectivenessScore": null,
+  "evidence": [
+    {
+      "url": null,
+      "claim": "Baseline opportunityScore was 35 when tracking started.",
+      "source": "Action Outcome Tracking"
+    }
+  ],
+  "confidenceScore": 39,
+  "dataSource": "ACTION_OUTCOME_TRACKING",
+  "startedAt": "2026-06-08T03:22:22.029Z",
+  "completedAt": null,
+  "createdAt": "2026-06-08T03:22:22.030Z",
+  "updatedAt": "2026-06-08T03:22:22.030Z"
+}

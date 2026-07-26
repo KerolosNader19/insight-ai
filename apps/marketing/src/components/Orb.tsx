@@ -1,16 +1,10 @@
-import React, { useEffect, useRef, Suspense } from "react";
-import { Canvas, useFrame } from "@react-three/fiber";
+import { useEffect, useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 import * as THREE from "three";
-
-function OrbFallback() {
-  return (
-    <div className="w-full h-full flex items-center justify-center bg-brand-accent/5 rounded-full blur-3xl animate-pulse" />
-  );
-}
 
 function OrbContent() {
   const groupRef = useRef<THREE.Group>(null);
-  const meshRef = useRef<THREE.Mesh>(null);
+  const meshRef = useRef<THREE.Mesh | null>(null);
 
   useEffect(() => {
     // Manually create Three.js objects to bypass R3F JSX factory version issues

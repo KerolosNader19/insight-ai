@@ -1,0 +1,1022 @@
+{
+  "label": "16-geo-os-weekly",
+  "method": "GET",
+  "url": "/geo-autopilot/brands/7c51d959-ea7b-48ca-80f0-e25aad4a50e7/os?period=WEEKLY",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GEO_OS",
+    "data": {
+      "id": "37f95fa1-eee0-4c34-8a6a-e0f407b9f490",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "period": "WEEKLY",
+      "priorityQueue": [
+        {
+          "id": "8379a936-155b-4889-8f9d-7b674024dd26",
+          "dueAt": "2026-06-15T06:28:51.751Z",
+          "title": "Execute Schema Pack - Cloudflare SRO 1780897908191",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SCHEMA_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "9afbaf1a-5d0b-47d9-8175-53dbaf3fffa6",
+          "createdAt": "2026-06-08T06:28:51.753Z",
+          "updatedAt": "2026-06-08T06:28:52.685Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated schema generator asset and publish or assign it for implementation.",
+          "impactScore": 88,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 88,
+            "revenueImpact": 68
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 24,
+          "expectedGeoGain": 7.3,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "11ece338-809e-40ae-95ce-41e38dbad8f0",
+          "dueAt": "2026-07-08T06:28:51.767Z",
+          "title": "Execute Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SERVICE_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            }
+          ],
+          "priority": "medium",
+          "sourceId": "7956d017-e999-4d51-9d31-f840a62c823d",
+          "createdAt": "2026-06-08T06:28:51.768Z",
+          "updatedAt": "2026-06-08T06:28:52.751Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated service page asset and publish or assign it for implementation.",
+          "impactScore": 84,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 84,
+            "revenueImpact": 78
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 46,
+          "expectedGeoGain": 7,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "df17fa0c-3482-4b1a-bf2a-219264581e1f",
+          "dueAt": "2026-06-15T06:28:51.781Z",
+          "title": "Execute Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "COMPARISON_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "a420ecc7-ddcb-4eef-9664-e550ef4ba339",
+          "createdAt": "2026-06-08T06:28:51.782Z",
+          "updatedAt": "2026-06-08T06:28:52.739Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated comparison page asset and publish or assign it for implementation.",
+          "impactScore": 82,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 82,
+            "revenueImpact": 86
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 58,
+          "expectedGeoGain": 6.8,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "b1874e8a-2a70-4562-9820-831c2a6c94d3",
+          "dueAt": "2026-06-15T06:28:51.792Z",
+          "title": "Execute Content Brief - Best cybersecurity company in Saudi Arabia",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "CONTENT_BRIEF",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "8d366425-52e6-4ab2-8ab2-11e2892924c3",
+          "createdAt": "2026-06-08T06:28:51.794Z",
+          "updatedAt": "2026-06-08T06:28:52.718Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated content brief asset and publish or assign it for implementation.",
+          "impactScore": 80,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 80,
+            "revenueImpact": 80
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 36,
+          "expectedGeoGain": 6.7,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "d9ce4b5e-a57b-4b57-baa0-9d176e5efb01",
+          "dueAt": "2026-06-22T06:28:52.472Z",
+          "title": "Respond to competitor page gap: Entity coverage: CrowdStrike",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.472Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "createdAt": "2026-06-08T06:28:52.474Z",
+          "updatedAt": "2026-06-08T06:28:52.474Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        },
+        {
+          "id": "2750049b-091e-42a5-84a2-769b40f2c04c",
+          "dueAt": "2026-06-22T06:28:52.490Z",
+          "title": "Respond to competitor page gap: Citation pattern: linkedin.com",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.490Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "createdAt": "2026-06-08T06:28:52.491Z",
+          "updatedAt": "2026-06-08T06:28:52.491Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        },
+        {
+          "id": "d93588a8-e772-4a10-aaea-656861307dd6",
+          "dueAt": "2026-06-22T06:28:52.506Z",
+          "title": "Respond to competitor page gap: Citation pattern: x.com",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.505Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "createdAt": "2026-06-08T06:28:52.507Z",
+          "updatedAt": "2026-06-08T06:28:52.507Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        },
+        {
+          "id": "07f7c6e8-7e94-4a75-82ca-d87a317b42c4",
+          "dueAt": "2026-06-22T06:28:52.530Z",
+          "title": "Respond to competitor page gap: Entity coverage: Cybersecurity Saudi Arabia Palo",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.530Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "createdAt": "2026-06-08T06:28:52.532Z",
+          "updatedAt": "2026-06-08T06:28:52.532Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        },
+        {
+          "id": "1677bddb-9b7d-4d7e-bf24-2783d3a1011f",
+          "dueAt": "2026-06-22T06:28:52.549Z",
+          "title": "Respond to competitor page gap: Entity coverage: Alto Networks Leader",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.549Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "createdAt": "2026-06-08T06:28:52.550Z",
+          "updatedAt": "2026-06-08T06:28:52.550Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        },
+        {
+          "id": "bf68e268-87b0-4c15-a2aa-233b45c66e03",
+          "dueAt": "2026-06-22T06:28:52.563Z",
+          "title": "Respond to competitor page gap: Citation pattern: paloaltonetworks.de",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.paloaltonetworks.com/",
+              "claim": "Detected competitor gap from Palo Alto Networks page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.563Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "7320b74a-6245-41e0-86c3-9a542dcac255",
+          "createdAt": "2026-06-08T06:28:52.564Z",
+          "updatedAt": "2026-06-08T06:28:52.564Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor Palo Alto Networks has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        }
+      ],
+      "recommendedActions": [
+        {
+          "id": "8379a936-155b-4889-8f9d-7b674024dd26",
+          "dueAt": "2026-06-15T06:28:51.751Z",
+          "title": "Execute Schema Pack - Cloudflare SRO 1780897908191",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SCHEMA_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "9afbaf1a-5d0b-47d9-8175-53dbaf3fffa6",
+          "createdAt": "2026-06-08T06:28:51.753Z",
+          "updatedAt": "2026-06-08T06:28:52.685Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated schema generator asset and publish or assign it for implementation.",
+          "impactScore": 88,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 88,
+            "revenueImpact": 68
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 24,
+          "expectedGeoGain": 7.3,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "11ece338-809e-40ae-95ce-41e38dbad8f0",
+          "dueAt": "2026-07-08T06:28:51.767Z",
+          "title": "Execute Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SERVICE_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            }
+          ],
+          "priority": "medium",
+          "sourceId": "7956d017-e999-4d51-9d31-f840a62c823d",
+          "createdAt": "2026-06-08T06:28:51.768Z",
+          "updatedAt": "2026-06-08T06:28:52.751Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated service page asset and publish or assign it for implementation.",
+          "impactScore": 84,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 84,
+            "revenueImpact": 78
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 46,
+          "expectedGeoGain": 7,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "df17fa0c-3482-4b1a-bf2a-219264581e1f",
+          "dueAt": "2026-06-15T06:28:51.781Z",
+          "title": "Execute Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "COMPARISON_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "a420ecc7-ddcb-4eef-9664-e550ef4ba339",
+          "createdAt": "2026-06-08T06:28:51.782Z",
+          "updatedAt": "2026-06-08T06:28:52.739Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated comparison page asset and publish or assign it for implementation.",
+          "impactScore": 82,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 82,
+            "revenueImpact": 86
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 58,
+          "expectedGeoGain": 6.8,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "b1874e8a-2a70-4562-9820-831c2a6c94d3",
+          "dueAt": "2026-06-15T06:28:51.792Z",
+          "title": "Execute Content Brief - Best cybersecurity company in Saudi Arabia",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "CONTENT_BRIEF",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "8d366425-52e6-4ab2-8ab2-11e2892924c3",
+          "createdAt": "2026-06-08T06:28:51.794Z",
+          "updatedAt": "2026-06-08T06:28:52.718Z",
+          "dataSource": "GEO_AUTOPILOT_ACTION_CENTER",
+          "sourceType": "GEO_EXECUTION_ASSET",
+          "completedAt": null,
+          "description": "Use the generated content brief asset and publish or assign it for implementation.",
+          "impactScore": 80,
+          "dependencies": [
+            "human review",
+            "approval to publish"
+          ],
+          "expectedImpact": {
+            "geoImpact": 80,
+            "revenueImpact": 80
+          },
+          "confidenceScore": 86,
+          "difficultyScore": 36,
+          "expectedGeoGain": 6.7,
+          "executionPackageId": "87fb44fa-d740-423e-9d51-f25522a93632"
+        },
+        {
+          "id": "d9ce4b5e-a57b-4b57-baa0-9d176e5efb01",
+          "dueAt": "2026-06-22T06:28:52.472Z",
+          "title": "Respond to competitor page gap: Entity coverage: CrowdStrike",
+          "planId": null,
+          "status": "OPEN",
+          "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+          "ownerId": null,
+          "evidence": [
+            {
+              "url": "https://www.crowdstrike.com/",
+              "claim": "Detected competitor gap from CrowdStrike page analysis.",
+              "source": "Competitor Change Detection",
+              "lastVerifiedAt": "2026-06-08T06:28:52.472Z"
+            }
+          ],
+          "priority": "high",
+          "sourceId": "0783ec77-9220-4e69-b6b2-186dde2ea796",
+          "createdAt": "2026-06-08T06:28:52.474Z",
+          "updatedAt": "2026-06-08T06:28:52.474Z",
+          "dataSource": "GEO_AUTOPILOT_COMPETITOR_CHANGE_DETECTION",
+          "sourceType": "COMPETITOR_CHANGE",
+          "completedAt": null,
+          "description": "Competitor CrowdStrike has page-level evidence that should be answered with updated content, FAQ, schema, or citation support.",
+          "impactScore": 78,
+          "dependencies": null,
+          "expectedImpact": null,
+          "confidenceScore": 74,
+          "difficultyScore": 52,
+          "expectedGeoGain": 6,
+          "executionPackageId": null
+        }
+      ],
+      "blockedActions": [],
+      "completedActions": [],
+      "upcomingOpportunities": [
+        {
+          "type": "PACKAGE",
+          "title": "Autopilot Content Pipeline Review Pack",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Bundled 7 execution asset(s) into an implementation package.",
+              "source": "One-Click Implementation Packs",
+              "lastVerifiedAt": "2026-06-08T06:28:52.654Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "FAQ_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SCHEMA_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "CONTENT_BRIEF",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "COMPARISON_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SERVICE_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "LLMS_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "CITATION_OUTREACH",
+              "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+            }
+          ],
+          "priorityScore": 68
+        },
+        {
+          "type": "PACKAGE",
+          "title": "Saudi Cybersecurity GEO Autopilot Pack",
+          "evidence": [
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Bundled 7 execution asset(s) into an implementation package.",
+              "source": "One-Click Implementation Packs",
+              "lastVerifiedAt": "2026-06-08T06:28:51.924Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "FAQ_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.053Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SCHEMA_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.246Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "CONTENT_BRIEF",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.211Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "COMPARISON_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.129Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "SERVICE_PAGE",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.170Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "LLMS_GENERATOR",
+              "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+            },
+            {
+              "url": "https://www.cloudflare.com",
+              "claim": "Used 12 stored prompt suggestion row(s).",
+              "source": "Prompt Discovery",
+              "lastVerifiedAt": "2026-06-08T06:14:36.280Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/application-services/products/cloudflare-one/",
+              "claim": "Generated asset from target prompt \"Best cybersecurity company in Saudi Arabia\".",
+              "source": "CITATION_OUTREACH",
+              "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+            },
+            {
+              "url": "https://www.cloudflare.com/",
+              "claim": "Used latest SRO analysis with SRO 78, selection probability 78, and confidence 82.",
+              "source": "SRO Analysis",
+              "lastVerifiedAt": "2026-06-08T06:14:36.310Z"
+            }
+          ],
+          "priorityScore": 68
+        }
+      ],
+      "weeklyReport": {
+        "roi": [
+          {
+            "id": "011e131e-16ce-4488-afdb-f9ab9602a875",
+            "deltas": {
+              "geoScore": null,
+              "citations": 0,
+              "selectionProbability": null
+            },
+            "taskId": null,
+            "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+            "current": {
+              "geoScore": null,
+              "citations": 0,
+              "selectionProbability": 78
+            },
+            "baseline": {
+              "geoScore": null,
+              "citations": 0,
+              "selectionProbability": null
+            },
+            "evidence": [
+              {
+                "url": "https://www.cloudflare.com",
+                "claim": "ROI snapshot measured task completion against GEO score, SRO selection probability, and citation state.",
+                "source": "ROI Tracking",
+                "lastVerifiedAt": "2026-06-08T06:28:52.882Z"
+              }
+            ],
+            "createdAt": "2026-06-08T06:28:52.883Z",
+            "dataSource": "GEO_AUTOPILOT_ROI_TRACKING",
+            "measuredAt": "2026-06-08T06:28:52.883Z",
+            "actionTitle": "Brand GEO Autopilot Impact",
+            "impactScore": 0,
+            "confidenceScore": 82
+          }
+        ],
+        "topActions": [
+          {
+            "dueAt": "2026-06-15T06:28:51.751Z",
+            "title": "Execute Schema Pack - Cloudflare SRO 1780897908191",
+            "status": "OPEN",
+            "impactScore": 88
+          },
+          {
+            "dueAt": "2026-07-08T06:28:51.767Z",
+            "title": "Execute Enterprise Cybersecurity Platform for Saudi Arabia Cybersecurity Buyers",
+            "status": "OPEN",
+            "impactScore": 84
+          },
+          {
+            "dueAt": "2026-06-15T06:28:51.781Z",
+            "title": "Execute Cloudflare SRO 1780897908191 vs CrowdStrike: Cybersecurity Comparison for Saudi Arabia",
+            "status": "OPEN",
+            "impactScore": 82
+          },
+          {
+            "dueAt": "2026-06-15T06:28:51.792Z",
+            "title": "Execute Content Brief - Best cybersecurity company in Saudi Arabia",
+            "status": "OPEN",
+            "impactScore": 80
+          },
+          {
+            "dueAt": "2026-06-22T06:28:52.472Z",
+            "title": "Respond to competitor page gap: Entity coverage: CrowdStrike",
+            "status": "OPEN",
+            "impactScore": 78
+          }
+        ],
+        "openActions": 10,
+        "publications": [
+          {
+            "title": "Saudi Cybersecurity GEO Autopilot Pack",
+            "status": "FAILED",
+            "provider": "WORDPRESS"
+          },
+          {
+            "title": "Saudi Cybersecurity GEO Autopilot Pack",
+            "status": "READY",
+            "provider": "WORDPRESS"
+          }
+        ]
+      },
+      "monthlyReport": null,
+      "evidence": [
+        {
+          "url": "https://www.cloudflare.com",
+          "claim": "GEO OS compiled 18 action(s), 2 CMS publication(s), 1 ROI snapshot(s), and 2 package(s).",
+          "source": "GEO Operating System",
+          "lastVerifiedAt": "2026-06-08T06:28:52.960Z"
+        }
+      ],
+      "confidenceScore": 81,
+      "dataSource": "GEO_AUTOPILOT_OS",
+      "createdAt": "2026-06-08T06:28:52.964Z"
+    },
+    "evidence": [
+      {
+        "claim": "GEO OS compiled 18 action(s), 2 CMS publication(s), 1 ROI snapshot(s), and 2 package(s).",
+        "source": "GEO Operating System",
+        "url": "https://www.cloudflare.com",
+        "lastVerifiedAt": "2026-06-08T06:28:52.960Z"
+      }
+    ],
+    "confidenceScore": 81,
+    "dataSource": "GEO_OS",
+    "lastVerifiedAt": "2026-06-08T06:28:52.979Z"
+  }
+}

@@ -1,0 +1,847 @@
+{
+  "label": "06-global-geo-index",
+  "method": "GET",
+  "url": "/global-geo-index",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "GLOBAL_GEO_INDEX",
+    "data": {
+      "id": "ea79f19d-9b0f-4751-b8a9-1e717c6999c9",
+      "indexName": "Insight AI Global GEO Index",
+      "score": 44.71,
+      "marketCount": 7,
+      "industryCount": 5,
+      "countryCount": 5,
+      "sampleSize": 131,
+      "rankings": {
+        "brands": [
+          {
+            "name": "Cloudflare SRO 1780897908191",
+            "rank": 1,
+            "score": 82,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Cloudflare SRO 1780897908191",
+            "rank": 2,
+            "score": 82,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Cloudflare SRO 1780897908191",
+            "rank": 3,
+            "score": 82,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "CrowdStrike",
+            "rank": 4,
+            "score": 81,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "CrowdStrike",
+            "rank": 5,
+            "score": 81,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "CrowdStrike",
+            "rank": 6,
+            "score": 81,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Palo Alto Networks",
+            "rank": 7,
+            "score": 70,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Palo Alto Networks",
+            "rank": 8,
+            "score": 70,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Palo Alto Networks",
+            "rank": 9,
+            "score": 70,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "OrcaTech Product 20260602183015",
+            "rank": 10,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Competitor UI 20260602183515",
+            "rank": 11,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Competitor UI 20260602183641",
+            "rank": 12,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Manager Brand 20260602183015",
+            "rank": 13,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "OrcaTech UI 20260602183641",
+            "rank": 14,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Competitor B",
+            "rank": 15,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Competitor UI 20260602183641",
+            "rank": 16,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Manager Brand 20260602183015",
+            "rank": 17,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "OrcaTech",
+            "rank": 18,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "OrcaTech Product 20260602183015",
+            "rank": 19,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "OrcaTech UI 20260602183641",
+            "rank": 20,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Runtime Brand 1780438046715",
+            "rank": 21,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Brightskies",
+            "rank": 22,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Check Point",
+            "rank": 23,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Competitor A",
+            "rank": 24,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Runtime Competitor 1780438046715",
+            "rank": 25,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Manager Brand 20260602183015",
+            "rank": 26,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "OrcaTech",
+            "rank": 27,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "OrcaTech Product 20260602183015",
+            "rank": 28,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Security Matterz",
+            "rank": 29,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Cyberoam",
+            "rank": 30,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Competitor UI 20260602183515",
+            "rank": 31,
+            "score": 0,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "name": "Cyberoam",
+            "rank": 32,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Check Point",
+            "rank": 33,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Competitor A",
+            "rank": 34,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "OrcaTech UI 20260602183641",
+            "rank": 35,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Runtime Brand 1780438046715",
+            "rank": 36,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Runtime Competitor 1780438046715",
+            "rank": 37,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Brightskies",
+            "rank": 38,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Security Matterz",
+            "rank": 39,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Competitor B",
+            "rank": 40,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Competitor UI 20260602183515",
+            "rank": 41,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "Competitor B",
+            "rank": 42,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Competitor UI 20260602183641",
+            "rank": 43,
+            "score": 0,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "name": "OrcaTech",
+            "rank": 44,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Brightskies",
+            "rank": 45,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Check Point",
+            "rank": 46,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Security Matterz",
+            "rank": 47,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Cyberoam",
+            "rank": 48,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Competitor A",
+            "rank": 49,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "name": "Runtime Brand 1780438046715",
+            "rank": 50,
+            "score": 0,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          }
+        ],
+        "markets": [
+          {
+            "score": 58,
+            "market": "Cybersecurity Qatar",
+            "region": "GCC",
+            "country": "Qatar",
+            "industry": "Cybersecurity"
+          },
+          {
+            "score": 57,
+            "market": "Cybersecurity UAE",
+            "region": "GCC",
+            "country": "UAE",
+            "industry": "Cybersecurity"
+          },
+          {
+            "score": 54,
+            "market": "Cybersecurity Saudi Arabia",
+            "region": "GCC",
+            "country": "Saudi Arabia",
+            "industry": "Cybersecurity"
+          },
+          {
+            "score": 36,
+            "market": "SEO Egypt",
+            "region": "MENA",
+            "country": "Egypt",
+            "industry": "SEO"
+          },
+          {
+            "score": 36,
+            "market": "SaaS GCC",
+            "region": "GCC",
+            "country": "GCC",
+            "industry": "SaaS"
+          },
+          {
+            "score": 36,
+            "market": "FinTech Saudi Arabia",
+            "region": "GCC",
+            "country": "Saudi Arabia",
+            "industry": "FinTech"
+          },
+          {
+            "score": 36,
+            "market": "Legal Services GCC",
+            "region": "GCC",
+            "country": "GCC",
+            "industry": "Legal Services"
+          }
+        ],
+        "prompts": [
+          {
+            "rank": 1,
+            "score": 92,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "queryText": "Best Cybersecurity companies in Qatar"
+          },
+          {
+            "rank": 2,
+            "score": 92,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Best Cybersecurity companies in UAE"
+          },
+          {
+            "rank": 3,
+            "score": 92,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best Cybersecurity companies in Saudi Arabia"
+          },
+          {
+            "rank": 4,
+            "score": 88,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in UAE"
+          },
+          {
+            "rank": 5,
+            "score": 88,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Qatar"
+          },
+          {
+            "rank": 6,
+            "score": 88,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Cloudflare SRO 1780897908191 vs competitors for Cybersecurity in Saudi Arabia"
+          },
+          {
+            "rank": 7,
+            "score": 86,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "queryText": "Top Cybersecurity providers for enterprises in Qatar"
+          },
+          {
+            "rank": 8,
+            "score": 86,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Top Cybersecurity providers for enterprises in UAE"
+          },
+          {
+            "rank": 9,
+            "score": 86,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Top Cybersecurity providers for enterprises in Saudi Arabia"
+          },
+          {
+            "rank": 10,
+            "score": 85,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "queryText": "Best SOC provider for regulated banks in Qatar."
+          },
+          {
+            "rank": 11,
+            "score": 85,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+          },
+          {
+            "rank": 12,
+            "score": 85,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+          },
+          {
+            "rank": 13,
+            "score": 85,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best SOC provider for regulated banks in Saudi Arabia."
+          },
+          {
+            "rank": 14,
+            "score": 85,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Best SOC provider for regulated banks in UAE."
+          },
+          {
+            "rank": 15,
+            "score": 85,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "What are the top cloud security firms for Saudi enterprises, and how does OrcaTech compare?"
+          },
+          {
+            "rank": 16,
+            "score": 84,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Compare Cybersecurity vendors in UAE"
+          },
+          {
+            "rank": 17,
+            "score": 84,
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897",
+            "queryText": "Compare Cybersecurity vendors in Qatar"
+          },
+          {
+            "rank": 18,
+            "score": 84,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Compare Cybersecurity vendors in Saudi Arabia"
+          },
+          {
+            "rank": 19,
+            "score": 82,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a CEO"
+          },
+          {
+            "rank": 20,
+            "score": 82,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Best cybersecurity company in UAE for a CEO"
+          },
+          {
+            "rank": 21,
+            "score": 82,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Cybersecurity provider with local support in Saudi Arabia"
+          },
+          {
+            "rank": 22,
+            "score": 82,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Cybersecurity provider with local support in UAE"
+          },
+          {
+            "rank": 23,
+            "score": 80,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Best cybersecurity company in UAE for regulated banks"
+          },
+          {
+            "rank": 24,
+            "score": 80,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Best cybersecurity company in UAE for AI security and regulated banks."
+          },
+          {
+            "rank": 25,
+            "score": 80,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "Best cybersecurity company in UAE for a CTO"
+          },
+          {
+            "rank": 26,
+            "score": 80,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for AI security and regulated banks."
+          },
+          {
+            "rank": 27,
+            "score": 80,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for regulated banks"
+          },
+          {
+            "rank": 28,
+            "score": 80,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a CTO"
+          },
+          {
+            "rank": 29,
+            "score": 80,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in Saudi Arabia?"
+          },
+          {
+            "rank": 30,
+            "score": 80,
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a",
+            "queryText": "What sets OrcaTech apart from Check Point in terms of cybersecurity services for regulated banks in UAE?"
+          },
+          {
+            "rank": 31,
+            "score": 78,
+            "marketId": "2a8dbdb6-6719-463e-b964-f481994699db",
+            "queryText": "Best SaaS companies in GCC"
+          },
+          {
+            "rank": 32,
+            "score": 78,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a CISO"
+          },
+          {
+            "rank": 33,
+            "score": 78,
+            "marketId": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+            "queryText": "Best SEO companies in Egypt"
+          },
+          {
+            "rank": 34,
+            "score": 78,
+            "marketId": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+            "queryText": "Best FinTech companies in Saudi Arabia"
+          },
+          {
+            "rank": 35,
+            "score": 78,
+            "marketId": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+            "queryText": "Best Legal Services companies in GCC"
+          },
+          {
+            "rank": 36,
+            "score": 76,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a SOC Manager"
+          },
+          {
+            "rank": 37,
+            "score": 75,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "How does OrcaTech's GEO Optimization service compare to Palo Alto Networks' in terms of AI visibility audits?"
+          },
+          {
+            "rank": 38,
+            "score": 75,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Top cloud security firms for Saudi enterprises."
+          },
+          {
+            "rank": 39,
+            "score": 74,
+            "marketId": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+            "queryText": "Top Legal Services providers for enterprises in GCC"
+          },
+          {
+            "rank": 40,
+            "score": 74,
+            "marketId": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+            "queryText": "Top FinTech providers for enterprises in Saudi Arabia"
+          },
+          {
+            "rank": 41,
+            "score": 74,
+            "marketId": "2a8dbdb6-6719-463e-b964-f481994699db",
+            "queryText": "Top SaaS providers for enterprises in GCC"
+          },
+          {
+            "rank": 42,
+            "score": 74,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a Compliance Buyer"
+          },
+          {
+            "rank": 43,
+            "score": 74,
+            "marketId": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+            "queryText": "Top SEO providers for enterprises in Egypt"
+          },
+          {
+            "rank": 44,
+            "score": 74,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "How to choose a Cybersecurity provider in Saudi Arabia"
+          },
+          {
+            "rank": 45,
+            "score": 72,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Best cybersecurity company in Saudi Arabia for a Enterprise Buyer"
+          },
+          {
+            "rank": 46,
+            "score": 72,
+            "marketId": "2a8dbdb6-6719-463e-b964-f481994699db",
+            "queryText": "Compare SaaS vendors in GCC"
+          },
+          {
+            "rank": 47,
+            "score": 72,
+            "marketId": "3e89b687-bd17-4da7-bcf5-d4baa9b84f16",
+            "queryText": "Compare FinTech vendors in Saudi Arabia"
+          },
+          {
+            "rank": 48,
+            "score": 72,
+            "marketId": "5eaa3895-6cc8-48d0-b7a2-0c399a7fa7b5",
+            "queryText": "Compare SEO vendors in Egypt"
+          },
+          {
+            "rank": 49,
+            "score": 72,
+            "marketId": "0dac3dfd-0298-4b99-8643-41fdc6a76385",
+            "queryText": "Compare Legal Services vendors in GCC"
+          },
+          {
+            "rank": 50,
+            "score": 70,
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf",
+            "queryText": "Compare OrcaTech's cybersecurity services with Cyberoam's in Saudi Arabia, including their AI security offerings."
+          }
+        ],
+        "citations": [
+          {
+            "rank": 1,
+            "score": 53,
+            "domain": "orcatech.com",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 2,
+            "score": 53,
+            "domain": "paloaltonetworks.com",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 3,
+            "score": 53,
+            "domain": "checkpoint.com",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 4,
+            "score": 53,
+            "domain": "cyberoam.com",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 5,
+            "score": 53,
+            "domain": "mcit.gov.sa",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 6,
+            "score": 53,
+            "domain": "stc.com.sa",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 7,
+            "score": 53,
+            "domain": "saudiaramco.com",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 8,
+            "score": 53,
+            "domain": "sama.gov.sa",
+            "marketId": "8b6f3261-eab2-47b7-b8e9-5d3a014a2daf"
+          },
+          {
+            "rank": 9,
+            "score": 53,
+            "domain": "checkpoint.com",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 10,
+            "score": 53,
+            "domain": "cyberoam.com",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 11,
+            "score": 53,
+            "domain": "mcit.gov.sa",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 12,
+            "score": 53,
+            "domain": "orcatech.com",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 13,
+            "score": 53,
+            "domain": "paloaltonetworks.com",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 14,
+            "score": 53,
+            "domain": "sama.gov.sa",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 15,
+            "score": 53,
+            "domain": "saudiaramco.com",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 16,
+            "score": 53,
+            "domain": "stc.com.sa",
+            "marketId": "4dd45f0b-29bd-42d1-842a-381603df2d2a"
+          },
+          {
+            "rank": 17,
+            "score": 53,
+            "domain": "cyberoam.com",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 18,
+            "score": 53,
+            "domain": "checkpoint.com",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 19,
+            "score": 53,
+            "domain": "mcit.gov.sa",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 20,
+            "score": 53,
+            "domain": "orcatech.com",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 21,
+            "score": 53,
+            "domain": "paloaltonetworks.com",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 22,
+            "score": 53,
+            "domain": "sama.gov.sa",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 23,
+            "score": 53,
+            "domain": "saudiaramco.com",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          },
+          {
+            "rank": 24,
+            "score": 53,
+            "domain": "stc.com.sa",
+            "marketId": "1292b0cc-2e8a-4d01-b351-d018c3c81897"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "url": null,
+          "claim": "Global GEO Index calculated from 7 market(s), 5 industry/industries, and 5 country/countries.",
+          "source": "Global GEO Index",
+          "lastVerifiedAt": "2026-06-08T07:04:14.023Z"
+        }
+      ],
+      "confidenceScore": 85,
+      "capturedAt": "2026-06-08T07:04:14.027Z",
+      "dataSource": "GLOBAL_GEO_INDEX",
+      "createdAt": "2026-06-08T07:04:14.027Z"
+    },
+    "confidenceScore": 85,
+    "evidence": [
+      {
+        "claim": "Global GEO Index calculated from 7 market(s), 5 industry/industries, and 5 country/countries.",
+        "source": "Global GEO Index",
+        "url": null,
+        "lastVerifiedAt": "2026-06-08T07:04:14.023Z"
+      }
+    ],
+    "dataSource": "GLOBAL_GEO_INDEX",
+    "lastVerifiedAt": "2026-06-08T07:04:14.041Z"
+  }
+}

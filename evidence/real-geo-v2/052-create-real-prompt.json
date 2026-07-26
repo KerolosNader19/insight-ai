@@ -1,0 +1,29 @@
+{
+  "label": "052-create-real-prompt",
+  "url": "/prompts",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:17:03.615Z",
+  "completedAt": "2026-06-08T02:17:03.668Z",
+  "body": {
+    "id": "900f80ae-1484-4306-8bbe-85b33626ea59",
+    "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "queryText": "Compare OrcaTech, Palo Alto Networks, Check Point, and Cyberoam for cybersecurity in Saudi Arabia. Include source URLs.",
+    "frequency": "manual",
+    "isActive": true,
+    "lastRunAt": null,
+    "createdAt": "2026-06-08T02:17:03.649Z",
+    "brand": {
+      "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "OrcaTech",
+      "websiteUrl": "https://orcatech.online",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T21:42:59.849Z",
+      "updatedAt": "2026-06-02T21:42:59.849Z"
+    }
+  }
+}

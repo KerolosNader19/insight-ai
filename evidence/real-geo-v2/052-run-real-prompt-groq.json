@@ -1,0 +1,209 @@
+{
+  "label": "052-run-real-prompt-groq",
+  "url": "/prompts/900f80ae-1484-4306-8bbe-85b33626ea59/run",
+  "method": "POST",
+  "status": 201,
+  "ok": true,
+  "startedAt": "2026-06-08T02:17:03.668Z",
+  "completedAt": "2026-06-08T02:17:05.750Z",
+  "body": {
+    "id": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+    "promptId": "900f80ae-1484-4306-8bbe-85b33626ea59",
+    "engineId": "1860bc70-425e-4396-9587-318605a63201",
+    "rawContent": "**Cybersecurity Comparison in Saudi Arabia: OrcaTech, Palo Alto Networks, Check Point, and Cyberoam**\n\nSaudi Arabia has been investing heavily in cybersecurity to protect its critical infrastructure, government institutions, and private sector organizations from cyber threats. In this comparison, we will evaluate OrcaTech, Palo Alto Networks, Check Point, and Cyberoam, four prominent cybersecurity companies operating in the region.\n\n**OrcaTech**\n\nOrcaTech is a Saudi Arabian cybersecurity company that offers a range of services, including threat detection, incident response, and security consulting. Their solutions are designed to protect organizations from advanced threats and comply with Saudi Arabian regulations.\n\n* Strengths: OrcaTech has a strong presence in the Saudi Arabian market, with a deep understanding of local regulations and threat landscapes. (Source: [OrcaTech Website](https://www.orcatech.com/))\n* Weaknesses: Limited international presence and recognition compared to other companies on this list.\n\n**Palo Alto Networks**\n\nPalo Alto Networks is a global cybersecurity leader that offers a range of products and services, including firewalls, threat prevention, and cloud security. They have a significant presence in Saudi Arabia, with a local office and a range of partners.\n\n* Strengths: Palo Alto Networks offers a comprehensive suite of cybersecurity products and services, with a strong focus on threat prevention and cloud security. (Source: [Palo Alto Networks Website](https://www.paloaltonetworks.com/))\n* Weaknesses: Higher costs compared to other companies on this list, and a complex product portfolio that may require significant training and support.\n\n**Check Point**\n\nCheck Point is a global cybersecurity company that offers a range of products and services, including firewalls, threat prevention, and security management. They have a significant presence in Saudi Arabia, with a local office and a range of partners.\n\n* Strengths: Check Point offers a comprehensive suite of cybersecurity products and services, with a strong focus on threat prevention and security management. (Source: [Check Point Website](https://www.checkpoint.com/))\n* Weaknesses: Higher costs compared to other companies on this list, and a complex product portfolio that may require significant training and support.\n\n**Cyberoam**\n\nCyberoam is a global cybersecurity company that offers a range of products and services, including firewalls, threat prevention, and security management. They have a significant presence in Saudi Arabia, with a local office and a range of partners.\n\n* Strengths: Cyberoam offers a comprehensive suite of cybersecurity products and services, with a strong focus on threat prevention and security management. (Source: [Cyberoam Website](https://www.cyberoam.com/))\n* Weaknesses: Limited international presence and recognition compared to other companies on this list.\n\n**Comparison Summary**\n\n| Company | Strengths | Weaknesses |\n| --- | --- | --- |\n| OrcaTech | Strong presence in Saudi Arabia, local expertise | Limited international presence and recognition |\n| Palo Alto Networks | Comprehensive suite of cybersecurity products and services, strong focus on threat prevention and cloud security | Higher costs, complex product portfolio |\n| Check Point | Comprehensive suite of cybersecurity products and services, strong focus on threat prevention and security management | Higher costs, complex product portfolio |\n| Cyberoam | Comprehensive suite of cybersecurity products and services, strong focus on threat prevention and security management | Limited international presence and recognition |\n\n**Recommendation**\n\nBased on our comparison, we recommend Palo Alto Networks and Check Point for organizations in Saudi Arabia that require a comprehensive suite of cybersecurity products and services. Both companies have a strong presence in the region, with a range of partners and a deep understanding of local regulations and threat landscapes.\n\nHowever, for organizations with limited budgets or simpler security requirements, OrcaTech may be a more cost-effective option. Cyberoam may also be a viable option for organizations that require a comprehensive suite of cybersecurity products and services, but have limited international presence and recognition.\n\n**Sources**\n\n* OrcaTech Website: [https://www.orcatech.com/](https://www.orcatech.com/)\n* Palo Alto Networks Website: [https://www.paloaltonetworks.com/](https://www.paloaltonetworks.com/)\n* Check Point Website: [https://www.checkpoint.com/](https://www.checkpoint.com/)\n* Cyberoam Website: [https://www.cyberoam.com/](https://www.cyberoam.com/)\n* Saudi Arabian Ministry of Communications and Information Technology: [https://www.mcit.gov.sa/](https://www.mcit.gov.sa/)",
+    "structuredContent": null,
+    "status": "COMPLETED",
+    "error": null,
+    "capturedAt": "2026-06-08T02:17:05.080Z",
+    "completedAt": "2026-06-08T02:17:05.079Z",
+    "screenshotUrl": null,
+    "performance_ms": 1370,
+    "engine": {
+      "id": "1860bc70-425e-4396-9587-318605a63201",
+      "name": "Groq",
+      "version": "llama-3.1-8b-instant",
+      "createdAt": "2026-06-02T15:31:09.153Z"
+    },
+    "mentions": [
+      {
+        "id": "c18d08a2-9eb7-4224-a9df-47b276e065f9",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "**Cybersecurity Comparison in Saudi Arabia: OrcaTech, Palo Alto Networks, Check Point, and Cyberoam**\n\nSaudi Arabia has been investi",
+        "position": 1,
+        "isRecommended": true,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "2ac2b1dc-6688-460e-8bd7-996af6b1d626",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "e sector organizations from cyber threats. In this comparison, we will evaluate OrcaTech, Palo Alto Networks, Check Point, and Cyberoam, four prominent cybersecurity co",
+        "position": 2,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "a21f07f2-640a-4faf-92fc-ee10440da949",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "nd Cyberoam, four prominent cybersecurity companies operating in the region.\n\n**OrcaTech**\n\nOrcaTech is a Saudi Arabian cybersecurity company that offers a range of ser",
+        "position": 3,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "34c8d0e8-22fe-45d5-8771-7f649fd954af",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": " four prominent cybersecurity companies operating in the region.\n\n**OrcaTech**\n\nOrcaTech is a Saudi Arabian cybersecurity company that offers a range of services, inclu",
+        "position": 4,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "25189885-8e81-4c7e-88d0-03bec58cccf6",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": " from advanced threats and comply with Saudi Arabian regulations.\n\n* Strengths: OrcaTech has a strong presence in the Saudi Arabian market, with a deep understanding of",
+        "position": 5,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "6ab31a87-80ac-49f6-883d-f2264d749d5b",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "with a deep understanding of local regulations and threat landscapes. (Source: [OrcaTech Website](https://www.orcatech.com/))\n* Weaknesses: Limited international presen",
+        "position": 6,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "39c8f9ef-6051-4d25-93d3-30b4c957a397",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "ocal regulations and threat landscapes. (Source: [OrcaTech Website](https://www.orcatech.com/))\n* Weaknesses: Limited international presence and recognition compared to",
+        "position": 7,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "e6deda06-bc5c-4c2f-be24-62be5e6ffa40",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "omparison Summary**\n\n| Company | Strengths | Weaknesses |\n| --- | --- | --- |\n| OrcaTech | Strong presence in Saudi Arabia, local expertise | Limited international pres",
+        "position": 8,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "46f3ed29-b0d2-4d91-8144-66e990a8725c",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "wever, for organizations with limited budgets or simpler security requirements, OrcaTech may be a more cost-effective option. Cyberoam may also be a viable option for o",
+        "position": 9,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "517f57ce-09cf-4787-b821-73c70d073a90",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "vices, but have limited international presence and recognition.\n\n**Sources**\n\n* OrcaTech Website: [https://www.orcatech.com/](https://www.orcatech.com/)\n* Palo Alto Net",
+        "position": 10,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "3a0c8ad0-8db4-45b5-94c4-605b367410a9",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "tional presence and recognition.\n\n**Sources**\n\n* OrcaTech Website: [https://www.orcatech.com/](https://www.orcatech.com/)\n* Palo Alto Networks Website: [https://www.pal",
+        "position": 11,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      },
+      {
+        "id": "869be786-0f0f-4b7d-875b-ff3490e9a5a1",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "entityId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+        "entityType": "brand",
+        "sentimentScore": 0,
+        "contextSnippet": "tion.\n\n**Sources**\n\n* OrcaTech Website: [https://www.orcatech.com/](https://www.orcatech.com/)\n* Palo Alto Networks Website: [https://www.paloaltonetworks.com/](https:/",
+        "position": 12,
+        "isRecommended": false,
+        "createdAt": "2026-06-08T02:17:05.663Z"
+      }
+    ],
+    "citations": [
+      {
+        "id": "4a1aae86-adf5-417f-bb4b-d40f01fa1687",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "url": "https://www.orcatech.com/",
+        "title": "orcatech.com",
+        "domain": "orcatech.com",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:05.684Z"
+      },
+      {
+        "id": "d459000c-5420-4de0-b3be-833392f773f9",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "url": "https://www.paloaltonetworks.com/",
+        "title": "paloaltonetworks.com",
+        "domain": "paloaltonetworks.com",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:05.684Z"
+      },
+      {
+        "id": "6c51249b-58a6-4cb7-a44c-c8cc0616e534",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "url": "https://www.checkpoint.com/",
+        "title": "checkpoint.com",
+        "domain": "checkpoint.com",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:05.684Z"
+      },
+      {
+        "id": "c3097c2e-807b-40a1-9c74-a20a69337e9f",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "url": "https://www.cyberoam.com/",
+        "title": "cyberoam.com",
+        "domain": "cyberoam.com",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:05.684Z"
+      },
+      {
+        "id": "002fbad0-7910-47ad-b324-9f2871c468c1",
+        "responseId": "485deeb6-b6bd-4bb6-bca5-66ce57e2854c",
+        "url": "https://www.mcit.gov.sa/",
+        "title": "mcit.gov.sa",
+        "domain": "mcit.gov.sa",
+        "authorityScore": null,
+        "createdAt": "2026-06-08T02:17:05.684Z"
+      }
+    ]
+  }
+}

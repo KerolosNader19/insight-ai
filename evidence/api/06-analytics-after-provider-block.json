@@ -1,0 +1,49 @@
+{
+  "summary": {
+    "status": 200,
+    "body": {
+      "brands": 1,
+      "activePrompts": 1,
+      "responses": 1,
+      "totalMentions": 0,
+      "totalCitations": 0,
+      "avgGeoScore": 0
+    }
+  },
+  "sov": {
+    "status": 200,
+    "body": {
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "share": 0,
+      "totalMentions": 0,
+      "breakdown": [
+        {
+          "id": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+          "name": "OrcaTech",
+          "type": "brand",
+          "mentions": 0
+        },
+        {
+          "id": "28496f48-3cde-40c6-9e55-d6d534fc37a8",
+          "name": "Competitor A",
+          "mentions": 0,
+          "type": "competitor"
+        },
+        {
+          "id": "94cb110b-91d8-476c-9447-10cbf68025da",
+          "name": "Competitor B",
+          "mentions": 0,
+          "type": "competitor"
+        }
+      ]
+    }
+  },
+  "citations": {
+    "status": 200,
+    "body": []
+  },
+  "recs": {
+    "status": 200,
+    "body": []
+  }
+}

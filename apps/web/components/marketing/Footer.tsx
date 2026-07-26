@@ -16,21 +16,21 @@ export function Footer() {
             Insight AI
           </Link>
           <p className="text-foreground/40 text-sm leading-relaxed">
-            The professional standard for AI search visibility and GEO analytics. Built for the future of discovery.
+            {t.footer.tagline}
           </p>
         </div>
 
         <div>
-          <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-brand-accent">Product</h4>
+          <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-brand-accent">{t.common.product}</h4>
           <ul className="space-y-4">
             <li><Link href="/#features" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.features}</Link></li>
             <li><Link href="/dashboard" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.dashboard}</Link></li>
-            <li><Link href="/#pricing" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.pricing}</Link></li>
+            <li><Link href="/pricing" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.pricing}</Link></li>
           </ul>
         </div>
 
         <div>
-          <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-brand-accent">Company</h4>
+          <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-brand-accent">{t.common.company}</h4>
           <ul className="space-y-4">
             <li><Link href="/about" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.about}</Link></li>
             <li><Link href="/blog" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.blog}</Link></li>
@@ -39,7 +39,7 @@ export function Footer() {
         </div>
 
         <div>
-          <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-brand-accent">Legal</h4>
+          <h4 className="font-bold text-sm mb-6 uppercase tracking-widest text-brand-accent">{t.common.legal}</h4>
           <ul className="space-y-4">
             <li><Link href="/privacy" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.privacy}</Link></li>
             <li><Link href="/terms" className="text-foreground/60 hover:text-foreground text-sm transition-colors">{t.common.terms}</Link></li>
@@ -50,12 +50,12 @@ export function Footer() {
 
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-brand-border/50 flex flex-col md:flex-row items-center justify-between gap-4">
         <p className="text-foreground/30 text-xs">
-          © 2026 Insight AI Inc. All rights reserved.
+          © 2026 Insight AI Inc. {t.common.allRightsReserved}
         </p>
         <div className="flex items-center gap-6">
-          <Link href="https://twitter.com/insight-ai" className="text-foreground/30 hover:text-foreground transition-colors text-xs">Twitter</Link>
-          <Link href="https://linkedin.com/company/insight-ai" className="text-foreground/30 hover:text-foreground transition-colors text-xs">LinkedIn</Link>
-          <Link href="https://github.com/insight-ai" className="text-foreground/30 hover:text-foreground transition-colors text-xs">GitHub</Link>
+          <Link href="https://twitter.com/insight-ai" className="text-foreground/30 hover:text-foreground transition-colors text-xs">{t.common.socialTwitter}</Link>
+          <Link href="https://linkedin.com/company/insight-ai" className="text-foreground/30 hover:text-foreground transition-colors text-xs">{t.common.socialLinkedIn}</Link>
+          <Link href="https://github.com/insight-ai" className="text-foreground/30 hover:text-foreground transition-colors text-xs">{t.common.socialGitHub}</Link>
         </div>
       </div>
     </footer>

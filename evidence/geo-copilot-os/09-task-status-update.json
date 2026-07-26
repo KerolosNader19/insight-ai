@@ -1,0 +1,38 @@
+{
+  "status": 200,
+  "ok": true,
+  "url": "/geo-copilot/tasks/b1bd7b8d-78f5-46f8-8b8b-207571594283",
+  "method": "PATCH",
+  "body": {
+    "id": "b1bd7b8d-78f5-46f8-8b8b-207571594283",
+    "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+    "planId": "8a307b98-ea5d-4b8a-abd8-0e32874079e3",
+    "sourceType": "GEO_INSIGHT",
+    "sourceId": "ad2ec5c7-5a1d-4d8f-9e28-0eff20555752",
+    "title": "Best SOC provider for regulated banks in Saudi Arabia.",
+    "description": "Track and optimize for \"Best SOC provider for regulated banks in Saudi Arabia.\".",
+    "priority": "high",
+    "status": "IN_PROGRESS",
+    "impactScore": 85,
+    "difficultyScore": 75,
+    "expectedGeoGain": 9.5,
+    "confidenceScore": 98,
+    "evidence": [
+      {
+        "url": null,
+        "claim": "OrcaTech Home Services All Services Web Development Cybersecurity AI Security AI Red Teaming GEO Optimization Data Analytics Back-End Desktop Apps Locations Egypt Saudi Arabia GCC Global Resources Case Studies Blog FAQ About Portfolio Contact EN AR Infrastructure &amp; Systems We Build Systems That Scale Businesses OrcaTech is a professional web development and cybersecurity company serving businesses in Egypt, Saudi Arabia, and worldwide. We build fast, secure, SEO-optimized websites with modern frontend and backend systems. Start Your Project View Our Systems Orca OS Status Active Security Review System Stable System Performance API Gateway Database CDN Auth Deploy Status Live Security Score A+ Our Systems Infrastructure Built for Scale We design and build complete digital systems - from web platforms to enterprise infrastructure - engineered for performance, security, and growth. Web Systems Full-stack web applications built for scale. SEO-optimized, responsive, and blazing fast with modern frameworks. Explore system Mobile Applications Cross-platform mobile apps with native performance. Clean UI/UX designed for engagement and growth. Explore system Desktop Applications Custom desktop software for business automation, internal tools, and management systems. Explore system ERP &amp; CRM Systems Enterprise resource planning and customer relationship management systems built for your workflow. Explore system Security &amp; Pentesting Professional penetration testing, vulnerability scanning, and complete security hardening for your infrastructure. Explore system SEO &amp; Growth Systems Data-driven SEO strategies, technical optimization, and growth systems that drive measurable results. Explore system Specialized Solutions Advanced OrcaTech Divisions The same OrcaTech engineering identity, expanded into deeper security, AI, growth, and data capabilities. AI Security Prompt injection, RAG, LLM, governance, and AI risk assessments for production AI systems. AI Red Teaming Adversarial testing, jailbreak resistance, data leakage, agent security, and RAG exploitation reviews. GEO Optimization AI visibility audits, citation optimization, competitor visibility analysis",
+        "source": "AI prompt discovery"
+      },
+      {
+        "url": "https://orcatech.online",
+        "claim": "Prompt generated for Cybersecurity in Saudi Arabia.",
+        "source": "Brand Profile"
+      }
+    ],
+    "dataSource": "GEO_TASK_ENGINE",
+    "dueAt": "2026-09-06T04:44:36.028Z",
+    "completedAt": null,
+    "createdAt": "2026-06-08T04:44:36.030Z",
+    "updatedAt": "2026-06-08T04:45:34.635Z"
+  }
+}

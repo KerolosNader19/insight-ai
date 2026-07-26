@@ -1,0 +1,180 @@
+{
+  "status": 200,
+  "ok": true,
+  "body": {
+    "status": "COMPLETED",
+    "engine": "ENTITY_INTELLIGENCE_ENGINE",
+    "data": {
+      "entities": [
+        {
+          "entity": "cybersecurity",
+          "category": "SERVICE",
+          "source": "prompt_discovery",
+          "entityCoverage": 50,
+          "entityGap": false,
+          "entityDominance": 0,
+          "brandMentions": 1,
+          "competitorMentions": 0,
+          "promptCount": 2,
+          "evidence": [
+            {
+              "claim": "cybersecurity appeared in 2 prompt response(s).",
+              "source": "Entity Extraction",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "OrcaTech was associated with cybersecurity in 1 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "Competitors dominated cybersecurity in 0 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            }
+          ],
+          "confidenceScore": 65,
+          "dataSource": "PROMPT_TRACKING + AUDIT_TERMS",
+          "lastVerifiedAt": "2026-06-08T03:00:55.348Z"
+        },
+        {
+          "entity": "Saudi Arabia",
+          "category": "SERVICE",
+          "source": "prompt_discovery",
+          "entityCoverage": 50,
+          "entityGap": false,
+          "entityDominance": 0,
+          "brandMentions": 1,
+          "competitorMentions": 0,
+          "promptCount": 2,
+          "evidence": [
+            {
+              "claim": "Saudi Arabia appeared in 2 prompt response(s).",
+              "source": "Entity Extraction",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "OrcaTech was associated with Saudi Arabia in 1 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "Competitors dominated Saudi Arabia in 0 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            }
+          ],
+          "confidenceScore": 65,
+          "dataSource": "PROMPT_TRACKING + AUDIT_TERMS",
+          "lastVerifiedAt": "2026-06-08T03:00:55.348Z"
+        },
+        {
+          "entity": "Saudi",
+          "category": "SERVICE",
+          "source": "prompt_discovery",
+          "entityCoverage": 50,
+          "entityGap": false,
+          "entityDominance": 0,
+          "brandMentions": 1,
+          "competitorMentions": 0,
+          "promptCount": 2,
+          "evidence": [
+            {
+              "claim": "Saudi appeared in 2 prompt response(s).",
+              "source": "Entity Extraction",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "OrcaTech was associated with Saudi in 1 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "Competitors dominated Saudi in 0 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            }
+          ],
+          "confidenceScore": 65,
+          "dataSource": "PROMPT_TRACKING + AUDIT_TERMS",
+          "lastVerifiedAt": "2026-06-08T03:00:55.348Z"
+        },
+        {
+          "entity": "Arabia",
+          "category": "SERVICE",
+          "source": "prompt_discovery",
+          "entityCoverage": 50,
+          "entityGap": false,
+          "entityDominance": 0,
+          "brandMentions": 1,
+          "competitorMentions": 0,
+          "promptCount": 2,
+          "evidence": [
+            {
+              "claim": "Arabia appeared in 2 prompt response(s).",
+              "source": "Entity Extraction",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "OrcaTech was associated with Arabia in 1 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "Competitors dominated Arabia in 0 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            }
+          ],
+          "confidenceScore": 65,
+          "dataSource": "PROMPT_TRACKING + AUDIT_TERMS",
+          "lastVerifiedAt": "2026-06-08T03:00:55.348Z"
+        },
+        {
+          "entity": "security",
+          "category": "SERVICE",
+          "source": "prompt",
+          "entityCoverage": 50,
+          "entityGap": false,
+          "entityDominance": 0,
+          "brandMentions": 1,
+          "competitorMentions": 0,
+          "promptCount": 2,
+          "evidence": [
+            {
+              "claim": "security appeared in 2 prompt response(s).",
+              "source": "Entity Extraction",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "OrcaTech was associated with security in 1 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            },
+            {
+              "claim": "Competitors dominated security in 0 response(s).",
+              "source": "Prompt Tracking",
+              "url": "https://orcatech.online"
+            }
+          ],
+          "confidenceScore": 65,
+          "dataSource": "PROMPT_TRACKING + AUDIT_TERMS",
+          "lastVerifiedAt": "2026-06-08T03:00:55.349Z"
+        }
+      ],
+      "gaps": [],
+      "coverageScore": 50,
+      "dominanceRisk": 0
+    },
+    "evidence": [
+      {
+        "claim": "Extracted 5 evidence-backed entity signal(s) from stored AI responses.",
+        "source": "Entity Intelligence Engine",
+        "url": "https://orcatech.online"
+      }
+    ],
+    "confidenceScore": 65,
+    "dataSource": "PROMPT_TRACKING + ENTITY_EXTRACTION",
+    "lastVerifiedAt": "2026-06-08T03:00:55.349Z"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": 201,
+  "body": {
+    "user": {
+      "id": "398ee82c-9e0a-45c0-9887-6753e5b91336",
+      "email": "demo@insight-ai.io",
+      "fullName": "Demo Agency Owner",
+      "avatarUrl": null
+    },
+    "organizations": [
+      {
+        "id": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+        "name": "Acme GEO Agency",
+        "slug": "acme-agency",
+        "role": "OWNER",
+        "billingPlan": "PRO",
+        "logoUrl": null,
+        "brandingColor": "#00f5d4"
+      }
+    ],
+    "currentOrg": {
+      "id": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "name": "Acme GEO Agency",
+      "slug": "acme-agency",
+      "role": "OWNER",
+      "billingPlan": "PRO",
+      "logoUrl": null,
+      "brandingColor": "#00f5d4"
+    },
+    "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIzOThlZTgyYy05ZTBhLTQ1YzAtOTg4Ny02NzUzZTViOTEzMzYiLCJlbWFpbCI6ImRlbW9AaW5zaWdodC1haS5pbyIsImlhdCI6MTc4MDQxNDk1MCwiZXhwIjoxNzgwNTAxMzUwfQ.P8LPWX2aT4JSJMJovv9qOuiX7Nkr1P95ZgON-H_Ao6U"
+  }
+}

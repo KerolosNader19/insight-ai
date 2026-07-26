@@ -1,0 +1,19 @@
+{
+  "date": "2026-06-02T15:54:30.764Z",
+  "providerConfiguration": {
+    "hasGroqApiKey": false,
+    "hasGeminiApiKey": false,
+    "groqModel": null,
+    "geminiModel": null
+  },
+  "checks": {
+    "apiTypecheck": "passed: npx tsc -p apps/api/tsconfig.json --noEmit --incremental false",
+    "webTypecheck": "passed: npx tsc -p apps/web/tsconfig.json --noEmit --incremental false",
+    "prismaValidate": "passed: npx prisma validate --schema=packages/database/prisma/schema.prisma",
+    "productionBuild": "passed: npm run build; 4 successful tasks",
+    "apiHealth": "passed: GET http://localhost:4000/health returned status ok",
+    "webHealth": "passed: GET http://localhost:3000 returned 47728 bytes",
+    "webStaticAudit": "passed: no apps/web matches for console.log, href=\"#\", mock, fake, simulate, setTimeout, old modal/onboarding wiring",
+    "screenshots": "passed: 11 Playwright screenshots, no console issues, no failed requests"
+  }
+}

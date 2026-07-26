@@ -1,0 +1,1 @@
+{"status":"missing_provider_keys","nodeProcess":{"groqApiKey":false,"groqModel":null,"geminiApiKey":false,"geminiModel":null},"configService":{"groqApiKey":false,"groqModel":null,"geminiApiKey":false,"geminiModel":null},"aiProviderService":{"groq":{"hasApiKey":false,"model":"llama-3.1-8b-instant"},"gemini":{"hasApiKey":false,"model":"gemini-1.5-flash"},"availableProviders":[]}}

@@ -1,0 +1,89 @@
+{
+  "status": 200,
+  "ok": true,
+  "body": [
+    {
+      "id": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "OrcaTech",
+      "websiteUrl": "https://orcatech.online",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T21:42:59.849Z",
+      "updatedAt": "2026-06-02T21:42:59.849Z",
+      "competitors": [
+        {
+          "id": "1d9cb911-1521-479f-8769-e17ed5240d24",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "name": "Competitor A",
+          "websiteUrl": "https://competitor-a.example",
+          "createdAt": "2026-06-02T21:42:59.849Z"
+        },
+        {
+          "id": "cdbb92f6-5ba8-4df7-b314-3c39c4a6607e",
+          "brandId": "3dfc86a2-9639-4482-b9d1-1a0ba7b755b7",
+          "name": "Competitor B",
+          "websiteUrl": "https://competitor-b.example",
+          "createdAt": "2026-06-02T21:42:59.849Z"
+        }
+      ],
+      "_count": {
+        "prompts": 6,
+        "analytics": 16
+      }
+    },
+    {
+      "id": "235f5658-5150-4059-b2f8-ca353c49a59a",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "DesertPay",
+      "websiteUrl": "https://desertpay.sa",
+      "industry": "Fintech",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T21:43:00.816Z",
+      "updatedAt": "2026-06-02T21:43:00.816Z",
+      "competitors": [
+        {
+          "id": "41a0e8e2-809b-400b-85b3-5ade3c0f667b",
+          "brandId": "235f5658-5150-4059-b2f8-ca353c49a59a",
+          "name": "MadaPay",
+          "websiteUrl": "https://madapay.example",
+          "createdAt": "2026-06-02T21:43:00.816Z"
+        },
+        {
+          "id": "3c701e61-2217-493d-bf09-3c8e67cdd904",
+          "brandId": "235f5658-5150-4059-b2f8-ca353c49a59a",
+          "name": "Riyadh Checkout",
+          "websiteUrl": "https://riyadh-checkout.example",
+          "createdAt": "2026-06-02T21:43:00.816Z"
+        }
+      ],
+      "_count": {
+        "prompts": 2,
+        "analytics": 14
+      }
+    },
+    {
+      "id": "209ff2b1-d689-44fa-be63-5bfdd0cf6238",
+      "organizationId": "568b6d21-4478-4d6c-ae9a-5205e5bf7084",
+      "name": "Runtime Brand 1780438046715",
+      "websiteUrl": "https://runtime-1780438046715.example",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T22:07:29.092Z",
+      "updatedAt": "2026-06-02T22:07:29.092Z",
+      "competitors": [
+        {
+          "id": "31587ce0-0112-430a-869f-41cdd3486d62",
+          "brandId": "209ff2b1-d689-44fa-be63-5bfdd0cf6238",
+          "name": "Runtime Competitor 1780438046715",
+          "websiteUrl": "https://runtime-competitor-1780438046715.example",
+          "createdAt": "2026-06-02T22:07:30.827Z"
+        }
+      ],
+      "_count": {
+        "prompts": 0,
+        "analytics": 0
+      }
+    }
+  ]
+}

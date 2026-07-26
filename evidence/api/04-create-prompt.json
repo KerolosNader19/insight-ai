@@ -1,0 +1,23 @@
+{
+  "status": 201,
+  "body": {
+    "id": "5fc562c3-775f-40e6-8b27-bfb7c2bcfbb7",
+    "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+    "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+    "queryText": "Best cybersecurity company in Saudi Arabia",
+    "frequency": "weekly",
+    "isActive": true,
+    "lastRunAt": null,
+    "createdAt": "2026-06-02T15:42:30.344Z",
+    "brand": {
+      "id": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "name": "OrcaTech",
+      "websiteUrl": "https://orcatech.online",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T15:42:30.232Z",
+      "updatedAt": "2026-06-02T15:42:30.232Z"
+    }
+  }
+}

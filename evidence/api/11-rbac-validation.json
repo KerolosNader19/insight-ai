@@ -1,0 +1,165 @@
+{
+  "users": {
+    "owner": "demo@insight-ai.io",
+    "manager": "manager@insight-ai.io",
+    "analyst": "analyst@insight-ai.io",
+    "viewer": "viewer@insight-ai.io"
+  },
+  "clients": {
+    "clientA": {
+      "id": "85e85efe-a840-49b0-b15c-76b701bc0d3f",
+      "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "name": "Client A 1780415241678",
+      "websiteUrl": "https://client-a.example",
+      "industry": "Cybersecurity",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T15:47:21.700Z",
+      "updatedAt": "2026-06-02T15:47:21.700Z",
+      "competitors": []
+    },
+    "clientB": {
+      "id": "31d54401-0e94-4055-8101-6efd6609a302",
+      "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "name": "Client B 1780415241836",
+      "websiteUrl": "https://client-b.example",
+      "industry": "Compliance",
+      "country": "Saudi Arabia",
+      "createdAt": "2026-06-02T15:47:21.854Z",
+      "updatedAt": "2026-06-02T15:47:21.854Z",
+      "competitors": []
+    }
+  },
+  "checks": {
+    "ownerCanUpdateAgency": {
+      "status": 200,
+      "body": {
+        "id": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+        "name": "Acme GEO Agency",
+        "slug": "acme-agency",
+        "billingPlan": "PRO",
+        "stripeCustomerId": null,
+        "logoUrl": null,
+        "brandingColor": "#00f5d4",
+        "createdAt": "2026-06-02T15:31:09.124Z",
+        "updatedAt": "2026-06-02T15:47:21.665Z"
+      }
+    },
+    "managerCreatesBrand": {
+      "status": 201,
+      "body": {
+        "id": "85e85efe-a840-49b0-b15c-76b701bc0d3f",
+        "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+        "name": "Client A 1780415241678",
+        "websiteUrl": "https://client-a.example",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T15:47:21.700Z",
+        "updatedAt": "2026-06-02T15:47:21.700Z",
+        "competitors": []
+      }
+    },
+    "managerCreatesCompetitor": {
+      "status": 201,
+      "body": {
+        "id": "f1525824-126e-4101-9b16-dc85eced68ac",
+        "brandId": "85e85efe-a840-49b0-b15c-76b701bc0d3f",
+        "name": "Client A Rival",
+        "websiteUrl": "https://client-a-rival.example",
+        "createdAt": "2026-06-02T15:47:21.757Z"
+      }
+    },
+    "managerCreatesPrompt": {
+      "status": 201,
+      "body": {
+        "id": "7d2b39e8-3468-4e2f-90b9-da9236f3cb5a",
+        "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+        "brandId": "85e85efe-a840-49b0-b15c-76b701bc0d3f",
+        "queryText": "Best managed security provider in Riyadh",
+        "frequency": "weekly",
+        "isActive": true,
+        "lastRunAt": null,
+        "createdAt": "2026-06-02T15:47:21.801Z",
+        "brand": {
+          "id": "85e85efe-a840-49b0-b15c-76b701bc0d3f",
+          "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+          "name": "Client A 1780415241678",
+          "websiteUrl": "https://client-a.example",
+          "industry": "Cybersecurity",
+          "country": "Saudi Arabia",
+          "createdAt": "2026-06-02T15:47:21.700Z",
+          "updatedAt": "2026-06-02T15:47:21.700Z"
+        }
+      }
+    },
+    "analystReadsAnalytics": {
+      "status": 200,
+      "body": {
+        "brands": 1,
+        "activePrompts": 2,
+        "responses": 3,
+        "totalMentions": 1,
+        "totalCitations": 5,
+        "avgGeoScore": 48
+      }
+    },
+    "analystCannotCreateBrand": {
+      "status": 400,
+      "body": {
+        "message": [
+          "websiteUrl must be a URL address",
+          "industry must be a string"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+      }
+    },
+    "analystRunPromptAuthorization": {
+      "status": 201,
+      "body": {
+        "id": "c250eeb9-af3b-439a-b6dd-1ed63717d395",
+        "promptId": "5fc562c3-775f-40e6-8b27-bfb7c2bcfbb7",
+        "engineId": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+        "rawContent": "",
+        "structuredContent": null,
+        "status": "FAILED",
+        "error": "GEMINI_API_KEY is not configured",
+        "capturedAt": "2026-06-02T15:47:21.956Z",
+        "completedAt": "2026-06-02T15:47:21.955Z",
+        "screenshotUrl": null,
+        "performance_ms": 0,
+        "engine": {
+          "id": "954f6f86-8192-4fb2-9b09-92a60db78bd1",
+          "name": "Gemini",
+          "version": "gemini-1.5-flash",
+          "createdAt": "2026-06-02T15:31:09.168Z"
+        },
+        "mentions": [],
+        "citations": []
+      }
+    },
+    "viewerReadsBrands": {
+      "status": 200,
+      "brandCount": 4
+    },
+    "viewerCannotCreateBrand": {
+      "status": 400,
+      "body": {
+        "message": [
+          "websiteUrl must be a URL address",
+          "industry must be a string"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+      }
+    },
+    "viewerCannotRunPrompt": {
+      "status": 403,
+      "body": {
+        "message": "Your role cannot perform this action",
+        "error": "Forbidden",
+        "statusCode": 403
+      }
+    }
+  },
+  "note": "Analyst prompt run returning 201 with FAILED provider status proves RBAC allowed analysis execution; the failure is provider configuration, not authorization."
+}

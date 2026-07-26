@@ -8,7 +8,6 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useState } from "react";
 
 import { useI18nStore } from "@/store/i18nStore";
-import { ModalManager } from "@/components/dashboard/ModalManager";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -53,7 +52,6 @@ export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <QueryClientProvider client={queryClient}>
       <main className="relative">
-        <ModalManager />
         {children}
       </main>
     </QueryClientProvider>

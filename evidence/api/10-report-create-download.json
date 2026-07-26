@@ -1,0 +1,45 @@
+{
+  "reportCreate": {
+    "status": 201,
+    "body": {
+      "id": "2af79da7-567c-43ba-8e99-c5e0305da331",
+      "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+      "brandId": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+      "title": "OrcaTech Visibility Report - Validation",
+      "type": "PDF",
+      "status": "GENERATED",
+      "periodStart": "2026-06-02T04:00:00.000Z",
+      "periodEnd": "2026-06-02T15:47:20.934Z",
+      "fileName": "orcatech-1780415240934-visibility-report.pdf",
+      "fileUrl": "/home/omar/Pictures/insight-ai/apps/api/generated-reports/orcatech-1780415240934-visibility-report.pdf",
+      "createdAt": "2026-06-02T15:47:20.936Z",
+      "updatedAt": "2026-06-02T15:47:20.965Z",
+      "brand": {
+        "id": "3f042c7e-9c8d-4c75-a4d5-c7d5296fab79",
+        "organizationId": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+        "name": "OrcaTech",
+        "websiteUrl": "https://orcatech.online",
+        "industry": "Cybersecurity",
+        "country": "Saudi Arabia",
+        "createdAt": "2026-06-02T15:42:30.232Z",
+        "updatedAt": "2026-06-02T15:42:30.232Z"
+      },
+      "organization": {
+        "id": "deb65fb8-0665-473d-8d95-adbf165b2bbc",
+        "name": "Acme GEO Agency",
+        "slug": "acme-agency",
+        "billingPlan": "PRO",
+        "stripeCustomerId": null,
+        "logoUrl": null,
+        "brandingColor": "#00f5d4",
+        "createdAt": "2026-06-02T15:31:09.124Z",
+        "updatedAt": "2026-06-02T15:31:09.124Z"
+      }
+    }
+  },
+  "reportDownload": {
+    "status": 200,
+    "bodyBase64Prefix": "JVBERi0xLjQKMSAwIG9iaiA8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4gZW5kb2JqCjIg",
+    "bytesBase64": 1404
+  }
+}

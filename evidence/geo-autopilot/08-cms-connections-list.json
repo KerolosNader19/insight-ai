@@ -1,0 +1,98 @@
+{
+  "label": "08-cms-connections-list",
+  "method": "GET",
+  "url": "/geo-autopilot/brands/7c51d959-ea7b-48ca-80f0-e25aad4a50e7/cms/connections",
+  "requestBody": null,
+  "status": 200,
+  "ok": true,
+  "body": [
+    {
+      "id": "d4f2f798-51c1-485f-88ce-dba5b2bd0fbf",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "provider": "SHOPIFY",
+      "siteUrl": "https://example-shopify.test",
+      "status": "CONFIGURED",
+      "credentialsRef": "env:SHOPIFY_ADMIN_TOKEN",
+      "credentialsMeta": {
+        "note": "Secrets are referenced by environment/secret-manager key only; raw API credentials are not stored.",
+        "scopes": [
+          "products:write"
+        ],
+        "tokenRef": "env:SHOPIFY_ADMIN_TOKEN",
+        "usernameRef": null
+      },
+      "evidence": [
+        {
+          "url": "https://example-shopify.test",
+          "claim": "SHOPIFY connection registered for https://example-shopify.test.",
+          "source": "CMS Autopilot",
+          "lastVerifiedAt": "2026-06-08T06:28:52.181Z"
+        }
+      ],
+      "confidenceScore": 75,
+      "lastVerifiedAt": "2026-06-08T06:28:52.181Z",
+      "createdAt": "2026-06-08T06:28:52.182Z",
+      "updatedAt": "2026-06-08T06:28:52.182Z"
+    },
+    {
+      "id": "96f5c5f2-9daf-4695-80e2-0bf620a165db",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "provider": "WEBFLOW",
+      "siteUrl": "https://example-webflow.test",
+      "status": "CONFIGURED",
+      "credentialsRef": "env:WEBFLOW_API_TOKEN",
+      "credentialsMeta": {
+        "note": "Secrets are referenced by environment/secret-manager key only; raw API credentials are not stored.",
+        "scopes": [
+          "cms:write"
+        ],
+        "tokenRef": "env:WEBFLOW_API_TOKEN",
+        "usernameRef": null
+      },
+      "evidence": [
+        {
+          "url": "https://example-webflow.test",
+          "claim": "WEBFLOW connection registered for https://example-webflow.test.",
+          "source": "CMS Autopilot",
+          "lastVerifiedAt": "2026-06-08T06:28:52.150Z"
+        }
+      ],
+      "confidenceScore": 75,
+      "lastVerifiedAt": "2026-06-08T06:28:52.150Z",
+      "createdAt": "2026-06-08T06:28:52.151Z",
+      "updatedAt": "2026-06-08T06:28:52.151Z"
+    },
+    {
+      "id": "a5e78b24-c6dc-479e-a397-badee1ab19bf",
+      "organizationId": "e7cb47f3-741b-4c96-bff8-69b58112e938",
+      "brandId": "7c51d959-ea7b-48ca-80f0-e25aad4a50e7",
+      "provider": "WORDPRESS",
+      "siteUrl": "https://example-wordpress.test",
+      "status": "CONFIGURED",
+      "credentialsRef": "env:WORDPRESS_API_TOKEN",
+      "credentialsMeta": {
+        "note": "Secrets are referenced by environment/secret-manager key only; raw API credentials are not stored.",
+        "scopes": [
+          "pages:write",
+          "media:write"
+        ],
+        "tokenRef": "env:WORDPRESS_API_TOKEN",
+        "usernameRef": null
+      },
+      "evidence": [
+        {
+          "url": "https://example-wordpress.test",
+          "claim": "WORDPRESS connection registered for https://example-wordpress.test.",
+          "source": "CMS Autopilot",
+          "lastVerifiedAt": "2026-06-08T06:28:52.112Z"
+        }
+      ],
+      "confidenceScore": 75,
+      "lastVerifiedAt": "2026-06-08T06:28:52.112Z",
+      "createdAt": "2026-06-08T06:28:52.113Z",
+      "updatedAt": "2026-06-08T06:28:52.113Z"
+    }
+  ]
+}

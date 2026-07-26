@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark" data-scroll-behavior="smooth">
       <body className={`${inter.variable} ${outfit.variable} ${cairo.variable} antialiased bg-background text-foreground`}>
         <Providers>{children}</Providers>
       </body>
