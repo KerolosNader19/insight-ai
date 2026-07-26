@@ -1,4 +1,5 @@
 FROM node:22-slim AS base
+RUN apt-get update -y && apt-get install -y openssl
 WORKDIR /app
 RUN corepack enable
 ENV NODE_ENV=production
@@ -10,7 +11,7 @@ RUN npm install
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN npx prisma generate --schema=packages/database/prisma/schema.prisma
+RUN ./node_modules/.bin/prisma generate --schema=packages/database/prisma/schema.prisma
 RUN npx turbo run build --filter=@insight-ai/web
 
 FROM base AS runner
