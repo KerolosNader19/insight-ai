@@ -1,10 +1,9 @@
-FROM node:22-slim AS base
+FROM node:22-slim
 RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 RUN corepack enable
-
-FROM base AS deps
 ENV NODE_ENV=development
+
 COPY package.json package-lock.json ./
 COPY apps/web/package.json apps/web/
 COPY apps/api/package.json apps/api/
@@ -16,22 +15,14 @@ COPY packages/shared/package.json packages/shared/
 COPY packages/ui/package.json packages/ui/
 RUN npm install --include=dev --legacy-peer-deps
 
-FROM base AS builder
-COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.prisma
-RUN npx turbo run build --filter=@insight-ai/web
+RUN npx --no-install next build apps/web
 
-FROM builder AS runner
-ENV NODE_ENV=production
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
-WORKDIR /app/apps/web
-COPY --from=builder /app/apps/web/public ./public
-COPY --from=builder /app/apps/web/.next ./.next
-COPY --from=builder /app/apps/web/next.config.js ./next.config.js
-COPY --from=builder /app/apps/web/package.json ./package.json
 RUN chown -R nextjs:nodejs /app
 USER nextjs
+ENV NODE_ENV=production
 ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
-CMD ["node", "node_modules/next/dist/bin/next", "start", "-p", "3000"]
+CMD ["node", "node_modules/next/dist/bin/next", "start", "apps/web", "-p", "3000"]
