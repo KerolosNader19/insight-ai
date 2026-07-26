@@ -24,16 +24,10 @@ RUN npx turbo run build --filter=@insight-ai/web
 
 FROM base AS runner
 ENV NODE_ENV=production
-ENV PORT=3000
-ENV HOSTNAME="0.0.0.0"
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
+WORKDIR /app/apps/web
 COPY --from=deps /app/node_modules ./node_modules
-COPY --from=builder --chown=nextjs:nodejs /app/apps/web/.next ./apps/web/.next
-COPY --from=builder --chown=nextjs:nodejs /app/apps/web/public ./apps/web/public
-COPY --from=builder --chown=nextjs:nodejs /app/apps/web/next.config.js ./apps/web/next.config.js
-COPY --from=builder --chown=nextjs:nodejs /app/apps/web/package.json ./apps/web/package.json
-RUN chown -R nextjs:nodejs /app/apps/web
-RUN chown -R nextjs:nodejs /app/node_modules
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web . .
 USER nextjs
 EXPOSE 3000
-CMD ["npx", "next", "start", "apps/web", "-p", "3000"]
+CMD ["node", "node_modules/next/dist/bin/next", "start", "-p", "3000"]
