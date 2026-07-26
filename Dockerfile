@@ -42,4 +42,4 @@ RUN chown -R nextjs:nodejs /app
 USER nextjs
 ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
-CMD ["node", "/app/node_modules/next/dist/bin/next", "start", "-p", "3000"]
+CMD ["sh", "-c", "echo 'Starting Next.js...' && node /app/node_modules/next/dist/bin/next start /app/apps/web -p 3000 2>&1"]
