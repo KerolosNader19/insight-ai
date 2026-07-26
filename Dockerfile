@@ -5,13 +5,14 @@ RUN corepack enable
 ENV NODE_ENV=production
 
 FROM base AS deps
+ENV NODE_ENV=development
 COPY package*.json ./
-RUN npm install
+RUN npm install --include=dev
 
 FROM base AS builder
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
-RUN node ./node_modules/prisma/build/index.js generate --schema=packages/database/prisma/schema.prisma
+RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.prisma
 RUN npx turbo run build --filter=@insight-ai/web
 
 FROM base AS runner
