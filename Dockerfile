@@ -25,15 +25,16 @@ RUN npx turbo run build --filter=@insight-ai/web
 FROM base AS runner
 ENV NODE_ENV=production
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
-WORKDIR /app
-COPY --from=builder /app/apps/web/public ./apps/web/public
-COPY --from=builder --chown=nextjs:nodejs /app/apps/web/.next ./apps/web/.next
-COPY --from=builder /app/apps/web/next.config.js ./apps/web/next.config.js
-COPY --from=builder /app/apps/web/package.json ./apps/web/package.json
-COPY --from=builder /app/apps/web/postcss.config.js ./apps/web/postcss.config.js
-COPY --from=builder /app/apps/web/tailwind.config.js ./apps/web/tailwind.config.js
-COPY --from=builder /app/node_modules ./node_modules
-COPY --from=builder /app/package.json ./package.json
+WORKDIR /app/apps/web
+COPY --from=builder /app/apps/web/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/.next ./.next
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/next.config.js ./next.config.js
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/package.json ./package.json
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/postcss.config.js ./postcss.config.js
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/tailwind.config.js ./tailwind.config.js
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/tsconfig.json ./tsconfig.json
+COPY --from=builder --chown=nextjs:nodejs /app/apps/web/next-env.d.ts ./next-env.d.ts
+COPY --from=builder /app/node_modules /app/node_modules
 USER nextjs
 EXPOSE 3000
-CMD ["sh", "-c", "cd apps/web && NODE_PATH=/app/node_modules node /app/node_modules/next/dist/bin/next start -p 3000"]
+CMD ["node", "/app/node_modules/next/dist/bin/next", "start", "-p", "3000"]
