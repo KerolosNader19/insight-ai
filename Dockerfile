@@ -2,7 +2,7 @@ FROM node:22-slim
 RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 RUN corepack enable
-ENV NODE_ENV=development
+ENV NODE_ENV=production
 
 COPY package.json package-lock.json ./
 COPY apps/web/package.json apps/web/
@@ -22,7 +22,6 @@ RUN cd apps/web && npx --no-install next build .
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 nextjs
 RUN chown -R nextjs:nodejs /app
 USER nextjs
-ENV NODE_ENV=production
 ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
 CMD ["node", "node_modules/next/dist/bin/next", "start", "apps/web", "-p", "3000"]
