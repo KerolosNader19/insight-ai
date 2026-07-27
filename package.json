@@ -4,6 +4,7 @@
   "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "turbo run dev",
+    "dev:web": "cd apps/web && npx next dev -H :: -p ${PORT:-3000}",
     "build": "turbo run build",
     "start": "cd apps/web && npx next dev -H :: -p ${PORT:-3000}",
     "lint": "turbo run lint",
