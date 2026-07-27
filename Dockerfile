@@ -18,6 +18,5 @@ RUN npm install --include=dev --legacy-peer-deps
 COPY . .
 RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.prisma
 
-ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
-CMD cd apps/web && npm run dev
+CMD rm -rf apps/web/.next && cd apps/web && npm run dev
