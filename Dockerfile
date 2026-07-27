@@ -18,5 +18,6 @@ RUN npm install --include=dev --legacy-peer-deps
 COPY . .
 RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.prisma
 
+RUN mkdir -p /home/nextjs && echo '{"scripts":{"start":"cd /app/apps/web && npm run dev"}}' > /home/nextjs/package.json
 EXPOSE 3000
 CMD rm -rf apps/web/.next && cd apps/web && npm run dev
