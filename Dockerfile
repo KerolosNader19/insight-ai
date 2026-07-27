@@ -24,4 +24,4 @@ RUN chown -R nextjs:nodejs /app /home/nextjs
 USER nextjs
 ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
-CMD cd apps/web && node ../node_modules/next/dist/bin/next start -p ${PORT:-3000}
+CMD cd apps/web && node ../node_modules/next/dist/bin/next start -H 0.0.0.0 -p ${PORT:-3000}
