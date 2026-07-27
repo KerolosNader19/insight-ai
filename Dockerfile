@@ -20,6 +20,6 @@ RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.pr
 RUN cd apps/api && npm run build
 RUN cd apps/web && npm run build
 
-RUN mkdir -p /home/nextjs && echo '{"scripts":{"start":"cd /app/packages/database && npx --no-install prisma migrate deploy && cd /app/apps/api && npm run start:prod & cd /app/apps/web && npm run start"}}' > /home/nextjs/package.json
+RUN mkdir -p /home/nextjs && echo '{"scripts":{"start":"cd /app/packages/database && npx --no-install prisma migrate deploy && cd /app/apps/api && npm run start:prod & cd /app/apps/web && npm run start"}}' > /home/nextjs/package.json && chmod 644 /home/nextjs/package.json
 EXPOSE 3000
-CMD cd packages/database && npx --no-install prisma migrate deploy && cd apps/api && npm run start:prod & cd apps/web && npm run start
+CMD cd /app/packages/database && npx --no-install prisma migrate deploy && cd /app/apps/api && npm run start:prod & cd /app/apps/web && npm run start
