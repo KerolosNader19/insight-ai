@@ -17,7 +17,6 @@ RUN npm install --include=dev --legacy-peer-deps
 
 COPY . .
 RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.prisma
-RUN cd apps/web && npx --no-install next build .
 
 RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 --home /home/nextjs nextjs
 RUN chown -R nextjs:nodejs /app /home/nextjs
