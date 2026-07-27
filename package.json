@@ -3,10 +3,10 @@
   "private": true,
   "packageManager": "npm@10.8.2",
   "scripts": {
-    "dev": "cd apps/web && npx next dev -H :: -p ${PORT:-3000}",
-    "dev:web": "cd apps/web && npx next dev -H :: -p ${PORT:-3000}",
+    "dev": "cd apps/web && npm run dev",
+    "dev:web": "cd apps/web && npm run dev",
     "build": "turbo run build",
-    "start": "cd apps/web && npx next dev -H :: -p ${PORT:-3000}",
+    "start": "cd apps/web && npm run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prisma:generate": "turbo run prisma:generate",

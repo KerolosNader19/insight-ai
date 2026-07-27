@@ -20,4 +20,4 @@ RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.pr
 
 ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
-CMD npm run dev:web
+CMD cd apps/web && npm run dev
