@@ -18,9 +18,6 @@ RUN npm install --include=dev --legacy-peer-deps
 COPY . .
 RUN npx --no-install prisma generate --schema=packages/database/prisma/schema.prisma
 
-RUN addgroup --system --gid 1001 nodejs && adduser --system --uid 1001 --home /home/nextjs nextjs
-RUN chown -R nextjs:nodejs /app /home/nextjs
-USER nextjs
 ENV NODE_PATH=/app/node_modules
 EXPOSE 3000
-CMD cd apps/web && npx next dev -H :: -p ${PORT:-3000}
+CMD cd apps/web && npm run dev
